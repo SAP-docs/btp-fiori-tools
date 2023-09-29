@@ -1,8 +1,8 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: YOUR-REPOSITORY
-Upstream-Contact: NAME SURNAME (EMAIL)
-Source: https://github.com/sap-docs/YOUR-REPOSITORY
+Upstream-Name: btp-fiori-tools
+Upstream-Contact: Regina Sheynblat (regina.sheynblat@sap.com)
+Source: https://github.com/SAP-docs/btp-fiori-tools
 
 Files: *
-Copyright:  2022 SAP SE or an SAP affiliate company and YOUR-REPOSITORY contributors
+Copyright:  2023 SAP SE or an SAP affiliate company and SAP-docs/btp-fiori-tools contributors
 License: CC-BY-4.0
