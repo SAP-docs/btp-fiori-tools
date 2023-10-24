@@ -15,7 +15,7 @@ We recommend using the SAP Fiori Tools User Guide on SAP Help Portal as a starti
 
 1. Open the guide [Developing SAP Fiori Applications with SAP Fiori Tools](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/f09752ebcf63473e9194ea29ca232e56.html).
 1. You can either:
-    * Choose *Feedback* > *Edit document* to suggest a change for the current page you see in the Help Portal viewer, or
+    * Choose *Feedback* > *Edit page* to suggest a change for the current page you see in the Help Portal viewer, or
     * Choose *Feedback* > *Create issue* to open a GitHub issue in this repository.
 
 If you only make a small contribution, that's the quickest way to propose a change. For larger contributions, we recommend forking this repository to work locally. The filenames in the [docs](docs) directory are created based on the title of the page on SAP Help Portal.
