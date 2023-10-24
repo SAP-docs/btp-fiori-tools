@@ -1,4 +1,4 @@
-[![REUSE status]()]()
+[![REUSE status](https://api.reuse.software/badge/github.com/sap-docs/btp-fiori-tools)](https://api.reuse.software/info/github.com/sap-docs/btp-fiori-tools)
 
 # Contributions to the SAP Fiori Tools User Guide
 
