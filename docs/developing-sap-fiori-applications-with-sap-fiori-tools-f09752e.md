@@ -7,7 +7,7 @@ To develop an application that connects to SAP data sources, you can use one of 
 -   SAP Fiori elements creates standard applications based on several basic floorplanss for common business scenarios. These floorplans provide UI code, including some logic, so that the data from the backend goes exactly where it’s supposed to, and the UI behavior is based on the metadata you provide. You can customize the floorplans using XML Annotations.
 -   SAP Fiori freestyle gives you complete flexibility about your application's look and performance. You can select floorplans and specify the layout, flow, menu structure, colors, fonts, interactions, patterns, and more. For each screen, you have to write the JavaScript UI code, which may be time-consuming.
 
-
+  
 
 <a name="loiof09752ebcf63473e9194ea29ca232e56__section_pnf_3nd_xmb"/>
 
