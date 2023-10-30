@@ -12,7 +12,7 @@ This chapter describes how you can install and start working with Microsoft Visu
 
 Ensure that the minimum system requirements for installing VS Code are met. For more information, see [Requirements for Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements).
 
--   Before VS Code installation, you must have Node.js installed. Ensure you’re using version 16.18 or higher of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of npm installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated npm versions.
+-   Before VS Code installation, you must have Node.js installed. Ensure you’re using version 18.14.2 or higher of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of npm installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated npm versions.
 
     > ### Tip:  
     > To check the version of Node.js installed, type `node-v` in the terminal. Similarly, to check the version of npm installed, type `npm -v` in the terminal. Ensure that the npm version and Node.js version are compatible.
@@ -35,10 +35,10 @@ Ensure that the minimum system requirements for installing VS Code are met. For 
     2.  Install the required version of Node.js by entering the following command at the command line:
 
         ```
-        brew install node@16
+        brew install node@18
         ```
 
-        Where 16 refers to the version of Node.js you would like to install.
+        Where 18 refers to the version of Node.js you would like to install.
 
     3.  Before continuing with other installation steps using terminal, close and start a new terminal.
 
