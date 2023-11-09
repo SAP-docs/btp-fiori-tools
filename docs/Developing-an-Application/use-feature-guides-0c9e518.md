@@ -69,14 +69,10 @@ In some cases, we recommend that you refresh **guided development**.
 
 When
 
-
-
 </th>
 <th valign="top">
 
 How
-
-
 
 </th>
 </tr>
@@ -85,14 +81,10 @@ How
 
 When a new project is added to the workspace.
 
-
-
 </td>
 <td valign="top">
 
 Click the “Refresh” icon inside the Project list.
-
-
 
 </td>
 </tr>
@@ -101,14 +93,10 @@ Click the “Refresh” icon inside the Project list.
 
 When something in the current project is changed outside guided development, such as a new page added, or an underlying service is updated.
 
-
-
 </td>
 <td valign="top">
 
 Click the “Refresh” icon on the toolbar next to the Project list.
-
-
 
 </td>
 </tr>

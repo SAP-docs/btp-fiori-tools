@@ -18,7 +18,7 @@ You can make the code change by using Copy/Insert Snippet functionality. A code 
 
 In some guides, code snippets don't have any parameters. Other guides contain drop-down lists and text boxes allowing you to specify the parameters to customize the code snippet.
 
-Most drop-down lists parameters are context-dependent and only populated when guided development has the context. Also, there are some static drop-down parameters, when the values in them remain the same regardless of the context.
+Most drop-down lists parameters are context-dependent and only populated when guided development has the context. Also, there are static drop-down parameters, when the values in them remain the same regardless of the context. In some cases, parameters that only have one selection option available for the given project may automatically select that option.
 
 Some parameters depend on each other. For example, the *Navigation Property* parameter in the **Add semantic highlights to line items in tables based on their criticality** guide can only be selected after a value is selected for the *Entity* parameter. Parameters that are dependent on a previous parameter selection will be marked with an info icon tooltip. Hover over the icon to see where another parameter selection is required.
 

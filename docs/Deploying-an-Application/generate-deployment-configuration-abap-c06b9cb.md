@@ -48,14 +48,10 @@ When prompted, add or choose:
 
 Please choose the target
 
-
-
 </td>
 <td valign="top">
 
 ABAP
-
-
 
 </td>
 </tr>
@@ -64,14 +60,10 @@ ABAP
 
 Select Target System
 
-
-
 </td>
 <td valign="top">
 
 Choose a system from your SAP saved systems or provide a Target system URL\(VS Code only\).
-
-
 
 </td>
 </tr>
@@ -80,14 +72,10 @@ Choose a system from your SAP saved systems or provide a Target system URL\(VS C
 
 Destination
 
-
-
 </td>
 <td valign="top">
 
 Choose the deployment destination from list provided \(SAP Business Application Studio only\).
-
-
 
 </td>
 </tr>
@@ -96,14 +84,10 @@ Choose the deployment destination from list provided \(SAP Business Application 
 
 Enter client
 
-
-
 </td>
 <td valign="top">
 
 Add a new client or leave **default**.
-
-
 
 </td>
 </tr>
@@ -112,14 +96,10 @@ Add a new client or leave **default**.
 
 SAPUI5 ABAP Repository
 
-
-
 </td>
 <td valign="top">
 
 Add a name for the deployed application.
-
-
 
 </td>
 </tr>
@@ -128,14 +108,10 @@ Add a name for the deployed application.
 
 Deployment Description
 
-
-
 </td>
 <td valign="top">
 
 Add the optional description for the deployed application.
-
-
 
 </td>
 </tr>
@@ -144,14 +120,10 @@ Add the optional description for the deployed application.
 
 Package
 
-
-
 </td>
 <td valign="top">
 
 Add a valid package name.
-
-
 
 </td>
 </tr>
@@ -159,8 +131,6 @@ Add a valid package name.
 <td valign="top">
 
 How do you want to enter Transport Request
-
-
 
 </td>
 <td valign="top">
@@ -180,14 +150,10 @@ How do you want to enter Transport Request
 
 Transport Request
 
-
-
 </td>
 <td valign="top">
 
 When prompted, either choose a transport request from the list or add a valid transport request.
-
-
 
 </td>
 </tr>

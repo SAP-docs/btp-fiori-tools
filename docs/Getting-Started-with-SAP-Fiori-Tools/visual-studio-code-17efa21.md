@@ -174,35 +174,25 @@ The following are supported authentication types with SAP Fiori tools running in
 
 Authentication Type
 
-
-
 </th>
 <th valign="top">
 
 SAP on-Premise
-
-
 
 </th>
 <th valign="top">
 
 SAP BTP, ABAP Environment
 
-
-
 </th>
 <th valign="top">
 
 SAP BTP, Cloud Foundry
 
-
-
 </th>
 <th valign="top">
 
 SAP S/4HANA Cloud
-
-
 
 </th>
 </tr>
@@ -211,35 +201,25 @@ SAP S/4HANA Cloud
 
 OAuth 2.0 \([Client Credentials](https://help.sap.com/viewer/38c3df3f8da44a809f937220b3579607/Cloud/en-US/efdfb3a299904c9bb16948a53b6d8b16.html)\)
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -248,35 +228,25 @@ No
 
 Basic Authentication
 
-
-
 </td>
 <td valign="top">
 
 Yes
-
-
 
 </td>
 <td valign="top">
 
 No
 
-
-
 </td>
 <td valign="top">
 
 Yes
 
-
-
 </td>
 <td valign="top">
 
 No
-
-
 
 </td>
 </tr>
@@ -293,14 +263,10 @@ If applicable, disable `SAML` for selected `OData` services. Below are the list 
 
 OData Services
 
-
-
 </th>
 <th valign="top">
 
 Path
-
-
 
 </th>
 </tr>
@@ -309,14 +275,10 @@ Path
 
 OData V2 catalog
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata/IWFND/CATALOGSERVICE;v=2
-
-
 
 </td>
 </tr>
@@ -325,14 +287,10 @@ OData V2 catalog
 
 OData V4 catalog \(dev\)
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0001
-
-
 
 </td>
 </tr>
@@ -341,14 +299,10 @@ OData V4 catalog \(dev\)
 
 OData V4 catalog \(prod\)
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002
-
-
 
 </td>
 </tr>
@@ -357,14 +311,10 @@ OData V4 catalog \(prod\)
 
 ATO Catalog
 
-
-
 </td>
 <td valign="top">
 
 /sap/bc/adt/ato/settings
-
-
 
 </td>
 </tr>
@@ -373,14 +323,10 @@ ATO Catalog
 
 SAPUI5 repository service \(for deploy & undeploy\)
 
-
-
 </td>
 <td valign="top">
 
 /sap/opu/odata/UI5/ABAP\_REPOSITORY\_SRV
-
-
 
 </td>
 </tr>

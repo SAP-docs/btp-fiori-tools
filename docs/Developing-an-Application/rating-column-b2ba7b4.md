@@ -50,9 +50,6 @@ To move a column within a table, use one of the following options:
 ## Deleting Rating Column
 
 1.  Navigate to a column.
-2.  Click [Delete\] icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
-3.  Click [Delete\] to confirm the action.
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+3.  Click *Delete* to confirm the action.
 

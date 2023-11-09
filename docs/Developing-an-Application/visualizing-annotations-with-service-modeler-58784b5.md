@@ -2,13 +2,13 @@
 
 # Visualizing Annotations with Service Modeler
 
-You can view backend annotations in the SAP Fiori tools - Service Modeler, and maintain them with [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor).
+You can view back-end annotations in the SAP Fiori tools - Service Modeler, and maintain them with [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor).
 
 Only OData service and CAP service annotations are supported. Annotations are associated to: projections, entities, and properties and are identified by the annotation icon ![](../Project-Functions/images/FIORI_TOOLS_SERVICE_MODELER_ANNOTATIONS_ICON_249d281.png) in the entity or projection detail panel, or on the entity or projection node in the *Expanded View* and *List View*.
 
 You can view the annotations associated to an entity, projection, or properties displayed in the Service Modeler *Annotation List View*.
 
-For OData service, the Annotation *List View* displays the annotations associated to the target entity in both the backend and local annotations files. The annotation terms defined in the local annotation file win over the same annotation with the same qualifier and applied to the same target in the backend sources. Backend annotations can’t be edited via the SAP Fiori tools - Service Modeler tool but backend annotations can be overridden in the local annotation file and edited manually via a **text editor** or using the [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor). The local annotations file is located: `/webapp/annotations/<filename>.xml`, see [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor) for more information about how to work with local annotations.
+For OData service, the Annotation *List View* displays the annotations associated to the target entity in both the back end and local annotations files. The annotation terms defined in the local annotation file win over the same annotation with the same qualifier and applied to the same target in the back-end sources. Back-end annotations can’t be edited via the SAP Fiori tools - Service Modeler tool but back-end annotations can be overridden in the local annotation file and edited manually via a **text editor** or using the [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor). The local annotations file is located: `/webapp/annotations/<filename>.xml`, see [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor) for more information about how to work with local annotations.
 
 
 
@@ -43,7 +43,7 @@ To view annotations associated to a projection.
 
 1.  In any of the views, select the target projection.
 2.  Click on the *annotation* icon ![](../Project-Functions/images/FIORI_TOOLS_SERVICE_MODELER_ANNOTATIONS_ICON_249d281.png) associated to the target projection or the property of the target projection in the project detail panel.
-3.  Click on *show source* icon beside the annotation. The source file is opened to the side with the annotation hightlighted.
+3.  Click on *show source* icon beside the annotation. The source file is opened to the side with the annotation highlighted.
 
 
 
@@ -73,7 +73,7 @@ To view annotations associated to a projection.
 
 ## Editing Annotations
 
-You cannot edit backend annotations with the SAP Fiori tools - Service Modeler. However, you can edit local annotations by navigating to XML annotation language server with the Service Modeler.
+You can’t edit back-end annotations with the SAP Fiori tools - Service Modeler. However, you can edit local annotations by navigating to XML annotation language server with the Service Modeler.
 
 1.  Select the target entity.
 2.  Click the *annotation* icon ![](../Project-Functions/images/FIORI_TOOLS_SERVICE_MODELER_ANNOTATIONS_ICON_249d281.png).
@@ -91,5 +91,5 @@ You cannot edit backend annotations with the SAP Fiori tools - Service Modeler. 
 
 1.  Select the Target Entity.
 2.  Click the *annotations* icon ![](../Project-Functions/images/FIORI_TOOLS_SERVICE_MODELER_ANNOTATIONS_ICON_249d281.png).
-3.  Click the *delete* icon opposite to the selected local annotation in the service local annotation file.
+3.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) opposite to the selected local annotation in the service local annotation file.
 

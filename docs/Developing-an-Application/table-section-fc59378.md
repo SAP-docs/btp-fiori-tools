@@ -65,14 +65,11 @@ Annotation Library supports mass moving of the sections. To move the multiple se
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section layer.
-2.  Click the *Delete* icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  
-> This action deletes the referenced facet record from `UI.Facets` of the section. in the Appendix.
+> This action deletes the referenced facet record from `UI.Facets` of the section in the Appendix.
 
 > ### Note:  
 > To clean up the orphaned `UI.LineItem` annotation, you need to explicitly run the cleanup procedure that deletes the unreferenced annotation.

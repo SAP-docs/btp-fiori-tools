@@ -17,7 +17,7 @@ Toolbar and inline action definitions differ in the property `Inline` of `UI.Dat
 
 ## Adding Action
 
-Adding the table actions to be performed within the app is possible if there’s an available **Action** or **Function** defined in the service. Bound actions and bound functions are only considered if they are applied to the same entity type as `UI.LineItem` defining the table for which the action should be created.
+Adding the table actions to be performed within the app is possible if there’s an available **Action** or **Function** defined in the service. Bound actions and bound functions are only considered if they’re applied to the same entity type as `UI.LineItem` defining the table for which the action should be created.
 
 Adding external navigation actions is possible as long as you know the semantic object name and action as defined in the target application.
 
@@ -68,13 +68,13 @@ This property is required for the external navigation actions and must match the
 
 **Mapping**
 
-If the semantic object name defined for the external navigation action differs in current and target applircation, this property can be used to define the mapping.
+If the semantic object name defined for the external navigation action differs in current and target application, this property can be used to define the mapping.
 
 Choose *Add Semantic Mapping* and enter the name of the semantic object property as defined in the target application. Then choose the local property corresponding to it. You can define only one mapping per external navigation action.
 
 **Requires Context**
 
-If the external navigation action is defined in the table toolbar, you can use this property to define whether a table row needs to be selected as a navigation context. By default, it is set to off state which is interpreted as context not required and the end user can choose this action without the table row selection. This property is not available for the actions set as table columns, as in that case context is always available.
+If the external navigation action is defined in the table toolbar, you can use this property to define whether a table row needs to be selected as a navigation context. By default, it’s set to off state that is interpreted as context not required and the end user can choose this action without the table row selection. This property is not available for the actions set as table columns, as in that case context is always available.
 
 
 
@@ -90,5 +90,5 @@ Moving a table action from **toolbar** to **columns** or vice versa will switch 
 
 ## Deleting Actions
 
-You can delete actions by choosing the delete icon.
+You can delete actions by choosing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png).
 

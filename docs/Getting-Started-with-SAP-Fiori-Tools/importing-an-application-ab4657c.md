@@ -19,14 +19,10 @@ Before importing an application, in SAP Business Application Studio or VS Code, 
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -35,14 +31,10 @@ Description
 
 `restore-from-exported`
 
-
-
 </td>
 <td valign="top">
 
 This folder contains the restored app.
-
-
 
 </td>
 </tr>
@@ -51,14 +43,10 @@ This folder contains the restored app.
 
 `restore-from-exported/webapp`
 
-
-
 </td>
 <td valign="top">
 
 This folder will contain the content of the downloaded zip/tgz.
-
-
 
 </td>
 </tr>

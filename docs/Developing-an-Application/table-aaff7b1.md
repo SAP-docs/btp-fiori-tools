@@ -2,7 +2,7 @@
 
 # Table
 
-Table is an essential part of the *List Report* age. It’s based on the `UI.LineItem` annotation that can be generated along with the application, unless you choose differently in the SAP Fiori application generator. For more information, see [Overview](overview-66c5b6f.md).*Page Editor* lets you further configure the list report table by adding columns and actions.
+Table is an essential part of the *List Report* age. It’s based on the `UI.LineItem` annotation that can be generated along with the application, unless you choose differently in the SAP Fiori application generator. For more information, see [Overview](overview-66c5b6f.md). *Page Editor* lets you further configure the list report table by adding columns and actions.
 
 Currently supported elements for *List Report* table are:
 

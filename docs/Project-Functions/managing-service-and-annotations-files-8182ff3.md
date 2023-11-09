@@ -29,7 +29,7 @@
 
 6.  Click *Add*.
 
-    A new service appears in a service list. A service `metadata.xml` is now added to a local service folder of the project along with the service backend annotations \(if they’re available\).
+    A new service appears in a service list. A service `metadata.xml` is now added to a local service folder of the project along with the service back-end annotations \(if they’re available\).
 
 
 
@@ -51,13 +51,13 @@
 
 
 
-### How to Delete a Service
+### How to Delete a Service:
 
 1.  Right-click the SAP Fiori elements application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
 3.  Click *Delete* icon.
 
-The `metadata.xml`, related annotation xml files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will removed any backend routing and mockserver entries specific to the service being deleted.
+The `metadata.xml`, related annotation XML files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will removed any back-end routing and mockserver entries specific to the service being deleted.
 
 For more information about mockserver, see [Use Mock Data](../Previewing-an-Application/use-mock-data-bda83a4.md).
 
@@ -82,7 +82,7 @@ Alternatively, you can click *Annotation Hierarchy* in the **Annotation List Vie
 
 
 
-### How to add annotation files in the Annotation File Manager
+### How to add annotation files in the Annotation File Manager:
 
 1.  Right-click the `manifest.json` file in the SAP Fiori elements application project.
 2.  In the context menu, select *Annotation File Manager*.
@@ -98,7 +98,7 @@ The newly created annotation file appears in the *Annotation File Manager* for t
 ### How to change the hierarchy of local annotation file
 
 > ### Note:  
-> The highest-ranked annotation file in the *Annotation File Manager* table is at the bottom resembling precendece rules in the `manifest.json`.
+> The highest-ranked annotation file in the *Annotation File Manager* table is at the bottom resembling precedence rules in the `manifest.json`.
 
 1.  In the *Annotation File Hierarchy* use the up/down arrows to change the hierarchy.
 
@@ -106,7 +106,7 @@ The newly created annotation file appears in the *Annotation File Manager* for t
 
 
 
-### How to activate and deactivate local annotation files
+### How to activate and deactivate local annotation files:
 
 1.  Right-click the `manifest.json` file and select *Open Annotation File Manager*.
 2.  Select or clear the checkbox in the active column of the *Annotation File Manager* table to activate or deactivate the annotation.
@@ -117,8 +117,8 @@ The newly created annotation file appears in the *Annotation File Manager* for t
 
 
 
-### How to delete an annotation file
+### How to delete an annotation file:
 
 1.  Select the active checkbox.
-2.  Click the delete icon next to the annotation file.
+2.  Click the delete icon ![](images/Delete_icon_VS_Code_86e90a9.png) next to the annotation file.
 

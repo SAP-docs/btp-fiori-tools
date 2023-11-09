@@ -37,7 +37,7 @@ To add a chart section, perform the following steps:
     If you choose to create new measure, choose the aggregatable property and one of the supported aggregation methods . This allows you to create a new **dynamic** measure and use it in the chart.
 
     > ### Note:  
-    > The technical name and the label are generated automatically . You can then adjust the generated label in the *Property Panel*.
+    > The technical name and the label are generated automatically. You can then adjust the generated label in the *Property Panel*.
 
 4.  Click *Add*
 
@@ -56,10 +56,18 @@ To add a chart section, perform the following steps:
 
 ## Deleting Chart Section
 
-You can delete section that is not required to be displayed in the UI.
+You can delete a section that is not required to be displayed in the UI.
 
--   In cases of deletion, the generated `UI.ReferenceFacet` is deleted from the `UI.Facets` collection.
--   The `UI.Chart` annotation is cleaned up during the cleanup procedure.
+To delete the section in the application, perform the following steps:
+
+1.  Navigate to the section node in the outline.
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+3.  Click *Delete* to confirm the action.
+
+> ### Note:  
+> This action deletes the generated `UI.ReferenceFacet` from the `UI.Facets` collection.
+> 
+> The `UI.Chart` annotation is cleaned up during the cleanup procedure.
 
 
 
@@ -67,13 +75,13 @@ You can delete section that is not required to be displayed in the UI.
 
 ## Maintaining Chart Section Properties
 
-You can update the properties of the chart and define optional properties in the *Property Panel*. For the information on changing the section label see [Change Form Section Label](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__changeformsectionlabel)
+You can update the properties of the chart and define optional properties in the *Property Panel*. For the information on changing the section label, see [Change Form Section Label](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__changeformsectionlabel).
 
-For the information on maintaining other chart properties see [Maintain Analytical Chart Properties](analytical-chart-9c086ec.md#loio9c086ecaace540be83b0e50101244e78__analyticalchartproperties).
+For the information on maintaining other chart properties, see [Maintain Analytical Chart Properties](analytical-chart-9c086ec.md#loio9c086ecaace540be83b0e50101244e78__analyticalchartproperties).
 
 
 
 ### Hidden
 
-See, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+For more information see, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 

@@ -2,7 +2,7 @@
 
 # Managing System Connection
 
-SAP Fiori tools running in VS Code enable to save the connection information to a remote system. This functionality provides faster authentication while creating an application, generating deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
+SAP Fiori tools running in VS Code enables to save the connection information to a remote system. This functionality provides faster authentication while creating an application, generating deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
 
 
 
@@ -62,7 +62,7 @@ For editing an existing SAP system connection detail, perform the following step
 5.  Click [Save\]
 
 > ### Note:  
-> It is recommended for you to test the connection before saving to ensure it is working as expected.
+> It’s recommended for you to test the connection before saving to ensure it’s working as expected.
 
 
 
@@ -75,7 +75,7 @@ To delete the saved systems, perform the following steps:
 1.  On the activity toolbar from the left side, click *SAP Fiori* \(the wrench and pencil icon\).
 2.  Expand the *SAP Systems* view.
 3.  Select any saved system.
-4.  Click the *Delete* icon next to the system name.
+4.  Click the delete icon ![](images/Delete_icon_VS_Code_86e90a9.png) next to the system name.
 5.  Click *Yes* in the confirmation dialogue box.
 
 
@@ -101,16 +101,16 @@ To create a new ABAP On Premise system, perform the following steps:
 
 
 > ### Note:  
-> You can still save the new system without first validating that the connection succeeds. However, it is recommended that you test the connection before saving to ensure it is working as expected.
+> You can still save the new system without first validating that the connection succeeds. However, it’s recommended that you test the connection before saving to ensure it working as expected.
 
 To create a new **ABAP Environment with service key**, perform the following steps:
 
-1.  Click [\+\] icon with tooltip *Add SAP System* on the right side of system panel.
+1.  Click [\+\] icon wit’sh tooltip *Add SAP System* on the right side of system panel.
 2.  Click [System Type\], select *ABAP Environment on SAP Business Technology Platform* and enter valid values for *ABAP Environment on SAP Business Technology Platform* system that you have access to:
     -   *System Name* - your choice
     -   *Service Key* - copy/paste service key of your chosen SAP BTP system
 
-3.  Click [Test Connection\] - authentication page will open in browser. If required, enter your SAP BTP system user email/password to log on via browser. After successful authentication go back to VS Code and verify that:
+3.  Click [Test Connection\] - authentication page will open in browser. If required, enter your SAP BTP system user email/password to log on via browser. After successful authentication, go back to VS Code and verify that:
     -   URL value is filled in by system
     -   message is shown: *This SAP system connected successfully.*
 
@@ -123,7 +123,7 @@ To create a new **ABAP Environment with service key**, perform the following ste
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_jxl_rtf_c5b"/>
 
-## Export/Import an existing ABAP on Premise SAP System
+## Export/Import an Existing ABAP On Premise SAP System
 
 To export an existing ABAP On Premise system, perform the following steps:
 
@@ -134,10 +134,10 @@ To import an ABAP On Premise system, perform the following steps:
 
 1.  On the activity toolbar from the left side, click [SAP Fiori\],![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png) .
 2.  Alongside the SAP Systems title bar, click on the [Import SAP System\], ![](images/Fiori_tools_Saved_Systems_9dce22e.png).
-3.  Navigate to the the JSON file that you would like to import.
+3.  Navigate to the JSON file that you would like to import.
 4.  Upon successful import, provide your credentials for that system and click [Test Connection\].
 5.  Once the connection is successfully tested, click [Save\] to finish importing the system.
 
 > ### Note:  
-> If you already have an SAP Saved system locally with the same name, you will asked to confirm before overwriting.
+> If you already have an SAP Saved system locally with the same name, you’ll be asked to confirm before overwriting.
 
