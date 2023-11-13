@@ -7,10 +7,10 @@ SAP Fiori tools provide a migration utility to help move your SAP Fiori projects
 Some of the key points for migration:
 
 -   Projects cloned or imported into the workspace are auto-detected for migration.
--   The migration tool supports SAP Fiori elements, SAP Fiori freestyle, SAPUI5Adaptation Projects, and SAPUI5 Extensibility.
+-   The migration tool supports SAP Fiori elements, SAP Fiori freestyle, SAPUI5 Adaptation Projects, and SAPUI5 Extensibility.
 -   Migration tools allow the migration of multiple projects at once.
 -   Projects that have been migrated don't update any deployment configuration that was already defined. Please run `npm run deploy-config` after migration to configure the migrated application for deployment.
--   A project must have the main data source specified in the `manifest.json` file.
+-   A project must have the main data source specified in the `manifest.appdescr_variant` file.
 
 For more information about extensibility, please see [Extending an SAP Fiori Application](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application).
 
@@ -289,7 +289,7 @@ A new file supporting a stand-alone preview of your application without SAP Fior
 </td>
 <td valign="top">
 
-It’s populated by SAP Fiori tools. Previously, it was populated by Maven.
+It’s populated by SAP Fiori tools.
 
 </td>
 </tr>
