@@ -4,7 +4,7 @@
 
 The following project functions are available when using SAP Fiori tools:
 
--    <?sap-ot O2O class="- topic/xref " href="a9a6c4b4cecf4ecdb9f76bf7abe06c48.xml" text="" desc="" xtrc="xref:1" xtrf="file:/home/builder/src/dita-all/dkl1587758022827/loio042b51923fc64122ac4c1627fb4b42c2_en-US/src/content/localization/en-us/0d8fa328b0b3466688ef10a493d78a0f.xml" ?> 
+-   [Information Panel](information-panel-a9a6c4b.md)
 -   [Application Information](application-information-c3e0989.md)
 -   [Reuse Library Support](reuse-library-support-6e99fbb.md)
 -   [Data Editor](data-editor-18e43b5.md)
