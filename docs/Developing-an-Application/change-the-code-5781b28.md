@@ -32,6 +32,8 @@ In addition, in some guides, such as **Add progress indicator column to a table*
 
 ![](images/Change_Code_Image_2_200809f.png)
 
+In some guides where you can refer to annotations using qualifier, you will be able to update these annotations by entering the existing qualifier in the guide. This will populate the rest of parameters with values that reflect the current annotations. You can then update these values as needed and click`Insert Snippet` to confirm your changes. This functionality is currently available in the *Add a field group to an object page* guide.
+
 [i18n\] keys for the globalization of your project can be automatically generated from the values you enter into input fields in guides. To create an [i18n\] key in guided development, enter a value into the input field and press the [Internationalization\] button.
 
 ![](images/Label_world_f412916.png)
