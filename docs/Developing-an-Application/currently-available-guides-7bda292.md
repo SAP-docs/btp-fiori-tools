@@ -99,7 +99,7 @@ Add a custom section to an object page using extensions
 <tr>
 <td valign="top">
 
-Add a field group as a section to a page
+Add a field group to an object page
 
 </td>
 <td valign="top" align="center">
@@ -129,7 +129,7 @@ Add a filter bar building block
 <tr>
 <td valign="top">
 
-Add a header facet using data points
+Add a header facet to an object page using data points
 
 </td>
 <td valign="top" align="center">
@@ -173,7 +173,7 @@ Add a list card to an overview page
 <tr>
 <td valign="top">
 
-Add a new column as a contact view
+Add a new contact view column to a table
 
 </td>
 <td valign="top" align="center">
@@ -188,7 +188,7 @@ Add a new column as a contact view
 <tr>
 <td valign="top">
 
-Add a new section to a page
+Add a new section to an object page
 
 </td>
 <td valign="top" align="center">
@@ -204,7 +204,7 @@ Add a new section to a page
 <tr>
 <td valign="top">
 
-Add a new visual filter
+Add a new visual filter to the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -266,7 +266,7 @@ Add a smart chart facet to an object page
 <tr>
 <td valign="top">
 
-Add a smart micro chart to a table
+Add a smart micro chart column to a table
 
 </td>
 <td valign="top" align="center">
@@ -353,7 +353,7 @@ Add an action button
 <tr>
 <td valign="top">
 
-Add a value help to a field
+Add a value help to a field in the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -428,7 +428,7 @@ Add custom columns to the table using extensions
 <tr>
 <td valign="top">
 
-Add interactive chart
+Add an interactive chart to a list page
 
 </td>
 <td valign="top" align="center">
@@ -437,6 +437,20 @@ Add interactive chart
 -   CAP CDS
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add a key performance indicator \(KPI\) tag to a page
+
+</td>
+<td valign="top">
+
+XML
+
+CAP CDS
 
 </td>
 </tr>
@@ -471,7 +485,7 @@ Add semantic colors to visual filters
 <tr>
 <td valign="top">
 
-Add semantic highlights to line items in tables based on their criticality
+Add semantic highlights to line items in a table
 
 </td>
 <td valign="top" align="center">
@@ -486,7 +500,7 @@ Add semantic highlights to line items in tables based on their criticality
 <tr>
 <td valign="top">
 
-Add status colors and icons for a column
+Add status colors and icons to a column in a table
 
 </td>
 <td valign="top" align="center">
@@ -530,7 +544,7 @@ Configure inbound navigation
 <tr>
 <td valign="top">
 
-Configure multiple selection in tables
+Configure multiple selection for a table
 
 </td>
 <td valign="top" align="center">
@@ -546,7 +560,7 @@ Configure multiple selection in tables
 <tr>
 <td valign="top">
 
-Configure multiple views
+Configure multiple views for tables
 
 </td>
 <td valign="top" align="center">
@@ -648,7 +662,7 @@ Configure spreadsheet export
 <tr>
 <td valign="top">
 
-Configure variant management
+Configure variant management for controls and pages
 
 </td>
 <td valign="top" align="center">
@@ -679,15 +693,28 @@ Configure default grouping in a table
 <tr>
 <td valign="top">
 
-Create annotations for Key Performance Indicator \(KPI\) tags
+Configure auto load for a table
 
 </td>
-<td valign="top" align="center">
+<td valign="top">
 
--   XML
--   CAP CDS
+OData V2
 
+OData V4
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Configure table type
+
+</td>
+<td valign="top">
+
+OData V2
+
+OData V4
 
 </td>
 </tr>
@@ -820,21 +847,6 @@ Enable semantic date range on smart filter bar
 <tr>
 <td valign="top">
 
-Enable table to auto load data
-
-</td>
-<td valign="top" align="center">
-
--   OData V2
--   OData V4
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Extend forms in sections
 
 </td>
@@ -877,7 +889,7 @@ Reorder columns in a table
 <tr>
 <td valign="top">
 
-Set default filter values
+Set default filter values for the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -898,21 +910,6 @@ Set selection limit for tables
 <td valign="top" align="center">
 
 -   Page Configuration Change
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Set the table type of tables
-
-</td>
-<td valign="top" align="center">
-
--   OData V2
--   OData V4
 
 
 
