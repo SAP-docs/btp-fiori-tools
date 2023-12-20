@@ -2,7 +2,7 @@
 
 # Overriding Annotations
 
-The following is a list of steps of how to override backend annotation to your local annotation file.
+The following is a list of steps of how to override back-end annotation to your local annotation file.
 
 
 
@@ -21,7 +21,7 @@ The following is a list of steps of how to override backend annotation to your l
     > ### Note:  
     > You can copy **local annotations** to and from **local annotation** files. You can't copy **local annotation** to **backend annotation** files.
 
-    ![Service Model copy to local annotation file](images/FIORI_TOOLS_SERVICE_MODELER_COPY2_131d9c3.jpg)
+    ![](images/Overriding_annotations_64a3f74.png)
 
 
 
