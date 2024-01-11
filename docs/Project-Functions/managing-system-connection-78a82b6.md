@@ -141,3 +141,6 @@ To import an ABAP On Premise system, perform the following steps:
 > ### Note:  
 > If you already have an SAP Saved system locally with the same name, you’ll be asked to confirm before overwriting.
 
+> ### Note:  
+> You can only import and export saved SAP systems between development environments that are using VS Code. You cannot import or export systems between VS Code and SAP Business Application Studio.
+

@@ -180,7 +180,7 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Node.js Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
 3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
 4.  In the *OData service* drop-down list, select a service, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
@@ -236,7 +236,7 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Java Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
 3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local**CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
 4.  In the *OData service* drop-down list, select a service, for example, CatalogService, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.

@@ -24,7 +24,7 @@ Some parameters depend on each other. For example, the *Navigation Property* par
 
 ![](images/Change_Code_Image_1_7cbbc7c.png)
 
-Parameters can be mandatory and optional. Mandatory parameters are marked with an asterisk symbol at the end of their name. If you click *Insert Snippet* without providing values for mandatory parameters, you'll see an error message for each mandatory field that isn’t filled in. Some parameters also feature inline validation in the form of an error message to help you correct formatting issues. The error will be cleared and the *Insert Snippet* button will be reactivated once the issue is addressed.
+Parameters can be mandatory and optional. Mandatory parameters are marked with an asterisk symbol at the end of their name. If you click *Insert Snippet* without providing values for mandatory parameters, you'll see an error message for each mandatory field that isn’t filled in. Some parameters also feature inline validation in the form of an error message to help you correct formatting issues. The error will be cleared and the *Insert Snippet* button will be reactivated once the issue is addressed. Similar inline error messages will also appear for duplicated parameters that would cause errors if inserted. Remove or change the parameter value to clear the error.
 
 ![](images/FIORI_TOOLS_UG_INLINE_VALID_db40824.jpg)
 
@@ -32,7 +32,7 @@ In addition, in some guides, such as **Add progress indicator column to a table*
 
 ![](images/Change_Code_Image_2_200809f.png)
 
-In some guides where you can refer to annotations using qualifiers, you will be able to update these annotations by entering the existing qualifier in the guide. This will populate the rest of parameters with values that reflect the current annotations. You can then update these values as needed and click`Insert Snippet` to confirm your changes. This functionality is currently available in the *Add a field group to an object page* guide.
+In some guides where you can refer to annotations using qualifiers, you will be able to update these annotations by entering the existing qualifier in the guide. This will populate the rest of the parameters with values that reflect the current annotations. You can then update these values as needed and click *Insert Snippet* to confirm your changes. This functionality is currently available in the *Add a field group to an object page* and *Configure Multiple Views* guides.
 
 [i18n\] keys for the globalization of your project can be automatically generated from the values you enter into input fields in guides. To create an [i18n\] key in guided development, enter a value into the input field and press the [Internationalization\] button.
 
