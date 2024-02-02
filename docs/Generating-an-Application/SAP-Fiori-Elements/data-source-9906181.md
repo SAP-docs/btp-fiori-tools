@@ -138,6 +138,9 @@ When users don't have their data source available, they can generate an applicat
 -   Once the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
 -   Fill in the fields and click *Next* to proceed with the application generation.
 
+> ### Caution:  
+> SAP Business Accelerator Hub services are not intended for use with SAP Fiori UI development.
+
 > ### Note:  
 > It is not recommended to deploy applications that use the SAP Business Accelerator Hub, as this is a sandbox data source and is intended for local development only. See [Run Your HTML5 Application with the SAP Business Accelerator Hub](https://help.sap.com/docs/bas/developing-html5-application/run-your-html5-application-with-sap-api-business-hub), for more details on running your application with SAP Business Accelerator Hub.
 
@@ -237,7 +240,7 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
 2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
-3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local**CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
+3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
 4.  In the *OData service* drop-down list, select a service, for example, CatalogService, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
 
@@ -263,6 +266,6 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
     > ### Note:  
     > You can check the terminal output to see the username and password credentials to be used.
 
-    The SAP Fiori Launchpad sandbox with a newly created application appears.
+    The SAP Fiori launchpad sandbox with a newly created application appears.
 
 

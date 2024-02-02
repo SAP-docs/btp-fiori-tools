@@ -446,11 +446,12 @@ Add an interactive chart to a list page
 Add a key performance indicator \(KPI\) tag to a page
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
-XML
+-   XML
+-   CAP CDS
 
-CAP CDS
+
 
 </td>
 </tr>
@@ -463,6 +464,7 @@ Add multiple fields to a column in responsive tables
 <td valign="top" align="center">
 
 -   XML
+-   CAP CDS
 
 
 
@@ -696,7 +698,7 @@ Configure default grouping in a table
 Configure auto load for a table
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 OData V2
 
@@ -710,7 +712,7 @@ OData V4
 Configure table type
 
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 OData V2
 
@@ -864,23 +866,9 @@ Extend forms in sections
 Extend object page headers using extensions
 
 </td>
-<td valign="top">
-
--   Extension Point
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Reorder columns in a table
-
-</td>
 <td valign="top" align="center">
 
--   XML
+-   Extension Point
 
 
 

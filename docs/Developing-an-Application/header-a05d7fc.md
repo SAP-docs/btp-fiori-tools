@@ -76,17 +76,19 @@ For more information on images, see: [Using Images, Initials, and Icons](https:/
 
 ## Header Actions
 
-Header actions are displayed in the object page header as buttons. Header actions are based on the following records of `UI.Identification` annotation applied to the main entity of the page:
+Header actions are displayed in the object page header as buttons. Header actions are based on the following records of the `UI.Identification` annotation, applied to the main entity of the page:
 
--   `UI.DataFieldForAction` with `Determining` property set to `false` or not defined. These actions are performed within the application.
--   `UI.DataFieldForIntentBasedNavigation` these actions are used for external navigation from the current application to a different \(target\) application configured in the SAP Fiori launchpad.
+-   `UI.DataFieldForAction` with the `Determining` property set to `false` or not defined. These actions are performed within the application.
+-   `UI.DataFieldForIntentBasedNavigation` actions are used for external navigation from the current application to a different \(target\) application, configured in SAP Fiori launchpad.
 
-You can add, delete and maintain the header actions same as described in the [Table Actions](table-actions-da1931b.md) section.
+You can add, delete and maintain the header actions in the same way as described in [Table Actions](table-actions-da1931b.md).
 
 > ### Note:  
-> Properties applicable only to action columns \(*Importance, Requires Context*\) are not relevant and therefore not provided for header actions.
+> The properties *Importance* and *Requires Context* are not relevant for the header actions.
+> 
+> The *Criticality* property impacts the sequence of the actions in the *Object Page* header. Therefore, once you change its value from *None* to *Positive* or *Negative* \(or vice versa\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
 
-You can move header actions to the Form sections based on the same entity. You can move the actions based on `UI.DataFieldForAction` to the Footer.
+You can move header actions to the *Form* sections based on the same entity, as long as these actions are not semantically highlighted. You can move the actions based on `UI.DataFieldForAction` to the *Footer*.
 
 <a name="loio8a127fc36f5640abaab0056e632fe630"/>
 

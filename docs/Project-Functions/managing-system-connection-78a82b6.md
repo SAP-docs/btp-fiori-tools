@@ -17,7 +17,10 @@ To view the saved systems details, perform the following steps:
 
     You can see the list of saved systems along with the usernames used for authentication.
 
-3.  To see the stored system details in a new view, click a particular system entry or right-click and select.*Show SAP System Details*
+3.  To see the stored system details in a new view, click a particular system entry or right-click and select *Show SAP System Details*.
+
+> ### Note:  
+> You can create an SAP Fiori application with your selected SAP system by clicking on the *Create SAP Fiori application* link. This will open the SAP Fiori application generator and pre-select your SAP system as the data source.
 
 
 
@@ -105,7 +108,7 @@ To create a new ABAP On Premise system, perform the following steps:
 
 To create a new **ABAP Environment with service key**, perform the following steps:
 
-1.  Click [\+\] icon wit’sh tooltip *Add SAP System* on the right side of system panel.
+1.  Click the [\+\] icon with the tooltip *Add SAP System* on the right side of system panel.
 2.  Click [System Type\], select *ABAP Environment on SAP Business Technology Platform* and enter valid values for *ABAP Environment on SAP Business Technology Platform* system that you have access to:
     -   *System Name* - your choice
     -   *Service Key* - copy/paste service key of your chosen SAP BTP system

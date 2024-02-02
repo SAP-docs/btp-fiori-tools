@@ -104,6 +104,9 @@ When users do not have their data source available, they can generate an applica
 -   Once the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
 -   Fill in the fields and click *Next* to proceed with the application generation.
 
+> ### Caution:  
+> SAP Business Accelerator Hub services are not intended for use with SAP Fiori UI development.
+
 > ### Note:  
 > You cannot deploy applications that use the SAP Business Accelerator Hub, as this data source is intended for local development only.
 
