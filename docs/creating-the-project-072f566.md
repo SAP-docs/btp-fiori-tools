@@ -10,7 +10,7 @@
 
 1.  Open your instance of VS Code.
 
-2.  If you are creating an Adaptation Project for the first time for this instance of VS Code, open the *Command Palette* and choose *Adaptation Project: Create*. This action will install the needed packages for it to run. After this step is completed, you can create an Adaptation Project using the *Command Palette / Template Wizard*. Select the *Adaptation Project* tile, in order to launch its wizard..
+2.  If you are creating an Adaptation Project for the first time for this instance of VS Code, open the *Command Palette* and choose *Fiori: Open Adaptation Project Generator*. This action will install the needed packages for it to run. After this step is completed, you can create an Adaptation Project using the *Command Palette / Template Wizard*. Select the *Adaptation Project* tile, in order to launch its wizard..
 
 3.  Use the wizard to configure the project information.
 

@@ -28,11 +28,13 @@ Parameters can be mandatory and optional. Mandatory parameters are marked with a
 
 ![](images/FIORI_TOOLS_UG_INLINE_VALID_db40824.jpg)
 
-In addition, in some guides, such as **Add progress indicator column to a table** or **Add a field group as a section to a page**, parameters selected in the first step are prefilled in step 2 when appropriate. For example, the values selected for the *Entity* type parameter in step 1 will be filled as the default value for the *Entity* type in step 2 with the tooltip “1” displayed. If you want to change the prefilled values, you can do so manually.
+In addition, in some guides, such as *Add progress indicator column to a table* or *Add a field group as a section to a page*, parameters selected in the first step are prefilled in step 2 when appropriate. For example, the values selected for the *Entity* type parameter in step 1 will be filled as the default value for the *Entity* type in step 2 with the tooltip “1” displayed. If you want to change the prefilled values, you can do so manually.
 
 ![](images/Change_Code_Image_2_200809f.png)
 
-In some guides where you can refer to annotations using qualifiers, you will be able to update these annotations by entering the existing qualifier in the guide. This will populate the rest of the parameters with values that reflect the current annotations. You can then update these values as needed and click *Insert Snippet* to confirm your changes. This functionality is available in the *Add a field group to an object page* and *Configure Multiple Views* guides.
+In some guides, such as **Configure multiple selection for a table** and **Configure table type**, parameters are prefilled reflecting the current settings in the project.
+
+In some guides where you can refer to annotations using qualifiers, you can update these annotations by entering the existing qualifier in the guide. This will populate the rest of the parameters with values that reflect the current annotations. You can then update these values and click *Insert Snippet* to confirm your changes. This functionality is available in the *Add a field group to an object page* and *Configure Multiple Views* guides.
 
 `i18n` keys for the globalization of your project can be automatically generated from the values you enter into input fields in guides. To create an `i18n` key in guided development, enter a value into the input field and press the [Internationalization\] button.
 

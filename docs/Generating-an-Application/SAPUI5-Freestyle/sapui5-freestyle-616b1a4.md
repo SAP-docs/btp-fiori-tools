@@ -2,7 +2,7 @@
 
 # SAPUI5 Freestyle
 
-**Generating an application SAP Fiori freestyle**.
+**Generating an SAP Fiori freestyle application**.
 
 > ### Note:  
 > In SAP Business Application Studio, use SAP Fiori elements Dev Space.
@@ -13,9 +13,9 @@
     -   **Connect to an SAP system**.
     -   **Connect to an OData service**.
     -   **Connect to SAP Business Accelerator Hub**.
-    -   **Use a local CAP Node.js project** \(Available for the SAP Fiori Worklist Application `OData V4` template only\).
+    -   **Use a local CAP Node.js project**
     -   **Upload a Metadata Document**.
-    -   **None** \(Available for **Basic** application only\).
+    -   **None**
 
     > ### Note:  
     > If username and password are required, enter these credentials and click *Login*.
@@ -25,7 +25,7 @@
 3.  Select [Template Properties](template-properties-c2a3c82.md).
 4.  Add project attributes:
 
-    > ### Note:  
+    > ### Tip:  
     > Mandatory fields are prefilled with default text.
 
     -   **Module Name** \(Required\). Must be alphanumeric and **can’t contain spaces**. The generated NodeJS application uses the module name as its package name. It’s used as the folder name of the generated application.
@@ -36,7 +36,7 @@
     -   **Minimum SAPUI5 version**. From the drop-down list, select the minimum SAPUI5 version that the application will require.
 
         -   The dropdown will show the list of available versions of SAPUI5, with the current **default** version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
-        -   If the source system during generation is an ABAP on-Premise system, then the **default** version selected in the dropdown will be equal to the version of SAPUI5 version on that ABAP system where possible.
+        -   If the source system during generation is an ABAP on-premise system, then the **default** version selected in the dropdown will be equal to the SAPUI5 version on that ABAP system where possible.
 
         > ### Note:  
         > For an application generated with the `OData V4` data source, the list of SAPUI5 versions supported is limited to the most recent ones.
