@@ -76,7 +76,26 @@ For more information on images, see: [Using Images, Initials, and Icons](https:/
 
 ## Header Actions
 
-Header actions are displayed in the object page header as buttons. Header actions are based on the following records of the `UI.Identification` annotation, applied to the main entity of the page:
+
+
+Header actions are displayed in the object page header as buttons. You can maintain the following kinds of header actions in the *Page Editor*:
+
+
+
+### Standard Actions
+
+The SAP Fiori elements framework provides standard generic actions such as *Edit* and *Delete* by default for object pages in all applications if certain criteria are met. If these standard actions are provided, you can hide them in your application UI by switching on the *Hidden* property.
+
+Once you have activated the *Hidden* property using the toggle button, the *Hide by Property* field is displayed right after it. You can set the condition for dynamic hiding by selecting one of the suggested Boolean properties from the dropdown list. If the selected property evaluates to `true` in runtime, the button will be hidden, otherwise it will be displayed. You can select *None* to revert back to static hiding.
+
+> ### Note:  
+> When you hide the *Edit* button, the `UI.UpdateHidden` annotation is applied to the entity set of the respective object page. When you hide the *Delete* button, the `UI.DeleteHidden` annotation is applied.
+
+
+
+### Annotation-Based Actions
+
+These actions are based on the following records of the `UI.Identification` annotation, applied to the main entity of the page:
 
 -   `UI.DataFieldForAction` with the `Determining` property set to `false` or not defined. These actions are performed within the application.
 -   `UI.DataFieldForIntentBasedNavigation` actions are used for external navigation from the current application to a different \(target\) application, configured in SAP Fiori launchpad.
@@ -89,6 +108,12 @@ You can add, delete and maintain the header actions in the same way as described
 > The *Criticality* property impacts the sequence of the actions in the *Object Page* header. Therefore, once you change its value from *None* to *Positive* or *Negative* \(or vice versa\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
 
 You can move header actions to the *Form* sections based on the same entity, as long as these actions are not semantically highlighted. You can move the actions based on `UI.DataFieldForAction` to the *Footer*.
+
+
+
+### Custom Actions
+
+Custom actions are based on application extensions. For more information, see [Adding Custom Action](maintaining-extension-based-elements-02172d2.md#loio76374b198e514b39a96176094bb8aa1b).
 
 <a name="loio8a127fc36f5640abaab0056e632fe630"/>
 

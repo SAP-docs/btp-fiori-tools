@@ -567,7 +567,8 @@ Configure multiple views for tables
 </td>
 <td valign="top" align="center">
 
--   XML
+-   XML OData V2
+-   XML OData V4
 -   CAP CDS
 
 
