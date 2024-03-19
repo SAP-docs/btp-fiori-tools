@@ -20,7 +20,7 @@ To create an application in VS Code or SAP Business Application Studio, perform 
 2.  The *Template Wizard* appears.
 
     > ### Note:  
-    > SAP Fiori application generator increases development productivity and ensures consistency across your SAP apps by using standard page types to build applications. This generator follows SAP Fiori elements or SAP Fiori freestyle approach to build an SAPUI5 application.
+    > SAP Fiori application generator increases development productivity and ensures consistency across your SAP apps by using standard page types to build applications. This generator follows SAP Fiori elements or freestyle SAPUI5 approach to build an SAPUI5 application.
 
 3.  On the *Template Selection* page, select one of the following options from the *Template Type* dropdown list:
     -   SAP Fiori \(default value\)

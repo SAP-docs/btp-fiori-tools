@@ -5,7 +5,7 @@
 > ### Note:  
 > For more information about CAP services, see: [https://cap.cloud.sap/docs/about/](https://cap.cloud.sap/docs/about/).
 
-You can safely delete an SAP Fiori application created inside CAP projects with the SAP Fiori elements or SAP Fiori freestyle generators. During the deletion process, the folder containing the application is deleted along with all changes in global files, such as references to already invalid annotations in a subfolder.
+You can safely delete an SAP Fiori application created inside CAP projects with the SAP Fiori elements or freestyle SAPUI5 generators. During the deletion process, the folder containing the application is deleted along with all changes in global files, such as references to already invalid annotations in a subfolder.
 
 Perform the following steps:
 

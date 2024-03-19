@@ -5,7 +5,7 @@
 To develop an application that connects to SAP data sources, you can use one of the following options:
 
 -   SAP Fiori elements creates standard applications based on several basic floorplans for common business scenarios. These floorplans provide UI code, including some logic, so that the data from the backend goes exactly where it’s supposed to, and the UI behavior is based on the metadata you provide. You can customize the floorplans using XML Annotations.
--   SAP Fiori freestyle gives you complete flexibility about your application's look and performance. You can select floorplans and specify the layout, flow, menu structure, colors, fonts, interactions, patterns, and more. For each screen, you have to write the JavaScript UI code, which may be time-consuming.
+-   freestyle SAPUI5 gives you complete flexibility about your application's look and performance. You can select floorplans and specify the layout, flow, menu structure, colors, fonts, interactions, patterns, and more. For each screen, you have to write the JavaScript UI code, which may be time-consuming.
 
 
 
@@ -58,9 +58,9 @@ For flex changes in the individual pages, such as enabling export, you can use t
 
 <a name="loiof09752ebcf63473e9194ea29ca232e56__section_gmp_yrt_jnb"/>
 
-## What Is SAPUI5 Freestyle?
+## What Is Freestyle SAPUI5?
 
-SAP Fiori freestyle is another option available to develop SAP Fiori apps. The user can choose the type of template required, along with the relevant OData service to start your application development process. By using the SAP Fiori freestyle templates, you can be flexible in creating a custom application based on an OData service and JavaScript UI coding. SAP Fiori freestyle incorporates our latest recommendations and can be used as a starting point for developing custom apps according to the SAP Fiori design. See [SAP Fiori Design Guidelines](http://help.sap.com/disclaimer?site=https://experience.sap.com/fiori-design-web/).
+freestyle SAPUI5 is another option available to develop SAP Fiori apps. The user can choose the type of template required, along with the relevant OData service to start your application development process. By using the freestyle SAPUI5 templates, you can be flexible in creating a custom application based on an OData service and JavaScript UI coding. freestyle SAPUI5 incorporates our latest recommendations and can be used as a starting point for developing custom apps according to the SAP Fiori design. See [SAP Fiori Design Guidelines](http://help.sap.com/disclaimer?site=https://experience.sap.com/fiori-design-web/).
 
 For more information on SAP Fiori apps, see [http://www.sap.com/fiori](http://www.sap.com/fiori).
 
@@ -68,11 +68,11 @@ For more information on SAPUI5, see [Get Started with UI5](https://sapui5.hana.o
 
 
 
-### Project Structure and Artifacts of SAPUI5 Freestyle
+### Project Structure and Artifacts of Freestyle SAPUI5
 
-With the SAP Fiori freestyle framework, you can optimize your SAP Fiori-based development by using OData and SAPUI5 tooling to render the application UI. The SAPUI5 controls are convenient and intuitive to use for your app development. Additionally, they ensure adherence to the design guidelines.
+With the freestyle SAPUI5 framework, you can optimize your SAP Fiori-based development by using OData and SAPUI5 tooling to render the application UI. The SAPUI5 controls are convenient and intuitive to use for your app development. Additionally, they ensure adherence to the design guidelines.
 
-The SAP Fiori freestyle templates create at least three basic files for your application:
+The freestyle SAPUI5 templates create at least three basic files for your application:
 
 -   `manifest.json`
 -   `app.view.xml`
@@ -81,15 +81,15 @@ The SAP Fiori freestyle templates create at least three basic files for your app
 With each of these files, you can control certain aspects of your application. For more information, see [Basic Files for your App](https://ui5.sap.com/#/topic/28b59ca857044a7890a22aec8cf1fee9).
 
 > ### Note:  
-> The SAP Fiori freestyle templates are deprecated, and it’s recommended to use the custom page SAP Fiori template based on the flexible programming model as an alternative. For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
+> The freestyle SAPUI5 templates are deprecated, and it’s recommended to use the custom page SAP Fiori template based on the flexible programming model as an alternative. For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
 
 
 
 <a name="loiof09752ebcf63473e9194ea29ca232e56__section_r3j_ctt_jnb"/>
 
-## What Is the Difference between SAP Fiori Elements and SAPUI5 Freestyle?
+## What Is the Difference between SAP Fiori Elements and Freestyle SAPUI5?
 
-The following table lists the differences between SAP Fiori freestyle and SAP Fiori elements.![SAP Fiori freestyle vs. SAP Fiori elements](images/ElementsvsFreestlye_a2ba197.png)
+The following table lists the differences between freestyle SAPUI5 and SAP Fiori elements.![freestyle SAPUI5 vs. SAP Fiori elements](images/ElementsvsFreestlye_a2ba197.png)
 
 
 
@@ -97,7 +97,7 @@ The following table lists the differences between SAP Fiori freestyle and SAP Fi
 
 ## Create SAP Fiori Application with SAP Fiori Tools
 
-SAP Fiori tools provides many capabilities to increase the efficiency of developing SAP Fiori applications using either SAP Fiori elements or SAP Fiori freestyle approach. SAP Fiori tools, together with SAP Fiori elements, reduce development time, maintenance cost, and leverage the advantages of a metadata driven UI. SAP Fiori tools includes the following:
+SAP Fiori tools provides many capabilities to increase the efficiency of developing SAP Fiori applications using either SAP Fiori elements or freestyle SAPUI5 approach. SAP Fiori tools, together with SAP Fiori elements, reduce development time, maintenance cost, and leverage the advantages of a metadata driven UI. SAP Fiori tools includes the following:
 
 -   Wizard for the initial creation of an application.
 -   Service modeler for viewing the data model.

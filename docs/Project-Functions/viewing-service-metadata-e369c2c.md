@@ -46,15 +46,15 @@ If your `metadata.xml file` is open in the text editor, click the annotations ic
 
 **Visualize a Service**
 
-The Service Modeler displays the entities and properties of a service in a list format. The entity node can be expanded to view all the associated properties for that entity. Sections for Complex Types and Entity Containers can be expanded to see the associated properties and entity sets.
+The Service Modeler displays the entities and properties of a service in a list format. The entity node can be expanded to view all the associated properties for that entity. Sections for Complex Types and Entity Containers can be expanded to see the associated properties and entity sets. The namespace is hidden from the metadata by default. You can click the [Settings\] icon to toggle it on.
 
 Properties that are the primary key of the entity or projection are identified by a key icon ![](images/Key_icon_FT_00e9f27.png).
 
-Entities or properties that have annotations associated with them are identified by an annotation icon ![](images/Icon_annotnation_panel_FT_5718c58.png).
+Entities or properties that have annotations associated with them are identified by an annotation icon ![](images/Icon_annotnation_panel_FT_5718c58.png). They can be filtered to only view the metadata targets that have annotations.
 
 A node can be selected to see the related annotations in the side panel. The annotation panel lists the annotation files and the associated annotations for the entities and the properties in the main list.
 
-![](images/Screenshot_Service_Modeler_CountryVHType_2df7429.png)
+![](images/Fiori_Tools_Service_Modeler_-_Toggle_Namespace_2864d9a.png)
 
 
 

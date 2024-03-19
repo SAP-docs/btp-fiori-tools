@@ -2,7 +2,7 @@
 
 # SAP Business Application Studio
 
-**SAP Business Application Studio**, is a hosted environment, which does not require installation. To create your workspace with BAS, perform the steps defined in the [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html) tutorial. We recommend that after this tutorial you proceed with the next one in this group, which is [Set Up and Generate a New SAP Fiori App Project](https://developers.sap.com/tutorials/fiori-tools-generate-project.html).
+**SAP Business Application Studio**, is a hosted environment, which does not require installation. To create your workspace, perform the steps defined in the [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html) tutorial. We recommend that after this tutorial you proceed with the next one in this group, which is [Set Up and Generate a New SAP Fiori App Project](https://developers.sap.com/tutorials/fiori-tools-generate-project.html).
 
 
 

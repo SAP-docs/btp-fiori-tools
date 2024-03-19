@@ -15,7 +15,7 @@ Controller extensions let the developer to add new methods and override methods.
 > ### Remember:  
 > You can add a controller extension only if:
 > 
-> -   You use an SAP Fiori elements-based application, or a SAP Fiori freestyle application.
+> -   You use an SAP Fiori elements-based application, or a freestyle SAPUI5 application.
 > -   You use application with asynchronous views.
 
 

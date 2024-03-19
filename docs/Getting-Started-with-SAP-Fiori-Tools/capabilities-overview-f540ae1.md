@@ -38,7 +38,7 @@ SAP Fiori elements
 </th>
 <th valign="top">
 
-SAPUI5 freestyle
+freestyle SAPUI5
 
 </th>
 <th valign="top">

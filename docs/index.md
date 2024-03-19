@@ -36,7 +36,7 @@ Last Updated: May 2023
         -   [Supported Floorplans](Generating-an-Application/SAP-Fiori-Elements/supported-floorplans-2b2b12e.md)
         -   [Data Source](Generating-an-Application/SAP-Fiori-Elements/data-source-9906181.md)
         -   [Floorplan properties](Generating-an-Application/SAP-Fiori-Elements/floorplan-properties-745ae0c.md)
-    -   [SAPUI5 Freestyle](Generating-an-Application/SAPUI5-Freestyle/sapui5-freestyle-616b1a4.md)
+    -   [Freestyle SAPUI5](Generating-an-Application/SAPUI5-Freestyle/freestyle-sapui5-616b1a4.md)
         -   [Supported Templates](Generating-an-Application/SAPUI5-Freestyle/supported-templates-20d1146.md)
             -   [Basic Template](Generating-an-Application/SAPUI5-Freestyle/basic-template-14fdcc0.md)
         -   [Data Source](Generating-an-Application/SAPUI5-Freestyle/data-source-37a0fcf.md)

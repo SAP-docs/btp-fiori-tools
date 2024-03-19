@@ -1,8 +1,8 @@
 <!-- loio616b1a4bd4314070a9fa5bf79ecb3909 -->
 
-# SAPUI5 Freestyle
+# Freestyle SAPUI5
 
-**Generating an SAP Fiori freestyle application**.
+**Generating an freestyle SAPUI5 application**.
 
 > ### Note:  
 > In SAP Business Application Studio, use SAP Fiori elements Dev Space.

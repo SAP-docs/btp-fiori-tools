@@ -2,7 +2,7 @@
 
 # Supported Templates
 
-This is a list of supported templates that enable you to create SAP Fiori freestyle applications.
+This is a list of supported templates that enable you to create freestyle SAPUI5 applications.
 
 -   *Basic*
 
@@ -14,5 +14,5 @@ This is a list of supported templates that enable you to create SAP Fiori freest
 
 
 > ### Caution:  
-> Currently, SAP Fiori tools supports the development of SAP Fiori elements and SAP Fiori freestyle applications with minimum SAPUI5 versions 1.65 or higher.
+> Currently, SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with minimum SAPUI5 versions 1.65 or higher.
 

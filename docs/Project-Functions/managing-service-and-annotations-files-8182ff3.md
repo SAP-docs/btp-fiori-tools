@@ -13,7 +13,7 @@
 ### How to add services to a project
 
 > ### Note:  
-> The ability to add services is only supported for the SAP Fiori elements Overview Page and SAP Fiori freestyle projects.
+> The ability to add services is only supported for the SAP Fiori elements Overview Page and freestyle SAPUI5 projects.
 
 1.  Right-click the application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
