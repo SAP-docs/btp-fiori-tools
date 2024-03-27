@@ -441,6 +441,18 @@ Opens the detail view for a saved SAP system in VS Code.
 <tr>
 <td valign="top">
 
+Fiori tools AI: Show Fiori tools Joule
+
+</td>
+<td valign="top">
+
+Launches Joule, the SAP Fiori tools AI assistant in SAP Business Application Studio, provided you have a subscription to SAP Build Code.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Fiori: Validate Project
 
 </td>

@@ -74,7 +74,7 @@ For more information about npm, see, [@sap/generator-fiori-elements](https://www
 
 
 > ### Note:  
-> The SAP Fiori application generator now consumes open source libraries for writing the SAP Fiori elements and SAP Fiori freestyle applications. Please see [Fiori elements writer](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-elements-writer) and [Fiori freestyle writer](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-freestyle-writer)documentation for more information on these libraries.
+> The SAP Fiori application generator now consumes open source libraries for writing the SAP Fiori elements and freestyle SAPUI5 applications. Please see [Fiori elements writer](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-elements-writer) and [Fiori freestyle writer](https://github.com/SAP/open-ux-tools/tree/main/packages/fiori-freestyle-writer)documentation for more information on these libraries.
 
 > ### Note:  
 > In SAP Fiori application generator, when some of the most common errors are shown during project generations, the generator gives an option to end user to launch [Guided Answers Extension by SAP](https://github.com/SAP/guided-answers-extension) and troubleshoot the error based on the solution provided by SAP experts.
