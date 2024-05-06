@@ -24,7 +24,7 @@ This is a list of supported floorplans that gives you the ability to create SAP 
     > ### Note:  
     > For *Worklist* floorplans using an `OData V4` data source, only `SAPUI5` versions 1.99 and above are supported.
 
-    For information on what is supported in *Worklist* for `OData V2`, see [Floorplan properties](floorplan-properties-745ae0c.md).
+    For information on what is supported in *Worklist* for `OData V2`, see [Floorplan Properties](floorplan-properties-745ae0c.md).
 
 
 -   *Analytical List Page*.

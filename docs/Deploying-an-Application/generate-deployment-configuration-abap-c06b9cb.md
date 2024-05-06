@@ -6,7 +6,7 @@
 
 <a name="loioc06b9cbb3f3641aabfe3a5d199e855a0__section_lmt_bq3_k4b"/>
 
-## ABAP Pre-Requisites
+## ABAP Prerequisites
 
 The deployment to ABAP task allows deploying SAP Fiori applications to SAP systems using the [SAPUI5 Repository OData service](https://sapui5.hana.ondemand.com/#/topic/a883327a82ef4cc792f3c1e7b7a48de8.html).
 
@@ -137,8 +137,8 @@ How do you want to enter Transport Request
 
 -   **Enter manually:** Manually provide the transport request.
 -   **Choose from existing:** The applicable list of transport requests and their description is retrieved from the target system and displayed in a list for you to choose from. If the list of transport requests is unable to be retrieved from the target system, a user must provide the entry manually.
--   **Create new:** A new transport request is automatically created for use. If the transport request is unable to be created from the target system, user must provide the entry manually.
--   **Create during deployment:** The transport request is automatically created the first time the application is deployed. If the transport request is unable to be created from the target system, deployment fails.
+-   **Create new:** A new transport request is automatically created for use. If the transport request is unable to be created from the target system, the user must provide the entry manually. The generated transport request will have a description 'Created by SAP Fiori tools for ABAP repository <repository name\>', where <repository name\> refers to the name of the deployed application.
+-   **Create during deployment:** The transport request is automatically created the first time the application is deployed. If the transport request is unable to be created from the target system, deployment fails. The generated transport request will have a description 'Created by SAP Open UX Tools for ABAP repository <repository name\>', where <repository name\> refers to the name of the deployed application.
 
 
 

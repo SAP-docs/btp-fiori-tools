@@ -2,9 +2,9 @@
 
 # Viewing Service Metadata
 
-The Service Modeler supports the visualization of the ODataV2/V4 Service Model based on the `.xml/.edmx` files and CAP CDS services.
+The SAP Fiori tools - Service Modeler extension supports the visualization of the ODataV2/V4 Service Model based on the `.xml/.edmx` files and CAP CDS services.
 
-With the SAP Fiori tools - Service Modeler extension, you can perform the following operations:
+You can perform the following operations with the Service Modeler:
 
 -   Easily browse complex services and view the entity sets, entities, and properties of a service.
 -   View annotations associated with the entity and properties of a service.
@@ -17,7 +17,7 @@ With the SAP Fiori tools - Service Modeler extension, you can perform the follow
 
 ## Launch the Service Modeler
 
-You can launch the Service Modeler in several ways.
+You can launch the Service Modeler in several ways:
 
 -   **Use the Command Palette**
 

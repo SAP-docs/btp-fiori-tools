@@ -381,6 +381,18 @@ Restarts XML annotation language server if it failed.
 <tr>
 <td valign="top">
 
+Fiori: Run UI5 Linter
+
+</td>
+<td valign="top">
+
+Checks the compatibility of your project with SAPUI5 version 2.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Fiori: Show Output Channel
 
 </td>

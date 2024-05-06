@@ -54,7 +54,11 @@ The buttons on the Adaptation Editor \(Visual Editor\) toolbar allow you to:
 
 ## Procedure
 
-1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file an choose *Preview Application*. Choose *start-editor*. Adaptation Editor \(Visual Editor\) launches and the application loads in the editor for you to make the changes when you switch to UI Navigation mode or to navigate and preview the application when you switch to Navigation mode.
+1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file an choose *Preview Application*. Choose *start-editor*. Adaptation Editor \(Visual Editor\) launches in a browser window and the application loads in the editor for you to make the changes when you switch to UI Navigation mode or to navigate and preview the application when you switch to Navigation mode.
+
+    > ### Note:  
+    > Have in mind that the VSCode instance needs to be kept running in order for the editor to be operable.
+
 2.  If you want to change different view than the one that is currently loaded, switch to Navigation mode so you can navigate to it, and then switch back to UI Adaptation Mode.
 
 
@@ -162,7 +166,7 @@ The buttons on the Adaptation Editor \(Visual Editor\) toolbar allow you to:
 <tr>
 <td valign="top">
 
-****
+**Drag and drop fields and groups** 
 
 </td>
 <td valign="top">

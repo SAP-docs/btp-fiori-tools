@@ -1,10 +1,10 @@
 <!-- loio6845fedbb38c4da7a54a2c76081f3abb -->
 
-# Generating an Application with Joule's SAP Fiori Tools Generative AI
+# Generating an Application with Joule Using SAP Fiori Tools Generative AI
 
-Joule, SAP's innovative AI assistant, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI based on your business requirements document.
+Joule, SAP's AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI based on your business requirements document.
 
-You can use Joule to kick-start your SAP Fiori development by directly translating your business requirements into an SAP Fiori elements application containing a list report and one or two object pages as part of a CAP project.
+You can use Joule to kick-start your SAP Fiori development by directly translating your business requirements into a CAP project with a single SAP Fiori elements application. The generated application can consist of just a list report, or a list report page with with one or multiple object pages.
 
 
 
@@ -93,7 +93,9 @@ You can define the following features as requirements in your input:
 
 -   Criticality highlighting for eligible properties in code lists
 
--   A single list report/object page application with one or two object pages
+-   A single list report application
+
+-   A single application with a list report and one or multiple object pages
 
 
 
@@ -123,5 +125,5 @@ You can define the following features as requirements in your input:
 
 
 > ### Tip:  
-> It’s possible that Joule occasionally misunderstands parts of your requirements, or misses a contained feature request. If this happens, please rephrase your input and try again.
+> It’s possible that Joule occasionally misunderstands parts of your requirements, or misses a contained feature request. If this happens, please click *Regenerate* to try again, or click the pencil icon, rephrase your input and click *Submit*.
 

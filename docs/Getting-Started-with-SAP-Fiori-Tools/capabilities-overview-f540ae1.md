@@ -3,7 +3,7 @@
 # Capabilities Overview
 
 > ### Note:  
-> To view information on features available in your application, navigate to *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more details, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+> To view information on features available in your application, navigate to *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
 The following table lists the SAP Fiori tools features provided in each template or data source.
 
@@ -142,7 +142,7 @@ npx --yes @sap-ux/create@latest add mockserver-config
 </td>
 <td valign="top">
 
-Add configuration for mockserver middleware
+Add configuration for mockserver middleware.
 
 </td>
 <td valign="top">
@@ -655,7 +655,7 @@ sap.ux.serviceModeler.openServiceMgr
 </td>
 <td valign="top">
 
-You can sync metadata.xml with backend.
+You can sync metadata.xml with back end.
 
 </td>
 <td valign="top">
@@ -930,6 +930,63 @@ Choose from start scripts to run the application preview.
 <tr>
 <td valign="top">
 
+Run UI5 Linter
+
+</td>
+<td valign="top">
+
+sap.ux.applicationModeler.runUI5Linter
+
+</td>
+<td valign="top">
+
+Checks the compatibility of your project with SAPUI5 version 2.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Show Documentation
 
 </td>
@@ -1054,7 +1111,7 @@ npm run undeploy
 </td>
 <td valign="top">
 
-Remove a deployed artifact from backend or cloud.
+Remove a deployed artifact from back end or cloud.
 
 </td>
 <td valign="top">
