@@ -14,15 +14,17 @@
 
 ## Security
 
-The following best practices are suggested when usingSAP Fiori tools: :
+The following best practices are suggested when using SAP Fiori tools:
 
 -   Follow the software development security guidance provided by your organization.
--   Avoid using **OData service** hosted on a production system for developing SAP Fiori application.
+-   Avoid using **OData services** hosted on a production system for developing an SAP Fiori application.
 -   Don't use the same user credentials to access development and production systems for the OData service.
 -   Use a trusted NPM registry.
 -   Follow the security guideline for the prerequisite software where such is provided.
--   Ensure that you use a source control system and regularly committing code to it.
--   See [Security](../Deploying-an-Application/security-8a147c6.md) about additional information about security.
+-   Ensure that you use a source control system and are regularly committing code to it.
+-   Ensure that you verify the content of your PATH variable. Commands like `node` or `cds`, which are usually part of the PATH variable and which can be executed from any directory in the terminal, need to point to a trusted origin.
+
+-   For more information about security, see [Security](../Deploying-an-Application/security-8a147c6.md).
 
 **Related Information**  
 

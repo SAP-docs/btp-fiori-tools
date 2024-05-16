@@ -113,5 +113,5 @@ For more information about how to use SAP Fiori tools, see [Getting Started with
 
 ## Generating an Application with Joule's SAP Fiori Tools Generative AI
 
-Joule, SAP's innovative AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI. Joule can help you create an SAP Fiori elements app simply by pasting your business requirements document. For more information, see [Generating an Application with Joule Using SAP Fiori Tools Generative AI](generating-an-application-with-joule-using-sap-fiori-tools-generative-ai-6845fed.md).
+Joule, SAP's innovative AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI. Joule can help you create an SAP Fiori elements app simply by pasting your business requirements document. For more information, see [Generating an Application with Joule Using SAP Fiori Tools](generating-an-application-with-joule-using-sap-fiori-tools-6845fed.md).
 

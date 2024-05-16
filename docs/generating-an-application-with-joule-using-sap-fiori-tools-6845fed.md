@@ -1,10 +1,10 @@
 <!-- loio6845fedbb38c4da7a54a2c76081f3abb -->
 
-# Generating an Application with Joule Using SAP Fiori Tools Generative AI
+# Generating an Application with Joule Using SAP Fiori Tools
 
 Joule, SAP's AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI based on your business requirements document.
 
-You can use Joule to kick-start your SAP Fiori development by directly translating your business requirements into a CAP project with a single SAP Fiori elements application. The generated application can consist of just a list report, or a list report page with with one or multiple object pages.
+You can use Joule to kick-start your SAP Fiori development by directly translating your business requirements into a CAP project with a single SAP Fiori elements application. The generated application can consist of just a list report, or a list report page with one or multiple object pages or a form entry object page.
 
 
 
@@ -27,7 +27,7 @@ Ensure the following prerequisites are met:
 
 ## Procedure
 
-1.  Launch the SAP Fiori tools generative AI using one of the following options:
+1.  Launch Joule using SAP Fiori tools through one of the following options:
 
     1.  Command Palette
 
@@ -45,7 +45,7 @@ Ensure the following prerequisites are met:
 
 
     > ### Note:  
-    > Once you’ve opened Joule's SAP Fiori tools generative AI, your query must be related to generating an SAP Fiori elements application – you can’t make any general requests to the AI assistant.
+    > Once you’ve opened Joule, your query must be related to generating an SAP Fiori elements application – you can’t make any general requests to the AI assistant.
 
 2.  Prepare your business requirements document for generating a new application. To get started, see [Example 1: Manage Contracts and Customer Information in the System](example-1-manage-contracts-and-customer-information-in-the-system-c1bccf2.md) and [Example 2: Display Customers with Related Contracts](example-2-display-customers-with-related-contracts-a6c978f.md).
 
@@ -60,11 +60,13 @@ Ensure the following prerequisites are met:
 
     Joule now checks your input against the list of features it supports and implements them.
 
-5.  Click *Show Result* to review the generated artifacts and, if they match your expectations, accept the changes to generate the project in your file system.
+5.  Click *Show Result* to review the generated artifacts.
 
-6.  To preview the generated application, launch the command palette and enter the command `Fiori: Preview Application`. Then choose the associated watch script for the generated application.
+6.  You can optionally select *Preview App* to launch a preview of the application in a browser window to help determine if it meets your expectations.
 
-    You can then adapt or enhance it with additional features using SAP Fiori tools or development tools of your choice.
+7.  If you are happy with the generated application, accept the changes by clicking the *Accept Files* button to move the project into your file system.
+
+8.  Once the project has been moved into your file system, you can launch the command palette and enter the command `Fiori: Preview Application`. Then choose the associated watch script for the new application.
 
 
 If your request does not contain any instructions for the specific supported feature, the generated app will either not include it, or it will be implemented at Joule's own discretion. For example, if Joule finds no explicit request for the filters in the list report, the app may contain the filter fields of Joules choice.
@@ -96,6 +98,8 @@ You can define the following features as requirements in your input:
 -   A single list report application
 
 -   A single application with a list report and one or multiple object pages
+
+-   A single application with the Form Entry Object Page floorplan
 
 
 
