@@ -128,6 +128,11 @@ Upload a `metadata XML` file that you want to use. Now, you can generate the app
 
 ## Connect to SAP Business Accelerator Hub
 
+> ### Caution:  
+> SAP Business Accelerator Hub has been deprecated from the Application Generator as a data source and will be removed in a future release. We strongly recommend that you use the Service Center in SAP Business Application Studio to generate applications if you intend to still use SAP Business Accelerator Hub.
+> 
+> For more information, see [Service Center](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/1e8ec75c9c784b51a91c7370f269ff98.html).
+
 When users don't have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support the development and should be replaced with a real one before going live.
 
 > ### Note:  
