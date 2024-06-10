@@ -19,17 +19,29 @@ This section provides information on how to connect your application with a data
 
     *Adding a new system*
 
-    1.  **Enter a system name** that you use to save the connection details for either an on-premise *SAP ABAP system* or SAP Business Technology Platform system.
-    2.  **Select a service key**.
+    1.  **Enter a system name** that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
+    2.  **Select the SAP ABAP system type**.
 
-        For the *SAP ABAP system* hosted in the SAP Business Technology Platform, you must provide a service key that contains the key information for the required *SAP ABAP system*. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
+        For the SAP ABAP system hosted in the SAP Business Technology Platform, you can choose from the following authentication types:
 
-        For more information on how to create a service key, please see [Create Service Keys Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cdf4f200db3e4c248fa67401937b2f78.html).
+        -   Service Key
+
+        -   Reentrance Ticket
+
+
+        If you choose Service Key authentication, you must provide a service key that contains the key information for the required SAP ABAP system. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
+
+        For more information about how to create a service key, see [Create Service Keys Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cdf4f200db3e4c248fa67401937b2f78.html).
+
+        If you choose Reentrance Ticket authentication, provide the URL to your SAP S/4HANA Cloud system and log in when the browser window appears.
+
+        > ### Note:  
+        > Authenticating with reentrance tickets requires SAP S/4HANA Cloud 2408 or higher.
 
         > ### Note:  
         > Once you have authenticated your user for the new system in the browser, SAP Fiori application generator shows you the list of OData services available for the user you’ve used to log in. Please see the *Service* dropdown with the title *Service \(for user \[<USERNAME\>\]\)*.
 
-        For an on-premise *SAP ABAP system*, you need to provide the system URL and optional client ID, along with the authentication details for that system if required.
+        For an on-premise SAP ABAP system, you need to provide the system URL and optional client ID, along with the authentication details for that system if required.
 
         > ### Example:  
         > https://someurl:12345, client: 010
