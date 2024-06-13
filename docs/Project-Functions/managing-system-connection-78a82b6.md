@@ -140,7 +140,7 @@ To create a new ABAP Environment on SAP BTP, perform the following steps:
         -   *Service Key*: copy and paste the service key of your chosen SAP BTP system
 
 
-    2.  Click *Test Connection*: an authentication page opens in the browser. If required, enter your SAP BTP system user email and password to log on. After successful authentication, go back to VS Code and verify the following:
+    2.  Click *Test Connection*.
 
         -   that the URL value has been filled in by the system
 
@@ -167,14 +167,11 @@ To create a new ABAP Environment on SAP BTP, perform the following steps:
         -   *URL*: the required ABAP system URL
 
 
-    2.  Click *Test Connection*. An authentication page opens in the browser. If required, enter your SAP BTP system user email and password to log on. After successful authentication, go back to VS Code and verify the following:
+    2.  Click *Test Connection*.
 
-        -   that the URL value has been filled in by the system
+        As a result, you’ll see if the system connection was successful and whether it supports OData V2 and/or OData V4 services. If the connection fails, you'll be asked to check the Output Tab for more details.
 
-        -   that the message *This SAP system connected successfully* is displayed
-
-
-    3.  Click *Save* and verify the following:
+    3.  After successful connection, click *Save* and verify the following:
 
         -   that the message *System information saved* is displayed
 

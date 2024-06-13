@@ -14,7 +14,7 @@ You can use Joule to kick-start your SAP Fiori development by directly translati
 
 Ensure the following prerequisites are met:
 
--   You have a subscription to SAP Build Code. For more information, see [What is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html).
+-   You have a subscription to SAP Build Code, or have signed up for [SAP Build Code Test Drive](https://developers.sap.com/mission.sap-build-code-test-drive.html?sap-outbound-id=4E44C2A19D38B160BF5539329FA7ECC83942C1AD). For more information, see [What is SAP Build Code](https://help.sap.com/docs/build_code/d0d8f5bfc3d640478854e6f4e7c7584a/504854f457cc4fbf9f79136dbc773618.html).
 
 -   You have created a dev space of type *Full-Stack Application Using Productivity Tools*.
 

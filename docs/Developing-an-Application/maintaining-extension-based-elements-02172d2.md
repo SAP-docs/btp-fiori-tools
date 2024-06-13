@@ -76,7 +76,7 @@ The custom column fragment and optional default controller code is written to th
 
 You can create a custom section as part of your *Object Page* using the *Page Editor*.
 
-1.  In the *Page Editor* outline view of you're *Object Page*, click the [\+\] icon on the *Sections* node. For `OData V4` select [Add Custom Section\] from the menu, for `OData V2` the selection will be prefilled.
+1.  In the *Page Editor* outline view of your *Object Page*, click the [\+\] icon on the *Sections* node. For `OData V4` select [Add Custom Section\] from the menu, for `OData V2` the selection will be prefilled.
 2.  Provide the following information:
     -   **Title** - the label of the custom section
     -   **View Type** - types are **View** or **Fragment** \(`OData V2` only\)
@@ -95,7 +95,7 @@ On pressing [Add\], the custom section fragment/view and/or controller code is w
 
 ## Adding Custom Action
 
-You've the ability to create a custom action on in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
+You can create a custom action in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
 
 1.  In the *Page Editor*, click the [\+\] icon on the *Actions* node and select [Add Custom Action\] from the menu.![Custom Actions](images/FIORI_TOOLS_CUSTOM_ACTION_9d8cc49.png)
 2.  Provide the following information:
