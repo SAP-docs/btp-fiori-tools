@@ -19,7 +19,16 @@ Ensure that the minimum system requirements for installing VS Code are met. For 
 
     You can download Node.js here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
-    > ### Note:  
+    > For Windows, we recommend installing Node.js using the prebuilt installer if possible, however, it requires administrator access. If this is not possible, perform the following setps:
+
+    **Installing Node.js prebuilt binaries \(Windows only\)**
+    1. Download the prebuilt binaries from https://nodejs.org/en/download/prebuilt-binaries
+       > if downloading the prebuilt binaries is blocked by your IT policies, then please reach out to your IT department and ask them to download the binaries for you
+    3. Extract the content of the downloaded zip to C:\Users\<your_user>\AppData\Local\Programs
+    4. Open "Edit Environment Variables for your user account"
+    5. Create `NODE_PATH` with value C:\Users\<your_user>\AppData\Local\Programs\<your_node_folder>
+    6. Add `%NODE_PATH%` to `PATH`
+    ###
     > For Mac OS, we don’t recommend installing Node.js from the executable download. It’s recommended to install Node.js with **[Home Brew](https://brew.sh/)**.
 
     **Installing Node.js with Home Brew \(Mac OS only\)**
@@ -90,6 +99,8 @@ To set up VS Code, you need to perform the following steps:
 
     > ### Note:  
     > To learn how to get started with VS Code, see [https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview).
+    > 
+    > **Windows**: VS Code provides both user and system level setups. If you do not have administrator rights, please chose the user level installation.
 
 2.  You must have a working knowledge of VS Code.
 
@@ -111,16 +122,21 @@ To set up VS Code, you need to perform the following steps:
 
 ## Install Extensions
 
-1.  Navigate to *VS Code* \> *Extensions*.
+1.  Start VSCode
+
+    > ### Note:
+    > In restricted IT environments, executing VSCode (or node) might be blocked by your IT department. Please contact your IT department and ask for an exception for both, VSCode and node.
+
+3.  Navigate to *VS Code* \> *Extensions*.
 
     For more information, see [Install Visual Studio Code extensions](https://code.visualstudio.com/learn/get-started/extensions).
 
-2.  Search for SAP Fiori tools and select *SAP Fiori tools - Extension Pack*.
+4.  Search for SAP Fiori tools and select *SAP Fiori tools - Extension Pack*.
 
     Alternatively, you can navigate to [SAP Fiori tools - Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack) and click [Install\].
 
-3.  Click [Install\].
-4.  Then, the SAP Fiori tools install the latest release of the following extensions:
+5.  Click [Install\].
+6.  Then, the SAP Fiori tools install the latest release of the following extensions:
 
     -   Application Wizard
     -   SAP Fiori Tools – Application Modeler
