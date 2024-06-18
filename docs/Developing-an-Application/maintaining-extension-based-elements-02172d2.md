@@ -17,10 +17,10 @@ You have the ability to create a custom column for your table in a *List Report*
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44__section_ur2_br3_wnb"/>
 
-## Custom Column \(OData V2 only\)
+## Custom Column \(OData V2 Only\)
 
 1.  In the *Page Editor* outline view next to the Columns header, click the [\+\] icon to add a new column.
-2.  Provide the following information
+2.  Provide the following information:
     -   **Column Key** - Key for the column
     -   **Header Text** - column title
     -   **ID** - unique ID is automatically created, but can be modified
@@ -41,16 +41,16 @@ You have the ability to create a custom column for your table in a *List Report*
 
 ![Custom Column](images/FIORI_TOOLS_CUSTOM_COLUMN_a723f6d.png)
 
-The custom column fragment and cell code is looked up and written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click [trash\] icon to delete a custom column.
+The custom column fragment and cell code are looked up and written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click [trash\] icon to delete a custom column.
 
 
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44__section_tnr_243_rsb"/>
 
-## Custom Column \(OData V4 only\)
+## Custom Column \(OData V4 Only\)
 
 1.  In the *Page Editor* outline view next to the Columns header, click the [\+\] icon to add a new column.
-2.  Provide the following information
+2.  Provide the following information:
 
     -   **Header Text**- column title
     -   **Select Column Fragment**
@@ -66,7 +66,7 @@ The custom column fragment and cell code is looked up and written to the project
     ![](images/FIORI_TOOLS_CUSTOM_COLUMN_V4_bbd04e3.png)
 
 
-The custom column fragment and optional default controller code is written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click [trash\] icon to delete a custom column.
+The custom column fragment and optional default controller code is written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom column.
 
 <a name="loiode514dafa2364693baeabbb40d564006"/>
 
@@ -76,18 +76,18 @@ The custom column fragment and optional default controller code is written to th
 
 You can create a custom section as part of your *Object Page* using the *Page Editor*.
 
-1.  In the *Page Editor* outline view of you're *Object Page*, click the [\+\] icon on the *Sections* node. For `OData V4` select [Add Custom Section\] from the menu, for `OData V2` the selection will be pre-filled.
-2.  Provide the following information
+1.  In the *Page Editor* outline view of your *Object Page*, click the [\+\] icon on the *Sections* node. For `OData V4` select [Add Custom Section\] from the menu, for `OData V2` the selection will be prefilled.
+2.  Provide the following information:
     -   **Title** - the label of the custom section
     -   **View Type** - types are **View** or **Fragment** \(`OData V2` only\)
     -   **Select Your Fragment/View**- either new or choose existing
-    -   **Fragment/View Name** - the file name of the artefact
+    -   **Fragment/View Name** - the file name of the artifact
     -   **Anchor Section** - select one of the existing sections in the *Object Page*
     -   **Placement** - before, after or replace \(`OData V2` only\)
     -   **Generate Event Handler** - Decide whether a demo controller should be created \(`OData V4` only\)
 
 
-On pressing [Add\] the custom section fragment/view and/or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click [trash icon\] to delete a custom section.
+On pressing [Add\], the custom section fragment/view and/or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom section.
 
 <a name="loio76374b198e514b39a96176094bb8aa1b"/>
 
@@ -95,7 +95,7 @@ On pressing [Add\] the custom section fragment/view and/or controller code is wr
 
 ## Adding Custom Action
 
-You've the ability to create a custom action on in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
+You can create a custom action in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
 
 1.  In the *Page Editor*, click the [\+\] icon on the *Actions* node and select [Add Custom Action\] from the menu.![Custom Actions](images/FIORI_TOOLS_CUSTOM_ACTION_9d8cc49.png)
 2.  Provide the following information:
@@ -110,7 +110,7 @@ You've the ability to create a custom action on in your *List Report* and *Objec
     -   **Required Selection** - Toggle if this is required or not.
 
 
-On pressing [Add\] the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click [trash icon\] to delete a custom action.
+On pressing [Add\], the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom action.
 
 > ### Note:  
 > This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96 or higher. See [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
@@ -132,11 +132,11 @@ You can create a custom view in your *List Report* and *Object Page* using the *
     -   **Key** - Unique tab identifier.
     -   **Label** - View title.
     -   **Select Your Fragment** - Enter new fragment or choose an existing one.
-    -   **Fragment Name** - The file name of the artefact.
+    -   **Fragment Name** - The file name of the artifact.
     -   **Generate Event Handler** - Decide whether a demo controller needs to be created.
 
 
-On pressing [Add\] the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click [trash icon\] to delete a custom view.
+On pressing [Add\], the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom view.
 
 > ### Note:  
 > This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96.29, 1.102.14 or higher. See [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).

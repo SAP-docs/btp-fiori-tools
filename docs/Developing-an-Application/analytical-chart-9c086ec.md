@@ -43,7 +43,7 @@ Perform the following steps to add an analytical chart to a *List Report*.
     This allows you to create a new **dynamic** measure and use it in the chart.
 
     > ### Note:  
-    > The technical name and the label are generated automatically . You can then adjust the generated label in the *Property Panel*.
+    > The technical name and the label are generated automatically. You can then adjust the generated label in the *Property Panel*.
 
 3.  Press [Add\].
 
@@ -55,7 +55,7 @@ The respective annotation and manifest changes are generated and basic chart is 
 
 ## Deleting Analytical Chart
 
-The *Analytical Chart* can be deleted by pressing the [delete\] icon on the layout node. This reverts the floor plan into a conventional *List Report* with a single table.
+The *Analytical Chart* can be deleted by pressing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) on the layout node. This reverts the floor plan into a conventional *List Report* with a single table.
 
 
 
@@ -69,7 +69,7 @@ When you generate a chart, only required properties are defined. To edit the bas
 
 ### Chart Type
 
-Chart type defines how the aggregated data in your entity are visualized in the application. Based on your data nature and your needs, choose one of the provided chart types to optimally visualize you data in the chart.
+Chart type defines how the aggregated data in your entity are vualized in the application. Based on your data nature and your needs, choose one of the provided chart types to optimally visualize you data in the chart.
 
 
 
@@ -91,20 +91,20 @@ Chart measures are the aggregated properties representing values of the chart. *
 
 When generating a chart, you choose just one measure. Afterwards, you can change it, assign a label for it and add additional measures if needed in the *Property Panel*.
 
-Each chart must have at least one measure set as default. It is used for displaying the chart data when the end user starts the application, unless it is defined differently in variant management. All the other measures defined for the entity are available to the end user on demand in chart preferences. The **Measures** property of the chart provides all the measures available for the entity the chart applies to. You can set any of them as default by switching the **Default** property on for the respective measure. You can change the sequence of the default measures.
+Each chart must have at least one measure set as default. It’sis used for displaying the chart data when the end user starts the application, unless it is defined differently in variant management. All the other measures defined for the entity are available to the end user on demand in chart preferences. The **Measures** property of the chart provides all the measures available for the entity the chart applies to. You can set any of them as default by switching the **Default** property on for the respective measure. You can change the sequence of the default measures.
 
 > ### Note:  
-> If a chart has both custom and transformation-based \(dynamic\) measures set as default, their sequence can't mixed due to the nature of the `UI.Chart` annotation.
+> If a chart has both custom and transformation-based \(dynamic\) measures set as default, their sequence can't be mixed due to the nature of the `UI.Chart` annotation.
 
 **Add Measure**
 
-You can add a new measure for the entity, press the [Add New Measure\] button and choose the aggregated property and supported aggregation method for it in the pop-up dialog. When you choose Apply, a new **dynamic** measure is generated for the chart entity and set as default in the chart. The technical name and the label are generated automatically . You can then adjust the generated label in the property panel.
+To add a new measure for the entity, press the [Add New Measure\] button and choose the aggregated property and supported aggregation method for it in the pop-up dialog. When you choose *Apply*, a new **dynamic** measure is generated for the chart entity and set as default in the chart. The technical name and the label are generated automatically. You can then adjust the generated label in the property panel.
 
 **Modify Measure**
 
 To change the **Default** property of a measure, set a different measure as default and switch off the **Default** property for the current one.
 
-**Define Measure Label** 
+**Define Measure Label**
 
 Measure label depends on the `Common.Label` or \(in CAP CDS\) `@title` annotation applied to the property used as a measure. If it'sn't defined, you can enter the text for it in the **`Label`** property displayed in the **Measure** row next to the **Property**. If it's already defined, you can update it. Removing the label text won’t delete any `@title` and `Common.Label` annotations defined for that property in the upper and lower layers.
 
@@ -119,7 +119,7 @@ Measure label depends on the `Common.Label` or \(in CAP CDS\) `@title` annotatio
 You can add additional measures to your chart if more than one direct property of the main entity is annotated as aggregatable. For that, press the [Add Measure\] button and choose the desired property.
 
 > ### Note:  
-> You can't add the same measure to the chart twice. If all the aggregatable properties are already used as chart measures, [Add Measure\] button is dabled.
+> You can't add the same measure to the chart twice. If all the aggregatable properties are already used as chart measures, [Add Measure\] button is disabled.
 
 You can change the sequence in which default measures are displayed in the *Analytical Chart*. For the, drag and drop the measure rows within the **Measures** property or use the [Move Up/Move Down\] icons in the measure row header.
 
@@ -131,7 +131,7 @@ You can delete any transformation-based measure as long as it's defined for the 
 
 ### Dimensions
 
-Chart dimensions are groupable properties categorizing the measures in the chart. When generating a chart, you choose just one dimension to be used by default. Afterwards, you can change it, assign a label and set additional dimensions as default if needed in the *Property Panel*. Dimensions property lists all the dimensions available for the entity the chart is applied to.
+Chart dimensions are groupable properties categorizing the measures in the chart. When generating a chart, you choose just one dimension to be used by default. Afterwards, you can change it, assign a label to it, and set additional dimensions as default if needed in the *Property Panel*. Dimensions property lists all the dimensions available for the entity the chart is applied to.
 
 Each chart must have at least one default dimension. It's used for categorizing the chart data when the end user starts the application, unless it defined differently in variant management. All the other dimensions defined for the entity are available to the end user on demand in chart preferences. The **Dimensions** property of the chart provides all the measures available for the entity the chart applies to. You can set any of them as default by switching on the **Default** property for the respective measure. You can change the sequence of the default measures.
 

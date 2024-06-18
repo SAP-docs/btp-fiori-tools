@@ -15,9 +15,9 @@ To add a Form section, perform the following steps:
 1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
 2.  Navigate to the section node in the outline and click the *Add* icon [\+\].
 
-    As a result, a drop-down menu displaying currently supported section types appears.
+    As a result, a dropdown menu displaying currently supported section types appears.
 
-3.  Select *Add Form Section* from the drop-down list.
+3.  Select *Add Form Section* from the dropdown list.
 
     A pop-up window *Add Form Section* appears with a field to provide a label for the section to be added.
 
@@ -68,10 +68,7 @@ To move the multiple sections to another position, perform the following steps:
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section node in the outline.
-2.  Click the *Delete* icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  
@@ -107,7 +104,7 @@ See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301
 
 ### Display on Demand
 
-`Display On Demand` switch is displayed in the *Property Panel* for the [Form Section](form-section-4102b3d.md) and [Identification Section](identification-section-b83f501.md) section if they are used as a sub section in a [Group Section](group-section-1894c47.md). Switch it on to hide the [Form Section](form-section-4102b3d.md) or [Identification Section](identification-section-b83f501.md) under the [Show More\] button by default. You need to press the [Show More\] button to make it visible. Switch it off to always display the section.
+`Display On Demand` switch is displayed in the *Property Panel* for the [Form Section](form-section-4102b3d.md) and [Identification Section](identification-section-b83f501.md) section if they are used as a sub section in a [Group Section](group-section-1894c47.md). Switch it on to hide the [Form Section](form-section-4102b3d.md) or [Identification Section](identification-section-b83f501.md) under the [Show More\] button by default. Press the [Show More\] button to make it visible. Switch it off to always display the section.
 
 > ### Note:  
 > By default this property is switched off. Once the user switches it on, an embedded annotation `UI.PartOfPreview` is added to the respective `UI.ReferenceFacet` record with boolean value `false`. The embedded annotation will be removed, if the property is switched off again. The embedded annotation is also removed, if the section is moved and not contained in a [Group Section](group-section-1894c47.md) after the move.

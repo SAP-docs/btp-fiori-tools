@@ -142,7 +142,7 @@ You can also append the following parameters to apply the required deployment co
 
 
 > ### Note:  
-> When using SAP Business Application Studio, you can right-click on the **mta** file and select [Build MTA Project\] to create the deployment artefact. However, this creates a deployment artefact that can't be deployed using the target
+> When using SAP Business Application Studio, you can right-click on the **mta** file and select [Build MTA Project\] to create the deployment artifact. However, this creates a deployment artifact that can't be deployed using the target
 > 
 > ```
 > npm run deploy
@@ -158,9 +158,9 @@ You can also append the following parameters to apply the required deployment co
 
 <a name="loio607014e278d941fda4440f92f4a324a6__section_tsv_blj_frb"/>
 
-## Deployment to ABAP system in test mode
+## Deployment to ABAP System in Test Mode
 
-If deployment target is an **ABAP system**, you can choose to deploy your application in **Test Mode**. **Test Mode** doesn’t deploy your application, but will show the results of operations \(create, read, update, delete\) that would be done in a real run for each file to help you make an informed decision. A successful **Test Mode** execution doesn't necessarily mean that your upload will be successful. As a developer you can use this test mode to make sure your configurations are correct \(including backend system\) at any point during your app development.
+If the deployment target is an **ABAP system**, you can choose to deploy your application in **Test Mode**. **Test Mode** doesn’t deploy your application, but will show the results of operations \(create, read, update, and delete\) that would be done in a real run for each file to help you make an informed decision. A successful **Test Mode** execution doesn't necessarily mean that your upload will be successful. As a developer, you can use this test mode to make sure that your configurations are correct \(including back-end system, package name, and transport request\) at any point during your app development.
 
 1.  Verify that your project's**`package.json`** contains **deploy-test** script:
 
@@ -170,5 +170,5 @@ If deployment target is an **ABAP system**, you can choose to deploy your applic
     > Make sure in your `package.json`, `@sap/ux-ui5-tooling` version is at least **1.3.5** or higher.
 
 2.  To update the `@sap/ux-ui5-tooling`, use command `npm i @sap/ux-ui5-tooling@latest --save-dev`.
-3.  In the Terminal, navigate to the project folder. To deploy in test-mode,from within the project folder run `npm run deploy-test` using the script in the package.json
+3.  In the Terminal, navigate to the project folder. To deploy in test-mode, from within the project folder run `npm run deploy-test` using the script in the package.json
 

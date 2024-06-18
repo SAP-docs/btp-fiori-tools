@@ -85,6 +85,7 @@ The XML annotation language server is based on the [official OASIS vocabularies]
 -   [Authorization](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Authorization.V1.html)
 -   [Capabilities](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Capabilities.V1.html)
 -   [Core](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.html)
+-   [JSON](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.JSON.V1.html)
 -   [Measures](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Measures.V1.html)
 -   [Repeatability](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Repeatability.V1.html)
 -   [Temporal](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Temporal.V1.html)
@@ -96,12 +97,16 @@ SAP
 -   [CodeList](https://sap.github.io/odata-vocabularies/vocabularies/CodeList.html)
 -   [Common](https://sap.github.io/odata-vocabularies/vocabularies/Common.html)
 -   [Communication](https://sap.github.io/odata-vocabularies/vocabularies/Communication.html)
+-   [Data Integration](https://sap.github.io/odata-vocabularies/vocabularies/DataIntegration.html)
+-   [Direct-Edit](https://sap.github.io/odata-vocabularies/vocabularies/DirectEdit.html)
 -   [Graph](https://sap.github.io/odata-vocabularies/vocabularies/Graph.html)
 -   [Hierarchy](https://sap.github.io/odata-vocabularies/vocabularies/Hierarchy.html)
--   [UI](https://sap.github.io/odata-vocabularies/vocabularies/UI.html)
+-   [HTML5](https://sap.github.io/odata-vocabularies/vocabularies/HTML5.html)
 -   [ODM](https://sap.github.io/odata-vocabularies/vocabularies/ODM.html)
+-   [PDF](https://sap.github.io/odata-vocabularies/vocabularies/PDF.html)
 -   [Personal Data](https://sap.github.io/odata-vocabularies/vocabularies/PersonalData.html)
 -   [Session](https://sap.github.io/odata-vocabularies/vocabularies/Session.html)
+-   [UI](https://sap.github.io/odata-vocabularies/vocabularies/UI.html)
 
 
 

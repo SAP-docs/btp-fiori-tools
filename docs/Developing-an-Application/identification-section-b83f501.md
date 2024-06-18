@@ -66,10 +66,7 @@ To move the multiple sections to another position, perform the following steps:
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section node in the outline.
-2.  Click the *Delete* icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  

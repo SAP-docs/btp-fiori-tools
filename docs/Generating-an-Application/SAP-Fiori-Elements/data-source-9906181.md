@@ -19,17 +19,29 @@ This section provides information on how to connect your application with a data
 
     *Adding a new system*
 
-    1.  **Enter a system name** that you use to save the connection details for either an on-premise *SAP ABAP system* or SAP Business Technology Platform system.
-    2.  **Select a service key**.
+    1.  **Enter a system name** that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
+    2.  **Select the SAP ABAP system type**.
 
-        For the *SAP ABAP system* hosted in the SAP Business Technology Platform, you must provide a service key that contains the key information for the required *SAP ABAP system*. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
+        For the SAP ABAP system hosted in the SAP Business Technology Platform, you can choose from the following authentication types:
 
-        For more information on how to create a service key, please see [Create Service Keys Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cdf4f200db3e4c248fa67401937b2f78.html).
+        -   Service Key
+
+        -   Reentrance Ticket
+
+
+        If you choose Service Key authentication, you must provide a service key that contains the key information for the required SAP ABAP system. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
+
+        For more information about how to create a service key, see [Create Service Keys Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cdf4f200db3e4c248fa67401937b2f78.html).
+
+        If you choose Reentrance Ticket authentication, provide the URL to your SAP S/4HANA Cloud system and log in when the browser window appears.
+
+        > ### Note:  
+        > Authenticating with reentrance tickets requires SAP S/4HANA Cloud 2408 or higher.
 
         > ### Note:  
         > Once you have authenticated your user for the new system in the browser, SAP Fiori application generator shows you the list of OData services available for the user you’ve used to log in. Please see the *Service* dropdown with the title *Service \(for user \[<USERNAME\>\]\)*.
 
-        For an on-premise *SAP ABAP system*, you need to provide the system URL and optional client ID, along with the authentication details for that system if required.
+        For an on-premise SAP ABAP system, you need to provide the system URL and optional client ID, along with the authentication details for that system if required.
 
         > ### Example:  
         > https://someurl:12345, client: 010
@@ -128,6 +140,11 @@ Upload a `metadata XML` file that you want to use. Now, you can generate the app
 
 ## Connect to SAP Business Accelerator Hub
 
+> ### Caution:  
+> SAP Business Accelerator Hub has been deprecated from the Application Generator as a data source and will be removed in a future release. We strongly recommend that you use the Service Center in SAP Business Application Studio to generate applications if you intend to still use SAP Business Accelerator Hub.
+> 
+> For more information, see [Service Center](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/1e8ec75c9c784b51a91c7370f269ff98.html).
+
 When users don't have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support the development and should be replaced with a real one before going live.
 
 > ### Note:  
@@ -137,6 +154,9 @@ When users don't have their data source available, they can generate an applicat
 -   When the SAP Business Accelerator Hub option is selected, a list of predefined services relevant to different industries appears. Select a service that you want to generate an application with. For example, Just-In-Time Calls, Transaction Classifications, Content, Request of Quotation, and more.
 -   Once the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
 -   Fill in the fields and click *Next* to proceed with the application generation.
+
+> ### Caution:  
+> SAP Business Accelerator Hub services are not intended for use with SAP Fiori UI development.
 
 > ### Note:  
 > It is not recommended to deploy applications that use the SAP Business Accelerator Hub, as this is a sandbox data source and is intended for local development only. See [Run Your HTML5 Application with the SAP Business Accelerator Hub](https://help.sap.com/docs/bas/developing-html5-application/run-your-html5-application-with-sap-api-business-hub), for more details on running your application with SAP Business Accelerator Hub.
@@ -180,8 +200,12 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Node.js Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
 3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
+
+    > ### Note:  
+    > If the generator cannot find a major version of @sap/CDS in your workspace – either globally or as part of the project – that matches the version specified in your CAP project, then you won't be permitted to generate your application because the generated application would be using an invalid @sap/CDS version.
+
 4.  In the *OData service* drop-down list, select a service, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
 
@@ -236,8 +260,8 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Java Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*.
-3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local**CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
+3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
 4.  In the *OData service* drop-down list, select a service, for example, CatalogService, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
 
@@ -263,6 +287,6 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
     > ### Note:  
     > You can check the terminal output to see the username and password credentials to be used.
 
-    The SAP Fiori Launchpad sandbox with a newly created application appears.
+    The SAP Fiori launchpad sandbox with a newly created application appears.
 
 

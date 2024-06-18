@@ -15,14 +15,10 @@ It is possible to create configuration required to run the application in an SAP
 
 Semantic Object
 
-
-
 </td>
 <td valign="top">
 
 name<unique\>
-
-
 
 </td>
 </tr>
@@ -31,14 +27,10 @@ name<unique\>
 
 Action
 
-
-
 </td>
 <td valign="top">
 
 display
-
-
 
 </td>
 </tr>
@@ -47,14 +39,10 @@ display
 
 Title
 
-
-
 </td>
 <td valign="top">
 
 Title of an application
-
-
 
 </td>
 </tr>
@@ -63,14 +51,10 @@ Title of an application
 
 Subtitle \(Optional\)
 
-
-
 </td>
 <td valign="top">
 
 Subtitle to be used by the tile
-
-
 
 </td>
 </tr>

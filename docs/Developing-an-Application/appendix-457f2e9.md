@@ -377,7 +377,7 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
 
     -   Repeat to sort by additional properties \(columns\).
 
-        You can change the sequence of properties to sort by with drag-and-drop or by pressing the up and down icons in the *Sort Order* table row. You can delete the sort property by pressing the *Delete* icon in the *Sort Order* table row.
+        You can change the sequence of properties to sort by with drag-and-drop or by pressing the up and down icons in the *Sort Order* table row. You can delete the sort property by pressing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) in the *Sort Order* table row.
 
 
 
@@ -402,5 +402,5 @@ These annotations map to the *Value Help* properties as follows:
 > To edit previously selected properties, click [Edit properties for Value Help\].
 
 > ### Note:  
-> It is possible that several value help variants are manually defined for your application in addition to the default one. You cannot re-define or update such additional value helps with the *Page Editor*, but you can recognise they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
+> It’s possible that several value help variants are manually defined for your application in addition to the default one. You can’t re or update such additional value helps with the *Page Editor*, but you can redefinecognize they’re already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` aren’t supported.
 

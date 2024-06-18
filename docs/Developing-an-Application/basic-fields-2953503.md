@@ -10,7 +10,7 @@
 
 To add a new field to an existing section, perform the following steps:
 
-1.  Expand the required section and navigate your pointer to the field layer .
+1.  Expand the required section and navigate your pointer to the field layer.
 2.  Click the plus icon [\+\] to open the *Add Fields* pop-up window.
 3.  In the *Add Fields* pop-up window, search for or select one or several fields from the drop-down menu.
 4.  Click *Add* to add new fields to the Form section.
@@ -75,9 +75,9 @@ To move the multiple fields to another position, perform the following steps:
 
 To delete the fields, perform the following steps:
 
-1.  Expand the required section and navigate your pointer to the field layer .
-2.  Click the [Delete\] icon to open the *Delete Confirmation* pop-up window.
-3.  Click [Delete\] to confirm the action.
+1.  Expand the required section and navigate your pointer to the field layer.
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+3.  Click *Delete* to confirm the action.
 
     > ### Note:  
     > During deletion of the field, `UI.DataField` record is removed from the `UI.FieldGroup` annotation. The annotations applied to the entity properties aren't deleted.
@@ -136,14 +136,10 @@ The following options are displayed in the restriction value drop-down menu:
 
 Option
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -152,14 +148,10 @@ Description
 
 *None*
 
-
-
 </td>
 <td valign="top">
 
 No annotations are applied. Therefore, this field by default is considered optional.
-
-
 
 </td>
 </tr>
@@ -168,14 +160,10 @@ No annotations are applied. Therefore, this field by default is considered optio
 
 *Optional*
 
-
-
 </td>
 <td valign="top">
 
 This field can be left empty, no obligatory data input is required.
-
-
 
 </td>
 </tr>
@@ -184,14 +172,10 @@ This field can be left empty, no obligatory data input is required.
 
 *Mandatory* 
 
-
-
 </td>
 <td valign="top">
 
 This field value must be provided, can't be empty.
-
-
 
 </td>
 </tr>
@@ -200,14 +184,10 @@ This field value must be provided, can't be empty.
 
 *ReadOnly*
 
-
-
 </td>
 <td valign="top">
 
 This field is displayed as read-only data with no editing allowed.
-
-
 
 </td>
 </tr>
@@ -217,5 +197,5 @@ This field is displayed as read-only data with no editing allowed.
 > When the Object Page entity isn't draft enabled \(read-only\), Display Type and Restrictions fields aren't available in the property panel as the fields aren't editable and are only used for displaying the value.
 
 > ### Note:  
-> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* isn't available. If the backend restriction value can't be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex*\(base layer\).
+> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* isn't available. If the back-end restriction value can't be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex*\(base layer\).
 

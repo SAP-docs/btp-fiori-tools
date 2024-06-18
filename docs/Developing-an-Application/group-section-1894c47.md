@@ -73,11 +73,8 @@ For more information, see [Move Basic Fields](basic-fields-2953503.md#loio295350
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section layer.
-2.  Click the [Delete\] icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
-3.  Click [Delete\] to confirm the action.
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+3.  Click *Delete* to confirm the action.
 
 > ### Note:  
 > During deletion of the group section, the respective `UI.CollectionFacet` record is deleted from the `UI.Facets` annotation along with all its content.

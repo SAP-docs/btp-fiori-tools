@@ -14,27 +14,27 @@ You can launch guided development in the following ways:
 
 
 
-### Using Command Palette
+### Using the Command Palette
 
 -   Open *Command Palette* \([CMD\]/[CTRL\] + [Shift\] + [P\]\).
 -   Start typing *guided development*.
 -   Select *Fiori: Open Guided Development* or *Fiori: Open Guided Development to the Side*.
 -   Select SAP Fiori elements project from your workspace.
 
-The *Fiori: Open Guided Development* option opens guided development in a new tab. The *Fiori: Open Guided Development to the Side* option opens guided development to the side of the current file in another column.
+The *Fiori: Open Guided Development* option opens guided development in a new tab and in the selected editor region in case the editor is split into multiple regions. The *Fiori: Open Guided Development to the Side* option opens guided development to the side of the current file in another column.
 
 
 
-### Using folder context menu
+### Using the Folder Context Menu
 
-If you already have a SAP Fiori elements project in your current workspace, you can right-click its folder and select *SAP Fiori tools - Open Guided Development*. Then, guided development opens to the side of the current file in another column.
+If you already have an SAP Fiori elements project in your current workspace, you can right-click its folder and select *SAP Fiori tools - Open Guided Development*. Then, guided development opens to the side of the current file in another column.
 
 > ### Note:  
-> If you don’t have any SAP Fiori elements project in your workspace, you can still open guided development by using *Command Palette*. It’s possible to check the available guides descriptions and code samples, while interactive features are disabled in this case.
+> If you don’t have any SAP Fiori elements project in your workspace, you can still open guided development by using the *Command Palette*. It’s possible to check the available guides descriptions and code samples, while interactive features are disabled in this case.
 
 
 
-### Working with projects
+### Working with Projects
 
 Guided development can only work with one project at a time. The name of this project is displayed on the tab header next to guided development, and this project provides all project-specific data used in the guides.
 
@@ -52,7 +52,7 @@ The project-specific data contains the following components:
     > In guided development, you can add annotations from services other than the mainService.
 
 
-**To select or change a project.**
+To select or change a project, proceed as follows:
 
 1.  Click *Select Project* on the left side of the toolbar.
 2.  Select a project from the *Project* list.
@@ -60,7 +60,7 @@ The project-specific data contains the following components:
     ![Select Project](images/SelectProject_9ea63e4.png)
 
 
-In some cases, we recommend that you refresh **guided development**.
+We recommend that you refresh **guided development** in the cases given in the following table:
 
 
 <table>
@@ -69,14 +69,10 @@ In some cases, we recommend that you refresh **guided development**.
 
 When
 
-
-
 </th>
 <th valign="top">
 
 How
-
-
 
 </th>
 </tr>
@@ -85,30 +81,22 @@ How
 
 When a new project is added to the workspace.
 
-
-
 </td>
 <td valign="top">
 
 Click the “Refresh” icon inside the Project list.
-
-
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-When something in the current project is changed outside guided development, such as a new page added, or an underlying service is updated.
-
-
+When something in the current project is changed outside guided development, such as a new page is added, or an underlying service is updated.
 
 </td>
 <td valign="top">
 
 Click the “Refresh” icon on the toolbar next to the Project list.
-
-
 
 </td>
 </tr>

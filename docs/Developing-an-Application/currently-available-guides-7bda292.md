@@ -13,14 +13,10 @@ Below is the list of guides currently available in guided development.
 
 Guide Name
 
-
-
 </th>
 <th valign="top" align="center">
 
 Type
-
-
 
 </th>
 </tr>
@@ -28,8 +24,6 @@ Type
 <td valign="top">
 
 Add a chart building block
-
-
 
 </td>
 <td valign="top" align="center">
@@ -47,8 +41,6 @@ Add a chart building block
 
 Add a custom action to a page using extensions
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -65,8 +57,6 @@ Add a custom action to a page using extensions
 
 Add a custom card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -80,8 +70,6 @@ Add a custom card to an overview page
 <td valign="top">
 
 Add a custom filter to the filter bar
-
-
 
 </td>
 <td valign="top" align="center">
@@ -98,8 +86,6 @@ Add a custom filter to the filter bar
 
 Add a custom section to an object page using extensions
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -113,9 +99,7 @@ Add a custom section to an object page using extensions
 <tr>
 <td valign="top">
 
-Add a field group as a section to a page
-
-
+Add a field group to an object page
 
 </td>
 <td valign="top" align="center">
@@ -133,8 +117,6 @@ Add a field group as a section to a page
 
 Add a filter bar building block
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -147,9 +129,7 @@ Add a filter bar building block
 <tr>
 <td valign="top">
 
-Add a header facet using data points
-
-
+Add a header facet to an object page using data points
 
 </td>
 <td valign="top" align="center">
@@ -167,8 +147,6 @@ Add a header facet using data points
 
 Add a link list card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -183,8 +161,6 @@ Add a link list card to an overview page
 
 Add a list card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -197,9 +173,7 @@ Add a list card to an overview page
 <tr>
 <td valign="top">
 
-Add a new column as a contact view
-
-
+Add a new contact view column to a table
 
 </td>
 <td valign="top" align="center">
@@ -214,9 +188,7 @@ Add a new column as a contact view
 <tr>
 <td valign="top">
 
-Add a new section to a page
-
-
+Add a new section to an object page
 
 </td>
 <td valign="top" align="center">
@@ -232,9 +204,7 @@ Add a new section to a page
 <tr>
 <td valign="top">
 
-Add a new visual filter
-
-
+Add a new visual filter to the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -250,8 +220,6 @@ Add a new visual filter
 <td valign="top">
 
 Add a progress indicator column to a table
-
-
 
 </td>
 <td valign="top" align="center">
@@ -269,8 +237,6 @@ Add a progress indicator column to a table
 
 Add a rating indicator column to a table
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -287,8 +253,6 @@ Add a rating indicator column to a table
 
 Add a smart chart facet to an object page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -302,9 +266,7 @@ Add a smart chart facet to an object page
 <tr>
 <td valign="top">
 
-Add a smart micro chart to a table
-
-
+Add a smart micro chart column to a table
 
 </td>
 <td valign="top" align="center">
@@ -322,8 +284,6 @@ Add a smart micro chart to a table
 
 Add a stack card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -337,8 +297,6 @@ Add a stack card to an overview page
 <td valign="top">
 
 Add a static link list card to an overview page
-
-
 
 </td>
 <td valign="top" align="center">
@@ -354,8 +312,6 @@ Add a static link list card to an overview page
 
 Add a table card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -369,8 +325,6 @@ Add a table card to an overview page
 <td valign="top">
 
 Add a table building block
-
-
 
 </td>
 <td valign="top" align="center">
@@ -387,8 +341,6 @@ Add a table building block
 
 Add an action button
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -401,9 +353,7 @@ Add an action button
 <tr>
 <td valign="top">
 
-Add a value help to a field
-
-
+Add a value help to a field in the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -420,8 +370,6 @@ Add a value help to a field
 
 Add an analytical card to an overview page
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -435,8 +383,6 @@ Add an analytical card to an overview page
 <td valign="top">
 
 Add and edit filter fields
-
-
 
 </td>
 <td valign="top" align="center">
@@ -454,8 +400,6 @@ Add and edit filter fields
 
 Add and edit table columns
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -472,8 +416,6 @@ Add and edit table columns
 
 Add custom columns to the table using extensions
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -486,9 +428,22 @@ Add custom columns to the table using extensions
 <tr>
 <td valign="top">
 
-Add interactive chart
+Add an interactive chart to a list page
+
+</td>
+<td valign="top" align="center">
+
+-   XML
+-   CAP CDS
 
 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add a key performance indicator \(KPI\) tag to a page
 
 </td>
 <td valign="top" align="center">
@@ -505,12 +460,11 @@ Add interactive chart
 
 Add multiple fields to a column in responsive tables
 
-
-
 </td>
 <td valign="top" align="center">
 
 -   XML
+-   CAP CDS
 
 
 
@@ -521,12 +475,12 @@ Add multiple fields to a column in responsive tables
 
 Add semantic colors to visual filters
 
-
-
 </td>
 <td valign="top" align="center">
 
--   XML
+-   XML OData V2
+-   XML OData V4
+-   CAP CDS
 
 
 
@@ -535,9 +489,7 @@ Add semantic colors to visual filters
 <tr>
 <td valign="top">
 
-Add semantic highlights to line items in tables based on their criticality
-
-
+Add semantic highlights to line items in a table
 
 </td>
 <td valign="top" align="center">
@@ -552,9 +504,7 @@ Add semantic highlights to line items in tables based on their criticality
 <tr>
 <td valign="top">
 
-Add status colors and icons for a column
-
-
+Add status colors and icons to a column in a table
 
 </td>
 <td valign="top" align="center">
@@ -572,8 +522,6 @@ Add status colors and icons for a column
 
 Configure flexible column layout
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -588,8 +536,6 @@ Configure flexible column layout
 
 Configure inbound navigation
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -602,9 +548,7 @@ Configure inbound navigation
 <tr>
 <td valign="top">
 
-Configure multiple selection in tables
-
-
+Configure multiple selection for a table
 
 </td>
 <td valign="top" align="center">
@@ -620,14 +564,13 @@ Configure multiple selection in tables
 <tr>
 <td valign="top">
 
-Configure multiple views
-
-
+Configure multiple views for tables
 
 </td>
 <td valign="top" align="center">
 
--   XML
+-   XML OData V2
+-   XML OData V4
 -   CAP CDS
 
 
@@ -638,8 +581,6 @@ Configure multiple views
 <td valign="top">
 
 Configure mass edit via dialog
-
-
 
 </td>
 <td valign="top" align="center">
@@ -654,8 +595,6 @@ Configure mass edit via dialog
 <td valign="top">
 
 Configure object page header
-
-
 
 </td>
 <td valign="top" align="center">
@@ -673,8 +612,6 @@ Configure object page header
 
 Configure outbound navigation
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -689,8 +626,6 @@ Configure outbound navigation
 
 Configure selection of all rows in a table
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -704,8 +639,6 @@ Configure selection of all rows in a table
 <td valign="top">
 
 Configure side effects
-
-
 
 </td>
 <td valign="top" align="center">
@@ -722,8 +655,6 @@ Configure side effects
 
 Configure spreadsheet export
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -736,9 +667,7 @@ Configure spreadsheet export
 <tr>
 <td valign="top">
 
-Configure variant management
-
-
+Configure variant management for controls and pages
 
 </td>
 <td valign="top" align="center">
@@ -755,8 +684,6 @@ Configure variant management
 
 Configure default grouping in a table
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -771,17 +698,28 @@ Configure default grouping in a table
 <tr>
 <td valign="top">
 
-Create annotations for Key Performance Indicator \(KPI\) tags
-
-
+Configure auto load for a table
 
 </td>
 <td valign="top" align="center">
 
--   XML
--   CAP CDS
+OData V2
 
+OData V4
 
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Configure table type
+
+</td>
+<td valign="top" align="center">
+
+OData V2
+
+OData V4
 
 </td>
 </tr>
@@ -789,8 +727,6 @@ Create annotations for Key Performance Indicator \(KPI\) tags
 <td valign="top">
 
 Define a filter facet
-
-
 
 </td>
 <td valign="top" align="center">
@@ -806,8 +742,6 @@ Define a filter facet
 
 Enable a Show Related Apps button
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -821,8 +755,6 @@ Enable a Show Related Apps button
 <td valign="top">
 
 Enable condensed table layout
-
-
 
 </td>
 <td valign="top" align="center">
@@ -838,8 +770,6 @@ Enable condensed table layout
 
 Enable data label in analytical charts
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -853,8 +783,6 @@ Enable data label in analytical charts
 <td valign="top">
 
 Enable data label in smart charts and KPI cards
-
-
 
 </td>
 <td valign="top" align="center">
@@ -870,8 +798,6 @@ Enable data label in smart charts and KPI cards
 
 Enable draft toggle buttons
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -885,8 +811,6 @@ Enable draft toggle buttons
 <td valign="top">
 
 Enable inline creation of table entries
-
-
 
 </td>
 <td valign="top" align="center">
@@ -902,8 +826,6 @@ Enable inline creation of table entries
 
 Enable object creation in a table via dialog
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -918,8 +840,6 @@ Enable object creation in a table via dialog
 
 Enable semantic date range on smart filter bar
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -932,26 +852,7 @@ Enable semantic date range on smart filter bar
 <tr>
 <td valign="top">
 
-Enable table to auto load data
-
-
-
-</td>
-<td valign="top" align="center">
-
--   OData V2
--   OData V4
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Extend forms in sections
-
-
 
 </td>
 <td valign="top" align="center">
@@ -967,10 +868,8 @@ Extend forms in sections
 
 Extend object page headers using extensions
 
-
-
 </td>
-<td valign="top">
+<td valign="top" align="center">
 
 -   Extension Point
 
@@ -981,25 +880,7 @@ Extend object page headers using extensions
 <tr>
 <td valign="top">
 
-Reorder columns in a table
-
-
-
-</td>
-<td valign="top" align="center">
-
--   XML
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Set default filter values
-
-
+Set default filter values for the filter bar
 
 </td>
 <td valign="top" align="center">
@@ -1016,8 +897,6 @@ Set default filter values
 
 Set selection limit for tables
 
-
-
 </td>
 <td valign="top" align="center">
 
@@ -1030,26 +909,7 @@ Set selection limit for tables
 <tr>
 <td valign="top">
 
-Set the table type of tables
-
-
-
-</td>
-<td valign="top" align="center">
-
--   OData V2
--   OData V4
-
-
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
 Specify layout for the card container
-
-
 
 </td>
 <td valign="top" align="center">
@@ -1064,8 +924,6 @@ Specify layout for the card container
 <td valign="top">
 
 Specify refresh interval for cards
-
-
 
 </td>
 <td valign="top" align="center">

@@ -6,7 +6,7 @@ SAP Fiori tools simplifies the development of SAP Fiori elements applications by
 
 The SAP Fiori tools extensions help you create applications, visualize navigation, automatically generate code, and more. Used in combination with SAP Fiori elements, these extensions can increase your development productivity, ensure the consistency of experience between applications, and help you build a scalable experience. SAP Fiori tools includes the following extensions:
 
--   [**Application Wizard**](../Generating-an-Application/SAP-Fiori-Elements/sap-fiori-elements-1488469.md). A wizard-style approach to generate the provided SAP Fiori elements and SAP Fiori freestyle templates.
+-   [**Application Wizard**](../Generating-an-Application/SAP-Fiori-Elements/sap-fiori-elements-1488469.md). A wizard-style approach to generate the provided SAP Fiori elements and freestyle SAPUI5 templates.
 -   [**SAP Fiori Tools – Application Modeler**](../Developing-an-Application/developing-an-application-a9c0043.md). Access to a visualization of the application pages, navigation, and service entities. You can add new navigation and pages, delete pages, and navigate to corresponding editing tools. The following features are part of this extension:
     -   [Page Editor](../Developing-an-Application/configure-page-elements-047507c.md)
     -   [Page Map](../Developing-an-Application/define-application-structure-bae38e6.md)
@@ -44,5 +44,5 @@ SAP Fiori tools is available in two IDEs.
 -   [Visual Studio Code](visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280)
 
 > ### Caution:  
-> Currently, SAP Fiori tools supports the development of SAP Fiori elements and SAP Fiori freestyle applications with the minimum SAPUI5 versions of 1.65 or higher.
+> Currently, SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with the minimum SAPUI5 versions of 1.65 or higher.
 

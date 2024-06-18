@@ -46,28 +46,20 @@ The application reload middleware does not require any configuration parameters.
 
 Parameter
 
-
-
 </th>
 <th valign="top">
 
 Type
-
-
 
 </th>
 <th valign="top">
 
 Default value
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -76,28 +68,20 @@ Description
 
 path
 
-
-
 </td>
 <td valign="top">
 
 `<string>`
-
-
 
 </td>
 <td valign="top">
 
 `webapp`
 
-
-
 </td>
 <td valign="top">
 
 Path to be watched. By default, the standard SAPUI5 `webapp` folder is used.
-
-
 
 </td>
 </tr>
@@ -106,28 +90,20 @@ Path to be watched. By default, the standard SAPUI5 `webapp` folder is used.
 
 ext
 
-
-
 </td>
 <td valign="top">
 
 `<string>`
-
-
 
 </td>
 <td valign="top">
 
 `html, js, json, xml, properties, change`
 
-
-
 </td>
 <td valign="top">
 
 Change this parameter to select a custom set of file extensions that are to be watched.
-
-
 
 </td>
 </tr>
@@ -136,28 +112,20 @@ Change this parameter to select a custom set of file extensions that are to be w
 
 port
 
-
-
 </td>
 <td valign="top">
 
 `<int>`
-
-
 
 </td>
 <td valign="top">
 
 `35729`
 
-
-
 </td>
 <td valign="top">
 
 Port to be used to communicate file system changes.
-
-
 
 </td>
 </tr>
@@ -166,28 +134,20 @@ Port to be used to communicate file system changes.
 
 debug
 
-
-
 </td>
 <td valign="top">
 
 `<boolean>`
-
-
 
 </td>
 <td valign="top">
 
 `false`
 
-
-
 </td>
 <td valign="top">
 
 Set this parameter to get more log information.
-
-
 
 </td>
 </tr>

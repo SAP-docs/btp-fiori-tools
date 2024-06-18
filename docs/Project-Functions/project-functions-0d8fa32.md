@@ -4,6 +4,7 @@
 
 The following project functions are available when using SAP Fiori tools:
 
+-   [Information Panel](information-panel-a9a6c4b.md)
 -   [Application Information](application-information-c3e0989.md)
 -   [Reuse Library Support](reuse-library-support-6e99fbb.md)
 -   [Data Editor](data-editor-18e43b5.md)

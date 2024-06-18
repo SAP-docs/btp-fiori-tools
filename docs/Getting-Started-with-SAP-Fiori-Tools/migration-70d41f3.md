@@ -7,10 +7,10 @@ SAP Fiori tools provide a migration utility to help move your SAP Fiori projects
 Some of the key points for migration:
 
 -   Projects cloned or imported into the workspace are auto-detected for migration.
--   The migration tool supports SAP Fiori elements, SAP Fiori freestyle, SAPUI5Adaptation Projects, and SAPUI5 Extensibility.
+-   The migration tool supports SAP Fiori elements, freestyle SAPUI5, SAPUI5 Adaptation Projects, and SAPUI5 Extensibility.
 -   Migration tools allow the migration of multiple projects at once.
 -   Projects that have been migrated don't update any deployment configuration that was already defined. Please run `npm run deploy-config` after migration to configure the migrated application for deployment.
--   A project must have the main data source specified in the `manifest.json` file.
+-   A project must have the main data source specified in the `manifest.appdescr_variant` file.
 
 For more information about extensibility, please see [Extending an SAP Fiori Application](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application).
 
@@ -24,7 +24,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
 -   Ensure that your SAP Fiori project is running as expected in SAP SAP Web IDE and belongs to the supported project types:
     -   SAP Fiori elements V2.
     -   SAP Fiori elements V4.
-    -   SAP Fiori freestyle.
+    -   freestyle SAPUI5.
     -   Extension project.
 
 
@@ -69,15 +69,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <th valign="top">
 
     Name
-
-
     
     </th>
     <th valign="top">
 
     Description
-
-
     
     </th>
     </tr>
@@ -85,15 +81,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     Application Identifier
-
-
     
     </td>
     <td valign="top">
     
     The identifier of the project from the `manifest.json` or `pom.xml`.
-
-
     
     </td>
     </tr>
@@ -101,15 +93,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     Project Path
-
-
     
     </td>
     <td valign="top">
     
     The file path to the location of the project.
-
-
     
     </td>
     </tr>
@@ -117,15 +105,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     SAP System
-
-
     
     </td>
     <td valign="top">
     
     A dropdown detailing the SAP system that should be used in migration. The dropdown lists all the saved systems in VS Code or all the destinations available in SAP Business Application Studio. In SAP Business Application Studio, an entry is preselected if the destination name found in `neo-app.json` matches exactly with a destination available to the user in their subaccount. Selecting an SAP System from the dropdown sets the hostname and client automatically.
-
-
     
     </td>
     </tr>
@@ -133,15 +117,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     Destination
-
-
     
     </td>
     <td valign="top">
     
     A free-text field that by default contains the system name from the project being migrated. It should default to the destination from the source project `neo-app.json`. Destination is only used by SAP Fiori tools in SAP Business Application Studio and not in VS Code. To allow a project to be compatible, please provide a Destination and Hostname that is accessible to both. Use a destination for the front-end Server that has SAPUI5 libraries installed rather than connecting to the back-end OData server directly.
-
-
     
     </td>
     </tr>
@@ -149,15 +129,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     Hostname
-
-
     
     </td>
     <td valign="top">
     
     An input box detailing the back-end hostname to be used in migration. Should be a valid **URL** or blank. This hostname is only used by SAP Fiori tools in VS Code.
-
-
     
     </td>
     </tr>
@@ -165,15 +141,11 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     SAP Client
-
-
     
     </td>
     <td valign="top">
     
     An optional numeric field detailing the SAP client to be used in migration. Should be provided in case the client isn’t the system default.
-
-
     
     </td>
     </tr>
@@ -181,8 +153,6 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     <td valign="top">
     
     SAPUI5 Version
-
-
     
     </td>
     <td valign="top">
@@ -225,14 +195,10 @@ The migration process modifies several files in your existing project. The follo
 
 Name
 
-
-
 </th>
 <th valign="top">
 
 Description
-
-
 
 </th>
 </tr>
@@ -241,14 +207,10 @@ Description
 
 `.gitignore`
 
-
-
 </td>
 <td valign="top">
 
 A new file to be added with the build artifacts and libraries ignored.
-
-
 
 </td>
 </tr>
@@ -257,14 +219,10 @@ A new file to be added with the build artifacts and libraries ignored.
 
 `package-lock.json`
 
-
-
 </td>
 <td valign="top">
 
 A file deleted and re-created during migration to reflect updated libraries.
-
-
 
 </td>
 </tr>
@@ -272,8 +230,6 @@ A file deleted and re-created during migration to reflect updated libraries.
 <td valign="top">
 
 `package.json`
-
-
 
 </td>
 <td valign="top">
@@ -291,14 +247,10 @@ A file deleted and re-created during migration to reflect updated libraries.
 
 `ui5-local.yaml`
 
-
-
 </td>
 <td valign="top">
 
 A new file that supports offline development, downloads ui5 libraries locally, and runs against mock data.
-
-
 
 </td>
 </tr>
@@ -306,8 +258,6 @@ A new file that supports offline development, downloads ui5 libraries locally, a
 <td valign="top">
 
 `ui5.yaml`
-
-
 
 </td>
 <td valign="top">
@@ -324,14 +274,10 @@ A new file that supports offline development, downloads ui5 libraries locally, a
 
 `index.html`
 
-
-
 </td>
 <td valign="top">
 
 A new file supporting a stand-alone preview of your application without SAP Fiori launchpad. Now, you can start your app with or without SAP Fiori launchpad.
-
-
 
 </td>
 </tr>
@@ -340,14 +286,10 @@ A new file supporting a stand-alone preview of your application without SAP Fior
 
 `manifest.json`
 
-
-
 </td>
 <td valign="top">
 
-It’s populated by SAP Fiori tools. Previously, it was populated by Maven.
-
-
+It’s populated by SAP Fiori tools.
 
 </td>
 </tr>
@@ -356,14 +298,10 @@ It’s populated by SAP Fiori tools. Previously, it was populated by Maven.
 
 `changes_loader.js`
 
-
-
 </td>
 <td valign="top">
 
 A new static file that supports live reload of the application.
-
-
 
 </td>
 </tr>
@@ -372,14 +310,10 @@ A new static file that supports live reload of the application.
 
 `changes_preview.js`
 
-
-
 </td>
 <td valign="top">
 
 A new static file that supports `.changes` file from adaptation updates.
-
-
 
 </td>
 </tr>
@@ -387,8 +321,6 @@ A new static file that supports `.changes` file from adaptation updates.
 <td valign="top">
 
 `flpSandbox.html`
-
-
 
 </td>
 <td valign="top">
@@ -407,14 +339,10 @@ This file is updated by migration to support the preview and changes loader. The
 
 `locate-reuse-libs.js`
 
-
-
 </td>
 <td valign="top">
 
 A new static file that finds any custom reuse libraries referenced in your manifest file and queries them with the back-end server to see if the libraries are installed. If so, it registers them at runtime so that they’re available.
-
-
 
 </td>
 </tr>
@@ -423,14 +351,10 @@ A new static file that finds any custom reuse libraries referenced in your manif
 
 `flpSandboxMockServer.html`
 
-
-
 </td>
 <td valign="top">
 
 Applies the same changes as the `flpSandbox.html` file but with the mock server support.
-
-
 
 </td>
 </tr>

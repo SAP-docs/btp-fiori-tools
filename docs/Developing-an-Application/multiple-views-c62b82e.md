@@ -10,7 +10,7 @@ You can configure your *List Report* to display one or more additional tables an
 If you want to use the transformation aggregations, make sure your app runs with SAPUI5 version **1.106** or **higher** to ensure transformation aggregation with `@Analytics.AggregatedProperty` is supported. Transformation aggregation with `@Analytics.AggregatedProperties` isn't supported as this annotation is deprecated in favor of `@Analytics.AggregatedProperty`, see [OData Analytics](https://sap.github.io/odata-vocabularies/vocabularies/Analytics.html).
 
 > ### Note:  
-> You can’t configure multiple views if your *List Report* is configured to display an *Analytical Chart* above or as alternative to the main *List Report* table, see [Analytical Chart](analytical-chart-9c086ec.md). You can delete*Analytical Chart* to enable adding views.
+> You can’t configure multiple views if your *List Report* is configured to display an *Analytical Chart* above or as alternative to the main *List Report* table, see [Analytical Chart](analytical-chart-9c086ec.md). You can delete *Analytical Chart* to enable adding views.
 
 
 
@@ -33,12 +33,12 @@ If you want to use the transformation aggregations, make sure your app runs with
     This allows you to create a new *dynamic* measure and use it in the chart.
 
     > ### Note:  
-    > The technical name and the label is generated automatically . You can then adjust the generated label in the *Property Panel*.
+    > The technical name and the label are generated automatically . You can then adjust the generated label in the *Property Panel*.
 
     > ### Note:  
     > Create new measure only works with transformation aggregations so it should be used for the apps runs with SAPUI5 version **1.106** or **higher**. If all the possible measures based on all the aggregatable properties and supported aggregation methods are already defined in the project, you can't create a new measure. Use the existing measure instead.
 
-3.  Press [Add\] in the dialog. In the Page Editor,** a new subnode is appended to the Views node with generated view label.
+3.  Press [Add\] in the dialog. In the Page Editor, a new subnode is appended to the Views node with generated view label.
 
     > ### Note:  
     > The table is added with no columns. You can add columns using [\+\] button for the **Columns** subnode.
@@ -59,7 +59,7 @@ The following changes take place in the annotation file:
 
 ## Moving Table or Chart View
 
-All table or chart views are represented as subnodes of **views** node. Drag and drop them or use the corresponding [Move Up\] + [Move Down\]  buttons to change view sequence in *Lt Report*.
+All table or chart views are represented as subnodes of **views** node. Drag and drop them or use the corresponding [Move Up\] + [Move Down\]  buttons to change view sequence in *List Report*.
 
 ![Nodes example for List Report](images/Fiori_tools_List_Report_Multi_Views_Nodes_Example_f32ee78.png)
 
@@ -69,7 +69,7 @@ All table or chart views are represented as subnodes of **views** node. Drag and
 
 ## Deleting Table or Chart View
 
-To remove a table or chart view, press the [Delete\] icon on the corresponding **views** node.
+To remove a table or chart view, press the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) on the corresponding **views** node.
 
 > ### Note:  
 > It's not possible to remove the last table view that is based on the main entity set of the *List Report*.

@@ -89,15 +89,11 @@ To generate MTA project, perform the following steps:
     <th valign="top">
 
     Prompt
-
-
     
     </th>
     <th valign="top">
 
     Entry
-
-
     
     </th>
     </tr>
@@ -105,15 +101,11 @@ To generate MTA project, perform the following steps:
     <td valign="top">
     
     Choose Target
-
-
     
     </td>
     <td valign="top">
     
     Cloud Foundry
-
-
     
     </td>
     </tr>
@@ -121,15 +113,11 @@ To generate MTA project, perform the following steps:
     <td valign="top">
     
     Destination Name
-
-
     
     </td>
     <td valign="top">
     
     If the destination name is empty or not the correct target, enter the destination name.
-
-
     
     </td>
     </tr>

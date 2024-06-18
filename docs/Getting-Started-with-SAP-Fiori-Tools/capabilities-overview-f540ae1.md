@@ -3,7 +3,7 @@
 # Capabilities Overview
 
 > ### Note:  
-> To view information on features available in your application, navigate to *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more details, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+> To view information on features available in your application, navigate to *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
 The following table lists the SAP Fiori tools features provided in each template or data source.
 
@@ -20,77 +20,55 @@ The following table lists the SAP Fiori tools features provided in each template
 
 Feature
 
-
-
 </th>
 <th valign="top">
 
 Command
-
-
 
 </th>
 <th valign="top">
 
 Description
 
-
-
 </th>
 <th valign="top">
 
 SAP Fiori elements
 
-
-
 </th>
 <th valign="top">
 
-SAPUI5 freestyle
-
-
+freestyle SAPUI5
 
 </th>
 <th valign="top">
 
 UI5 Library
 
-
-
 </th>
 <th valign="top">
 
 v2
-
-
 
 </th>
 <th valign="top">
 
 v4
 
-
-
 </th>
 <th valign="top">
 
 EDMX Backend
-
-
 
 </th>
 <th valign="top">
 
 CAP Node.js
 
-
-
 </th>
 <th valign="top">
 
 CAP Java
-
-
 
 </th>
 </tr>
@@ -99,70 +77,50 @@ CAP Java
 
 Add Deploy Config
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.appGenerator.launchDeployConfig
-
-
 
 </td>
 <td valign="top">
 
 Add deploy configuration.
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -176,63 +134,45 @@ Add deploy configuration.
 
 Add Mockserver Config
 
-
-
 </td>
 <td valign="top">
 
 npx --yes @sap-ux/create@latest add mockserver-config
 
-
-
 </td>
 <td valign="top">
 
-Add configuration for mockserver middleware
-
-
+Add configuration for mockserver middleware.
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -251,63 +191,45 @@ Add configuration for mockserver middleware
 
 Add Variants Config
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.applicationModeler.addVariantsConfig
-
-
 
 </td>
 <td valign="top">
 
 Add Configuration for Variants Creation.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -326,56 +248,40 @@ Add Configuration for Variants Creation.
 
 Build Application
 
-
-
 </td>
 <td valign="top">
 
 npm run build
-
-
 
 </td>
 <td valign="top">
 
 Build the application. Results are stored in 'dist'-folder.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -399,77 +305,55 @@ Build the application. Results are stored in 'dist'-folder.
 
 Change minUI5Version
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.applicationModeler.changeMinUI5Version
-
-
 
 </td>
 <td valign="top">
 
 Change the minimum version of SAPUI5 that this application requires.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -478,77 +362,55 @@ Change the minimum version of SAPUI5 that this application requires.
 
 Check Node Modules
 
-
-
 </td>
 <td valign="top">
 
 npm outdated
-
-
 
 </td>
 <td valign="top">
 
 Execute command that checks all node module dependencies for newer versions.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -557,28 +419,20 @@ Execute command that checks all node module dependencies for newer versions.
 
 Check Service
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.serviceModeler.openFile
-
-
 
 </td>
 <td valign="top">
 
 Check service with annotation. You can copy annotations to local annotation file.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -590,28 +444,20 @@ Check service with annotation. You can copy annotations to local annotation file
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -630,77 +476,55 @@ Check service with annotation. You can copy annotations to local annotation file
 
 Create Archive
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.environmentcheck.archiveProject
-
-
 
 </td>
 <td valign="top">
 
 Zip the project excluding the node\_modules for sharing \(e.g. support cases\)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -709,70 +533,50 @@ Zip the project excluding the node\_modules for sharing \(e.g. support cases\)
 
 Deploy
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.appGenerator.launchDeploy
-
-
 
 </td>
 <td valign="top">
 
 Deploy according to the configuration by default stored in 'ui5-deploy.yaml'.
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -786,63 +590,45 @@ Deploy according to the configuration by default stored in 'ui5-deploy.yaml'.
 
 Maintain Mockdata
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.dataEditor.open
-
-
 
 </td>
 <td valign="top">
 
 Start editor for maintaining mock data.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -861,63 +647,45 @@ Start editor for maintaining mock data.
 
 Manage Service Models
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.serviceModeler.openServiceMgr
 
-
-
 </td>
 <td valign="top">
 
-You can sync metadata.xml with backend.
-
-
+You can sync metadata.xml with back end.
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -936,63 +704,45 @@ You can sync metadata.xml with backend.
 
 Manage XML Annotations
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.serviceModeler.openAnnotationFileMgr
-
-
 
 </td>
 <td valign="top">
 
 You can choose or create local XML annotation files.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1011,28 +761,20 @@ You can choose or create local XML annotation files.
 
 Open Guided Development
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.help.openGuidedDevelopmentFromExplorer
-
-
 
 </td>
 <td valign="top">
 
 Guided Development helps solve common tasks.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1044,42 +786,30 @@ Guided Development helps solve common tasks.
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -1088,28 +818,20 @@ Guided Development helps solve common tasks.
 
 Open Page Map
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.pageMap.showMap
-
-
 
 </td>
 <td valign="top">
 
 Open the page map that shows application pages and navigation paths.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1121,42 +843,30 @@ Open the page map that shows application pages and navigation paths.
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -1165,75 +875,112 @@ Open the page map that shows application pages and navigation paths.
 
 Preview Application
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.pageEditor.previewExternal
-
-
 
 </td>
 <td valign="top">
 
 Choose from start scripts to run the application preview.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run UI5 Linter
+
+</td>
+<td valign="top">
+
+sap.ux.applicationModeler.runUI5Linter
+
+</td>
+<td valign="top">
+
+Checks the compatibility of your project with SAPUI5 version 2.
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 </tr>
@@ -1242,28 +989,20 @@ Choose from start scripts to run the application preview.
 
 Show Documentation
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.applicationModeler.showDocu
-
-
 
 </td>
 <td valign="top">
 
 Show documentation of available manifest and UI5 flexibility properties.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1275,42 +1014,30 @@ Show documentation of available manifest and UI5 flexibility properties.
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -1319,77 +1046,55 @@ Show documentation of available manifest and UI5 flexibility properties.
 
 Test deployment
 
-
-
 </td>
 <td valign="top">
 
 npm run deploy-test
-
-
 
 </td>
 <td valign="top">
 
 Start deployment in test mode.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 </tr>
@@ -1398,70 +1103,50 @@ Start deployment in test mode.
 
 Undeploy
 
-
-
 </td>
 <td valign="top">
 
 npm run undeploy
 
-
-
 </td>
 <td valign="top">
 
-Remove a deployed artifact from backend or cloud.
-
-
+Remove a deployed artifact from back end or cloud.
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1475,28 +1160,20 @@ Remove a deployed artifact from backend or cloud.
 
 Validate Application
 
-
-
 </td>
 <td valign="top">
 
 sap.ux.applicationModeler.validate
-
-
 
 </td>
 <td valign="top">
 
 Validate the application.
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">
@@ -1508,28 +1185,20 @@ Validate the application.
 
  
 
+</td>
+<td valign="top">
 
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
 
-
-
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
-
-
-
-</td>
-<td valign="top">
-
-![](images/Checkmark_Good_8eb8536.png)
-
-
 
 </td>
 <td valign="top">

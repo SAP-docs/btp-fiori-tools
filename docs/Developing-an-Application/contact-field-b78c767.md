@@ -36,9 +36,6 @@ A contact field can be moved within a section as any other field. It can be move
 To delete the contact column/field in the application, perform the following steps:
 
 1.  Navigate to a field.
-2.  Click [Delete\] icon.
-
-    The *Delete Confirmation* pop-up window appears.
-
-3.  Click [Delete\] to confirm the action.
+2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+3.  Click *Delete* to confirm the action.
 

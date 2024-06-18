@@ -24,9 +24,9 @@ The *Group by* list changes how the guides are grouped in the list based on thei
 
 -   **Application Artifacts** refers to the type of change the guide describes. The options include manifest change, flex change, and annotations.
 
-Annotations-specific guides are further grouped into three categories: XML Annotations, CDS Annotations, and ABAP CDS Annotations.
+Annotations-specific guides are further grouped into three categories: XML Annotations, CAP CDS Annotations, and ABAP CDS Annotations.
 
-For features that can be implemented via different annotation types \(depending on what is applicable your project\); guides may display under multiple categories. For example, a guide may appear under both the XML Annotations and CDS Annotations categories if variants for the two different annotation types exist. The parameters and code snippets will differ depending on which guide variant is opened.
+For features that can be implemented via different annotation types \(depending on what is applicable your project\), guides may display under multiple categories. For example, a guide may appear under both the XML Annotations and CAP CDS Annotations categories if variants for the two different annotation types exist. The parameters and code snippets will differ depending on which guide variant is opened.
 
 
 
@@ -34,7 +34,7 @@ For features that can be implemented via different annotation types \(depending 
 
 ## View
 
-By default, only the guides that are relevant to the current project are displayed. This ensures that code inserted into your project is appropriate for the project's template, OData version, and UI5 version.
+By default, only the guides that are relevant to the current project are displayed. This ensures that code inserted into your project is appropriate for the project's template, OData version, and SAPUI5 version.
 
 Using the *View* filter, you can see all the guides available in guided development.
 
