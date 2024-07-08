@@ -1,5 +1,7 @@
 <!-- loioc62b82e124a74c1684f0d51f0db41c81 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Multiple Views
 
 You can configure your *List Report* to display one or more additional tables and charts next to the main *List Report* table in separate views. The user of your application can switch between views using an icon tab bar. The tables in the views can be based on any entity in your service. The charts can be based on any entity as long as it contains aggregatable and groupable properties.
@@ -69,7 +71,7 @@ All table or chart views are represented as subnodes of **views** node. Drag and
 
 ## Deleting Table or Chart View
 
-To remove a table or chart view, press the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) on the corresponding **views** node.
+To remove a table or chart view, press the :wastebasket: \(*Delete*\) icon on the corresponding **views** node.
 
 > ### Note:  
 > It's not possible to remove the last table view that is based on the main entity set of the *List Report*.

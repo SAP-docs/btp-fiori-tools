@@ -1,5 +1,7 @@
 <!-- loioda1931b61b9442fd8f5f7d80cdd99aba -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Table Actions
 
 Table actions can be placed in a toolbar or inline in table rows in an *Object Page* section, or a *List Report*. With the *Page Editor*, you can configure the actions to be performed within the application and external navigation actions to navigate to a different \(target\) application configured in SAP Fiori launchpad. The actions to be performed within the application are based on the records of type `UI.DataFieldForAction` and the actions for actions navigation to the different application are based on `UI.DataFieldForIntentBasedNavigation`.
@@ -102,5 +104,5 @@ Moving a table action from the **toolbar** to **columns** or vice versa will swi
 
 ## Deleting Actions
 
-You can delete actions by choosing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png).
+You can delete actions by choosing the :wastebasket: \(*Delete*\) icon.
 

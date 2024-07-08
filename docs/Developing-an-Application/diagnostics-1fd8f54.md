@@ -1,5 +1,7 @@
 <!-- loio1fd8f54bbba9425eb3abfd5f2978aa9c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Diagnostics
 
 XML annotation language server validates the annotation file against the project metadata, annotation vocabularies, and OData specification. Validation is performed when you open the annotation file and then is retriggered with each change to the annotation files, metadata, or project structure.
@@ -27,7 +29,7 @@ You can fix the diagnostic message in several ways, depending on the issue:
     -   Choose one of suggested values.
 
 -   Choosing one of the suggested Quick Fix actions \(if provided\)
-    -   Click on Light bulb icon is showed along with diagnostic error
+    -   Click on the :bulb: \(*Light Bulb*\) icon that is shown along with diagnostic error
     -   Choose one of the suggested actions to fix the problem
 
 -   Manually

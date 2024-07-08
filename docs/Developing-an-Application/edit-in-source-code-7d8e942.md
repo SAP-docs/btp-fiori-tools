@@ -10,7 +10,7 @@ With the **edit in source code** feature, the user can navigate to the code frag
 
 ## How to Use the Feature
 
-To find the [Edit in source code\] button in the property panel for editable and noneditable properties, locate the annotation tag, and click on the ![](images/FIORI_TOOLS_EDITINSOURCE_342cf09.jpg) button next to the text field. If multiple definitions are present, a pop-up window with the options appears, and you can click a particular file to see the definition.
+To find the [Edit in source code\] button in the property panel for editable and noneditable properties, locate the annotation tag, and click on the ![](images/FIORI_TOOLS_EDITINSOURCE_342cf09.jpg) \(*Edit in source code*\) button next to the text field. If multiple definitions are present, a pop-up window with the options appears, and you can click a particular file to see the definition.
 
 > ### Note:  
 > Multiple definitions pop-up window is only available in VS Code. Only first annotation is shown in SAP Business Application Studio.

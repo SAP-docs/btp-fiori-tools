@@ -1,5 +1,7 @@
 <!-- loio6845fedbb38c4da7a54a2c76081f3abb -->
 
+<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
+
 # Generating an Application with Joule Using SAP Fiori Tools
 
 Joule, SAP's AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI based on your business requirements document.
@@ -129,5 +131,5 @@ You can define the following features as requirements in your input:
 
 
 > ### Tip:  
-> It’s possible that Joule occasionally misunderstands parts of your requirements, or misses a contained feature request. If this happens, please click *Regenerate* to try again, or click the pencil icon, rephrase your input and click *Submit*.
+> It’s possible that Joule occasionally misunderstands parts of your requirements, or misses a contained feature request. If this happens, please click *Regenerate* to try again, or click the :pencil2: \(*Pencil*\) icon, rephrase your input and click *Submit*.
 

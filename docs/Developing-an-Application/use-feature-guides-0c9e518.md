@@ -1,5 +1,7 @@
 <!-- loio0c9e518ecf704b2f80a2bed0eaca60ae -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Use Feature Guides
 
 With guided development, you can access **how-to** guides and tutorials that explain how to implement certain functionality in an SAP Fiori elements application. You can read through the steps required to implement a feature and then use the guided development approach to make the required changes in your project.
@@ -84,7 +86,7 @@ When a new project is added to the workspace.
 </td>
 <td valign="top">
 
-Click the “Refresh” icon inside the Project list.
+Click the <span class="SAP-icons-V5"></span> \(*Refresh*\) icon inside the Project list.
 
 </td>
 </tr>
@@ -96,7 +98,7 @@ When something in the current project is changed outside guided development, suc
 </td>
 <td valign="top">
 
-Click the “Refresh” icon on the toolbar next to the Project list.
+Click the <span class="SAP-icons-V5"></span> \(*Refresh*\) icon on the toolbar next to the Project list.
 
 </td>
 </tr>

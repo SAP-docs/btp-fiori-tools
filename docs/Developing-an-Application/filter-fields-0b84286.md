@@ -1,5 +1,7 @@
 <!-- loio0b8428645243486680ffa22c0b541039 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Filter Fields
 
 
@@ -20,7 +22,7 @@ In the filter area, the user can add or remove *Filter Fields*. The *Filter Fiel
 To add a *Filter Fields*, perform the following steps:
 
 1.  Navigate to *Page Map* \> *List Report* to open a list report project.
-2.  Click *Configure page* \(the pencil icon\).
+2.  Click the :pencil2: \(*Configure Page*\) icon.
 
     Then, the *Filter Bar* appears.
 
@@ -51,7 +53,7 @@ While adding new *Filter Fields* the following logic applies:
 If your service is enabled for analytics, you can define visual filters represented as bar charts in runtime. To add *Visual Filters*, perform the following steps:
 
 1.  Navigate to *Page Map* \> *List Report* to open a list report project.
-2.  Click *Configure page* \(the pencil icon\).
+2.  Click the :pencil2: \(*Configure Page*\) icon.
 3.  Navigate your pointer *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Visual Filters*.
 4.  Click [\+\] to add a filter field.
 
@@ -119,7 +121,7 @@ You can't change the sequence of the visual filters directly, as it depends on t
 To delete a field within the list of the *Filter Fields*, perform the following steps:
 
 1.  Select a required filter field.
-2.  Click the *trash* icon to delete it.
+2.  Click the :wastebasket: \(*Delete*\) icon to delete it.
 
 > ### Note:  
 > The `Common.Label` annotation isn’t deleted along with the filter field, as it can also be used elsewhere in the application.
@@ -242,5 +244,5 @@ You can limit the data displayed in the visual filter by defining one or more fi
 
 The numbers in the bar chart get updated to match the filter criteria. The list of bars in the bar chart gets limited to those matching the filters based on the dimension property.
 
-You can repeat the steps above to add additional filters. You can then also move the individual filters up and down to change the sequence in which the filters are applied by using drag and drop or by clicking the move up/move down arrows. You can delete individual filters by using the delete icon.
+You can repeat the steps above to add additional filters. You can then also move the individual filters up and down to change the sequence in which the filters are applied by using drag and drop or by clicking the move up/move down arrows. You can delete individual filters by using the :wastebasket: \(*Delete*\) icon.
 

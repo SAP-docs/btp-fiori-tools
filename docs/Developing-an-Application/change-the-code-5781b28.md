@@ -1,5 +1,7 @@
 <!-- loio5781b2841a7742ec80b19e3ee20f26a4 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Change the Code
 
 You can make code changes by using the *Copy*/*Insert Snippet* functionality. A code snippet provides a sample code that needs to be implemented in the respective file described in the guide step. In most cases, you need to provide input for the dynamic content that is substituted in the snippet. Once all the values are supplied, you can see the following options:
@@ -20,7 +22,7 @@ In some guides, code snippets don't have any parameters. Other guides contain dr
 
 Most drop-down lists parameters are context-dependent and only populated when guided development has the context. Also, there are static drop-down parameters, when the values in them remain the same regardless of the context. In some cases, parameters that only have one selection option available for the given project may automatically select that option.
 
-Some parameters depend on each other. For example, the *Navigation Property* parameter in the **Add semantic highlights to line items in tables based on their criticality** guide can only be selected after a value is selected for the *Entity* parameter. Parameters that are dependent on a previous parameter selection are marked with an info icon tooltip. Hover over the icon to see where another parameter selection is required.
+Some parameters depend on each other. For example, the *Navigation Property* parameter in the **Add semantic highlights to line items in tables based on their criticality** guide can only be selected after a value is selected for the *Entity* parameter. Parameters that are dependent on a previous parameter selection are marked with an <span class="SAP-icons-V5"></span> \(*Information*\) icon tooltip. Hover over the icon to see where another parameter selection is required.
 
 ![](images/Change_Code_Image_1_7cbbc7c.png)
 

@@ -1,5 +1,7 @@
 <!-- loioe369c2c20c03458a92b24b9dcbcb470f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Viewing Service Metadata
 
 The SAP Fiori tools - Service Modeler extension supports the visualization of the ODataV2/V4 Service Model based on the `.xml/.edmx` files and CAP CDS services.
@@ -36,7 +38,7 @@ You can launch the Service Modeler in several ways:
 
 -   **From the Text Editor**
 
-    If your `metadata.xml file` is open in the text editor, click the annotations icon ![](images/Icon_annotnation_panel_FT_5718c58.png).
+    If your `metadata.xml file` is open in the text editor, click the <span class="SAP-icons-V5"></span> \(*Annotations*\) icon.
 
 
 
@@ -49,9 +51,9 @@ You can launch the Service Modeler in several ways:
 
 The Service Modeler displays the entities and properties of a service in a list format. You can expand the entity node to view all the associated properties for that entity. You can expand the sections for *Complex Types* and *Entity Containers* to see the associated properties and entity sets. The namespace is hidden from the metadata by default. You can click the [Settings\] icon to toggle it on.
 
-Properties that are the primary key of the entity or projection are identified by a key icon ![](images/Key_icon_FT_00e9f27.png).
+Properties that are the primary key of the entity or projection are identified by a :key: \(*Key*\) icon.
 
-Entities or properties that have annotations associated with them are identified by an annotation icon ![](images/Icon_annotnation_panel_FT_5718c58.png). You can filter them to only view the metadata targets that have annotations.
+Entities or properties that have annotations associated with them are identified by an<span class="SAP-icons-V5"></span> \(*Annotations*\) icon. You can filter them to only view the metadata targets that have annotations.
 
 You can select a specific node to see the related annotations in the side panel. The annotation panel lists the annotation files and the associated annotations for the entities and the properties in the main list.
 

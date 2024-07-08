@@ -1,5 +1,7 @@
 <!-- loio1894c471d7aa4121964e497d5ffa3118 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Group Section
 
 A Group section groups multiple sections together. It can contain a group of sections of any type except custom sections. The group section can’t contain fields/columns or actions. With several nested group sections, you can build a nested tree of sections.
@@ -16,7 +18,7 @@ A Group section groups multiple sections together. It can contain a group of sec
 To add a Group section or subsections, perform the following steps:Fiori elements may not render group sections beyond the certain level and have rendering limitations on displaying Table sections as peer to the form sections. Please check the current documentation for
 
 1.  Click the [Object/Form Entry Page\] to open the *Page Editor*.
-2.  Navigate to the section layer and click the *Add* icon [\+\].
+2.  Navigate to the section layer and click the :heavy_plus_sign: \(*Add*\) icon.
 
     As a result, a drop-down menu displaying currently supported section type appears.
 
@@ -36,7 +38,7 @@ To add a Group section or subsections, perform the following steps:Fiori element
 
 ### Add Subsections
 
-1.  Navigate to the Subsections node and click the *Add* icon [\+\].
+1.  Navigate to the Subsections node and click the :heavy_plus_sign: \(*Add*\) icon.
 2.  Select the required section from the list, such as Form Section.
 
     A new pop-up window *Add Form Section* appears with a field to provide a label for the section to be added.
@@ -73,7 +75,7 @@ For more information, see [Move Basic Fields](basic-fields-2953503.md#loio295350
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section layer.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  

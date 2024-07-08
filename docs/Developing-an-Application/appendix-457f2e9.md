@@ -1,5 +1,7 @@
 <!-- loio457f2e9699b5437fb09d56311055a4a0 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Appendix
 
 <a name="loiof2b7486cb4644441979d818802b79940"/>
@@ -377,7 +379,7 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
 
     -   Repeat to sort by additional properties \(columns\).
 
-        You can change the sequence of properties to sort by with drag-and-drop or by pressing the up and down icons in the *Sort Order* table row. You can delete the sort property by pressing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) in the *Sort Order* table row.
+        You can change the sequence of properties to sort by with drag-and-drop or by clicking the <span class="SAP-icons-V5"></span> \(*Sort*\) icon in the *Sort Order* table row. You can delete the sort property by pressing the :wastebasket: \(*Delete*\) icon in the *Sort Order* table row.
 
 
 

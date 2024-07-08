@@ -1,5 +1,7 @@
 <!-- loio0039256581704bf3a8a586d406875c90 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Progress Column
 
 Progress Indicator column can be added to a *List Report* table or an *Object Page* section.
@@ -57,6 +59,6 @@ To move a column within a table, use one of the following options:
 To delete a column in the application, perform the following steps:
 
 1.  Navigate to a column.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 

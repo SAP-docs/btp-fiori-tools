@@ -1,5 +1,7 @@
 <!-- loio05f2a9ef5e27402382d1ac9cfb98537f -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create a New Run Configuration in SAP Business Application Studio
 
 > ### Note:  
@@ -31,7 +33,7 @@ In SAP Business Application Studio, you can create additional run configurations
     Click [Save\]
 
 5.  The new launch configuration appears in the *Run and Debug* pane on the left and also in the table on the UI..
-6.  To run the project, click on the [\>\] - icon in the *Actions* section. Alternatively you can select the*Run Configuration* from the drop-down list in the *Run and Debug* pane and click the Start Debugging icon.
+6.  To run the project, click on the [\>\] - icon in the *Actions* section. Alternatively you can select the*Run Configuration* from the drop-down list in the *Run and Debug* pane and click the <span class="SAP-icons-V5"></span> \(*Start Debugging*\) icon.
 
 Additionally, in the *Run Configuration Pane* you can perform the following actions:
 

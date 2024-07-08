@@ -1,10 +1,12 @@
 <!-- loioc3e0989caf6743a88a52df603f62a52a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Application Information
 
 When your SAP Fiori elements project is generated, an **Application Information** page will launch automatically. The page consists of four sections:
 
--   **Project Detail**. Provides information about the project, such as project type, SAPUI5 version, backend, and pages that are part of the application. Click the page icon to launch the [Configure Page Elements](../Developing-an-Application/configure-page-elements-047507c.md).
+-   **Project Detail**. Provides information about the project, such as project type, SAPUI5 version, backend, and pages that are part of the application. Click the <span class="SAP-icons-V5"></span> \(*Page*\) icon to launch the [Configure Page Elements](../Developing-an-Application/configure-page-elements-047507c.md).
 
 -   **Status**. A summary of the project dependencies with links to fix any issues.
 -   **What you can do**. Quick links to the SAP Fiori tools commands that are relevant to the project.

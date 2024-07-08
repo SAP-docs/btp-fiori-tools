@@ -1,5 +1,7 @@
 <!-- loio2f1bb9ce466b4e6fac37431f1343b95d -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Overriding Annotations
 
 The following is a list of steps of how to override back-end annotation to your local annotation file.
@@ -11,7 +13,7 @@ The following is a list of steps of how to override back-end annotation to your 
 ### Overriding backend Annotations
 
 1.  Once you have found annotation of interest and are viewing backend annotation details.
-2.  Click *copy* icon ![](images/FIORI_TOOLS_SERVICE_MODELER_COPY_ICON_2fcfc05.png) opposite the **backend annotation**. This gives you a starting point for extending or customizing your application. Use [Maintaining Annotations with Language Server](maintaining-annotations-with-language-server-6fc93f8.md) to maintain your local annotation file.
+2.  Click the <span class="SAP-icons-V5"></span> \(*Copy*\) icon opposite the **backend annotation**. This gives you a starting point for extending or customizing your application. Use [Maintaining Annotations with Language Server](maintaining-annotations-with-language-server-6fc93f8.md) to maintain your local annotation file.
 
     If there’s only one local annotation file associated to the service in the project, the annotation is copied automatically to that local annotation file. If there are multiple local annotation files associated to that service available in the project, you can choose which local annotation file you would like to copy the annotation to via a selection dropdown.
 

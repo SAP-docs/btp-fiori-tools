@@ -1,5 +1,7 @@
 <!-- loiobae38e6216754a76896b926a3d6ac3a9 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Define Application Structure
 
 Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings like the *Flexible Column Layout*.
@@ -55,7 +57,7 @@ When the *Page Map* is open, you can see *Application Settings* in the default v
 
 With the SAP Fiori tools *Page Map*, you can add additional pages to your application.
 
--   Click the icon *Add New Page* in the header.
+-   Click the <span class="SAP-icons-V5"></span> \(*Add New Page*\) icon in the header.
 -   From the *Select Page Type* list, select *ObjectPage* and click *Add*.
 -   In the *Navigation* field, select an entity that the page would navigate to.
 
@@ -66,7 +68,7 @@ For `OData V4`, you can add a custom page.
 
 ![Custom Page for OData V4](images/FIORI_TOOLS_CUSTOMPAGE_ADD_84e348c.png)
 
--   Click the icon *Add New Page* in the header of a page file.
+-   Click the <span class="SAP-icons-V5"></span> \(*Add New Page*\) icon in the header of a page file.
 -   From the *Select Page Type* list, select *CustomPage* and click *Add*.
 -   In the *Navigation* field, select an entity that the custom page navigates to.
 -   Under *Select your view*, select one of the following option buttons:
@@ -81,11 +83,11 @@ For `OData V4`, you can add a custom page.
 
 **Configuring the Page**
 
-Click the *Configure Page* icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With the [Configure Page Elements](configure-page-elements-047507c.md) you can edit page properties . You can also open the [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` or the SAPUI5 flexibility changes are updated accordingly.
+Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With the [Configure Page Elements](configure-page-elements-047507c.md) you can edit page properties . You can also open the [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` or the SAPUI5 flexibility changes are updated accordingly.
 
 **Deleting the Page** 
 
-Click the *Delete Page* icon to delete the page.
+Click the :wastebasket: \(*Delete Page*\) icon to delete the page.
 
 See [Fiori Desing Guidelines: Layouts](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) for more information about the Layout Settings.
 

@@ -1,5 +1,7 @@
 <!-- loiob78c767eba97469f845f4743e44abd0c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Contact Field
 
 An SAP Fiori application can display contact information as a quick view for a [Form Section](form-section-4102b3d.md) or [Identification Section](identification-section-b83f501.md) of an *Object Page* as a *Contact Field*.
@@ -36,6 +38,6 @@ A contact field can be moved within a section as any other field. It can be move
 To delete the contact column/field in the application, perform the following steps:
 
 1.  Navigate to a field.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 

@@ -1,5 +1,7 @@
 <!-- loioa50bc4a67c9e4caebfff4e1ad158796c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Search for a Guide
 
 On the main screen of the guided development extension, you can see a list of available guides. To see a brief description of a feature to implement and its sample preview, expand the respective entry. To get to the guide itself, click *Start Guide* under the description.
@@ -45,7 +47,7 @@ To start working with the *View* filter, perform the following steps:
     -   *All Guides*. This option displays the list of all the guides in guided development.
 
         > ### Note:  
-        > When *All Guides* are selected, the updated list of guides appears with the information icon and message similar to the following:
+        > When *All Guides* are selected, the updated list of guides appears with the <span class="SAP-icons-V5"></span> \(*Information*\) icon and message similar to the following:
         > 
         > `Not all guides are applicable to [project name]. Click here to see all project guides.`
         > 
@@ -65,7 +67,7 @@ To start working with the *View* filter, perform the following steps:
 
 ## Filter
 
-The *Filter* ![Filter Icon](images/FilterIcon_d3d5f5a.png) icon next to the *View* list allows you to select one or more predefined tags assigned to the guides. The guide list is then narrowed down to show only those guides that have all selected tags.
+The <span class="SAP-icons-V5"></span> \(*Filter*\) icon next to the *View* list allows you to select one or more predefined tags assigned to the guides. The guide list is then narrowed down to show only those guides that have all selected tags.
 
 
 

@@ -10,7 +10,7 @@ You can manually import an existing SAP Fiori application from the SAPUI5 ABAP r
 
 ## Preparation Steps
 
-Before importing an application, in SAP Business Application Studio or VS Code, in your workspace, create new folders with the following names:
+Before importing an application, in your workspace in either SAP Business Application Studio or VS Code, create new folders with the following names:
 
 
 <table>
@@ -58,9 +58,16 @@ This folder will contain the content of the downloaded zip/tgz.
 
 ## Import Steps
 
+> ### Note:  
+> The BSP application code is normally minified before deployment, and so the resulting code that is downloaded is also the minified version. We recommend that you only use this import procedure if the application code is not already available under source control.
+> 
+> The `-dbg.js` file, for example `(Component-dbg.js)`, contains the original un-minified code. You can copy its contents into the corresponding `.js` file, for example *Component-dbg.js* \> *Component.js* for more human readable code.
+> 
+> Please remove `-dbg.js`, `-preload.js` and `.js.map` before running UI5 CLI build, otherwise they are recreated in the `dist` folder.
+
 To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following steps:
 
-1.  Login to your SAPUI5 ABAP backend system and navigate to the transaction `SE80`.
+1.  Login to your SAPUI5 ABAP back-end system and navigate to the transaction `SE80`.
 2.  Run the report `/UI5/UI5_REPOSITORY_LOAD`.
 3.  Provide the name of the SAPUI5 application and click [Download\].
 4.  Choose an empty folder for the download target.
@@ -87,5 +94,5 @@ To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following 
 8.  In SAP Business Application Studio or VS Code workspace start the Migration command `Fiori: Migrate Project for use in Fiori tools` if not already prompted to do so.
 9.  The projext should be found in `restore-from-exported` and listed for migration.
 10. Choose the appropriate options and migrate the project.
-11. Upon successful completion the project should now be compatible withSAP Fiori tools.
+11. Upon successful completion the project should now be compatible with SAP Fiori tools.
 

@@ -1,5 +1,7 @@
 <!-- loio3b1f37edf22c4d3dbc14472d6dcb6e2a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Create a New Run Configuration in Visual Studio Code
 
 > ### Note:  
@@ -25,5 +27,5 @@ A new run configuration is created with the command `Fiori: Open Run Configurati
     Click [Save\]
 
 5.  The new launch configuration appears in the *Run and Debug* pane on the left and also in the table on the UI.
-6.  To run the project, click on the [\>\] - icon in the *Actions* section of the table. Alternatively you can select *Run Configuration* from the drop-down list in the *Run and Debug* pane and click the Start Debugging icon.
+6.  To run the project, click on the [\>\] - icon in the *Actions* section of the table. Alternatively you can select *Run Configuration* from the drop-down list in the *Run and Debug* pane and click the <span class="SAP-icons-V5"></span> \(*Start Debugging*\) icon.
 

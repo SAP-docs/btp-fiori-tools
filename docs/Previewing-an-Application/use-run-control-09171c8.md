@@ -1,5 +1,7 @@
 <!-- loio09171c8bc3a64ec7848f0ef31770a793 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Use Run Control
 
 
@@ -33,7 +35,7 @@ In VS Code, you can aslo create additional launch configurations. To know more, 
 
 1.  In SAP Business Application Studio, navigate to the Run Configuration pane:
 
-    -   One the left-side toolbar, click the *Run Configuration* icon.
+    -   One the left-side toolbar, click the <span class="SAP-icons-V5"></span> \(*Run Configuration*\) icon.
     -   On the main menu, click *View* \> *Run Configuration*.
 
 2.  In the Run Configuration pane, see the list with different options of running your application:
@@ -44,5 +46,5 @@ In VS Code, you can aslo create additional launch configurations. To know more, 
 
     In SAP Business Application Studio, you can also create additional run configurations. To know more, see [Create a New Run Configuration in SAP Business Application Studio](create-a-new-run-configuration-in-sap-business-application-studio-05f2a9e.md).
 
-3.  Select the required option of running your application and click the *Run Module* icon.
+3.  Select the required option of running your application and click the <span class="SAP-icons-V5"></span> \(*Run Module*\) icon.
 

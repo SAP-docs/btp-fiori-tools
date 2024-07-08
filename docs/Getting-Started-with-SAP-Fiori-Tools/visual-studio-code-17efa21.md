@@ -2,7 +2,7 @@
 
 # Visual Studio Code
 
-This chapter describes how you can install and start working with Microsoft Visual Studio Code \(also known as VS Code\) and provides links to important step-by-step procedures.
+This chapter describes how you can install and start working with Microsoft Visual Studio Code \(VS Code\) and provides links to important step-by-step procedures.
 
 <a name="loio002ae80eac034e6588af81827ab97332"/>
 
@@ -12,35 +12,15 @@ This chapter describes how you can install and start working with Microsoft Visu
 
 Ensure that the minimum system requirements for installing VS Code are met. For more information, see [Requirements for Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements).
 
--   Before VS Code installation, you must have Node.js installed. Ensure you’re using version 18.14.2 or higher of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of npm installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated npm versions.
+-   Before VS Code installation, you must have Node.js installed. Ensure you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of npm installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated npm versions.
 
     > ### Tip:  
-    > To check the version of Node.js installed, type `node-v` in the terminal. Similarly, to check the version of npm installed, type `npm -v` in the terminal. Ensure that the npm version and Node.js version are compatible.
+    > To check the version of Node.js installed, type `node -v` in the terminal. Similarly, to check the version of npm installed, type `npm -v` in the terminal. Ensure that the npm version and Node.js version are compatible.
 
     You can download Node.js here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
     > ### Note:  
-    > For Mac OS, we don’t recommend installing Node.js from the executable download. It’s recommended to install Node.js with **[Home Brew](https://brew.sh/)**.
-
-    **Installing Node.js with Home Brew \(Mac OS only\)**
-
-    To install Node.js with [Home Brew](https://brew.sh/), perform the following steps:
-
-    1.  In the terminal, at the command line, enter the following command to install **[Home Brew](https://brew.sh/):**
-
-        ```
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-        ```
-
-    2.  Install the required version of Node.js by entering the following command at the command line:
-
-        ```
-        brew install node@18
-        ```
-
-        Where 18 refers to the version of Node.js you would like to install.
-
-    3.  Before continuing with other installation steps using terminal, close and start a new terminal.
+    > For Mac OS, several options are available to install a Long Term Supported \(LTS\) version, such as [Home Brew](https://brew.sh/) and Node Version Manager \(NVM\).
 
 -   The SAP Fiori application generator requires the [MTA tool](https://www.npmjs.com/package/mta) Node.js package \(version 1.0 or higher\) to be installed globally.
 
@@ -117,9 +97,9 @@ To set up VS Code, you need to perform the following steps:
 
 2.  Search for SAP Fiori tools and select *SAP Fiori tools - Extension Pack*.
 
-    Alternatively, you can navigate to [SAP Fiori tools - Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack) and click [Install\].
+    Alternatively, you can navigate to [SAP Fiori tools - Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack) and click *Install*.
 
-3.  Click [Install\].
+3.  Click *Install*.
 4.  Then, the SAP Fiori tools install the latest release of the following extensions:
 
     -   Application Wizard
@@ -144,7 +124,7 @@ To set up VS Code, you need to perform the following steps:
 For applications based on CAP, you can install **SAP CDS Language Support** extension. To do so, perform the following steps:
 
 1.  Open [SAP CDS Language Support extension page](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds#overview) in Visual Studio Marketplace.
-2.  Click [Install\] to open a new page with the **SAP CDS Language Support** extension in VS Code.
+2.  Click *Install* to open a new page with the **SAP CDS Language Support** extension in VS Code.
 3.  On the VS Code page, click *Install* to enable the extension.
 
 For more information, see [Add CDS Editor](https://cap.cloud.sap/docs/get-started/tools/#add-cds-editor) and [CDS Editor](https://cap.cloud.sap/docs/get-started/tools/#cds-editor).
@@ -165,7 +145,7 @@ To install the UI5 Language Assistant Support extension or read about what featu
 
 ## Supported Authentication Type
 
-The following are supported authentication types with SAP Fiori tools running in VS Code.
+The following table lists supported authentication types with SAP Fiori tools running in VS Code:
 
 
 <table>
@@ -177,7 +157,7 @@ Authentication Type
 </th>
 <th valign="top">
 
-SAP on-Premise
+SAP On Premise
 
 </th>
 <th valign="top">
@@ -250,11 +230,38 @@ No
 
 </td>
 </tr>
+<tr>
+<td valign="top">
+
+Reentrance Ticket
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+<td valign="top">
+
+No
+
+</td>
+<td valign="top">
+
+Yes
+
+</td>
+</tr>
 </table>
 
-We recommend using SAP Business Application Studio for the extensive support of the authentication types especially when your required authentication type that is not supported in VS Code. Please refer to this Note:[0002577263](https://me.sap.com/notes/0002577263) for more information.
+We recommend using SAP Business Application Studio for the extensive support of the authentication types, especially when your required authentication type is not supported in VS Code. For more information, see:[0002577263](https://me.sap.com/notes/0002577263).
 
-If applicable, disable `SAML` for selected `OData` services. Below are the list of `OData` services:
+If applicable, disable `SAML` for selected `OData` services. Below is the list of `OData` services:
 
 
 <table>

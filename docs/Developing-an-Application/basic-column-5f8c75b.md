@@ -1,5 +1,7 @@
 <!-- loio5f8c75b2b4f3468aa85e9658825389de -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Basic Column
 
 Basic column is used for the standard representation of the value type. For example, it shows string values as text and numeric values as numbers. You can add multiple basic columns at a time by selecting more than one value in the *Columns* field. To easier find the desired value, you can filter the list of available options by typing in a few characters of the desired value name.
@@ -61,7 +63,7 @@ To move a column within a table, use one of the following options:
 To delete a column in the application, perform the following steps:
 
 1.  Navigate to a column.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 

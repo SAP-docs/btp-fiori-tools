@@ -1,5 +1,7 @@
 <!-- loiodb02ebfcee1a47808ee4e4c4a9e07098 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Internationalization Support
 
 
@@ -44,7 +46,7 @@ Reusing Existing Texts
 
 -   With Quick Fix Action
 
-    -   Click on Light bulb icon shown along with a warning
+    -   Click on the :bulb: \(*Light Bulb*\) icon that is shown along with a warning
     -   Choose the suggested action
 
 
@@ -56,7 +58,7 @@ Defining new texts
 
     If the value isn’t provided a warning along with Quick Fix action is shown.
 
--   Click on Light bulb icon and choose the suggested action.
+-   Click on the :bulb: \(*Light Bulb*\) icon and choose the suggested action.
 
     Text key and default attributes are generated in the `i18n.properties` file and the text string is substituted with the reference.
 

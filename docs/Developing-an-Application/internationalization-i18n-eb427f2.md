@@ -1,5 +1,7 @@
 <!-- loioeb427f25160a4bef9f723e8256735922 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Internationalization \(i18n\)
 
 Internationalization, often abbreviated as i18n, is the process by which developers prepare a software product to be adapted in other languages. This topic covers the following aspects of managing i18n translation files for your projects:
@@ -8,7 +10,7 @@ Internationalization, often abbreviated as i18n, is the process by which develop
 -   [Label Translation Cases](internationalization-i18n-eb427f2.md#loioeb427f25160a4bef9f723e8256735922__section_ols_yb1_bsb)
 -   [Mass i18n Creation](internationalization-i18n-eb427f2.md#loioeb427f25160a4bef9f723e8256735922__section_n1s_f31_bsb)
 
-To enable translation, click [Internationalization \(i18n\)\] icon. ![](images/Internalization_icon_acaf746.png)
+To enable translation, click the :globe_with_meridians: \(*Internationlization*\) icon.
 
 When a new confirmation pop-up window appears, click [Apply\] to confirm the action. Changes are applied to 18n property.
 
@@ -82,5 +84,5 @@ Independent on the origin of the translation relevant texts, whenever it appears
 
 ## Mass i18n Creation
 
-In addition to the internationalization on the single text level, the icon for mass i18n generation is provided on the top of the screen. It reduces the effort for preparing multiple UI texts for translation.
+In addition to the internationalization on the single text level, the :globe_with_meridians: \(*mass i18n generation*\) icon is provided on the top of the screen. It reduces the effort for preparing multiple UI texts for translation.
 

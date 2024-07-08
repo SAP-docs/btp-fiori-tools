@@ -1,5 +1,7 @@
 <!-- loioaaff7b105f8d4ab8ba7e0b3ac1509f0a -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Table
 
 Table is an essential part of the *List Report* age. It’s based on the `UI.LineItem` annotation that can be generated along with the application, unless you choose differently in the SAP Fiori application generator. For more information, see [Overview](overview-66c5b6f.md). *Page Editor* lets you further configure the list report table by adding columns and actions.
@@ -79,5 +81,5 @@ A new table row for the filtering property is added for you to choose the filter
 
 Note that you can define multiple filters based on the same property.
 
-You can delete the existing default filters by clicking the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) in the respective table row.
+You can delete the existing default filters by clicking the the :wastebasket: \(*Delete*\) icon in the respective table row.
 

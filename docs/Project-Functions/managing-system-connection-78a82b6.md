@@ -1,5 +1,7 @@
 <!-- loio78a82b6852ce4061ba0825afdb79cda6 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing System Connection
 
 SAP Fiori tools running in VS Code enables to save the connection information to a remote system. This functionality provides faster authentication while creating an application, generating deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
@@ -92,7 +94,7 @@ To delete the saved systems, perform the following steps:
 1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
 2.  Expand the *SAP Systems* view.
 3.  Select any saved system.
-4.  Click the delete icon ![](images/Delete_icon_VS_Code_86e90a9.png) next to the system name.
+4.  Click the :wastebasket: \(*Delete*\) icon next to the system name.
 5.  Click *Yes* in the confirmation dialogue box.
 
 

@@ -2,7 +2,7 @@
 
 # Migration
 
-SAP Fiori tools provide a migration utility to help move your SAP Fiori projects from other services, such as SAP SAP Web IDE, to VS Code or SAP Business Application Studio.
+SAP Fiori tools provides a migration utility to help move your SAP Fiori projects from other services, such as SAP SAP Web IDE, to VS Code or SAP Business Application Studio. Note that SAP Web IDE can still be used if you have a productive SAP Business Technology Platform global account and have activated SAP Web IDE there, but it is no longer possible to accessSAP Web IDE using an SAP BTP free tier account.
 
 Some of the key points for migration:
 
@@ -14,14 +14,17 @@ Some of the key points for migration:
 
 For more information about extensibility, please see [Extending an SAP Fiori Application](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/extending-sap-fiori-application).
 
+> ### Note:  
+> As of Adaptation Project tooling 1.1.60, adaptation projects provide an *Adaptation Editor* in SAP Business Application Studio. To support this editor, existing SAPUI5 adaptation projects that have already been migrated to support SAP Fiori tools can be migrated again. Once migrated, the new *Adaptation Editor* will be available for use.
+
 
 
 <a name="loio70d41f3ee29d453a90efab3ce025d450__section_dl4_dvs_ypb"/>
 
 ## Prerequisites
 
--   Ensure that you've the latest SAP Fiori tools extensions installed. For more information, see [Getting Started with SAP Fiori Tools](getting-started-with-sap-fiori-tools-2d8b1cb.md).
--   Ensure that your SAP Fiori project is running as expected in SAP SAP Web IDE and belongs to the supported project types:
+-   Ensure that you've installed the latest SAP Fiori tools extensions. For more information, see [Getting Started with SAP Fiori Tools](getting-started-with-sap-fiori-tools-2d8b1cb.md).
+-   Ensure that your SAP Fiori project is running as expected in SAP Web IDE and belongs to the supported project types:
     -   SAP Fiori elements V2.
     -   SAP Fiori elements V4.
     -   freestyle SAPUI5.
@@ -30,12 +33,12 @@ For more information about extensibility, please see [Extending an SAP Fiori App
 
 
 
-### Recommended
+### Recommendations
 
 -   In SAP Business Application Studio, a destination of the target system needs to be defined that reflects the system used in the original application. For more information, see [SAP Business Application Studio Help Portal](https://help.sap.com/webcomponents/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/545ba7d9b3034679b7ea08bc36617c6c.html).
 
     > ### Note:  
-    > If the target system isn’t defined, previewing an application with a live data won’t succeed.
+    > If the target system isn’t defined, previewing an application with live data won’t work.
 
 -   In VS Code, you need to know the target system hostname and/or client.
 -   We recommend that the project to be migrated is under a version control system.
@@ -49,16 +52,16 @@ For more information about extensibility, please see [Extending an SAP Fiori App
 1.  Clone your project from git by using the command line or import your project to the workspace as follows:
     -   Click *File* \> *Open Workspace* and create a workspace in the projects folder.
 
-    -   Export the project from SAPSAP Web IDE to your computer.
+    -   Export the project from SAP Web IDE to your computer.
     -   Unzip the project on your computer.
     -   Drag the project to the workspace of VS Code or SAP Business Application Studio.
 
-2.  Click *Start Migration* from the pop-up window appeared.
+2.  Click *Start Migration* from the pop-up window.
 
     A new *Migration* view opens listing all the projects from your workspace. For each project listed, the type of the project is also displayed. If the tool finds no suitable project for migration in your workspace, a message is shown.
 
     > ### Tip:  
-    > You can also open the Migration view anytime by starting typing `Fiori: Migrate Project for use in Fiori tools` in the *Command Palette*.
+    > You can also open the Migration view anytime by typing `Fiori: Migrate Project for use in Fiori tools` in the *Command Palette*.
 
 3.  Select the project that you want to migrate from the list of projects by selecting the corresponding checkbox. You can choose to manually add a project from the filesystem by clicking [Add Project\]. If the supplied folder has an application that can be migrated, it's added to your list of projects. At any point, you can click the *Refresh* button to reload the projects from your workspace again.
 4.  For each listed project, if applicable, fill in the respective columns based on the information provided low:
@@ -121,7 +124,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     </td>
     <td valign="top">
     
-    A free-text field that by default contains the system name from the project being migrated. It should default to the destination from the source project `neo-app.json`. Destination is only used by SAP Fiori tools in SAP Business Application Studio and not in VS Code. To allow a project to be compatible, please provide a Destination and Hostname that is accessible to both. Use a destination for the front-end Server that has SAPUI5 libraries installed rather than connecting to the back-end OData server directly.
+    A free-text field that by default contains the system name from the project being migrated. It should default to the destination from the source project `neo-app.json`. Destination is only used by SAP Fiori tools in SAP Business Application Studio and not in VS Code. To allow a project to be compatible, please provide a Destination and Hostname that is accessible to both. Use a destination for the front-end server that has SAPUI5 libraries installed rather than connecting to the back-end OData server directly.
     
     </td>
     </tr>
@@ -133,7 +136,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     </td>
     <td valign="top">
     
-    An input box detailing the back-end hostname to be used in migration. Should be a valid **URL** or blank. This hostname is only used by SAP Fiori tools in VS Code.
+    An input box detailing the back-end hostname to be used in migration. Should be a valid URL or blank. This hostname is only used by SAP Fiori tools in VS Code.
     
     </td>
     </tr>
@@ -177,7 +180,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     > 
     > To migrate more projects, press the [Back\] button from the results view.
     > 
-    > For more details, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+    > For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
 
 
@@ -186,7 +189,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
 
 ## Files Updated During Migration
 
-The migration process modifies several files in your existing project. The following table lists the files to be updated during migration.
+The migration process modifies several files in your existing project. The following table lists the files to be updated during migration:
 
 
 <table>
@@ -262,7 +265,7 @@ A new file that supports offline development, downloads ui5 libraries locally, a
 </td>
 <td valign="top">
 
--   Removes the SAP SAP Web IDE builder tasks. SAP Fiori deployment tasks are added later when you add deployment configuration to your project.
+-   Removes the SAP Web IDE builder tasks. SAP Fiori deployment tasks are added later when you add deployment configuration to your project.
 -   Reminds of file changes, supports the proxy middleware and live reload functionality.
 
 

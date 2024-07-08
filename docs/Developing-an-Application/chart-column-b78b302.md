@@ -1,5 +1,7 @@
 <!-- loiob78b3023e27b4078bab94189937fb550 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Chart Column
 
 Chart column can be added to a table that is part of *List Report* or in an *Object Page* section.
@@ -81,6 +83,6 @@ To move a column within a table, use one of the following options:
 To delete a column in the application, perform the following steps:
 
 1.  Navigate to a column.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 

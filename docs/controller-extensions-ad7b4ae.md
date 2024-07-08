@@ -10,7 +10,7 @@
 
 Controller extensions allow you to enhance the functionality of a controller. You can create a controller extension specific to the view, for example, one controller extension for the list report view and one controller extension for the object page view. Additionally a controller extension can be delivered with an adaptation project and is dynamically added to an existing controller. Controller extensions that an adaptation project delivers are added to the reserved ".extension" namespace of the controller to avoid name clashes with existing functionality.
 
-Controller extensions let the developer to add new methods and override methods. These override methods are optional callback methods that override the existing methods using a special override member. For more information on defining an extension, see [SAPUI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
+Controller extensions let the developer to add new methods and override methods. These override methods are optional callback methods that override, or are alled before or after the existing methods using a special override member. For more information on defining an extension, see [SAPUI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
 
 > ### Remember:  
 > You can add a controller extension only if:

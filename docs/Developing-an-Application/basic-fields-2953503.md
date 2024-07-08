@@ -1,5 +1,7 @@
 <!-- loio2953503145dd428194c6dff252744ac1 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Basic Fields
 
 
@@ -76,7 +78,7 @@ To move the multiple fields to another position, perform the following steps:
 To delete the fields, perform the following steps:
 
 1.  Expand the required section and navigate your pointer to the field layer.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
     > ### Note:  

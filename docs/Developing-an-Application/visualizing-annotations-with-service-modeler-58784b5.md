@@ -1,10 +1,12 @@
 <!-- loio58784b52f2284532afe2ab161e0312c9 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Visualizing Annotations with Service Modeler
 
 You can view back-end annotations in the SAP Fiori tools - Service Modeler, and maintain them with [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor).
 
-Only OData service and CAP service annotations are supported. Annotations are associated with entity types, entities, and properties and are identified by the annotation icon ![](../Project-Functions/images/Icon_annotnation_panel_FT_5718c58.png) for the entity or properties in the tree list.
+Only OData service and CAP service annotations are supported. Annotations are associated with entity types, entities, and properties and are identified by the <span class="SAP-icons-V5"></span> \(*Annotations*\) icon for the entity or properties in the tree list.
 
 You can view the annotations associated with an entity type, entity, or properties displayed in the SAP Fiori tools - Service Modeler Annotation panel.
 
@@ -31,7 +33,7 @@ If you already have an SAP Fiori elements project in your current workspace, you
 
 **From the Text Editor**
 
-If your `metadata.xml` file is open in the text editor, click the annotations icon ![](../Project-Functions/images/Icon_annotnation_panel_FT_5718c58.png).
+If your `metadata.xml` file is open in the text editor, click the <span class="SAP-icons-V5"></span> \(*Annotations*\) icon.
 
 
 
@@ -42,7 +44,7 @@ If your `metadata.xml` file is open in the text editor, click the annotations ic
 To view annotations associated with an entity type, do the following:
 
 1.  In the tree list, select the target entity type or the property by expanding the entity type. This will highlight the annotations in the annotation panel.
-2.  Click the *Show in Source* icon ![](images/show_source_icon_dd4bbff.png) beside the annotation. The source file is opened to the side with the annotation highlighted.
+2.  Click the ![](images/show_source_icon_dd4bbff.png) \(*Show in Source*\) icon beside the annotation. The source file is opened to the side with the annotation highlighted.
 
 
 
@@ -61,7 +63,7 @@ Enter the search criteria in the search input box in the upper-right corner. The
 You can’t edit back-end annotations with the SAP Fiori tools - Service Modeler. However, you can edit local annotations by navigating to XML annotation language server with the Service Modeler.
 
 1.  Select the target entity set in the tree list, this will highlight the annotations in the side panel.
-2.  Click the *Show in Source* icon ![](images/show_source_icon_dd4bbff.png) opposite the selected local annotation in the service local annotation file.
+2.  Click the ![](images/show_source_icon_dd4bbff.png) \(*Show in Source*\) icon opposite the selected local annotation in the service local annotation file.
 3.  Edit the local annotation manually in the [XML Code Editor](maintaining-annotations-with-language-server-6fc93f8.md#loio6fc93f80827940809437365abdf85b75__XML_Code_Editor) and save the local annotation file.
 
     ![](images/Editing_annotations_c97d919.png)
@@ -74,5 +76,5 @@ You can’t edit back-end annotations with the SAP Fiori tools - Service Modeler
 ## Deleting Annotations
 
 1.  Select the target entity type or property with annotations.
-2.  In the annotation panel, click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) opposite to the selected local annotation in the service local annotation file.
+2.  In the annotation panel, click the :wastebasket: \(*Delete*\) icon opposite to the selected local annotation in the service local annotation file.
 

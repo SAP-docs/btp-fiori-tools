@@ -1,5 +1,7 @@
 <!-- loioef157a5bc67f487794dee58f2bd51d0e -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Develop with a Guide
 
 Once the required guide is selected, click *Start Guide* under the description section to start the development process. By default, the guide is opened in a *side-by-side* mode. With this flexible mode, you can see both the guide window and the list of guides window side-by-side in split view.
@@ -11,7 +13,7 @@ Once the required guide is selected, click *Start Guide* under the description s
     > If you reduce the size of the application window, the list of guides will be hidden automatically.
 
 
-A guide walks you through details of a specific feature/task that needs to be implemented in the application. It provides a short description of the feature, screenshots, and a reference to additional documentation containing more information on the topic. Links to additional documentation can be found under the Information icon in the top-right corner of the Guide details screen.
+A guide walks you through details of a specific feature/task that needs to be implemented in the application. It provides a short description of the feature, screenshots, and a reference to additional documentation containing more information on the topic. Links to additional documentation can be found under the <span class="SAP-icons-V5"></span> \(*Information*\) icon in the top-right corner of the Guide details screen.
 
 If a guide involves creating annotations, it also includes a list of Annotation Terms used to implement the functionality. Navigate your pointer over “Annotation Term” to display a tooltip with more information about it.
 

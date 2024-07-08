@@ -1,5 +1,7 @@
 <!-- loio9c086ecaace540be83b0e50101244e78 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Analytical Chart
 
 In *Page Editor*, you can configure the *List Report* page to display aggregated data of your main entity as an analytical chart above or as an alternative to the list report table. This setup is known in `OData V2` as *Analytical List Page*. In `OData V4`, it’s however not a separate template but a flavor of the *List Report* template. You can configure it for your new or existing *List Report* if your main entity contains aggregatable and groupable properties.
@@ -55,7 +57,7 @@ The respective annotation and manifest changes are generated and basic chart is 
 
 ## Deleting Analytical Chart
 
-The *Analytical Chart* can be deleted by pressing the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) on the layout node. This reverts the floor plan into a conventional *List Report* with a single table.
+The *Analytical Chart* can be deleted by pressing the :wastebasket: \(*Delete*\) icon on the layout node. This reverts the floor plan into a conventional *List Report* with a single table.
 
 
 

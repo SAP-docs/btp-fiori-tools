@@ -1,5 +1,7 @@
 <!-- loio3bf8025da58d49b0a03713a84cf347c0 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Chart Section
 
 Chart section can be added either on the section node or inside the group on the subsection node.
@@ -13,7 +15,7 @@ Chart section can be added either on the section node or inside the group on the
 To add a chart section, perform the following steps:
 
 1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
-2.  Navigate to the section node in the outline and click the *Add* icon [\+\].
+2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
 
     A drop-down menu displaying currently supported section types is displayed.
 
@@ -61,7 +63,7 @@ You can delete a section that is not required to be displayed in the UI.
 To delete the section in the application, perform the following steps:
 
 1.  Navigate to the section node in the outline.
-2.  Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  

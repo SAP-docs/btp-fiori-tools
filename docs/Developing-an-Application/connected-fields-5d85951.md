@@ -1,5 +1,7 @@
 <!-- loio5d85951736f84ee19ffb2abedbc739f2 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Connected Fields
 
 
@@ -63,7 +65,7 @@ To delete the connected fields node, perform the following steps:
 
 1.  Expand the required section and navigate your pointer to the connected fields node.
 
-2.  Click the delete icon to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 
 3.  Click *Delete* to confirm the action.
 
@@ -84,7 +86,7 @@ You can update the connected fields label and delimiter as well as set the compl
 
 **Label**
 
-The label for connected fields is maintained the same as the label for the basic fields. For more information, see [Fields](https://help.sap.com/docs/SAP_FIORI_tools/bdf9573a206b492382cc747e731cf34b/457f2e9699b5437fb09d56311055a4a0.html?state=DRAFT&version=DEV&q=label#fields).
+The label for connected fields is maintained the same as the label for the basic fields. For more information, see [Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/457f2e9699b5437fb09d56311055a4a0.html#fields).
 
 **Delimiter**
 
@@ -99,7 +101,7 @@ Similar to the basic fields, connected fields nodes can be set hidden either sta
 
 For more information, see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 
-You can’t change the properties used as connected fields. If you need to do so, delete the complete connected fields node and add it again with different properties.
+You can’t change the properties used as connected fields. If you need to do so, delete the complete connected fields node [Deleting Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#deleting-connected-fields) and add it again with different properties [Adding Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#adding-connected-fields).
 
 You can set all the basic field properties other than **Label** and **Hidden** on the individual fields level.
 

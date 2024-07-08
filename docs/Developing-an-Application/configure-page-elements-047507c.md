@@ -1,5 +1,7 @@
 <!-- loio047507c86afa4e96bb3d284adb9f4726 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Configure Page Elements
 
 Developers can configure the SAP Fiori elements applications by using manifest settings and SAPUI5 flexibility changes \(`OData V2`\) in the *Page Editor*. The configuration properties available for UI-based maintenance are provided by the <code><a href="https://www.npmjs.com/package/@sap/ux-specification">@sap/ux-specification</a></code> node module, which is installed in the application's root folder.
@@ -44,7 +46,7 @@ To start using *Page Editor*, follow one of the available scenarios:
 -   Select the root folder of your app or any folder in your workspace within Explorer, right-click, and select *Show Page Map*. See [Define Application Structure](define-application-structure-bae38e6.md) for more information about *Page Map*.
 -   Select the page that you want to configure and click the [pencil icon\].
 -   Navigate to the project sidebar view and click the respective page node in the tree view of the application modeler.
--   In the text editor of the virtual `JSON` file of the page, click the *Show Page Editor* icon in the Editor Title menu.
+-   In the text editor of the virtual `JSON` file of the page, click the <span class="SAP-icons-V5"></span> \(*Show Page Editor*\) icon in the Editor Title menu.
 
 
 

@@ -1,5 +1,7 @@
 <!-- loio02172d2bb461469f83c18c834613232c -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Maintaining Extension-Based Elements
 
 > ### Note:  
@@ -66,7 +68,7 @@ The custom column fragment and cell code are looked up and written to the projec
     ![](images/FIORI_TOOLS_CUSTOM_COLUMN_V4_bbd04e3.png)
 
 
-The custom column fragment and optional default controller code is written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom column.
+The custom column fragment and optional default controller code is written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom column.
 
 <a name="loiode514dafa2364693baeabbb40d564006"/>
 
@@ -87,7 +89,7 @@ You can create a custom section as part of your *Object Page* using the *Page Ed
     -   **Generate Event Handler** - Decide whether a demo controller should be created \(`OData V4` only\)
 
 
-On pressing [Add\], the custom section fragment/view and/or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom section.
+On pressing [Add\], the custom section fragment/view and/or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
 
 <a name="loio76374b198e514b39a96176094bb8aa1b"/>
 
@@ -110,7 +112,7 @@ You can create a custom action in your *List Report* and *Object Page* using the
     -   **Required Selection** - Toggle if this is required or not.
 
 
-On pressing [Add\], the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom action.
+On pressing [Add\], the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom action.
 
 > ### Note:  
 > This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96 or higher. See [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
@@ -136,7 +138,7 @@ You can create a custom view in your *List Report* and *Object Page* using the *
     -   **Generate Event Handler** - Decide whether a demo controller needs to be created.
 
 
-On pressing [Add\], the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the delete icon ![](../Project-Functions/images/Delete_icon_VS_Code_86e90a9.png) to delete a custom view.
+On pressing [Add\], the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom view.
 
 > ### Note:  
 > This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96.29, 1.102.14 or higher. See [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
@@ -167,7 +169,7 @@ You can create a controller extension as part of your *List Report* and *Object 
 
 5.  You can then change the order in which the extensions are executed using the drag-and-drop functionality, or using the [Move Up/Move Down\] icons.
 
-6.  You can also click *Edit in source code* to navigate to the respective controller code file.
+6.  You can also click the \(*Edit in source code*\) icon to navigate to the respective controller code file.
 
     ![](images/Fiori_Tools_Add_Controller_Extension_-_Edit_In_Source_Code_ceabfdc.png)
 

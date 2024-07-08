@@ -1,5 +1,7 @@
 <!-- loio8182ff3b19574f038bd636b9991aa24e -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Managing Service and Annotations Files
 
 
@@ -38,7 +40,7 @@
 
 1.  Right-click the SAP Fiori elements application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
-3.  Click the *Pencil* icon opposite the service.
+3.  Click the :pencil2: \(*Pencil*\) icon opposite the service.
 4.  Choose Connection Type:
     1.  Destination \(SAP Business Application Studio\) - Select server destination from the dropdown. Enter username and password if needed.
     2.  SAP System \(VS Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
@@ -55,7 +57,7 @@
 
 1.  Right-click the SAP Fiori elements application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
-3.  Click *Delete* icon.
+3.  Click :wastebasket: \(*Delete*\) icon.
 
 The `metadata.xml`, related annotation XML files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will removed any back-end routing and mockserver entries specific to the service being deleted.
 
@@ -120,5 +122,5 @@ The newly created annotation file appears in the *Annotation File Manager* for t
 ### How to delete an annotation file:
 
 1.  Select the active checkbox.
-2.  Click the delete icon ![](images/Delete_icon_VS_Code_86e90a9.png) next to the annotation file.
+2.  Click the :wastebasket: \(*Delete*\) icon next to the annotation file.
 
