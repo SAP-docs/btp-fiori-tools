@@ -112,7 +112,9 @@ You can define the following features as requirements in your input:
 
 -   Table
 
--   Multiple views for a table
+-   Multiple views for a table in multiple table mode
+
+    For more information, see [Defining Multiple Views on a List Report Table - Multiple Table Mode](https://sapui5.hana.ondemand.com/sdk/#/topic/37aeed74e17a42caa2cba3123f0c15fc).
 
 -   Initial data load
 

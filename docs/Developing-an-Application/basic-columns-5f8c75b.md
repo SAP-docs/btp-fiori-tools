@@ -2,9 +2,9 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Basic Column
+# Basic Columns
 
-Basic column is used for the standard representation of the value type. For example, it shows string values as text and numeric values as numbers. You can add multiple basic columns at a time by selecting more than one value in the *Columns* field. To easier find the desired value, you can filter the list of available options by typing in a few characters of the desired value name.
+A basic column is used for the standard representation of the value type. For example, it shows string values as text and numeric values as numbers. You can add multiple basic columns at a time by selecting more than one value in the *Columns* field. To find the desired value more easily, you can filter the list of available options by typing in a few characters of the desired value name.
 
 ![](images/Basic_Column_8c30f41.png)
 
@@ -14,9 +14,9 @@ Basic column is used for the standard representation of the value type. For exam
 
 ## Adding a Basic Column
 
-To add a basic column to a table to a section, perform the following steps:
+To add a basic column to a table in a section, perform the following steps:
 
-1.  Click `Add Basic Column` when choosing [\+\] button in Columns node in the *Page Editor* .
+1.  Click `Add Basic Column` when choosing the [\+\] button in Columns node in the *Page Editor* .
 2.  Select *Columns* via a tree control.
 3.  Click [Add\].
 
@@ -24,22 +24,22 @@ To add a basic column to a table to a section, perform the following steps:
     > You can't add the column based on the same value twice into the table.
 
 
-Column properties, can be configured in the *Property Panel* such as:
+Column properties can be configured in the *Property Panel*. Here are some examples:
 
 -   Label
 -   Importance
--   Text and Text Arrangement \(for all value types except boolean\)
+-   Text and Text Arrangement \(for all value types except Boolean\)
 -   Display Type \(for string values\)
--   Criticality and Criticality Representation\(for string and numeric values\)
+-   Criticality and Criticality Representation \(for string and numeric values\)
 -   Measures and Currencies \(for numeric values\)
 
-See [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) for information on defining *Label* and *Importance*. See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on defining and editing the remaining properties.
+For more information about defining a *Label* and *Importance*, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties), and for more information about defining and editing the remaining properties, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 
 <a name="loio5f8c75b2b4f3468aa85e9658825389de__section_pxb_cry_35b"/>
 
-## Moving Basic Column
+## Moving a Basic Column
 
 To move a column within a table, use one of the following options:
 
@@ -58,7 +58,7 @@ To move a column within a table, use one of the following options:
 
 <a name="loio5f8c75b2b4f3468aa85e9658825389de__section_adr_ksy_35b"/>
 
-## Deleting Basic Column
+## Deleting a Basic Column
 
 To delete a column in the application, perform the following steps:
 
@@ -72,9 +72,10 @@ To delete a column in the application, perform the following steps:
 
 ## Maintaining Basic Column Properties
 
-In addition to the column properties available for all column types, you can define the properties specific to the basic fields:
+In addition to the column properties available for all column types, you can define the following properties specific to the basic fields:
 
 -   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
+-   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
 -   Display Type
 -   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
 -   [Hide by Property](appendix-457f2e9.md#loio4e8bb3df433546f8a80f16e53b29e4c1)
@@ -88,5 +89,5 @@ In addition to the column properties available for all column types, you can def
 > ### Note:  
 > You can see a subset of these properties for a basic column depending on the value type and draft enablement.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information.
+For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 

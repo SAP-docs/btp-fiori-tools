@@ -12,15 +12,15 @@ This chapter describes how you can install and start working with Microsoft Visu
 
 Ensure that the minimum system requirements for installing VS Code are met. For more information, see [Requirements for Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements).
 
--   Before VS Code installation, you must have Node.js installed. Ensure you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of npm installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated npm versions.
+-   Before VS Code installation, you must have Node.js installed. Ensure you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of `npm` installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated `npm` versions.
 
     > ### Tip:  
-    > To check the version of Node.js installed, type `node -v` in the terminal. Similarly, to check the version of npm installed, type `npm -v` in the terminal. Ensure that the npm version and Node.js version are compatible.
+    > To check the version of Node.js installed, type `node -v` in the terminal. Similarly, to check the version of `npm` installed, type `npm -v` in the terminal. Ensure that the `npm` version and Node.js version are compatible.
 
     You can download Node.js here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
     > ### Note:  
-    > For Mac OS, several options are available to install a Long Term Supported \(LTS\) version, such as [Home Brew](https://brew.sh/) and Node Version Manager \(NVM\).
+    > For macOS, several options are available to install a Long Term Supported \(LTS\) version, such as [Homebrew](https://brew.sh/) and Node Version Manager \(NVM\).
 
 -   The SAP Fiori application generator requires the [MTA tool](https://www.npmjs.com/package/mta) Node.js package \(version 1.0 or higher\) to be installed globally.
 
@@ -53,10 +53,10 @@ npm config get @sap:registry
 
 One of the following values should be returned:
 
--   https://registry.npmjs.org
--   undefined
+-   `https://registry.npmjs.org`
+-   `undefined`
 
-If it is set incorrectly to the `@sap`, open your **`.npmrc`** file in your home directory and remove this entry.
+If it is set incorrectly to `@sap`, open the **`.npmrc`** file in your home directory and remove this entry.
 
 <a name="loio4ce76a049bab42b0843111af4c7dcb4c"/>
 
@@ -64,7 +64,7 @@ If it is set incorrectly to the `@sap`, open your **`.npmrc`** file in your home
 
 ## Set up Visual Studio Code
 
-To set up VS Code, you need to perform the following steps:
+To set up Visual Studio Code \(VS Code\), you need to perform the following steps:
 
 1.  Download VS Code from the [Visual Studio Code website](https://code.visualstudio.com/download).
 
@@ -73,7 +73,7 @@ To set up VS Code, you need to perform the following steps:
 
 2.  You must have a working knowledge of VS Code.
 
-    Using VS Code requires a working knowledge of this environment. We encourage you to use the following resources to obtain answers to your VS Code questions and keep yourself informed:
+    Using VS Code requires a working knowledge of this environment. Use the following resources to learn more about VS Code:
 
     -   [Visual Studio Code Basic Layout](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout).
     -   [Visual Studio Code Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
@@ -100,7 +100,7 @@ To set up VS Code, you need to perform the following steps:
     Alternatively, you can navigate to [SAP Fiori tools - Extension Pack](https://marketplace.visualstudio.com/items?itemName=SAPSE.sap-ux-fiori-tools-extension-pack) and click *Install*.
 
 3.  Click *Install*.
-4.  Then, the SAP Fiori tools install the latest release of the following extensions:
+4.  Then, SAP Fiori tools will install the latest release of the following extensions:
 
     -   Application Wizard
     -   SAP Fiori Tools – Application Modeler
@@ -121,11 +121,11 @@ To set up VS Code, you need to perform the following steps:
 
 ## SAP CDS Language Support
 
-For applications based on CAP, you can install **SAP CDS Language Support** extension. To do so, perform the following steps:
+For applications based on CAP, you can install the **SAP CDS Language Support** extension. To do so, perform the following steps:
 
-1.  Open [SAP CDS Language Support extension page](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds#overview) in Visual Studio Marketplace.
-2.  Click *Install* to open a new page with the **SAP CDS Language Support** extension in VS Code.
-3.  On the VS Code page, click *Install* to enable the extension.
+1.  Open the [SAP CDS Language Support extension](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds#overview) in Visual Studio marketplace.
+2.  Click *Install* to open the **SAP CDS Language Support** extension in VS Code.
+3.  In VS Code, click *Install* to enable the extension.
 
 For more information, see [Add CDS Editor](https://cap.cloud.sap/docs/get-started/tools/#add-cds-editor) and [CDS Editor](https://cap.cloud.sap/docs/get-started/tools/#cds-editor).
 
@@ -137,7 +137,11 @@ For more information, see [Add CDS Editor](https://cap.cloud.sap/docs/get-starte
 
 **UI5 Language Assistant Support** is an openSource extension that can be optionally installed to perform control ID checks when `flexEnabled` property is set to true in the `manifest.json` file for either SAP Fiori elements or freestyle SAPUI5 projects. It also provides additional support for relevant filters to suggestions and text for ease of use.
 
-To install the UI5 Language Assistant Support extension or read about what features it supports, click *Install* in the [UI5 Language Assistant VS Code marketplace](https://marketplace.visualstudio.com/items?itemName=SAPOSS.vscode-ui5-language-assistant&ssr=false#overview) page.
+To install the UI5 Language Assistant Support extension, perform the following steps:
+
+1.  Open the [UI5 Language Assistant extension](https://marketplace.visualstudio.com/items?itemName=SAPOSS.vscode-ui5-language-assistant&ssr=false#overview) in Visual Studio marketplace.
+2.  Click *Install* to open the **UI5 Language Assistant** extension in VS Code.
+3.  In VS Code, click *Install* to enable the extension.
 
 <a name="loio7b329a74721047808368fca5c28702c3"/>
 
@@ -145,7 +149,7 @@ To install the UI5 Language Assistant Support extension or read about what featu
 
 ## Supported Authentication Type
 
-The following table lists supported authentication types with SAP Fiori tools running in VS Code:
+The following table lists supported authentication types for SAP Fiori tools running in VS Code:
 
 
 <table>
@@ -259,7 +263,7 @@ Yes
 </tr>
 </table>
 
-We recommend using SAP Business Application Studio for the extensive support of the authentication types, especially when your required authentication type is not supported in VS Code. For more information, see:[0002577263](https://me.sap.com/notes/0002577263).
+We recommend using SAP Business Application Studio because of its extensive support of different authentication types. For more information, see: [0002577263](https://me.sap.com/notes/0002577263).
 
 If applicable, disable `SAML` for selected `OData` services. Below is the list of `OData` services:
 

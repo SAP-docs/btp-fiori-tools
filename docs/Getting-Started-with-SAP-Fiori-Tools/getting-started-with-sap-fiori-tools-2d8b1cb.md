@@ -19,13 +19,13 @@ The SAP Fiori tools extensions help you create applications, visualize navigatio
     -   Diagnostics
     -   Internationalization support
 
--   [**SAP Fiori tools Environment Check**](../Project-Functions/environment-check-75390cf.md). A tool, which is designed to run checks against your environment and/or destinations configured in SAP BTP.
+-   [**SAP Fiori tools Environment Check**](../Project-Functions/environment-check-75390cf.md). A tool which is designed to run checks against your environment and/or destinations configured in SAP Business Technology Platform.
 
 
 
 ![](images/FIORI_TOOL_USER_FLOW_WFREESTYLE_3ad8363.png)
 
-See [Report Issues and Security](report-issues-and-security-7c755a5.md) for more information.
+For more information, see [Report Issues and Security](report-issues-and-security-7c755a5.md).
 
 **Supported Deployment Landscapes:**
 

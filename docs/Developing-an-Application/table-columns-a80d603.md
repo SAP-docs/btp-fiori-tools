@@ -13,7 +13,7 @@ Once the table columns are added, you can move them within the table, delete or 
 
 The following column types are supported:
 
--   [Basic Column](basic-column-5f8c75b.md)
+-   [Basic Columns](basic-columns-5f8c75b.md)
 -   [Rating Column](rating-column-b2ba7b4.md)
 -   [Progress Column](progress-column-0039256.md)
 -   [Chart Column](chart-column-b78b302.md)

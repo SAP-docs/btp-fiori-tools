@@ -3,9 +3,9 @@
 # Capabilities Overview
 
 > ### Note:  
-> To view information on features available in your application, navigate to *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+> To view information on the features available in your application, navigate to the *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
-The following table lists the SAP Fiori tools features provided in each template or data source.
+The following table lists the SAP Fiori tools features provided in each template and data source.
 
 
 
@@ -80,7 +80,7 @@ Add Deploy Config
 </td>
 <td valign="top">
 
-sap.ux.appGenerator.launchDeployConfig
+`sap.ux.appGenerator.launchDeployConfig`
 
 </td>
 <td valign="top">
@@ -137,7 +137,7 @@ Add Mockserver Config
 </td>
 <td valign="top">
 
-npx --yes @sap-ux/create@latest add mockserver-config
+`npx --yes @sap-ux/create@latest add mockserver-config`
 
 </td>
 <td valign="top">
@@ -194,7 +194,7 @@ Add Variants Config
 </td>
 <td valign="top">
 
-sap.ux.applicationModeler.addVariantsConfig
+`sap.ux.applicationModeler.addVariantsConfig`
 
 </td>
 <td valign="top">
@@ -251,7 +251,7 @@ Build Application
 </td>
 <td valign="top">
 
-npm run build
+`npm run build`
 
 </td>
 <td valign="top">
@@ -308,7 +308,7 @@ Change minUI5Version
 </td>
 <td valign="top">
 
-sap.ux.applicationModeler.changeMinUI5Version
+`sap.ux.applicationModeler.changeMinUI5Version`
 
 </td>
 <td valign="top">
@@ -365,7 +365,7 @@ Check Node Modules
 </td>
 <td valign="top">
 
-npm outdated
+`npm outdated`
 
 </td>
 <td valign="top">
@@ -422,7 +422,7 @@ Check Service
 </td>
 <td valign="top">
 
-sap.ux.serviceModeler.openFile
+`sap.ux.serviceModeler.openFile`
 
 </td>
 <td valign="top">
@@ -479,7 +479,7 @@ Create Archive
 </td>
 <td valign="top">
 
-sap.ux.environmentcheck.archiveProject
+`sap.ux.environmentcheck.archiveProject`
 
 </td>
 <td valign="top">
@@ -536,7 +536,7 @@ Deploy
 </td>
 <td valign="top">
 
-sap.ux.appGenerator.launchDeploy
+`sap.ux.appGenerator.launchDeploy`
 
 </td>
 <td valign="top">
@@ -593,7 +593,7 @@ Maintain Mockdata
 </td>
 <td valign="top">
 
-sap.ux.dataEditor.open
+`sap.ux.dataEditor.open`
 
 </td>
 <td valign="top">
@@ -650,7 +650,7 @@ Manage Service Models
 </td>
 <td valign="top">
 
-sap.ux.serviceModeler.openServiceMgr
+`sap.ux.serviceModeler.openServiceMgr`
 
 </td>
 <td valign="top">
@@ -707,7 +707,7 @@ Manage XML Annotations
 </td>
 <td valign="top">
 
-sap.ux.serviceModeler.openAnnotationFileMgr
+`sap.ux.serviceModeler.openAnnotationFileMgr`
 
 </td>
 <td valign="top">
@@ -764,7 +764,7 @@ Open Guided Development
 </td>
 <td valign="top">
 
-sap.ux.help.openGuidedDevelopmentFromExplorer
+`sap.ux.help.openGuidedDevelopmentFromExplorer`
 
 </td>
 <td valign="top">
@@ -821,7 +821,7 @@ Open Page Map
 </td>
 <td valign="top">
 
-sap.ux.pageMap.showMap
+`sap.ux.pageMap.showMap`
 
 </td>
 <td valign="top">
@@ -878,7 +878,7 @@ Preview Application
 </td>
 <td valign="top">
 
-sap.ux.pageEditor.previewExternal
+`sap.ux.pageEditor.previewExternal`
 
 </td>
 <td valign="top">
@@ -935,7 +935,7 @@ Run UI5 Linter
 </td>
 <td valign="top">
 
-sap.ux.applicationModeler.runUI5Linter
+`sap.ux.applicationModeler.runUI5Linter`
 
 </td>
 <td valign="top">
@@ -992,7 +992,7 @@ Show Documentation
 </td>
 <td valign="top">
 
-sap.ux.applicationModeler.showDocu
+`sap.ux.applicationModeler.showDocu`
 
 </td>
 <td valign="top">
@@ -1049,7 +1049,7 @@ Test deployment
 </td>
 <td valign="top">
 
-npm run deploy-test
+`npm run deploy-test`
 
 </td>
 <td valign="top">
@@ -1106,7 +1106,7 @@ Undeploy
 </td>
 <td valign="top">
 
-npm run undeploy
+`npm run undeploy`
 
 </td>
 <td valign="top">
@@ -1163,7 +1163,7 @@ Validate Application
 </td>
 <td valign="top">
 
-sap.ux.applicationModeler.validate
+`sap.ux.applicationModeler.validate`
 
 </td>
 <td valign="top">
@@ -1237,5 +1237,5 @@ The following support keyboard navigation and high contrast theming:
 
 Keyboard navigation provides a streamlined experience enabling users to use the application without needing to use their mouse. Use the arrow keys to navigate within sections, the [Tab\] key to navigate to new sections and controls, [Shift\] + [Tab\]  to navigate back to sections and controls, and [Enter\] to make selections.
 
-High contrast theme provides better readability and accessibility when the theme is chosen in *Preferences* \> *Color Themes* in VS Code or SAP Business Application Studio.
+A high contrast theme provides better readability and accessibility. You can switch to a high contrast theme using *Preferences* \> *Color Themes* in VS Code or SAP Business Application Studio.
 

@@ -69,11 +69,13 @@ To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following 
 
 1.  Login to your SAPUI5 ABAP back-end system and navigate to the transaction `SE80`.
 2.  Run the report `/UI5/UI5_REPOSITORY_LOAD`.
-3.  Provide the name of the SAPUI5 application and click [Download\].
+3.  Provide the name of the SAPUI5 application and click *Download*.
 4.  Choose an empty folder for the download target.
-5.  From the resulting view, download all as a zip using the button[Click here to Download\] at the end of the page.
-6.  Extract the zip into the folder `restore-from-exported/webapp`: Verify that the `manifest.json` is located at `restore-from-exported/webapp/manifest.json`.
-7.  Create a package.json in the folder `restore-from-exported`. It should contain the following where the value for `name` matches the application name in the `manifest.json`.
+5.  From the resulting view, download all as a zip using the button *Click here to Download* at the end of the page.
+6.  Extract the zip into the folder `restore-from-exported/webapp`.
+    -   Verify that the `manifest.json` is located at `restore-from-exported/webapp/manifest.json`.
+
+7.  Create a `package.json` in the folder `restore-from-exported`. The `name` value should match the application name in `manifest.json`.
 
     ```
     {
@@ -91,8 +93,8 @@ To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following 
     }
     ```
 
-8.  In SAP Business Application Studio or VS Code workspace start the Migration command `Fiori: Migrate Project for use in Fiori tools` if not already prompted to do so.
-9.  The projext should be found in `restore-from-exported` and listed for migration.
+8.  In SAP Business Application Studio or VS Code workspace, start the migration command `Fiori: Migrate Project for use in Fiori tools` if not already prompted to do so.
+9.  The project should be found in `restore-from-exported` and listed for migration.
 10. Choose the appropriate options and migrate the project.
 11. Upon successful completion the project should now be compatible with SAP Fiori tools.
 

@@ -93,16 +93,17 @@ To delete the fields, perform the following steps:
 
 Field properties are associated with fields in the Field section and the application with the help of annotations. The following field properties can be edited:
 
--   [Label](basic-fields-2953503.md#loio2953503145dd428194c6dff252744ac1__label)
+-   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
+-   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
 -   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
 -   [Hide by Property](appendix-457f2e9.md#loio4e8bb3df433546f8a80f16e53b29e4c1)
+-   [Label](basic-fields-2953503.md#loio2953503145dd428194c6dff252744ac1__label)
 -   [Restrictions](basic-fields-2953503.md#loio2953503145dd428194c6dff252744ac1__restrictions)
+-   [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955)
+-   [Semantic Object Property Mapping](appendix-457f2e9.md#loio7726cb0d97194461973e3ec176c8a888)
 -   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47)
 -   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6) 
 -   Display Type
--   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
--   [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955)
--   [Semantic Object Property Mapping](appendix-457f2e9.md#loio7726cb0d97194461973e3ec176c8a888)
 
 See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information.
 
@@ -199,5 +200,5 @@ This field is displayed as read-only data with no editing allowed.
 > When the Object Page entity isn't draft enabled \(read-only\), Display Type and Restrictions fields aren't available in the property panel as the fields aren't editable and are only used for displaying the value.
 
 > ### Note:  
-> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* isn't available. If the back-end restriction value can't be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex*\(base layer\).
+> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* isn't available. If the back-end restriction value can't be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
 

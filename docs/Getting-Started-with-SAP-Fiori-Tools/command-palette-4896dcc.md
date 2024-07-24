@@ -122,7 +122,7 @@ Fiori: Change the Minimum SAPUI5Version
 </td>
 <td valign="top">
 
-Changes the minimum version of SAPUI5 that this application requires.
+Changes the minimum version of SAPUI5 that the application requires.
 
 </td>
 </tr>
@@ -146,7 +146,7 @@ Fiori: Deploy Application
 </td>
 <td valign="top">
 
-Deploys the application according to the configuration by default stored in `ui5-deploy.yaml`.
+Deploys the application according to the configuration by default stored in `ui5-deploy.yaml`
 
 </td>
 </tr>
@@ -230,7 +230,7 @@ Fiori: Open CF Application Router Generator
 </td>
 <td valign="top">
 
-Generates an app router configuration in MTA deployment scenario. For more information, see [Generating an MTA Deployment File](../Generating-an-Application/Additional-Configuration/generating-an-mta-deployment-file-9c41152.md).
+Generates an app router configuration in the MTA deployment scenario. For more information, see [Generating an MTA Deployment File](../Generating-an-Application/Additional-Configuration/generating-an-mta-deployment-file-9c41152.md).
 
 </td>
 </tr>
@@ -266,7 +266,7 @@ Fiori: Open Guided Development
 </td>
 <td valign="top">
 
-Guided development helps solve common tasks.
+Launches guided development, an extension that implements and updates features and functionality in your project by generating and inserting code snippets based your parameter selections. For more information, see [Use Feature Guides](../Developing-an-Application/use-feature-guides-0c9e518.md).
 
 </td>
 </tr>
@@ -278,7 +278,7 @@ Fiori: Open Guided Development to the Side
 </td>
 <td valign="top">
 
-Launches guided development, an extension that implements and updates features and functionality in your project by generating and inserting code snippets based your parameter selections. For more information, see [Use Feature Guides](../Developing-an-Application/use-feature-guides-0c9e518.md).
+Launches guided development \(see above\) to the side of the VS Code window.
 
 </td>
 </tr>
@@ -302,7 +302,7 @@ Fiori: Open Run Configurations
 </td>
 <td valign="top">
 
-Opens the run configuration editor for a project to configure preview options. For more information, see [Use Run Control](../Previewing-an-Application/use-run-control-09171c8.md).
+Opens the run configuration editor to configure preview options for a project. For more information, see [Use Run Control](../Previewing-an-Application/use-run-control-09171c8.md).
 
 </td>
 </tr>
@@ -326,7 +326,7 @@ Fiori: Open Service Modeler
 </td>
 <td valign="top">
 
-Launches the Service Modeler.
+Launches the Service Modeler, an extension to visualize the OData service model and annotations. For more information, see [Viewing Service Metadata](../Project-Functions/viewing-service-metadata-e369c2c.md).
 
 </td>
 </tr>
@@ -338,7 +338,7 @@ Fiori: Open Service Modeler to the Side
 </td>
 <td valign="top">
 
-Launches the Service Modeler, an extension to visualize the OData service model and annotations. For more information, see [Viewing Service Metadata](../Project-Functions/viewing-service-metadata-e369c2c.md).
+Launches the Service Modeler \(see above\) to the side of the VS Code window.
 
 </td>
 </tr>
@@ -350,7 +350,7 @@ Fiori: Preview Application
 </td>
 <td valign="top">
 
-Allows you to choose from start scripts to run the application preview.
+Allows you to choose a start script to run the application preview.
 
 </td>
 </tr>
@@ -374,7 +374,7 @@ Fiori: Restart XML annotation language server
 </td>
 <td valign="top">
 
-Restarts XML annotation language server if it failed.
+Restarts the XML annotation language server if it failed.
 
 </td>
 </tr>
@@ -410,7 +410,7 @@ Fiori: Show Page Editor
 </td>
 <td valign="top">
 
-Opens the Page Map that shows application pages and navigation paths. For more information, see [Define Application Structure](../Developing-an-Application/define-application-structure-bae38e6.md).
+Opens the Page Editor that shows an outline view of the configurable elements on a selected page. For more information, see [Configure Page Elements](../Developing-an-Application/configure-page-elements-047507c.md).
 
 </td>
 </tr>
@@ -422,7 +422,7 @@ Fiori: Show Page Map
 </td>
 <td valign="top">
 
-Opens the Page Map that shows application pages and navigation paths.
+Opens the Page Map that shows application pages and navigation paths. For more information, see [Define Application Structure](../Developing-an-Application/define-application-structure-bae38e6.md).
 
 </td>
 </tr>

@@ -48,6 +48,21 @@ In addition to the section label, some header section types, such as progress or
 > ### Note:  
 > Similar to section label, description text can be prepared for translation. For more information see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
+<a name="loio344568c1e4014621905d78857cf66401"/>
+
+<!-- loio344568c1e4014621905d78857cf66401 -->
+
+## Display as Image
+
+If the table column or section field is built on a string property and contains a link to the image, you can set it so that it displays as an image in your application at runtime. To do so, switch on the property *Display as Image*. This applies `@UI.IsImageURL : true` to the property used for that column or field.
+
+-   All fields and columns in your project built on this property use the same rendering. Deleting a column or field does not remove the annotation, as this could impact other instances of the field at runtime.
+
+-   If the property is annotated with `@UI.IsImageURL : true` in the service or in the local annotation file of the lower layer, you cannot change the setting in the Page Editor.
+
+-   If you annotate table columns and section fields with `@Core.MediaType` along with `@Core.IsURL`, then they are also displayed as images at runtime. However, as these annotations are applicable on the service level, you cannot maintain them from the Page Editor, and so *Display as Image* is displayed in read-only mode for such fields and columns.
+
+
 <a name="loiof7ad71792a0044d6b6172f078827bdc0"/>
 
 <!-- loiof7ad71792a0044d6b6172f078827bdc0 -->
