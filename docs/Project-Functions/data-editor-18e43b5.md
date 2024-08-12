@@ -5,7 +5,7 @@
 Previewing the application using `npm run start-mock` generates mock data on the fly. If you want to generate mock data and store it in the `.json` file format, you can right-click on your project and launch `Open Data Editor`. Once generated, mock data is stored in the `.json` format under the `/webapp/localService/mockdata` file.
 
 > ### Note:  
-> Mockserver configuration is needed prior to using `npm run start-mock`. See [Installing MockServer](../Previewing-an-Application/installing-mockserver-2538055.md).
+> You need to configure mock server prior to using `npm run start-mock`. See [Installing MockServer](../Previewing-an-Application/installing-mockserver-2538055.md).
 
 For templates like *Overview page* where there are multiple services, you will see a drop-down list to select the metadata file you want use. If your application is running, you can stop the mock server by pressing [Ctrl\] + [C\] .
 
@@ -26,7 +26,7 @@ If the **mock server isn’t running**, you can:
 
 If the mock server is running:
 
--   Add `watch: true` parameter to the `ui5-mock.yaml` file in order to pick up the changes.
+-   Add the `watch: true` parameter to the `ui5-mock.yaml` file in order to pick up the changes.
 
     ![ui5-mock.yaml](images/Data_Editor_ui5mockyaml_3e50d51.png)
 
@@ -60,7 +60,7 @@ If the mock server is running:
 
 To search for mock data, perform the following steps:
 
-1.  Click on the *Search* input field in the header bar of the Data Editor .
+1.  Click on the *Search* input field in the header bar of the Data Editord.
 2.  Enter search criteria in the search input field.
 3.  Select the mock data that matches the search criteria in the drop-down table. The data selected is highlighted in the Data Editor table.
 

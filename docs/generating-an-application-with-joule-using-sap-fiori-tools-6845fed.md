@@ -51,7 +51,7 @@ Ensure the following prerequisites are met:
 
 2.  Prepare your business requirements document for generating a new application. To get started, see [Example 1: Manage Contracts and Customer Information in the System](example-1-manage-contracts-and-customer-information-in-the-system-c1bccf2.md) and [Example 2: Display Customers with Related Contracts](example-2-display-customers-with-related-contracts-a6c978f.md).
 
-3.  Paste your business requirements document following the pattern provided in the examples.
+3.  Paste your business requirements document following the pattern provided in the examples. We recommend that you use English to achieve the best results.
 
     > ### Note:  
     > Please ensure your request refers to a single app only.
@@ -66,12 +66,17 @@ Ensure the following prerequisites are met:
 
 6.  You can optionally select *Preview App* to launch a preview of the application in a browser window to help determine if it meets your expectations.
 
-7.  If you are happy with the generated application, accept the changes by clicking the *Accept Files* button to move the project into your file system.
+7.  Once the generated app meets your expectations, click the *Accept Files* button to move the project into your file system. You can then still adapt the project if required.
+
+    > ### Tip:  
+    > We recommend that you use SAP Fiori tools to adjust the generated UI features in the application layer and to add new features, especially if they aren’t part of the Supported Features list below. You may also need to use other tools to define the application logic or modify other layers of the generated project.
 
 8.  Once the project has been moved into your file system, you can launch the command palette and enter the command `Fiori: Preview Application`. Then choose the associated watch script for the new application.
 
 
 If your request does not contain any instructions for the specific supported feature, the generated app will either not include it, or it will be implemented at Joule's own discretion. For example, if Joule finds no explicit request for the filters in the list report, the app may contain the filter fields of Joules choice.
+
+By default, all generated apps are draft-enabled and contain standard actions – other actions are not supported.
 
 
 
@@ -110,13 +115,19 @@ You can define the following features as requirements in your input:
 
 -   Filter fields
 
--   Table
+-   Basic table columns
+
+    Features such as charts and icons are not supported.
 
 -   Multiple views for a table in multiple table mode
 
     For more information, see [Defining Multiple Views on a List Report Table - Multiple Table Mode](https://sapui5.hana.ondemand.com/sdk/#/topic/37aeed74e17a42caa2cba3123f0c15fc).
 
 -   Initial data load
+
+    For more information, see [Loading Behavior of Data on Initial Launch of the Application](https://ui5.sap.com/#/topic/9f4e1192f1384b85bc160288e17f69c4).
+
+    The topic contains details about the settings that define the loading behavior for SAP Fiori elements for OData V4 \(for example `auto` and `disabled`\).
 
 
 
@@ -127,10 +138,14 @@ You can define the following features as requirements in your input:
 
 -   Form sections and fields
 
--   Table sections
+-   Table sections with basic columns
 
 -   Navigation from table section to second object page
 
+
+Joule doesn’t generate object page header elements based on your specific requirements, but may use the general description of your app to generate some basic header elements.
+
+Joule uses your input to create UI elements such as fields and columns, but chooses random data values to fill these columns. The data values are intended only for testing the app in preview mode and are stored in a test folder of the generated project. The only exception are the code lists or enum values that are based on the explicit values from your input. These values are treated as properties of associated entities and stored in a data folder.
 
 > ### Tip:  
 > It’s possible that Joule occasionally misunderstands parts of your requirements, or misses a contained feature request. If this happens, please click *Regenerate* to try again, or click the :pencil2: \(*Pencil*\) icon, rephrase your input and click *Submit*.

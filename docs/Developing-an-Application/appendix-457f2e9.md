@@ -56,12 +56,12 @@ In addition to the section label, some header section types, such as progress or
 
 If the table column or section field is built on a string property and contains a link to the image, you can set it so that it displays as an image in your application at runtime. To do so, switch on the property *Display as Image*. This applies `@UI.IsImageURL : true` to the property used for that column or field.
 
--   All fields and columns in your project built on this property use the same rendering. Deleting a column or field does not remove the annotation, as this could impact other instances of the field at runtime.
-
--   If the property is annotated with `@UI.IsImageURL : true` in the service or in the local annotation file of the lower layer, you cannot change the setting in the Page Editor.
-
--   If you annotate table columns and section fields with `@Core.MediaType` along with `@Core.IsURL`, then they are also displayed as images at runtime. However, as these annotations are applicable on the service level, you cannot maintain them from the Page Editor, and so *Display as Image* is displayed in read-only mode for such fields and columns.
-
+> ### Note:  
+> -   All fields and columns in your project built on this property use the same rendering. Deleting a column or field does not remove the annotation, as this could impact other instances of the field at runtime.
+> 
+> -   If the property is annotated with `@UI.IsImageURL : true` in the service or in the local annotation file of the lower layer, the setting cannot be changed in the Page Editor.
+> 
+> -   Table columns and section fields annotated with `@Core.MediaType` along with `@Core.IsURL` are also displayed as images at runtime. However, as these annotations are applicable on the service level, they cannot be maintained using the Page Editor, and so *Display as Image* is displayed in read-only mode for such fields and columns.
 
 <a name="loiof7ad71792a0044d6b6172f078827bdc0"/>
 
