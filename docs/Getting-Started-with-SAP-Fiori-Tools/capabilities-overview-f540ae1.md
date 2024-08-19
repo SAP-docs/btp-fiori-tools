@@ -836,7 +836,7 @@ Open the page map that shows application pages and navigation paths.
 </td>
 <td valign="top">
 
-
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">

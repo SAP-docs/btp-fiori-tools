@@ -15,7 +15,7 @@ A new run configuration is created with the command `Fiori: Open Run Configurati
 4.  Fill in the following sections:
 
     -   *Name* \(**mandatory**\) - You can change the name.
-    -   *File Name*\(**mandatory**\) - Select html file that is used when application is started.
+    -   *Endpoint*\(**mandatory**\) - Select html file that is used when application is started.
     -   *Mock Data* - Runs your application with a mock server which will mock the OData requests.
     -   *Support Assistant* - Enables application developers to check whether their applications are built according to the best practices for building SAPUI5 applications. The tool uses a set of pre-defined rules to check all aspects of an application.
     -   *URL Components* - Enables application developer to define additional URL parameters and/or hash fragment for the SAP Fiori launchpad intent-based navigation.

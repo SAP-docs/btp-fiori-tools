@@ -4,15 +4,15 @@
 
 # Managing System Connection
 
-SAP Fiori tools running in VS Code enables to save the connection information to a remote system. This functionality provides faster authentication while creating an application, generating deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
+SAP Fiori tools running in VS Code allows you to save the connection information for a remote system. This functionality provides faster authentication when creating an application, generating a deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
 
 
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_jv1_xgh_3qb"/>
 
-## View Saved Systems Details
+## View SAP System Details
 
-To view the saved systems details, perform the following steps:
+To view the details of an existing SAP system, perform the following steps:
 
 1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
 2.  Expand the *SAP Systems* view.
@@ -28,9 +28,9 @@ To view the saved systems details, perform the following steps:
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_mrq_tbr_2rb"/>
 
-## Test Saved Systems Connection
+## Test SAP System Connection
 
-To view the saved systems details, perform the following steps:
+To test the connection of an existing SAP system, perform the following steps:
 
 1.  Open the details of a saved system. For more information, see [View Saved Systems Details](managing-system-connection-78a82b6.md#loio78a82b6852ce4061ba0825afdb79cda6__section_jv1_xgh_3qb).
 2.  Click *Test Connection*.
@@ -45,11 +45,11 @@ To view the saved systems details, perform the following steps:
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_v2b_wpy_lqb"/>
 
-## Edit Saved Systems
+## Edit SAP System Connection
 
-For editing an existing SAP system connection detail, perform the following steps:
+To edit the connection details for an existing SAP system, perform the following steps:
 
-1.  Right-click a saved system name and click the *Show SAP System Details* button or click a saved system name to open system details tab to open *SAP system Details*.
+1.  Right-click the saved system name you wish to edit and click the *Show SAP System Details* button.
 2.  For *ABAP On Premise*, update any of the following fields:
     -   System Name
     -   URL
@@ -77,23 +77,19 @@ For editing an existing SAP system connection detail, perform the following step
 
 
 6.  Click on *Test Connection*.
-
-    > ### Note:  
-    > We recommend that you test the connection before saving to ensure it’s working as expected.
-
 7.  Click *Save*.
 
 
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_hr1_zhh_3qb"/>
 
-## Delete Saved Systems
+## Delete SAP System Connection
 
-To delete the saved systems, perform the following steps:
+To delete the connection to a SAP system, perform the following steps:
 
 1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
 2.  Expand the *SAP Systems* view.
-3.  Select any saved system.
+3.  Select the saved system you wish to delete.
 4.  Click the :wastebasket: \(*Delete*\) icon next to the system name.
 5.  Click *Yes* in the confirmation dialogue box.
 
@@ -101,12 +97,12 @@ To delete the saved systems, perform the following steps:
 
 <a name="loio78a82b6852ce4061ba0825afdb79cda6__section_cn1_1lh_3qb"/>
 
-## Create New System
+## Create New SAP System
 
 To create a new ABAP On Premise system, perform the following steps:
 
-1.  Click the [\+\] icon with the tooltip *Add SAP System* on the right side of the system panel.
-2.  Enter valid values for ABAP On Premise system that you have access to:
+1.  Click the :heavy_plus_sign: \(*Add*\) icon with the tooltip *Add SAP System* on the right side of the system panel.
+2.  Enter valid values for the ABAP On Premise system that you have access to:
     -   *System Name*: your choice
     -   *URL*: system URL
     -   *Client*: usually 3 digits, leave empty if not required
@@ -122,12 +118,9 @@ To create a new ABAP On Premise system, perform the following steps:
 
 
 
-> ### Note:  
-> You can save the new system without first validating that the connection is successful. However, we recommend that you test the connection before saving to ensure it works as expected.
+To create a new ABAP Environment on SAP Business Technology Platform \(SAP BTP\), perform the following steps:
 
-To create a new ABAP Environment on SAP BTP, perform the following steps:
-
-1.  Click the [\+\] icon with the tooltip *Add SAP System* on the right side of the system panel.
+1.  Click the :heavy_plus_sign: \(*Add*\) icon icon with the tooltip *Add SAP System* on the right side of the system panel.
 
 2.  Under *System Type*, select *ABAP Environment on SAP Business Technology Platform*.
 
@@ -135,7 +128,7 @@ To create a new ABAP Environment on SAP BTP, perform the following steps:
 
     **Service Key**
 
-    1.  For authenticating with a Service Key, enter valid values for the ABAP Environment on SAP Business Technology Platform system that you have access to:
+    1.  For authenticating with a Service Key, enter valid values for the ABAP Environment on SAP BTP system that you have access to:
 
         -   *System Name*: your choice
 
@@ -190,7 +183,7 @@ To create a new ABAP Environment on SAP BTP, perform the following steps:
 
 To export an existing ABAP On Premise system, perform the following steps:
 
-1.  Right-click a saved system name and click *Show SAP System Details* or click a saved system name to open the *SAP Systems* details.
+1.  Right-click a saved system name and click *Show SAP System Details*.
 2.  Click *Export System*. A copy of the saved system will be downloaded in JSON format. Please note that no sensitive credential information is included in the exported JSON file.
 
 To import an ABAP On Premise system, perform the following steps:
