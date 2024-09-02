@@ -37,20 +37,11 @@ If the mock server is running:
 
 ## Editing Mock Data
 
-**Editing Data**- edit data by double-clicking in the editable cell.
+**Editing Data**- edit data by double-clicking in the editable cell. Primary keys and foreign keys aren’t editable.
 
-> ### Note:  
-> Primary keys and foreign keys aren’t editable.
+**Add Row** - add a row by clicking the *Add Row* button. Additional rows will be added automatically to all the entities that are associated with a foreign key.
 
-**Add Row** - add a row by clicking the *Add Row* button.
-
-> ### Note:  
-> Additional rows will be added automatically to all the entities that are associated with a foreign key.
-
-**Delete Row** - delete a row by selecting a row and clicking the *Delete Row* button.
-
-> ### Note:  
-> Rows will be automatically deleted on all the entities that are associated with a foreign key.
+**Delete Row** - delete a row by selecting a row and clicking the *Delete Row* button. Rows will be automatically deleted on all the entities that are associated with a foreign key.
 
 
 

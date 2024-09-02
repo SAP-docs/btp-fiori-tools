@@ -13,12 +13,11 @@ SAP Business Application Studio is a hosted environment which does not require i
 SAP Fiori tools are preinstalled and loaded when the dev space is created in SAP Business Application Studio for the following dev space types:
 
 -   **SAP Fiori Dev Space**
--   **Full Stack Cloud Application Dev Space**. This dev space is intended for services and applications that using SAP Cloud Application Programming Model \(CAP\).
--   In SAP Business Application Studio, an SAP Fiori tools **Dev Space** does not include the CDS OData Language Server extension. For more information, see **SAP CDS Language Support** in the [Visual Studio Code](visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280) section.
--   In SAP Business Application Studio, an SAP Fiori tools**Dev Space** already includes UI5 Language Assistant because it is a mandatory extension that is installed automatically.
+-   **Full Stack Cloud Application Dev Space** - This dev space is intended for services and applications that using SAP Cloud Application Programming Model \(CAP\).
 
-    For more information, see [UI5 Language Assistant Support](https://marketplace.visualstudio.com/items?itemName=SAPOSS.vscode-ui5-language-assistant&ssr=false#overview).
+In SAP Business Application Studio, an SAP Fiori tools **Dev Space** does not include the CDS OData Language Server extension. For more information, see **SAP CDS Language Support** in the [Visual Studio Code](visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280) section.
 
+In SAP Business Application Studio, an SAP Fiori tools **Dev Space** already includes UI5 Language Assistant because it is a mandatory extension that is installed automatically. For more information, see [UI5 Language Assistant Support](https://marketplace.visualstudio.com/items?itemName=SAPOSS.vscode-ui5-language-assistant&ssr=false#overview).
 
 **Related Information**  
 

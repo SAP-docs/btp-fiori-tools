@@ -4,9 +4,9 @@
 
 
 
-To create an application in VS Code or SAP Business Application Studio, perform the following steps:
+To create an application in Visual Studio Code \(VS Code\) or SAP Business Application Studio, perform the following steps:
 
-1.  Using **Command Palette** in VS Code \([CMD\]/[CTRL\] + [Shift\] + [P\]\), select `Fiori: Open Application Generator` or *Start from template* in SAP Business Application Studio.
+1.  Open the Command Palette in Visual Studio Code \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and execute the *Fiori: Open Application Generator* command or *Start from template* in SAP Business Application Studio.
 
     > ### Note:  
     > In SAP Business Application Studio, use one of the following dev spaces, depending on your development needs:
@@ -32,7 +32,7 @@ To create an application in VS Code or SAP Business Application Studio, perform 
 
 
 > ### Note:  
-> After the SAP Fiori project is generated, the **Application Information** page opens. You can relaunch the **Application Information** page at any time by executing `Fiori: Open Application Info` command.
+> After the SAP Fiori project is generated, the *Application Information* page opens. You can relaunch the *Application Information* page at any time by opening the Command Palette \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and executing the *Fiori: Open Application Info* command.
 
 For MTA deployment, see [Generating an MTA Deployment File](Additional-Configuration/generating-an-mta-deployment-file-9c41152.md) 
 

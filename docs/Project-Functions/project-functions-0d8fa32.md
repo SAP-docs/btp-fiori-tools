@@ -14,4 +14,5 @@ The following project functions are available when using SAP Fiori tools:
 -   [Managing Service and Annotations Files](managing-service-and-annotations-files-8182ff3.md)
 -   [Project Validation](project-validation-6f3c737.md)
 -   [Viewing Service Metadata](viewing-service-metadata-e369c2c.md)
+-   [UI Service Generation](ui-service-generation-1a7aad3.md)
 

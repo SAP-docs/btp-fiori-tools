@@ -2,7 +2,7 @@
 
 # Visual Studio Code
 
-This chapter describes how you can install and start working with Microsoft Visual Studio Code \(VS Code\) and provides links to important step-by-step procedures.
+This chapter describes how you can install and start working with Visual Studio Code \(VS Code\) and provides links to important step-by-step procedures.
 
 <a name="loio002ae80eac034e6588af81827ab97332"/>
 
@@ -12,15 +12,15 @@ This chapter describes how you can install and start working with Microsoft Visu
 
 Ensure that the minimum system requirements for installing VS Code are met. For more information, see [Requirements for Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements).
 
--   Before VS Code installation, you must have Node.js installed. Ensure you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of `npm` installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated `npm` versions.
+-   You must have Node.js installed. Ensure that you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of `npm` installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated `npm` versions.
 
     > ### Tip:  
-    > To check the version of Node.js installed, type `node -v` in the terminal. Similarly, to check the version of `npm` installed, type `npm -v` in the terminal. Ensure that the `npm` version and Node.js version are compatible.
+    > To check the version of Node.js installed, type `node -v` in the terminal. Tto check the version of `npm` installed, type `npm -v` in the terminal. Ensure that the `npm` version and Node.js version are compatible.
 
     You can download Node.js here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
 
     > ### Note:  
-    > For macOS, several options are available to install a Long Term Supported \(LTS\) version, such as [Homebrew](https://brew.sh/) and Node Version Manager \(NVM\).
+    > For macOS, several options are available to install a LTS version of Node.js, such as [Homebrew](https://brew.sh/) and Node Version Manager \(NVM\).
 
 -   The SAP Fiori application generator requires the [MTA tool](https://www.npmjs.com/package/mta) Node.js package \(version 1.0 or higher\) to be installed globally.
 
@@ -64,7 +64,7 @@ If it is set incorrectly to `@sap`, open the **`.npmrc`** file in your home dire
 
 ## Set up Visual Studio Code
 
-To set up Visual Studio Code \(VS Code\), you need to perform the following steps:
+To set up VS Code, you need to perform the following steps:
 
 1.  Download VS Code from the [Visual Studio Code website](https://code.visualstudio.com/download).
 
@@ -73,12 +73,12 @@ To set up Visual Studio Code \(VS Code\), you need to perform the following step
 
 2.  You must have a working knowledge of VS Code.
 
-    Using VS Code requires a working knowledge of this environment. Use the following resources to learn more about VS Code:
+    Using VS Code requires a working knowledge of this integrated development environment. Use the following resources to learn more about VS Code:
 
     -   [Visual Studio Code Basic Layout](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout).
     -   [Visual Studio Code Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
 
-3.  Check if Node.js is already installed. You can check this by executing the following in the VS Code terminal. If you don't get a version number, see above on how to install Node.js.
+3.  Check if Node.js is already installed. You can check this by executing the following in the VS Code terminal. If you don't receive a version number, see above on how to install Node.js.
 
     ```
     node -v
@@ -147,7 +147,7 @@ To install the UI5 Language Assistant Support extension, perform the following s
 
 <!-- loio7b329a74721047808368fca5c28702c3 -->
 
-## Supported Authentication Type
+## Supported Authentication Types
 
 The following table lists supported authentication types for SAP Fiori tools running in VS Code:
 

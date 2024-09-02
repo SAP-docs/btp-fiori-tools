@@ -2,7 +2,7 @@
 
 # Importing an Application
 
-You can manually import an existing SAP Fiori application from the SAPUI5 ABAP repository to SAP Business Application Studio or VS Code.
+You can manually import an existing SAP Fiori application from the SAPUI5 ABAP repository to SAP Business Application Studio or Visual Studio Code \( VS Code\).
 
 
 
@@ -71,8 +71,8 @@ To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following 
 2.  Run the report `/UI5/UI5_REPOSITORY_LOAD`.
 3.  Provide the name of the SAPUI5 application and click *Download*.
 4.  Choose an empty folder for the download target.
-5.  From the resulting view, download all as a zip using the button *Click here to Download* at the end of the page.
-6.  Extract the zip into the folder `restore-from-exported/webapp`.
+5.  From the resulting view, download the files as a `.zip` file using the button *Click here to Download* at the end of the page.
+6.  Extract the `.zip` file into the folder `restore-from-exported/webapp`.
     -   Verify that the `manifest.json` is located at `restore-from-exported/webapp/manifest.json`.
 
 7.  Create a `package.json` in the folder `restore-from-exported`. The `name` value should match the application name in `manifest.json`.

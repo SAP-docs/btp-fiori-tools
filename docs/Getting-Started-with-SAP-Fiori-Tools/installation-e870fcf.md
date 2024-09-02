@@ -2,7 +2,7 @@
 
 # Installation
 
-This section contains installation instructions on the following environments:
+This section contains installation instructions on the following integrated development environments:
 
 -   [SAP Business Application Studio](sap-business-application-studio-b011040.md)
 

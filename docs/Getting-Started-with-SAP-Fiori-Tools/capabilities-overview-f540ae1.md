@@ -3,7 +3,7 @@
 # Capabilities Overview
 
 > ### Note:  
-> To view information on the features available in your application, navigate to the *Command Palette* \> *Fiori: Open Application Info* in VS Code or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+> To view information on the features available in your application, open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Application Info* command in Visual Studio Code \(VS Code\) or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
 The following table lists the SAP Fiori tools features provided in each template and data source.
 

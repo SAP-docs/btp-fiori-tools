@@ -4,7 +4,7 @@
 
 # Managing System Connection
 
-SAP Fiori tools running in VS Code allows you to save the connection information for a remote system. This functionality provides faster authentication when creating an application, generating a deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
+SAP Fiori tools running in Visual Studio Code \(VS Code\) allows you to save the connection information for a remote system. This functionality provides faster authentication when creating an application, generating a deployment configuration, and deploying an application. The credentials are saved in the operating system secured storage, such as Credential Manager in Windows and Keychain in Mac.
 
 
 

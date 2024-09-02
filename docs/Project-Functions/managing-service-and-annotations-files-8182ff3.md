@@ -22,7 +22,7 @@
 3.  Click *Add Service*.
 4.  Choose Connection Type:
     1.  Destination \(SAP Business Application Studio\) - Select server destination from the dropdown. Enter username and password if needed.
-    2.  SAP System \(VS Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
+    2.  SAP System \(Visual Studio Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
     3.  Hostname - Enter the server hostname, SAP Client, and username and password if needed.
 
 5.  To specify the OData service URL
@@ -43,7 +43,7 @@
 3.  Click the :pencil2: \(*Pencil*\) icon opposite the service.
 4.  Choose Connection Type:
     1.  Destination \(SAP Business Application Studio\) - Select server destination from the dropdown. Enter username and password if needed.
-    2.  SAP System \(VS Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
+    2.  SAP System \(Visual Studio Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
     3.  Hostname - Enter the server hostname, SAP Client, and username and password if needed.
 
 5.  Click

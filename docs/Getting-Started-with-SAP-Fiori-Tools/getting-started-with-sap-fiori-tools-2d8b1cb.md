@@ -19,7 +19,7 @@ The SAP Fiori tools extensions help you create applications, visualize navigatio
     -   Diagnostics
     -   Internationalization support
 
--   [**SAP Fiori tools Environment Check**](../Project-Functions/environment-check-75390cf.md). A tool which is designed to run checks against your environment and/or destinations configured in SAP Business Technology Platform.
+-   [**SAP Fiori tools Environment Check**](../Project-Functions/environment-check-75390cf.md). A tool which is designed to run checks against your environment and/or destinations configured in SAP Business Technology Platform \(SAP BTP\).
 
 
 
@@ -38,7 +38,7 @@ For supported data sources, see: [Data Source](../Generating-an-Application/SAP-
 > ### Note:  
 > If there are any issues, create an incident in the **SAP Support Portal** for component **CA-UX-IDE**.
 
-SAP Fiori tools is available in two IDEs.
+SAP Fiori tools is available in two integrated development environments \(IDEs\).
 
 -   [SAP Business Application Studio](sap-business-application-studio-b011040.md)
 -   [Visual Studio Code](visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280)

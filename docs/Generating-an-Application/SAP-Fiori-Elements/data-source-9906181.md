@@ -4,8 +4,11 @@
 
 This section provides information on how to connect your application with a data source during generation.
 
-> ### Note:  
-> When running SAP Fiori tools in VS Code, you can save the connection information to a remote system and find it under the *SAP Systems* view. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
+> ### Tip:  
+> When running SAP Fiori tools in VS Code, you can save the connection information to a remote system. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
+
+> ### Tip:  
+> You can create a UI service for your SAP ABAP system. For more information, see [UI Service Generation](../../Project-Functions/ui-service-generation-1a7aad3.md).
 
 
 

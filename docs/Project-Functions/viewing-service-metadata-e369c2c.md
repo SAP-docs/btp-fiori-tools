@@ -4,14 +4,14 @@
 
 # Viewing Service Metadata
 
-The SAP Fiori tools - Service Modeler extension supports the visualization of the ODataV2/V4 Service Model based on the `.xml/.edmx` files and CAP CDS services.
+The SAP Fiori tools - Service Modeler extension supports the visualization of the OData V2/V4 Service Model based on the `.xml/.edmx` files and CAP CDS services.
 
 You can perform the following operations with the Service Modeler:
 
 -   Easily browse complex services and view the entity sets, entities, and properties of a service.
--   View annotations associated with the entity and properties of a service.
+-   View annotations associated with the entity and properties
 -   Manage services required for SAP Fiori elements applications, such as adding new services to a project or syncing services that already exist to ensure they are up to date.
--   Manage local annotation files associated to the different OData services of an SAP Fiori elements project.
+-   Manage local annotation files associated to the different OData services of an of a service.SAP Fiori elements project.
 
 
 
@@ -23,13 +23,11 @@ You can launch the Service Modeler in several ways:
 
 -   **Use the Command Palette**
 
-    -   Open *Command Palette*.
-    -   Start typing **Service Modeler**.
-    -   Select *SAP Fiori tools: Service Modeler: Open Service Modeler*.
+    -   Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *SAP Fiori tools: Service Modeler: Open Service Modeler* command.
     -   Select the SAP Fiori elements project from your workspace.
 
         > ### Note:  
-        > If the project contains multiple services, you need to specify the service that you want to visualize.
+        > of aIf the project contains multiple services, you need to specify the service that you want to visualize.
 
 
 -   **Use the Folder Context Menu**
@@ -53,7 +51,7 @@ The Service Modeler displays the entities and properties of a service in a list 
 
 Properties that are the primary key of the entity or projection are identified by a :key: \(*Key*\) icon.
 
-Entities or properties that have annotations associated with them are identified by an<span class="SAP-icons-V5"></span> \(*Annotations*\) icon. You can filter them to only view the metadata targets that have annotations.
+Entities or properties that have annotations associated with them are identified by an <span class="SAP-icons-V5"></span> \(*Annotations*\) icon. You can filter them to only view the metadata targets that have annotations.
 
 You can select a specific node to see the related annotations in the side panel. The annotation panel lists the annotation files and the associated annotations for the entities and the properties in the main list.
 

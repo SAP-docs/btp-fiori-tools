@@ -31,12 +31,12 @@ The SAP Fiori elements framework interprets OData metadata and annotations to re
 
 For example, any entity type property that has the `Communication.IsEmailAddress` annotation term set to true is interpreted by the SAP Fiori elements framework as an e-mail address and displayed in an application UI as a clickable link that leads to the e-mail client.
 
-Annotations can be associated to **entities**, **relationships**, and **properties** of a service.
+Annotations can be associated to entities, relationships, and properties of a service.
 
 You can also use annotations to perform the following actions:
 
--   Describe the relationships between **properties**, such as between an amount and the related currency. SAP Fiori elements display these **properties** side by side in an application UI.
--   Group **properties** together so that they are displayed next to each other in a form.
+-   Describe the relationships between properties, such as between an amount and the related currency. SAP Fiori elements display these properties side by side in an application UI.
+-   Group properties together so that they are displayed next to each other in a form.
 -   Describe the actions available on a given object, whether you can edit it, delete it, apply some filters, and more.
 
 All of this is interpreted by the SAP Fiori elements framework and shown in the application accordingly.
@@ -99,11 +99,11 @@ The following table lists the differences between freestyle SAPUI5 and SAP Fiori
 
 SAP Fiori tools provides many capabilities to increase the efficiency of developing SAP Fiori applications using either SAP Fiori elements or the freestyle SAPUI5 approach. SAP Fiori tools, together with SAP Fiori elements, reduce development time, maintenance costs, and leverage the advantages of a metadata-driven UI. SAP Fiori tools includes the following:
 
--   Wizard for the initial creation of an application.
--   Service modeler for viewing the data model.
+-   Application Wizard for the initial creation of an application.
+-   Service Modeler for viewing the data model.
 -   XML and form-based editor for maintaining of annotations - SAP Fiori elements only.
 -   Application page structure and ability to configure the SAPUI5 flexibility settings - SAP Fiori elements only.
--   Guided Development for implementing features - SAP Fiori elements only.
+-   Guided development for implementing features - SAP Fiori elements only.
 
 For more information about how to use SAP Fiori tools, see [Getting Started with SAP Fiori Tools](Getting-Started-with-SAP-Fiori-Tools/getting-started-with-sap-fiori-tools-2d8b1cb.md).
 
@@ -113,5 +113,5 @@ For more information about how to use SAP Fiori tools, see [Getting Started with
 
 ## Generating an Application with Joule's SAP Fiori Tools Generative AI
 
-Joule, SAP's innovative AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI. Joule can help you create an SAP Fiori elements app simply by pasting your business requirements document. For more information, see [Generating an Application with Joule Using SAP Fiori Tools](generating-an-application-with-joule-using-sap-fiori-tools-6845fed.md).
+Joule, SAP's innovative AI copilot, enables you to generate data models, services, sample data for your project with simple language descriptions, as well as an SAP Fiori UI. Joule can help you create an SAP Fiori elements app simply by pasting your business requirements document. For more information, see [Generating an Application with Joule's SAP Fiori Tools Generative AI](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/6845fedbb38c4da7a54a2c76081f3abb.html).
 
