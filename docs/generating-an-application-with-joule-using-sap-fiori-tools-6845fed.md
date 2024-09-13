@@ -136,7 +136,7 @@ You can define the following features as requirements in your input:
 
 -   Section tabs
 
--   Form sections and fields
+-   Form sections with basic fields
 
 -   Table sections with basic columns
 

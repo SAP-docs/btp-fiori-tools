@@ -25,7 +25,7 @@ Use the UI Service Generator to create a UI service for your SAP Fiori project.
 
 7.  Select a *Transport Request*.
 
-8.  \(Optional\) Select the *draft enabled* checkbox.
+8.  \(Optional\) Select the *Draft Enabled* checkbox.
 
 9.  Click *Finish*.
 
