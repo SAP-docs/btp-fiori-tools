@@ -2,46 +2,46 @@
 
 # Supported Floorplans
 
-This is a list of supported floorplans that gives you the ability to create SAP Fiori elements applications based on it.
+This is a list of supported floorplans that give you the ability to create SAP Fiori elements applications based on them.
 
--   *List Report Object Page*.
+-   *List Report Object Page*
 
-    With the *List Report Object Page*, users can view and work with a large set of items. This floorplan offers powerful features for finding and acting on relevant items. It’s often used as an entry point for navigating to the item details, which are shown on the object page.
+    With the list report object page, users can view and work with a large set of items. This floorplan offers powerful features for finding and acting on relevant items. It’s often used as an entry point for navigating to the item details, which are shown on the object page.
 
     For more information, see [List Report](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) or [Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
 
--   *Worklist*.
+-   *Worklist*
 
     The worklist displays a collection of items that the user needs to process. Working through the list usually involves reviewing details of the items and taking action. In most cases, the user has to either complete a work item or delegate it.
 
-    The focus of the worklist floorplan is on processing the items. This differs from the list report floorplan, which focuses on finding and acting on relevant items from a large dataset.
+    The focus of the worklist floorplan is on processing items. This differs from the list report floorplan, which focuses on finding and acting on relevant items from a large dataset.
 
-    You can use any*List Report and Object Page* options to configure *Worklist* 
+    You can use any*List Report and Object Page* option to configure *Worklist*.
 
-    For more information about **Fiori Design Guidelines**, see [Worklist Floorplan](https://experience.sap.com/fiori-design-web/work-list/)
+    For more information about **Fiori Design Guidelines**, see [Worklist Floorplan](https://experience.sap.com/fiori-design-web/work-list/).
 
     > ### Note:  
-    > For *Worklist* floorplans using an `OData V4` data source, only `SAPUI5` versions 1.99 and above are supported.
+    > For worklist floorplans using an `OData V4` data source, only `SAPUI5` versions 1.99 and above are supported.
 
-    For information on what is supported in *Worklist* for `OData V2`, see [Floorplan Properties](floorplan-properties-745ae0c.md).
+    For information on what is supported in worklist for `OData V2`, see [Floorplan Properties](floorplan-properties-745ae0c.md).
 
 
--   *Analytical List Page*.
+-   *Analytical List Page*
 
-    The *Analytical List Page* offers a unique way to analyze data step by step from different perspectives to investigate the root cause of any deviations, spikes, and abnormalities through drilldown, and to act on transactional content. All this can be done seamlessly within one page. The purpose of the analytical list page is to identify problem areas within datasets or significant single instances using data visualization and business intelligence.
+    The analytical list page offers a unique way to analyze data step by step from different perspectives to investigate the root cause of any deviations, spikes, and abnormalities through drilldown, and to act on transactional content. All this can be done seamlessly within one page. The purpose of the analytical list page is to identify problem areas within datasets or significant single instances using data visualization and business intelligence.
 
-    Visualization helps users to recognize facts and situations, and to reduce the number of interaction steps needed to gain insights or to identify significant single instances. Chart visualization increases the productivity of use and enables users to spot relevant data more quickly.
+    Visualization helps users to recognize facts and situations, and to reduce the number of interaction steps needed to gain insights or to identify significant single instances. Chart visualization enables users to spot relevant data more quickly.
 
     The main target group are users who work on transactional content. They benefit from fully transparent business object data and direct access to business actions. In addition, they have access to analytical views and functions without having to switch between systems. These include KPIs, a visual filter where filter values are enriched by measures and visualizations, and a combined table or chart view with drill-in capabilities \(hybrid view\). Users can interact with the chart to look deep into the data. The visualization enables them to identify spikes, deviations, and abnormalities more quickly, and to take appropriate action right away.
 
-    For more information, see [Analytical List Page](https://experience.sap.com/fiori-design-web/analytical-list-page/)
+    For more information, see [Analytical List Page](https://experience.sap.com/fiori-design-web/analytical-list-page/).
 
     > ### Note:  
-    > For *Analytical list page* floorplans using `Odata V4` data source, only `SAPUI5` versions 1.90 and above are supported.
+    > For analytical list page floorplans using `Odata V4` data source, only `SAPUI5` versions 1.90 and above are supported.
 
 
--   *Overview page*.
+-   *Overview Page*.
 
     The overview page is a data-driven SAP Fiori application type and floorplan that provides all the information the user needs on a single page, based on the user specific domain or role. It allows the user to focus on the most important tasks, and view, filter, and react to the information quickly.
 

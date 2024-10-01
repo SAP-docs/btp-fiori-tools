@@ -4,7 +4,7 @@
 
 
 
--   See the [SAP Fiori tools FAQs](https://help.sap.com/viewer/8ded5d47096040ae9e43d8d4e2d3adf8/Latest/en-US/160b4d8c680c463daf20c7399e2dc6ad.html "") :arrow_upper_right: to get up-to-date information.
+-   See the [SAP Fiori tools FAQs](https://help.sap.com/docs/SAP_FIORI_tools/42532dbd1ebb434a80506113970f96e9/160b4d8c680c463daf20c7399e2dc6ad.html) to get up-to-date information.
 -   Check the [SAP Fiori tools Community](https://help.sap.com/viewer/disclaimer-for-links?q=https://answers.sap.com/tags/73555000100800002345).
 -   If you can't find an answer in **SAP Community** or need additional assistance, create an incident in **SAP Support Portal** under component: **CA-UX-IDE**. See [Contact SAP Support](https://help.sap.com/viewer/1bb01966b27a429ebf62fa2e45354fea/Latest/en-US/5b5d9dc53aac46b69caebb95c1a242eb.html "") :arrow_upper_right:.
 

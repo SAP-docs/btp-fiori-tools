@@ -11,7 +11,7 @@ The following table lists the SAP Fiori tools features provided in each template
 
 <a name="loiof540ae1961914bf783cd266f3c0d8530__section_spc_mvy_zxb"/>
 
-## Project Relevant Commands in Application Information Page
+## Project-Relevant Commands in Application Information Page
 
 
 <table>
@@ -33,12 +33,12 @@ Description
 </th>
 <th valign="top">
 
-SAP Fiori elements
+SAP Fiori Elements
 
 </th>
 <th valign="top">
 
-freestyle SAPUI5
+Freestyle SAPUI5
 
 </th>
 <th valign="top">
@@ -48,17 +48,17 @@ UI5 Library
 </th>
 <th valign="top">
 
-v2
+V2
 
 </th>
 <th valign="top">
 
-v4
+V4
 
 </th>
 <th valign="top">
 
-EDMX Backend
+EDMX Back End
 
 </th>
 <th valign="top">
@@ -940,7 +940,7 @@ Run UI5 Linter
 </td>
 <td valign="top">
 
-Checks the compatibility of your project with SAPUI5 version 2.
+Checks the compatibility of your project with SAPUI5 version 2. For more information, see [UI5 linter](https://github.com/SAP/ui5-linter).
 
 </td>
 <td valign="top">
@@ -1220,7 +1220,7 @@ Validate the application.
 
 ## Scripting Languages
 
-SAP Fiori apps are based on the SAPUI5 framework. SAP Fiori tools support development of SAP Fiori apps with JavaScript or TypeScript. For more information, see [UI5 and TypeScript](https://sap.github.io/ui5-typescript).
+SAP Fiori apps are based on the SAPUI5 framework. SAP Fiori tools supports the development of SAP Fiori apps with JavaScript or TypeScript. For more information, see [UI5 and TypeScript](https://sap.github.io/ui5-typescript).
 
 
 
@@ -1235,7 +1235,7 @@ The following support keyboard navigation and high contrast theming:
 -   *Page Editor*
 -   *Application Info*
 
-Keyboard navigation provides a streamlined experience enabling users to use the application without needing to use their mouse. Use the arrow keys to navigate within sections, the [Tab\] key to navigate to new sections and controls, [Shift\] + [Tab\]  to navigate back to sections and controls, and [Enter\] to make selections.
+Keyboard navigation provides a streamlined experience enabling users to use the application without a mouse. Use the arrow keys to navigate within sections, the [Tab\] key to navigate to new sections and controls, [Shift\] + [Tab\]  to navigate back to sections and controls, and [Enter\] to make selections.
 
 A high contrast theme provides better readability and accessibility. You can switch to a high contrast theme using *Preferences* \> *Color Themes* in VS Code or SAP Business Application Studio.
 

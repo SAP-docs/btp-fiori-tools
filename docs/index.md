@@ -130,7 +130,7 @@ Last Updated: May 2023
             -   [Adding Custom Action](Developing-an-Application/maintaining-extension-based-elements-02172d2.md#loio76374b198e514b39a96176094bb8aa1b)
             -   [Adding Custom View](Developing-an-Application/maintaining-extension-based-elements-02172d2.md#loiodbb5c734f310444a93a612e3db4b9b97)
             -   [Adding Controller Extension](Developing-an-Application/maintaining-extension-based-elements-02172d2.md#loiofe286b8483f84963877e44d4c817b0ed)
-        -   [Maintaining Building Blocks \(Experimental\)](Developing-an-Application/maintaining-building-blocks-experimental-6d3ad83.md)
+        -   [Maintaining Building Blocks](Developing-an-Application/maintaining-building-blocks-6d3ad83.md)
     -   [Use Feature Guides](Developing-an-Application/use-feature-guides-0c9e518.md)
         -   [Search for a Guide](Developing-an-Application/search-for-a-guide-a50bc4a.md)
             -   [Currently Available Guides](Developing-an-Application/currently-available-guides-7bda292.md)
