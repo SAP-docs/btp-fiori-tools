@@ -25,9 +25,11 @@ Use the UI Service Generator to create a UI service for your SAP Fiori project.
 
 7.  Select a *Transport Request*.
 
-8.  \(Optional\) Select the *Draft Enabled* checkbox.
+8.  \(Optional\) Select the *Yes* radio button for *Draft Enabled*.
 
-9.  Click *Finish*.
+9.  \(Optional\) Select the *Yes* radio button for *Do you want to create an SAP Fiori application with the newly generated service?*
+
+10. Click *Finish*.
 
 
 
@@ -36,5 +38,7 @@ Use the UI Service Generator to create a UI service for your SAP Fiori project.
 
 ## Results
 
-The UI service is generated. This can take some time. Once completed, the UI service can be used in the SAP Fiori Generator.
+The UI service is generated. This can take some time.
+
+If you have chosen to create an SAP Fiori application with the newly generated service, the SAP Fiori Generator will automatically launch and the service will be used in the generated SAP Fiori application.
 

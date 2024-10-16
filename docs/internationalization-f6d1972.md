@@ -1,4 +1,4 @@
-<!-- loioa7897032b0864542872654a26434bf0b -->
+<!-- loiof6d19722616f47bc8df05b6e858bbd89 -->
 
 # Internationalization
 
@@ -10,9 +10,9 @@ Internationalization refers to the process of designing and developing a softwar
 
 When you create an Adaptation project, an *i18n.properties* file is created for every page of the application. Define a key-value pair in the *i18n.properties* file that you can refer to while providing text for the UI controls.
 
-**Folder Structure**
+**Sample Folder Structure**
 
-In your workspace, under the Adaptation project, the folder structure looks like:
+In your workspace, under the Adaptation project, the folder structure looks like \(this is an example\):
 
 -   Project name
 
@@ -42,5 +42,5 @@ In your workspace, under the Adaptation project, the folder structure looks like
 
 **Define Key-Value Pair**
 
-Define your key-value pairs in the *i18n.properties*. Refer to the keys while you edit the project using Adaptation Editor. In the *Properties* pane, refer to the i18n key for a SAPUI5 control instead of typing-in the text. Run the project as a web application and check whether the i18n value associated to the key appears on the UI control. Similarly, you can change the text of existing UI controls by overriding the associated i18n key-value pairs in the source application.
+Define your key-value pairs in the *i18n.properties*. Refer to the keys while you edit the project using SAPUI5 Visual Editor. In the *Properties* pane, refer to the i18n key for a SAPUI5 control instead of typing-in the text. Run the project as a web application and check whether the i18n value associated to the key appears on the UI control. Similarly, you can change the text of existing UI controls by overriding the associated i18n key-value pairs in the source application.
 

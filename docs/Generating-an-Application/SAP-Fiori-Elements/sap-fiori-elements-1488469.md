@@ -30,18 +30,22 @@ In SAP Fiori elements, perform the following steps:
     > ### Note:  
     > Some fields are already prefilled with default text, which can be modified if needed. Mandatory fields are marked with an asterisk \(\*\).
 
-    -   **Module name** \(required\). Must be alpha-numeric and **cannot contain spaces**. The generated NodeJS application uses the module name as its package name. It is used as the folder name of the generated application.
+    -   **Module name** \(required\): Must be alpha-numeric and **cannot contain spaces**. The generated Node.js application uses the module name as its package name. It is used as the folder name of the generated application.
 
         > ### Note:  
         > Module names can only contain URL-friendly characters.
 
-    -   **Application title**. The title that is displayed in the launchpad tile and header of the generated application.
-    -   **Application namespace**. The SAPUI5 project namespace to be used. Must start with a letter and contain letters, digits, and periods only.
-    -   **Description**. The description of the application.
-    -   **Project folder path** \(required\). The parent folder in which the new application is generated. The new application is generated in a new folder with the module name. If a folder with the same name already exists, the user must choose a new module name.
-    -   **Minimum SAPUI5 version**. From the drop-down list, select the minimum SAPUI5 version that the application will require.
+    -   **Application title**: The title that is displayed in the launchpad tile and header of the generated application.
+    -   **Application namespace**: The SAPUI5 project namespace to be used. Must start with a letter and contain letters, digits, and periods only.
+    -   **Description**: The description of the application.
+    -   **Project folder path** \(required\): The parent folder in which the new application is generated. The new application is generated in a new folder with the module name. If a folder with the same name already exists, the user must choose a new module name.
 
-        -   The dropdown will show the list of available versions of SAPUI5, with the current **default** version being pre-selected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
+        > ### Note:  
+        > You cannot select a project folder path that already contains an SAP Fiori application. If you want to create an application as part of a CAP project, you must select *Local CAP Project* as the *Data Source* in Step 2.
+
+    -   **Minimum SAPUI5 version**: From the drop-down list, select the minimum SAPUI5 version that the application will require.
+
+        -   The dropdown will show the list of available versions of SAPUI5, with the current **default** version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
         -   If the source system during generation is an ABAP on Premise system, then the **default** version selected in the dropdown will be equal to the version of SAPUI5 version on that ABAP system where possible.
 
         > ### Note:  
@@ -61,5 +65,5 @@ In SAP Fiori elements, perform the following steps:
 
     -   **[Configure advanced options](../Additional-Configuration/additional-configuration-9bea64e.md#loio9bea64e63b824261932d90037ce3c5ae__section_uhj_l2z_t4b)**. The default value is *No*.
 
-5.  Click *Finish* to finalize generating the application.
+5.  Click *Finish* to generate the application.
 

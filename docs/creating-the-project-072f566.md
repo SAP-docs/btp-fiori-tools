@@ -2,31 +2,47 @@
 
 # Creating the Project
 
+Create an adaptation project in an on-premise system.
+
 
 
 <a name="loio072f566ed1d845b6aa41cb01057700d5__steps_b11_dpw_5pb"/>
 
 ## Procedure
 
-1.  Open your instance of VS Code.
+1.  Open Visual Studio Code \(VS Code\).
 
-2.  If you are creating an Adaptation Project for the first time for this instance of VS Code, open the *Command Palette* and choose *Fiori: Open Adaptation Project Generator*. This action will install the needed packages for it to run. After this step is completed, you can create an Adaptation Project using the *Command Palette / Template Wizard*. Select the *Adaptation Project* tile, in order to launch its wizard..
+2.  If you are creating an adaptation project for the first time, open the *Command Palette* and execute the *Fiori: Open Adaptation Project Generator* command.
 
-3.  Use the wizard to configure the project information.
+3.  Open the *Command Palette* and execute the *Fiori: Open Template Wizard* command.
+
+4.  Click the *Adaptation Project* tile.
+
+5.  Use the wizard to configure the project.
 
     1.  Enter a name for the project and a title for the application.
 
-    2.  In the *Namespace* field after the **`customer.`**, enter the name of your project. Choose *Next*.
+    2.  In the *Namespace* field after the **`customer.`**, enter the name of your project.
 
-    3.  Choose the SAPUI5 version from the dropdown list.
+    3.  Click *Next*.
 
-    4.  Select a system.
+    4.  Choose the SAPUI5 version from the dropdown list.
 
-    5.  Choose the application that you want to work with.
+    5.  Select a system.
 
-        Select *Finish* to generate the project.
+    6.  Choose the application that you want to work with.
+
+    7.  Click *Finish* to generate the project.
 
 
-4.  You can now [Previewing the Adaptation Project](previewing-the-adaptation-project-8701335.md). You can also continue developing following [Making Adaptations](making-adaptations-2a076dd.md) or [Create New SAPUI5 Extensions](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/create-new-sapui5-extensions?locale=en-US).
 
+
+
+<a name="loio072f566ed1d845b6aa41cb01057700d5__result_y2q_dbn_zcc"/>
+
+## Results
+
+Your adaption project has been generated. To preview your adaption project, see [Previewing the Adaptation Project](previewing-the-adaptation-project-8701335.md). To continue development, see [Making Adaptations](making-adaptations-2a076dd.md) and [Create New SAPUI5 Extensions](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/create-new-sapui5-extensions?locale=en-US).
+
+.
 

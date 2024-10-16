@@ -21,7 +21,7 @@
 
 ## Context
 
-The Adaptation Editor \(Visual Editor\) allows you to create, load, change, and save control variants. Typically, you would create variants of a control to give different options for the end user for better usability in special use cases when they might need \(or not\) a specific part of control.
+The Adaptation Editor allows you to create, load, change, and save control variants. Typically, you would create variants of a control to give different options for the end user for better usability in special use cases when they might need \(or not\) a specific part of control.
 
 > ### Note:  
 > You can define variants for specific controls on the user interface. Have in mind that variants are also called "views", usually in a more nontechnical context, for example, on the user interface.
