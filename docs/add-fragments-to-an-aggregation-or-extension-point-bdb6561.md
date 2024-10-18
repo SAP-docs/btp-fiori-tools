@@ -23,34 +23,34 @@
 
 ### Procedure
 
-1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file an choose *Preview Application*. Choose *start-editor*.
+1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file and click *Preview Application*. Click *start-editor*.
 
     The application opens in the canvas in UI Adaptation mode.
 
-2.  On the UI, select a control \(such as a smart-filter bar or an overflow toolbar\), and from its context menu, choose *Add Fragment*.
+2.  On the UI, select a control \(such as a smart-filter bar or an overflow toolbar\), and from its context menu, click *Add Fragment*.
 
     In the dialog box that opens, the default target aggregation and last index are selected. Choose the target aggregation and the index from the list where you want to add the fragment. You cannot reuse the same fragment multiple times.
 
     > ### Note:  
-    > The index is disabled for **controlConfiguration** aggregation in the control Smart Filter Bar. This aggregation currently does not support positioning at a specific index.
+    > The index is disabled for `controlConfiguration` aggregation in the control Smart Filter Bar. This aggregation currently does not support positioning at a specific index.
 
 3.  To create a fragment:
 
-    1.  Enter a name for the fragment and choose *Create*.
+    1.  Enter a name for the fragment and click *Create*.
 
-        A fragment.xml file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
+        A `fragment.xml` file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
 
-    2.  Define the fragment. Save and close the .xml file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
+    2.  Define the fragment. Save and close the `.xml` file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
 
-        An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the fragment.xml file, selected target aggregation, and index.
+        An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the `fragment.xml` file, selected target aggregation, and index.
 
 
 4.  Navigate to the canvas to see the changes that you made.
 
-    In order to load the added change you need to reload the browser tab in which the adaptation project editor is opened. If you have opened Preview of the application in a separate browser tab, it also needs to be refreshed.
+    In order to load the added change you need to reload the browser tab in which the adaptation project editor is opened. If you have opened the application preview in a separate browser tab, it also needs to be refreshed.
 
     > ### Note:  
-    > Have in mind that you should add definition of the namespace of the controls you are going to use inside of the fragment. Also, you should use stable and unique IDs for the controls you define.
+    > You should add the definition of the namespace of the controls you are going to use inside of the fragment. Also, you should use stable and unique IDs for the controls you define.
     > 
     > Example:
     > 
@@ -60,7 +60,7 @@
     > </core:FragmentDefinition>
     > ```
     > 
-    > Also, each control might have its own specific rules for its definition and they should be followed in order for everything to work fine.
+    > Each control might have its own specific rules for its definition.
 
     > ### Remember:  
     > You can delete the fragments that you create. For a seamless experience, first delete the change files associated to a fragment and then delete the fragment. If you don't delete them, you might not be able to add further fragments to the adaptation project.
