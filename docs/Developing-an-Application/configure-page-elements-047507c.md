@@ -6,7 +6,7 @@
 
 Developers can configure the SAP Fiori elements applications by using manifest settings and SAPUI5 flexibility changes \(`OData V2`\) in the *Page Editor*. The configuration properties available for UI-based maintenance are provided by the <code><a href="https://www.npmjs.com/package/@sap/ux-specification">@sap/ux-specification</a></code> node module, which is installed in the application's root folder.
 
-There are different module versions that correspond to the different SAPUI5 versions. You can find the right version by checking the UI5-\* tags at [@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification?activeTab=versions). In case you need to change the **minUI5version** please see, [Application Minimum SAPUI5 Version](../Project-Functions/application-minimum-sapui5-version-009f43e.md).
+There are different module versions that correspond to the different SAPUI5 versions. You can find the right version by checking the UI5-\* tags at [@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification?activeTab=versions). In case you need to change the **minUI5version** please see, [Application SAPUI5 Version](../Project-Functions/application-sapui5-version-009f43e.md).
 
 An overview of the available manifest and **UI5** flexibility properties can be accessed in the [Application Information](../Project-Functions/application-information-c3e0989.md) page. In addition, you can access the Configuration Documentation by right-clicking on your project in the tree view of the application modeler.
 

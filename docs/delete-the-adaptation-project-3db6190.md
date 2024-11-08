@@ -2,7 +2,7 @@
 
 # Delete the Adaptation Project
 
-If you no longer need an app variant that you created via an adaptation project, you can delete it from the back-end system as described here.
+If you no longer need an app variant that you have created using an adaptation project, you can delete it from the back-end system.
 
 
 
@@ -24,8 +24,8 @@ You can delete the adaptation project using the Command Line Interface \(CLI\).
 
 ## Procedure
 
-1.  Open SAP Business Application studio main menu and choose *Terminal* / *New terminal*.
+1.  Open SAP Business Application Studio main menu and choose *Terminal* \> *New terminal*.
 
-2.  Then you can use the following command: `npm run undeploy`.
+2.  Then, you use the following command: `npm run undeploy`.
 
 

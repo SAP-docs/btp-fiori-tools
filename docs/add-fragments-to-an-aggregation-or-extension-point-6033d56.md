@@ -2,7 +2,7 @@
 
 # Add Fragments to an Aggregation or Extension Point
 
-You have the possibility to add fragments to an aggregation of your choice, or to an extension point.
+You can add fragments to an aggregation or to an extension point.
 
 
 
@@ -25,13 +25,13 @@ You have the possibility to add fragments to an aggregation of your choice, or t
 
 ### Procedure
 
-1.  In your workspace, from the project context menu, choose *SAPUI5 Visual Editor*.
+1.  In your workspace, from the project context menu, click *SAPUI5 Visual Editor*.
 
     The application opens in the canvas in preview mode.
 
-2.  From the editor header, choose *Edit*.
+2.  From the editor header, click *Edit*.
 
-3.  On the UI, select a control \(such as a smart-filter bar or an overflow toolbar\), and from its context menu, choose *Add Fragment*.
+3.  On the UI, select a control \(such as a smart filter bar or an overflow toolbar\), and from its context menu, click *Add Fragment*.
 
     In the dialog box that opens, the default target aggregation and last index are selected. A list displays the fragments available for the selected target aggregation. You can also create fragments. Choose the target aggregation and the index from the list where you want to add the fragment. You cannot reuse the same fragment multiple times.
 
@@ -40,22 +40,22 @@ You have the possibility to add fragments to an aggregation of your choice, or t
 
 4.  To create a fragment:
 
-    1.  Choose *Create New*.
+    1.  Click *Create New*.
 
         The default target aggregation is the one you selected in the previous step.
 
-    2.  Enter a name for the fragment and choose *Create*.
+    2.  Enter a name for the fragment and click *Create*.
 
-        A fragment.xml file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
+        A `fragment.xml` file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
 
-    3.  Define the fragment. Save and close the .xml file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
+    3.  Define the fragment. Save and close the `.xml` file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
 
-        An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the fragment.xml file, selected target aggregation, and index.
+        An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the `fragment.xml` file, selected target aggregation, and index.
 
 
 5.  To choose an existing fragment from the list:
 
-    1.  Select a fragment from the list and choose *Add*.
+    1.  Select a fragment from the list and click *Add*.
 
     2.  Double click the `fragment.xml` file from the workspace to open it in the editor.
 
@@ -67,7 +67,7 @@ You have the possibility to add fragments to an aggregation of your choice, or t
     After adding fragments, you'll be prompted to reload the SAPUI5 Visual Editor to see your changes.
 
     > ### Note:  
-    > Have in mind that you should add definition of the namespace of the controls you are going to use inside of the fragment. Also, you should use stable and unique IDs for the controls you define.
+    > You must add the definition of the namespace of the controls you are going to use inside of the fragment. Also, you must use stable and unique IDs for the controls you define.
     > 
     > Example:
     > 
@@ -77,10 +77,10 @@ You have the possibility to add fragments to an aggregation of your choice, or t
     > </core:FragmentDefinition>
     > ```
     > 
-    > Also, each control might have its own specific rules for its definition and they should be followed in order for everything to work fine.
+    > Also, follow the specific rule each control has for its definition.
 
     > ### Remember:  
-    > You can delete the fragments that you create. For a seamless experience, first delete the change files associated to a fragment and then delete the fragment. If you don't delete them, you might not be able to add further fragments to the adaptation project.
+    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not, you will not be able to add fragments to the adaptation project.
 
 
 
@@ -93,40 +93,40 @@ You have the possibility to add fragments to an aggregation of your choice, or t
 
 ### Prerequisites
 
--   You are using freestyle SAPUI5 application that has extension points for basis of your adaptation project.
+-   You are using a freestyle SAPUI5 application that has extension points for basis of your adaptation project.
 
 
 
 ### Procedure
 
-1.  In your workspace, from the project context menu, choose *SAPUI5 Visual Editor*.
+1.  In your workspace, from the project context menu, click *SAPUI5 Visual Editor*.
 
     The application opens in the canvas in preview mode.
 
-2.  From the editor header, choose *Edit*.
+2.  From the editor header, click *Edit*.
 
-3.  If you expand the outline tree you will be able to see which element is a possible extension point. Then you can select the element in the tree and you will see its parent marked and highlighted in the visual part of the editor. You can then right click on that highlighted element and choose *Add fragment at extension point*.
+3.  If you expand the outline tree, you will be able to see which element is a possible extension point. Then you can select the element in the tree and you will see its parent marked and highlighted in the visual part of the editor. You can then right click on that highlighted element and click *Add fragment at extension point*.
 
     In the dialog box that opens, the default extension point is selected. A list displays the fragments available for the selected extension point. You can also create fragments. Choose the target extension point and the index from the list where you want to add the fragment. You cannot reuse the same fragment multiple times.
 
 4.  To create a fragment:
 
-    1.  Choose *Create New*.
+    1.  Click *Create New*.
 
         The default extension point is the one you selected in the previous step.
 
-    2.  Enter a name for the fragment and choose *Create*.
+    2.  Enter a name for the fragment and click *Create*.
 
-        A fragment.xml file is created in the folder, *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
+        A `fragment.xml` file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
 
     3.  Define the fragment. Save and close the `.xml` file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
 
-        An associated `addXML.change` file is created for every fragment in the folder, *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the fragment.xml file, selected target aggregation, and index.
+        An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the`fragment.xml` file, selected target aggregation, and index.
 
 
 5.  To choose an existing fragment from the list:
 
-    1.  Select a fragment from the list and choose *Add*.
+    1.  Select a fragment from the list and click *Add*.
 
     2.  Double click the `fragment.xml` file from the workspace to open it in the editor.
 
@@ -138,7 +138,7 @@ You have the possibility to add fragments to an aggregation of your choice, or t
     After adding fragments, you'll be prompted to reload the SAPUI5 Visual Editor to see your changes.
 
     > ### Note:  
-    > Have in mind that you should add definition of the namespace of the controls you are going to use inside of the fragment. Also, you should use stable and unique IDs for the controls you define.
+    > You must add the definition of the namespace of the controls you are going to use inside of the fragment. You must use stable and unique IDs for the controls you define.
     > 
     > Example:
     > 
@@ -148,9 +148,9 @@ You have the possibility to add fragments to an aggregation of your choice, or t
     > </core:FragmentDefinition>
     > ```
     > 
-    > Also, each control might have its own specific rules for its definition and they should be followed in order for everything to work fine.
+    > Also, follow the rules each control has for its definition.
 
     > ### Remember:  
-    > You can delete the fragments that you create. For a seamless experience, first delete the change files associated to a fragment and then delete the fragment. If you don't delete them, you might not be able to add further fragments to the adaptation project.
+    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not delete them, you will not be able to add further fragments to the adaptation project.
 
 

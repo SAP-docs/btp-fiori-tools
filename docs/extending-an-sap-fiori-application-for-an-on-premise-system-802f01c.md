@@ -35,13 +35,13 @@ You can create an adaptation project forapplications that meet the following req
 -   The application is not a scaffolding application \(an application that uses `sap.ca.scfld.md` in its `manifest.json` file\).
 
 > ### Note:  
-> Adaptation project can also be used as a basis, but only when it is SAP or partner provided and with the following conditions:
+> Adaptation projects can also be used as a basis but only when it is SAP or partner provided and with the following conditions:
 > 
 > -   If the selected system has a SAPUI5 version lower than 1.96, you need to implement [3223667](https://me.sap.com/notes/3223667) on your system.
 > -   If the selected system has a SAPUI5 version lower than 1.90, it does not support an adaptation project as а base for a new adaptation project. You need to update the SAPUI5 version for the project to work after deployment.
 
 > ### Note:  
-> Adaptation project does not support as a basis:
+> Adaptation projects doe not support as a basis:
 > 
 > -   An application that requires a mandatory parameter to start.
 > -   An application variant that has already been deployed with an adaptation project.
@@ -69,9 +69,9 @@ A typical workflow for extending an SAP Fiori application includes the following
 
 ## Things to Consider
 
-You cannot deploy and use cannot deploy an adaptation project with a package that is enabled for ABAP for Cloud Development. You will be able to create an adaptation project and use its Adaptation Editor but you won't be able to deploy it. For more information, see [**Developer Extensibility**](https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/155909e3569941e08831c78cf4c2d495.html).
+You cannot deploy and use an adaptation project with a package that is enabled for ABAP for Cloud Development. You will be able to create an adaptation project and use its Adaptation Editor but you won't be able to deploy it. For more information, see [**Developer Extensibility**](https://help.sap.com/docs/ABAP_PLATFORM_NEW/b5670aaaa2364a29935f40b16499972d/155909e3569941e08831c78cf4c2d495.html).
 
 
 
-An adaptation project runs the preview of its applications in the Adaptation Editor and in a separate browser tab preview, both of which are sandbox-like environments and not within SAP Fiori launchpad. Therefore, features that depend on SAP Fiori launchpad may not function as expected \(for example, navigation between different applications\) when previewing the application during development, but will work after deployment and in SAP Fiori launchpad.
+An adaptation project runs the preview of its applications in the Adaptation Editor and in a separate browser tab preview, both of which are sandbox-like environments and not within SAP Fiori launchpad. Therefore, features that depend on SAP Fiori launchpad may not function as expected \(for example, navigation between different applications\) when previewing the application during development but will work after deployment and in SAP Fiori launchpad.
 

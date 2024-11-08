@@ -2,19 +2,21 @@
 
 # Adding OData Service and New SAPUI5 Model
 
+Learn how to add a new OData service and SAPUI5 model.
+
 
 
 ## Context
 
-To add V2 service using annotations also the new annotation data source needs to be added.
+To add an OData V2 service using annotations, the new annotation data source has to be added.
 
 
 
 ## Procedure
 
-1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file an choose *Add*OData*Service* \> *Model*.
+1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file and click *Add OData Service* \> *Model*.
 
-2.  After the wizard starts enter the OData Service name for the service you want to add.
+2.  After the wizard appears, enter the OData Service name for the service you want to add.
 
 3.  Enter the OData Service URI.
 
@@ -22,9 +24,9 @@ To add V2 service using annotations also the new annotation data source needs to
 
 5.  Enter the OData Service SAPUI5 Model name of the model you want to add.
 
-6.  \(Optional\) Enter settings for the OData Service SAPUI5. Model in the format of `"key1":"value1","key2":"value2", …`.
+6.  \(Optional\) Enter settings for the OData Service SAPUI5 Model in the format: `"key1":"value1","key2":"value2",`.
 
-7.  \(Optional\) Choose whether to add annotation or not.
+7.  \(Optional\) Choose whether to add an annotation.
 
     If you choose yes, provide the following information:
 
@@ -32,9 +34,9 @@ To add V2 service using annotations also the new annotation data source needs to
 
     2.  Enter the OData Annotation Data Source URI.
 
-    3.  \(Optional\) Enter settings for the annotation in the format of `"key1":"value1","key2":"value2", …`.
+    3.  \(Optional\) Enter settings for the annotation in the format: `"key1":"value1","key2":"value2",`.
 
 
-8.  Choose *Finish* to create the change.
+8.  Click *Finish* to save your changes.
 
 

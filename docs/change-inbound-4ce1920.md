@@ -2,7 +2,7 @@
 
 # Change Inbound
 
-This guide describes how to change the title and subtitle of existing intent for your adaptation project.
+This guide describes how to change the title and subtitle of an existing intent for your adaptation project.
 
 
 
@@ -14,8 +14,8 @@ This guide describes how to change the title and subtitle of existing intent for
 
 2.  Choose the *Inbound ID* which you would like to change.
 
-3.  Entert the title, subtitle and icon path that you would like to use.
+3.  Enter the title, subtitle and icon path that you would like to use.
 
-4.  Choose *Finish* to generate the project.
+4.  Click *Finish* to generate the project.
 
 

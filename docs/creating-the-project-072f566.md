@@ -44,5 +44,3 @@ Create an adaptation project in an on-premise system.
 
 Your adaption project has been generated. To preview your adaption project, see [Previewing the Adaptation Project](previewing-the-adaptation-project-8701335.md). To continue development, see [Making Adaptations](making-adaptations-2a076dd.md) and [Create New SAPUI5 Extensions](https://help.sap.com/docs/bas/developing-sap-fiori-app-in-sap-business-application-studio/create-new-sapui5-extensions?locale=en-US).
 
-.
-

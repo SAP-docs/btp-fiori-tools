@@ -2,7 +2,7 @@
 
 # Deploy or Update the Adaptation Project to the ABAP Repository
 
-Deploy or update the app variant to the SAPUI5 ABAP repository in S/4HANA Cloud, or SAP BTP system .
+Deploy or update the app variant to the SAPUI5 ABAP repository in SAP S/4HANA Cloud or SAP Business Technology Platform \(SAP BTP\) system.
 
 <a name="task_a5r_yym_vvb"/>
 
@@ -15,7 +15,7 @@ Deploy or update the app variant to the SAPUI5 ABAP repository in S/4HANA Cloud,
 ## Context
 
 > ### Note:  
-> Please keep your builder up-to-date by calling `npm update` and redeploy your adaptation project, to ensure that there is no direct impact to deployed adaptation project after an upgrade.
+> Please keep your builder up-to-date by calling `npm update` and redeploy your adaptation project to ensure that there is no impact to the deployed adaptation project after an upgrade.
 
 
 
@@ -23,11 +23,11 @@ Deploy or update the app variant to the SAPUI5 ABAP repository in S/4HANA Cloud,
 
 ## Procedure
 
-1.  Open SAP Business Application studio main menu and choose *Terminal* / *New terminal*.
+1.  Open SAP Business Application Studio main menu and choose *Terminal* \> *New terminal* .
 
     > ### Note:  
-    > When you open the terminal make sure that you are working in the correct folder. If needed navigate to your project main folder.
+    > When you open the terminal, ensure that you are working in the main project folder.
 
-2.  Then use the following command for deployment/update: `npm run deploy`.
+2.  Then, use the following command for to deploy or update your deployment: `npm run deploy`.
 
 

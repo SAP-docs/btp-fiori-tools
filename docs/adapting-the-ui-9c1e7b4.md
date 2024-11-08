@@ -2,6 +2,8 @@
 
 # Adapting the UI
 
+Learn how to adapt the UI of applications using the Adaption Editor .
+
 
 
 <a name="loio9c1e7b438d2f48038d8870c55d75770a__section_tkz_f34_xlb"/>
@@ -34,11 +36,13 @@ SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
+If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version.
+
 The buttons on the Adaptation Editor toolbar allow you to:
 
 -   Navigate through and preview the application using the *Navigation* mode.
 
--   Change the application using the *UI Adaptation Mode* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the other way around. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
+-   Change the application using the *Adaptation Mode* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the other way around. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
 
 -   Change the device format of the canvas to smartphone, tablet, or desktop view.
 
@@ -52,15 +56,14 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 ## Procedure
 
-1.  Right-click on the project main folder, the `webapp` folder, or the `manifest.appdescr_variant` file and click *Preview Application*.
-2.  Click *start-editor*.
+1.  In your workspace, еxpand the `webapp` folder, right click the `manifest.appdescr_variant` file and choose *Open Adaptation Editor*..
 
-    The Adaptation Editor launches in a browser window and the application loads in the editor for you to make the changes when you switch to UI Adaptation mode or to navigate and preview the application when you switch to Navigation mode.
+    The Adaptation Editor launches in a browser window and the application loads in the editor for you to make the changes when you switch to Adaptation mode or to navigate and preview the application when you switch to Navigation mode.
 
     > ### Remember:  
-    > VS Code needs to be kept running in order for the editor to work.
+    > Visual Studio Code \(VS Code\) needs to be kept running in order for the editor to work.
 
-3.  If you want to change to a different view,, switch to Navigation mode,navigate to the new video, and then switch back to UI Adaptation Mode.
+2.  If you want to change to a different view, switch to Navigation mode, navigate to the new view, and then switch back to Adaptation Mode.
 
 
 
@@ -117,7 +120,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 1.  Hover over or select a group or select the form it’s contained in and click *Add Group* from the context menu.
 
-    The default group title is *New Group*, but you can rename it.
+    The default group title is *New Group* but you can rename it.
 
 2.  To apply your adaptations, press [Enter\] or select another element.
 
@@ -158,7 +161,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 1.  Double-click a field or group. You can also hover over or select it and click *Rename Field* or *Rename Group* from the context menu.
 2.  Rename the field label or group title.
-3.  To apply your adaptations, press [Enter\]; to quit, press [Esc\].
+3.  To apply your adaptations, press [Enter\]. To quit, press [Esc\].
 
 
 
@@ -175,7 +178,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 1.  Drag a field, group, or section.
 2.  Drop the field, group, or section on its new location.
 
-    A space appears where you can drop it. You can drop a field above or below any of the highlighted fields or in any group marked with a dashed box; you can drop a group or section on any of the highlighted groups or sections.
+    A space appears where you can drop it. You can drop a field above or below any of the highlighted fields or in any group marked with a dashed box. You can drop a group or section on any of the highlighted groups or sections.
 
 
 

@@ -2,6 +2,8 @@
 
 # Create Control Variants \(Views\)
 
+Learn how to use the Adaptation Editor to create, load, change, and save control variants.
+
 
 
 <a name="loio3dbd97f940564b11a8b7baf1e08aa88e__prereq_lg3_hty_hkb"/>
@@ -21,7 +23,7 @@
 
 ## Context
 
-The Adaptation Editor allows you to create, load, change, and save control variants. Typically, you would create variants of a control to give different options for the end user for better usability in special use cases when they might need \(or not\) a specific part of control.
+The Adaptation Editor allows you to create, load, change, and save control variants. You can create variants of a control to give different options for the end user for better usability in use cases when they do or do not need a specific part of a control.
 
 > ### Note:  
 > You can define variants for specific controls on the user interface. On the user interface, variants are called views.
@@ -32,5 +34,5 @@ The Adaptation Editor allows you to create, load, change, and save control varia
 
 ## Procedure
 
-Creating and adapting control variants \(views\) is the same process as the key user scenario. You can follow the procedure described in [Creating and Adapting Views](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/91ae3492323b42a79ca66fbfaf5af3f9.html) . The only difference from the key user scenario is that you do not have to publish your changes. They are saved as an ordinary change in your adaptation project, in the same manner as all other changes.
+Creating and adapting control variants \(views\) is the same process as the key user scenario. You can follow the procedure described in [Creating and Adapting Views](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/91ae3492323b42a79ca66fbfaf5af3f9.html). The only difference from the key user scenario is that you do not have to publish your changes. They are saved as an ordinary change in your adaptation project in the same manner as all other changes.
 

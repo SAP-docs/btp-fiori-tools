@@ -2,9 +2,9 @@
 
 # Adding App Descriptor Changes
 
-Adaptation project gives you the opportunity to add the following types of changes to your application variant.
+Adaptation projects give you the opportunity to add the following types of changes to your application variant.
 
-When extending Fiori Elements-based applications, additional manifest changes are available, for more information, see [Extending the Delivered Apps Manifest Using an Adaptation Project](https://ui5.sap.com/#/topic/a2b24a69baef4b91af2293ccc6b5871f).
+When extending Fiori Elements based applications, additional manifest changes are available. For more information, see [Extending the Delivered Apps Manifest Using an Adaptation Project](https://ui5.sap.com/#/topic/a2b24a69baef4b91af2293ccc6b5871f).
 
 
 

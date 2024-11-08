@@ -2,7 +2,7 @@
 
 # Make Adaptations
 
-Define changes to the generated application variant in your SAPUI5 adaptation poject. You can adapt the UI and add app descriptor changes.
+Define changes to the generated application variant in your SAPUI5 adaptation project. You can adapt the UI and add app descriptor changes.
 
 
 
@@ -27,5 +27,5 @@ Define changes to the generated application variant in your SAPUI5 adaptation po
 
 
 > ### Note:  
-> Fiori Elements based apps can be additionally adapted using the possibilities described in [Extending Delivered Apps Using Adaptation Extensions](https://ui5.sap.com/#/topic/52fc48b479314d0688be24f699778c47).
+> Fiori Elements based apps can be additionally adapted using adaptation extensions. For more information, see [Extending Delivered Apps Using Adaptation Extensions](https://ui5.sap.com/#/topic/52fc48b479314d0688be24f699778c47).
 

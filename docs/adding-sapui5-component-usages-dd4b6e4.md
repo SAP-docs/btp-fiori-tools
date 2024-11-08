@@ -2,7 +2,7 @@
 
 # Adding SAPUI5 Component Usages
 
-In this guide you can find information how to add SAPUI5 component usages in your adaptation project without tooling support.
+In this guide you can find information on how to add SAPUI5 component usages in your adaptation project without tooling support.
 
 
 
@@ -10,7 +10,7 @@ In this guide you can find information how to add SAPUI5 component usages in you
 
 ## Context
 
-For more information on component usages, see Reuse Components section in the [Using and Nesting Components](https://sapui5.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312).
+For more information on component usages, see the Reuse Components section in [Using and Nesting Components](https://sapui5.hana.ondemand.com/#/topic/346599f0890d4dfaaa11c6b4ffa96312).
 
 
 
@@ -24,14 +24,14 @@ For more information on component usages, see Reuse Components section in the [U
 
 3.  Enter the Component name.
 
-4.  Choose if you want to set it as lazy, or not.
+4.  Choose if you want to set it as lazy.
 
-5.  \(Optional\) Enter settings for the Component in the format of `"key1":"value1","key2":"value2", …`.
+5.  \(Optional\) Enter settings for the Component in the format: `"key1":"value1","key2":"value2",`.
 
-6.  \(Optional\) Enter any additional Component Data in the format of `key1":"value1","key2":"value2", …`.
+6.  \(Optional\) Enter any additional Component Data in the format: `key1":"value1","key2":"value2",`.
 
-7.  Choose if you want to add library reference. If yes, enter the library reference needed, and choose if you want to set it as lazy, or not.
+7.  Choose if you want to add library reference. If yes, enter the library reference needed and choose if you want to set it as lazy.
 
-8.  Choose *Finish* to create the change.
+8.  Click *Finish* to save your changes.
 
 

@@ -22,7 +22,7 @@ Last Updated: May 2023
     -   [Report Issues and Security](Getting-Started-with-SAP-Fiori-Tools/report-issues-and-security-7c755a5.md)
 -   [Project Functions](Project-Functions/project-functions-0d8fa32.md)
     -   [Application Information](Project-Functions/application-information-c3e0989.md)
-    -   [Application Minimum SAPUI5 Version](Project-Functions/application-minimum-sapui5-version-009f43e.md)
+    -   [Application SAPUI5 Version](Project-Functions/application-sapui5-version-009f43e.md)
     -   [Data Editor](Project-Functions/data-editor-18e43b5.md)
     -   [Deleting an Application in CAP Project](Project-Functions/deleting-an-application-in-cap-project-709f838.md)
     -   [Environment Check](Project-Functions/environment-check-75390cf.md)

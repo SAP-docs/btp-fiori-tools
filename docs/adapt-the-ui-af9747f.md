@@ -29,26 +29,28 @@ Make changes to the UI elements of the adaptation project.
 
 SAPUI5 adaptation project uses the editing capabilities of the SAPUI5 Visual Editor tool. The SAPUI5 Visual Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
 
-If you have created your project with Safe Mode switched on, you will not be able to do some of the actions described in this section. More specifically you will not be able to change properties, add fragments, or add controller extensions. If you think you want to turn Safe Mode off, so you can use these features, you can do this by selecting the switch named *Safe Mode* in the Visual Editor. Be aware that if you switch it off once, it is not possible to switch it on again.
+If you have created your project with Safe Mode, you cannot change properties, add fragments, or add controller extensions. To turn off Safe Mode, deselect the *Safe Mode* switch in the Visual Editor. Note once you switch it off, you cannot switch it on again.
 
 > ### Tip:  
-> The SAPUI5 Visual Editor will show you your project using the SAPUI5 version that you have set during its generation. If you want, you can preview your project using another SAPUI5 version, but you need to set it in the project\`s settings prior the next launch of the SAPUI5 Visual Editor. It can be easily done following these steps:
+> The SAPUI5 Visual Editor will show you your project using the SAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch SAPUI5 Visual Editor. Perform the following steps:
 > 
-> 1.  Open the `ui5.yaml` file placed in the root of your project.
+> 1.  Open the `ui5.yaml` file in the root of your project.
 > 
-> 2.  Find the `framework/version` parameter and change their value to point to the desired SAPUI5 version.
-> 3.  Find the `ui5/version` property, and change its value to the same desired SAPUI5 version.
+> 2.  Find the `framework/version` parameter and change its value to point to the desired SAPUI5 version.
+> 3.  Find the `ui5/version` property and change its value to the same desired SAPUI5 version.
 > 4.  Find the `ui5/url` property and change its value to point to the URL for the same desired SAPUI5 version.
 > 
-> Have in mind that changing other settings in this file will result in undesirable changes in the behavior of your project, and it is strongly advised not to make such changes.
+> Do not change other settings in this file because it will cause errors in your project.
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
+If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version.
+
 The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 
--   Navigate through and preview the application using the *Preview* mode.
+-   Navigate through and preview the application using the *Navigation* mode.
 
--   Change the application using the *Edit* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and vice versa. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
+-   Change the application using the *Edit* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the same if you click a UI element in the Canvas. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
 
 -   Change the device format of the canvas to smartphone, tablet, or desktop view.
 
@@ -64,9 +66,9 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 
 ## Procedure
 
-1.  In your workspace, еxpand the `webapp` folder and right click the `manifest.appdescr_variant` file and choose *Open SAPUI5 Visual Editor*. SAPUI5 Visual Editor launches and the application loads in the editor for you to make the changes when you switch to Edit mode from Preview mode.
+1.  In your workspace, еxpand the `webapp` folder and right click the `manifest.appdescr_variant` file and choose *Open SAPUI5 Visual Editor*. SAPUI5 Visual Editor launches and the application loads in the editor for you to make the changes when you switch to Edit mode from *Navigation* mode.
 2.  Navigate to the page containing the UI element you want to change.
-3.  From the editor header, select *Edit*.
+3.  From the editor header, click *Edit*.
 
 
 
@@ -102,12 +104,12 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 </td>
 <td valign="top">
 
-1.  Hover over or select a group or a field and choose *Add Field* from the context menu.
+1.  Hover over or select a group or a field and click *Add Field* from the context menu.
 2.  Select the fields from the list of available fields that you want to add to the UI.
 
     You can also search for field labels and tooltips, or sort the fields in alphabetical order.
 
-3.  To apply your adaptations, choose *OK*.
+3.  To apply your adaptations, click *OK*.
 
 
 
@@ -121,11 +123,11 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 </td>
 <td valign="top">
 
-1.  Hover over or select a group or select the form it’s contained in and choose *Add Group* from the context menu.
+1.  Hover over or select a group or select the form it’s contained in and click *Add Group* from the context menu.
 
     The default group title is *New Group*, and you can rename it to whatever you want.
 
-2.  To apply your adaptations, press [ENTER\] or select another element.
+2.  To apply your adaptations, press [Enter\] or select another element.
 
 
 
@@ -139,7 +141,7 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 </td>
 <td valign="top">
 
-1.  Hover over or select a section and choose *Add Section* from the context menu.
+1.  Hover over or select a section and click *Add Section* from the context menu.
 
     > ### Note:  
     > If all available sections are already on the object page, you cannot use this function and it’s grayed out in the context menu.
@@ -148,7 +150,7 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 
     You can also search for sections or sort them in alphabetical order.
 
-3.  To apply your adaptations, choose *OK*.
+3.  To apply your adaptations, click *OK*.
 
 
 
@@ -162,9 +164,9 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 </td>
 <td valign="top">
 
-1.  Double-click a field or group. You can also hover over or select it and choose *Rename Field* or *Rename Group* from the context menu.
+1.  Double-click a field or group. You can also hover over or select it and click *Rename Field* or *Rename Group* from the context menu.
 2.  Rename the field label or group title.
-3.  To apply your adaptations, press [ENTER\]; to quit, press [ESC\].
+3.  To apply your adaptations, press [Enter\]. To quit, press [ESC\].
 
 
 
@@ -181,7 +183,7 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 1.  Drag a field, group, or section.
 2.  Drop the field, group, or section on its new location.
 
-    A space appears where you can drop it. You can drop a field above or below any of the highlighted fields or in any group marked with a dashed box; you can drop a group or section on any of the highlighted groups or sections.
+    A space appears where you can drop it. You can drop a field above or below any of the highlighted fields or in any group marked with a dashed box. You can drop a group or section on any of the highlighted groups or sections.
 
 
 
@@ -196,8 +198,8 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 </td>
 <td valign="top">
 
-1.  Hover over or select a field or group and choose *Cut* from the context menu. The cut field or group gets highlighted. Also, the groups where you can paste the cut field or the forms where you can paste the cut group get highlighted using dashed boxes. Move fields, groups, and object page sections.
-2.  To paste a cut field, hover over or select a highlighted group or a field in a highlighted group and choose *Paste*. To paste a cut group, hover over or select a group in the highlighted forms and choose *Paste* from the context menu.
+1.  Hover over or select a field or group and clicke *Cut* from the context menu. The cut field or group gets highlighted. Also, the groups where you can paste the cut field or the forms where you can paste the cut group get highlighted using dashed boxes. Move fields, groups, and object page sections.
+2.  To paste a cut field, hover over or select a highlighted group or a field in a highlighted group and click *Paste*. To paste a cut group, hover over or select a group in the highlighted forms and click *Paste* from the context menu.
 
 > ### Note:  
 > To remove the highlighting and exit pasting, press [ESC\].
@@ -218,7 +220,7 @@ You can combine up to three fields so that they’re displayed in a single line.
 
 1.  Select a field.
 2.  Press and hold [CTRL\]. Move fields, groups, and object page while selecting the other fields you want to combine with this field.
-3.  Choose *Combine* from the context menu of one of the selected fields where you want the combined fields to be displayed.
+3.  Click *Combine* from the context menu of one of the selected fields where you want the combined fields to be displayed.
 
 
 
@@ -233,7 +235,7 @@ You can combine up to three fields so that they’re displayed in a single line.
 <td valign="top">
 
 1.  Hover over or select the combined fields.
-2.  Choose *Split* from the context menu.
+2.  Click *Split* from the context menu.
 
 
 
@@ -248,7 +250,7 @@ You can combine up to three fields so that they’re displayed in a single line.
 <td valign="top">
 
 1.  Hover over or select the field, group, or section that you want to remove from the UI.
-2.  Choose *Remove Field*, *Remove Group*, or *Remove Section* from the context menu or press [DEL\].
+2.  Click *Remove Field*, *Remove Group*, or *Remove Section* from the context menu or press [DEL\].
 
     The fields and sections are only removed from the UI, not permanently deleted. They're still available in the list of available fields or sections, and you can add them again at any point. You cannot remove mandatory fields \(also those contained in groups\) by accident as the system will ask you to confirm.
 
@@ -265,7 +267,7 @@ You can combine up to three fields so that they’re displayed in a single line.
 
 ## Embedding Content
 
-Embedding content is done the same way, as in the key user scenario. You can follow the procedure described in [Embedding Content](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
+To embed content, perform the following steps in [Embedding Content](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
 
 
 
@@ -273,5 +275,5 @@ Embedding content is done the same way, as in the key user scenario. You can fol
 
 ## Preview in a Separate Browser Tab
 
-See [Preview the Adaptation Project](preview-the-adaptation-project-64cc15b.md).
+You can preview your project in a separate browser tab. For more information, see [Preview the Adaptation Project](preview-the-adaptation-project-64cc15b.md).
 

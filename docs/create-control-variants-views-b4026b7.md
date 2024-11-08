@@ -2,7 +2,7 @@
 
 # Create Control Variants \(Views\)
 
-As a developer you can create control variants within the SAPUI5 Visual Editor.
+As a developer, you can create control variants within the SAPUI5 Visual Editor.
 
 
 
@@ -21,10 +21,10 @@ As a developer you can create control variants within the SAPUI5 Visual Editor.
 
 ## Context
 
-The SAPUI5 Visual Editor allows you to create, load, change, and save control variants. Typically, you would create variants of a control to give different options for the end user for better usability in special use cases when they might need \(or not\) a specific part of control.
+The SAPUI5 Visual Editor allows you to create, load, change, and save control variants. You can create variants of a control to give different options for the end user for better usability in special use cases when they do or do not need a specific part of control.
 
 > ### Note:  
-> You can define variants for specific controls on the user interface. Have in mind that variants are also called "views", usually in a more nontechnical context, for example, on the user interface.
+> You can define variants for specific controls on the user interface. Have in mind that variants are also called "views" in a more non-technical context, for example, on the user interface.
 
 
 
@@ -32,5 +32,5 @@ The SAPUI5 Visual Editor allows you to create, load, change, and save control va
 
 ## Procedure
 
-Creating and adapting control variants \(views\) is done the same way, as in the key user scenario. You can follow the procedure described in [Creating and Adapting Views](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/91ae3492323b42a79ca66fbfaf5af3f9.html) . The only difference from the key user scenario is that you do not have to publish your changes. They are saved as an ordinary change in your adaptation project, in the same manner as all other changes.
+Creating and adapting control variants \(views\) is done the same way, as in the key user scenario. You can follow the procedure described in [Creating and Adapting Views](https://help.sap.com/viewer/4fc8d03390c342da8a60f8ee387bca1a/latest/en-US/91ae3492323b42a79ca66fbfaf5af3f9.html). The only difference from the key user scenario is that you do not have to publish your changes. They are saved as an ordinary change in your adaptation project in the same manner as all other changes.
 

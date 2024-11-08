@@ -2,20 +2,23 @@
 
 # Check Consistency of Release State
 
+Learn how to use the SAPUI5 Component Consistency ATC check to verfy the consistency of your release state.
 
 
-This section is only relevant for developers who release their apps to be consumed in adaptation projects in SAP S/4HANA Cloud and SAP BTP, Cloud Foundry environment.
+
+> ### Tip:  
+> This section is only relevant for developers who release their apps to be consumed in adaptation projects in SAP S/4HANA Cloud and SAP BTP, Cloud Foundry environment.
 
 Such apps need to be released with an `Extend (C0)` contract and must keep their OData services stable \(`Use System Internally (C1)` contract\). The release state of the app is also indicated in the app's `manifest.json` file, under `sap.fiori/cloudDevAdaptationStatus`.
 
-The ATC check *SAPUI5 Component Consistency* \(`CI_UI5_COMP`\) verifies the consistency of the release state. The following checks are performed:
+The ATC check, *SAPUI5 Component Consistency* \(`CI_UI5_COMP`\) verifies the consistency of the release state. The following checks are performed:
 
 -   Verify that the `sap.fiori/cloudDevAdaptationStatus` of the UI5 app in the SAPUI5 ABAP repository \(based on the BSP repository\) is the same as in the back-end system. This is relevant due to issues during the deployment or due to manual adjustments of the `manifest.json` file.
 
 -   Verify the consistency of release states of the UI5 app and the services it uses \(C0 and C1 contracts\).
 
 
-The ATC check `CI_UI5_COMP` also performs some other checks. For more information on these, see [ATC Check SAPUI5 Component Consistency](https://ui5.sap.com/#/topic/a71400bc82284449bb6c680a4516cc63).
+The ATC check, `CI_UI5_COMP` also performs some other checks. For more information, see [ATC Check SAPUI5 Component Consistency](https://ui5.sap.com/#/topic/a71400bc82284449bb6c680a4516cc63).
 
 For more information, see the following documentation:
 
