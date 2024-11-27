@@ -26,7 +26,7 @@ To create an application in Visual Studio Code \(VS Code\) or SAP Business Appli
     -   SAP Fiori \(default value\)
     -   Deprecated templates \(includes SAPUI5 templates that have been deprecated\)
 
-4.  Click [Next\].
+4.  Click *Next*.
 
     Based on your selection, the next page appears.
 
@@ -34,7 +34,7 @@ To create an application in Visual Studio Code \(VS Code\) or SAP Business Appli
 > ### Note:  
 > After the SAP Fiori project is generated, the *Application Information* page opens. You can relaunch the *Application Information* page at any time by opening the Command Palette \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and executing the *Fiori: Open Application Info* command.
 
-For MTA deployment, see [Generating an MTA Deployment File](Additional-Configuration/generating-an-mta-deployment-file-9c41152.md) 
+For MTA deployment, see [Generating an MTA Deployment File](Additional-Configuration/generating-an-mta-deployment-file-9c41152.md).
 
 
 
@@ -56,20 +56,20 @@ For more information, see [Service Center](https://help.sap.com/products/SAP%20B
 
 Once a project is generated, you can see its structure:
 
--   `webapp`. Root folder for SAPUI5 based web applications.
--   `.npmrc`. Lists any npm registry configuration updates required for the generated project.
--   `.gitignore`. Specifies files or folder patterns that should be excluded from source control, such as node\_modules.
--   `package-lock.json`. Ensures that the project node dependencies are fixed to the correct versions; helps improve the speed of the node libraries installation routine.
--   `package.json`. The main configuration file for node-based projects.
--   `README.md`. The readme file providing details on the options chosen to generate the application.
--   `ui5-local.yaml`. Supports local development of an application in preview mode.
--   `ui5.yaml`. Ensures that the application generated locally can connect to the supplied data source and supports dynamically updating the version of SAPUI5.
--   `node_modules`. Contains node modules required to install and run the current project locally \(npm install creates and updates the folder\). This folder doesn’t need to be version-controlled.
+-   `webapp` - Root folder for SAPUI5 based web applications.
+-   `.npmrc` - Lists any npm registry configuration updates required for the generated project.
+-   `.gitignore` - Specifies files or folder patterns that should be excluded from source control, such as node\_modules.
+-   `package-lock.json` - Ensures that the project node dependencies are fixed to the correct versions and helps improve the speed of installing npm packages.
+-   `package.json` - The main configuration file for node-based projects.
+-   `README.md` - The readme file providing details on the options chosen to generate the application.
+-   `ui5-local.yaml` - Supports local development of an application in preview mode.
+-   `ui5.yaml` - Ensures that the application generated locally can connect to the supplied data source and supports dynamically updating the SAPUI5 version.
+-   `node_modules` - Contains node modules required to install and run the current project locally \(`npm install` creates and updates the folder\). This folder doesn’t need to be version-controlled.
 
 > ### Note:  
-> The generated project structure differs if you select the option “Use a Local CAP Node.js Project” during its generation. In this case, the preview and deployment functionality are provided by the local CAP project. As a result, the `package.json` file has a more basic content and some files aren’t generated, such as `ui5.yaml`, `.npmrc`, and more. Additionally, instead of local `annotation.xml`, an `annotation.cds` file is generated so that annotations are defined in CAP CDS syntax instead of OData EDMX.
+> The generated project structure differs if you select the *Use a Local CAP Node.js Project* option during generation. In this case, the preview and deployment functionality are provided by the local CAP project. As a result, the`package.json` file is shorter and some files aren’t generated, such as `ui5.yaml` and`.npmrc`. Additionally, instead of a local `annotation.xml`, an `annotation.cds` file is generated so that annotations are defined in CAP CDS syntax instead of OData EDMX.
 
-For more information about npm, see, [@sap/generator-fiori-elements](https://www.npmjs.com/package/@sap/generator-fiori-elements) and [@sap/ux-ui5-tooling](https://www.npmjs.com/package/@sap/ux-ui5-tooling).
+For more information about npm, see [@sap/generator-fiori-elements](https://www.npmjs.com/package/@sap/generator-fiori-elements) and [@sap/ux-ui5-tooling](https://www.npmjs.com/package/@sap/ux-ui5-tooling).
 
 
 

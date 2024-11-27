@@ -8,7 +8,7 @@ Start the application using the `npm run start-local` command. Then, the applica
 
 <a name="loio6d3a21087ba74ce1a5ba475d9ef4fbd4__section_r5s_m5t_r4b"/>
 
-## VS Code
+## Visual Studio Code
 
 1.  In VS Code, open the terminal.
 
@@ -17,7 +17,7 @@ Start the application using the `npm run start-local` command. Then, the applica
     > 
     > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
     > -   Use the *View* \> *Terminal* menu command.
-    > -   From the *Command Palette* \([Ctrl\]+[Shift\]+[P\]\), use the *View: Toggle Integrate Terminal* command.
+    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the *View: Toggle Integrate Terminal* command.
 
 2.  Ensure you are in the root directory of your project.
 3.  In the terminal pane, type `npm run start-local` and press *Enter*.

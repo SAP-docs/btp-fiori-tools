@@ -20,7 +20,7 @@ In SAP Fiori elements, perform the following steps:
     -   [Use a Local CAP Project](data-source-9906181.md#loio99061814ead548808d539861fb27bafb__section_fgh_m3y_v4b)
 
     > ### Note:  
-    > If a username and password are required, enter your credentials and click *Login*.
+    > If a username and password are required, enter your credentials and click the *Login* icon \(person with an arrow\).
     > 
     > ![](images/Login_button_App_Gen_fb8dd99.png)
 
@@ -30,7 +30,7 @@ In SAP Fiori elements, perform the following steps:
     > ### Note:  
     > Some fields are already prefilled with default text, which can be modified if needed. Mandatory fields are marked with an asterisk \(\*\).
 
-    -   **Module name** \(required\): Must be alpha-numeric and **cannot contain spaces**. The generated Node.js application uses the module name as its package name. It is used as the folder name of the generated application.
+    -   **Module name** \(required\): Must be alpha-numeric and cannot contain spaces. The generated Node.js application uses the module name as its package name. It is used as the folder name of the generated application.
 
         > ### Note:  
         > Module names can only contain URL-friendly characters.
@@ -43,13 +43,13 @@ In SAP Fiori elements, perform the following steps:
         > ### Note:  
         > You cannot select a project folder path that already contains an SAP Fiori application. If you want to create an application as part of a CAP project, you must select *Local CAP Project* as the *Data Source* in Step 2.
 
-    -   **Minimum SAPUI5 version**: From the drop-down list, select the minimum SAPUI5 version that the application will require.
+    -   **Minimum SAPUI5 version**: From the dropdown list, select the minimum SAPUI5 version that the application will require.
 
-        -   The dropdown will show the list of available versions of SAPUI5, with the current **default** version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
-        -   If the source system during generation is an ABAP on Premise system, then the **default** version selected in the dropdown will be equal to the version of SAPUI5 version on that ABAP system where possible.
+        -   The dropdown will show the list of available versions of SAPUI5, with the current default version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
+        -   If the source system during generation is an ABAP on Premise system, then the default version selected in the dropdown will be equal to the version of SAPUI5 version on that ABAP system where possible.
 
         > ### Note:  
-        > For an application generated with the OData V4 data source, the list of SAPUI5 versions supported is limited to the most recent ones.
+        > For an application generated with the OData V4 data source, the list of SAPUI5 versions supported is limited to the most recent versions.
 
     -   **[Adding Deployment Configuration to an Existing MTA Deployment File](../Additional-Configuration/adding-a-fiori-application-to-an-mta-deployment-file-with-the-5a17ba6.md#loiod7525cef6f6c4aa4acf3ec09c5a8eacb)**.
 

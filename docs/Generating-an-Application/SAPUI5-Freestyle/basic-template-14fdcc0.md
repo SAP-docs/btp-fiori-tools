@@ -37,12 +37,5 @@ An important best practice is to have unit and integration tests for your app. W
 
 ## Where Can I Find the Basic Template?
 
-You can find the template in the following places:
-
--   **Basic** template in SAP Fiori tools.
-
--   `openui5-basic-template-app` in the [SAP Repository on GitHub](https://github.com/SAP).
-
-    For more information about how to clone or download the template from GitHub, refer to the template documentation on [GitHub](https://github.com/SAP/openui5-basic-template-app/blob/master/README.md).
-
+You can find the basic template in SAP Fiori tools.
 

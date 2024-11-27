@@ -56,7 +56,7 @@ One of the following values should be returned:
 -   `https://registry.npmjs.org`
 -   `undefined`
 
-If it is set incorrectly to `@sap`, open the **`.npmrc`** file in your home directory and remove this entry.
+If it is set incorrectly to `@sap`, open the `.npmrc` file in your home directory and remove this entry.
 
 <a name="loio4ce76a049bab42b0843111af4c7dcb4c"/>
 

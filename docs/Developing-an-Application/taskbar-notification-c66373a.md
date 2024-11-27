@@ -2,8 +2,8 @@
 
 # Taskbar Notification
 
-Taskbar notification is provided when the annotation file is updated based on the user actions in the *Page Editor*.
+A taskbar notification appears when the annotation file is updated based on the user's actions in the *Page Editor*.
 
 > ### Note:  
-> The taskbar notification isn’t displayed when the change is directly made in the annotation file.
+> The taskbar notification is not displayed when the change is directly made in the annotation file.
 

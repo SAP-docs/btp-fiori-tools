@@ -5,7 +5,7 @@
 This section provides information on how to connect your application with a data source during generation.
 
 > ### Tip:  
-> When running SAP Fiori tools in VS Code, you can save the connection information to a remote system. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
+> When running SAP Fiori tools in Visual Studio Code \(VS Code\), you can save the connection information to a remote system. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
 
 > ### Tip:  
 > You can create a UI service for your SAP ABAP system. For more information, see [UI Service Generation](../../Project-Functions/ui-service-generation-1a7aad3.md).
@@ -16,13 +16,13 @@ This section provides information on how to connect your application with a data
 
 ## Connect to an SAP System
 
--   **Connect to an SAP system using** **VS Code.**
+-   **Connect to an SAP system using** **VS Code**
 
     In either case, you can create a new system to connect to, or select one of the saved systems you may have already used.
 
     *Adding a new system*
 
-    1.  **Enter a system name** that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
+    1.  Enter a system name that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
     2.  **Select the SAP ABAP system type**.
 
         For the SAP ABAP system hosted in the SAP Business Technology Platform, you can choose from the following authentication types:
@@ -74,7 +74,7 @@ This section provides information on how to connect your application with a data
 
     2.  If saved authentication details are invalid, you’ll be prompt to reauthenticate. For example, if your password is expired.
 
--   **Connect to an SAP system using** **SAP Business Application Studio.**
+-   **Connect to an SAP system using** **SAP Business Application Studio**
 
     When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for the SAP Business Application Studio instance. The generator automatically retrieves the available destinations to select from. If you do not have the correct access to use the destination endpoint, an error occurs.
 
@@ -83,7 +83,7 @@ This section provides information on how to connect your application with a data
     If you want to use a destination to reference a service URL endpoint, see [Connect to an OData Service with a customized URL](data-source-9906181.md#loio99061814ead548808d539861fb27bafb__section_i2d_yzx_v4b).
 
     > ### Note:  
-    > In SAP Business Application Studio, to create SAP Fiori elements application in SAP BTP ABAP environment, you must be assigned to one of the following roles:
+    > In SAP Business Application Studio, to create SAP Fiori elements application in SAP BTP ABAP environment
     > 
     > -   OrgManager
     > -   SpaceManager
@@ -103,7 +103,7 @@ If the OData endpoint that you want to use in your application can't be accessed
 3.  For the data source URL field, use the destination name followed by `.dest`. In this case, SAP Business Application Studio should be able to route to your service with the destination name.
 
 > ### Example:  
-> If the URL defined in the Destination is `https://someurl.com/someservice` with the destination name “MyDestination”, the following URL will be used in the SAP Fiori application generator:
+> If the URL defined in the Destination is `https://someurl.com/someservice`, you must be with the destination name MyDestination, the following URL will be used in the SAP Fiori application generator:
 > 
 > `https://MyDestination.dest/someservice`
 
@@ -117,7 +117,7 @@ Enter the OData endpoint URL to generate your application.
 
 -   All OData endpoints that are either **authenticated** or **unauthenticated** are supported.
 
--   The OData endpoint must be the correct version of the template that you’ve selected. For example, a V2 endpoint must be provided for a V2 template. The wizard informs you in case of any mismatch between the OData version and the template version
+-   The OData endpoint must be the correct version of the template that you’ve selected. For example, a V2 endpoint must be provided for a V2 template. The wizard informs you in case of any mismatch between the OData version and the template version.
 
 > ### Note:  
 > If necessary, the system prompts you to provide your name and password.
@@ -132,7 +132,7 @@ Upload a `metadata XML` file that you want to use. Now, you can generate the app
 
 -   Only [EDMX format](https://docs.microsoft.com/en-us/openspecs/windows_protocols/mc-edmx/5dff5e25-56a1-408b-9d44-bff6634c7d16) is supported for the `metadata XML` file.
 
--   Once the `metadata XML` file is validated, you can select the required entity options for the application.
+-   After the `metadata XML` file is validated, you can select the required entity options for the application.
 
 > ### Note:  
 > Using the `metadata.xml` file restricts the generated application to only mock data.
@@ -148,15 +148,15 @@ Upload a `metadata XML` file that you want to use. Now, you can generate the app
 > 
 > For more information, see [Service Center](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/1e8ec75c9c784b51a91c7370f269ff98.html).
 
-When users don't have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support the development and should be replaced with a real one before going live.
+When users don't have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support development and must be replaced with a real data source before going live.
 
 > ### Note:  
 > Ensure that you logged in to [https://api.sap.com/](https://api.sap.com/) at least once before connecting to SAP Business Accelerator Hub.
 
--   In the *Data Source and Service Selection* wizard page, select “Connect to SAP Business Accelerator Hub” from the *Data source* drop-down list.
--   When the SAP Business Accelerator Hub option is selected, a list of predefined services relevant to different industries appears. Select a service that you want to generate an application with. For example, Just-In-Time Calls, Transaction Classifications, Content, Request of Quotation, and more.
--   Once the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
--   Fill in the fields and click *Next* to proceed with the application generation.
+-   In the *Data Source and Service Selection* wizard page, select *Connect to SAP Business Accelerator Hub* from the *Data source* dropdown list.
+-   When the SAP Business Accelerator Hub option is selected, a list of predefined services relevant to different industries appears. Select a service that you want to generate an application with. For example, Just-In-Time Calls, Transaction Classifications, Content, and Request of Quotation.
+-   After the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
+-   Fill in the fields and click *Next* to proceed with application generation.
 
 > ### Caution:  
 > SAP Business Accelerator Hub services are not intended for use with SAP Fiori UI development.
@@ -175,10 +175,10 @@ For more information, see [https://api.sap.com/](https://api.sap.com/).
 You can either select a local SAP Cloud Application Programming Model \(CAP\) project that has been detected in your workspace, or manually select the CAP project folder path and the generator will retrieve the services that are defined for that project.
 
 > ### Note:  
-> A local CAP Project data source is limited to the List Report Object Page and Analytical List Page templates that are based on the OData V4. This option is not available for the Worklist and Overview Page templates.
+> A local CAP Project data source is limited to the List Report Object Page and Analytical List Page templates that are based on OData V4. This option is not available for the Worklist and Overview Page templates.
 
 > ### Note:  
-> [OData V2 Support for CAP](https://cap.cloud.sap/docs/advanced/odata#odata-v2-support) - While CAP defaults to OData V4, the latest protocol version, some projects need to fallback to OData V2, for example, to keep using existing V2-based UIs. SAP Fiori tools does not recommend and support having both OData V2 and OData V4 applications in the app folder within the CAP project. In case, you have a requirement to create both OData V2 and ODataV4 applications, it is recommended that you generate the OData V2 app outside of the CAP project.
+> [OData V2 Support for CAP](https://cap.cloud.sap/docs/advanced/odata#odata-v2-support) - While CAP defaults to OData V4, the latest protocol version, some projects need to fallback to OData V2, for example, to keep using existing V2-based UIs. SAP Fiori tools does not recommend and support having both OData V2 and OData V4 applications in the app folder within the CAP project. In case, you have a requirement to create both OData V2 and OData V4 applications, it is recommended that you generate the OData V2 app outside of the CAP project.
 
 For more information about CAP services, see: [https://cap.cloud.sap/docs/about/](https://cap.cloud.sap/docs/about/).
 
@@ -192,8 +192,8 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 
 -   [Node.js](../../Getting-Started-with-SAP-Fiori-Tools/visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280)
 -   Sample Projects:
-    -   [CAP Node.js Teched2020](https://github.com/SAP-samples/teched2020-IIS360).
-    -   [Cloud CAP Samples](https://github.com/SAP-samples/cloud-cap-samples).
+    -   [CAP Node.js Teched2020](https://github.com/SAP-samples/teched2020-IIS360)
+    -   [Cloud CAP Samples](https://github.com/SAP-samples/cloud-cap-samples)
 
         > ### Note:  
         > If you use one of the sample projects, ensure the workspace root is set to the cloned repository and execute `npm install`.
@@ -203,11 +203,11 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Node.js Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
-3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* dropdown list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
+3.  If there are CAP projects detected in your workspace, you can then choose from the list of CAP projects that have been found. If your CAP project is not in the list, select *Manually select CAP project folder path* and browse to your CAP project location. If the generator is unable to find any local CAP projects in your workspace, you can provide the CAP project folder path manually.
 
     > ### Note:  
-    > If the generator cannot find a major version of @sap/CDS in your workspace – either globally or as part of the project – that matches the version specified in your CAP project, then you won't be permitted to generate your application because the generated application would be using an invalid @sap/CDS version.
+    > If the generator cannot find a major version of `@sap/CDS` in your workspace – either globally or as part of the project – that matches the version specified in your CAP project, then you won't be permitted to generate your application because the generated application uses an invalid `@sap/CDS` version.
 
 4.  In the *OData service* drop-down list, select a service, and click *Next*.
 5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
@@ -218,8 +218,8 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 6.  Leave the value for the *Navigation Entity* field as *None* and click *Next*.
 7.  On the *Project Attributes* wizard page, add the required attributes to the application project. For example:
 
-    -   *Module name*: `incidents`.
-    -   *Application title*: `My Incidents`.
+    -   *Module name*: `incidents`
+    -   *Application title*: `My Incidents`
     -   *Application namespace*: `sap.fe.demo`
 
     For the rest of the attributes, keep the default values.
@@ -246,10 +246,10 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 
 -   Sample Projects:
 
-    -   [CAP Samples for Java](https://github.com/SAP-samples/cloud-cap-samples-java/).
+    -   [CAP Samples for Java](https://github.com/SAP-samples/cloud-cap-samples-java/)
 
         > ### Note:  
-        > If you use one of the sample projects, confirm that all system requirements are met. Execute `mvn` command:
+        > If you use one of the sample projects, confirm that all system requirements are met. Execute the `mvn` command:
         > 
         > ```
         > cd cloud-cap-samples-java
@@ -263,10 +263,10 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 **SAP CAP Java Project steps**
 
 1.  Perform the steps identified in the [SAP Fiori Elements](sap-fiori-elements-1488469.md) section.
-2.  On the *Data Source and Service Selection* wizard page, in the *Data source* drop-down list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
-3.  If there are **CAP projects** detected in your workspace, you can then choose from the list of **CAP projects** that have been found. If your **CAP project** is not in the list, select *Manually select CAP project folder path* and browse to your **CAP project** location. If the generator is unable to find any local **CAP projects** in your workspace, you can provide the **CAP project** folder path manually.
-4.  In the *OData service* drop-down list, select a service, for example, CatalogService, and click *Next*.
-5.  On the *Entity Selection* wizard page, select the main entity from a drop-down list.
+2.  On the *Data Source and Service Selection* wizard page, in the *Data source* dropdown list, select *Use a Local CAP Project*. If there is only one CAP project in the workspace, the project is auto selected.
+3.  If there are CAP projects detected in your workspace, you can then choose from the list of CAP projects that have been found. If your CAP project is not in the list, select *Manually select CAP project folder path* and browse to your CAP project location. If the generator is unable to find any local CAP projects in your workspace, you can provide the CAP project folder path manually.
+4.  In the *OData service* dropdown list, select a service, for example, CatalogService, and click *Next*.
+5.  On the *Entity Selection* wizard page, select the main entity from a dropdown list.
 
     > ### Note:  
     > The properties of this entity are used to display data on the List Report from the entity collection.
@@ -274,8 +274,8 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 6.  Leave the value for the *Navigation Entity* field as *None* and click *Next*.
 7.  On the *Project Attributes* wizard page, add the required attributes to the application project. For example:
 
-    -   *Module name*: `books`.
-    -   *Application title*: `Books`.
+    -   *Module name*: `books`
+    -   *Application title*: `Books`
 
     For the rest of the attributes, keep the default values.
 

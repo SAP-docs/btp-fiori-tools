@@ -2,9 +2,9 @@
 
 # Telemetry
 
-You can enable/disable collection of usage analytics data for SAP Fiori tools. If enabled, non-personally identifiable information is used to help understand the product usage and improve the tool.
+You can enable and disable the collection of analytics for SAP Fiori tools. If enabled, non-personally identifiable information is used to help understand how you use the product to improve SAP Fiori tools.
 
-To enable/disable telemetry:
+To enable or disable telemetry:
 
--   In Visual Studio Code \(VS Code\) or SAP Business Application Studio, execute command *Fiori: Change Telemetry Settings*.
+-   Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Change Telemetry Settings* command.
 

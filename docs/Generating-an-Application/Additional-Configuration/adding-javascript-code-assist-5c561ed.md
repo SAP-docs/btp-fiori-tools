@@ -1,10 +1,10 @@
 <!-- loio5c561ed1243946bf8317709957698141 -->
 
-# Adding Javascript Code Assist
+# Adding JavaScript Code Assist
 
-You can modify an SAP Fiori project with javascript code assist libraries in the *Advanced configuration* step.
+You can modify an SAP Fiori project with JavaScript code assist libraries in the *Advanced configuration* step.
 
-To add javascript code assist libraries to the already generated application with SAPUI5 version 1.76 and newer, perform the following steps in your project:
+To add JavasScript code assist libraries to the already generated application with SAPUI5 version 1.76 and newer, perform the following steps in your project:
 
 1.  Update the `package.json` file:
 
@@ -24,9 +24,9 @@ To add javascript code assist libraries to the already generated application wit
     { "plugins": ["@sap/ui5-jsdocs"], "extends": ["plugin:@sap/ui5-jsdocs/recommended", "eslint:recommended"] }
     ```
 
-4.  Delete `node_modules` and execute `npm install`.
+4.  Delete the `node_modules` folder and execute `npm install`.
 
-Open a JS file to see the code completion for SAPUI5:
+Open a `.js` file to see the code completion for SAPUI5:
 
 ![](images/JS_File_Example_c5cfb2a.png)
 

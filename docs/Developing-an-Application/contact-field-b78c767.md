@@ -18,9 +18,6 @@ To add a contact field to a section, perform the following steps:
 2.  Select `Contact` via a tree control.
 3.  Click `Add`, a new `Communication.Contact` annotation is created.
 
-> ### Note:  
-> Contact fields are based on the `UI.DataFieldForAnnotation` record type contained in the annotations `UI.FieldGroup`/`UI.Identification` \("base annotation"\) and reference a `Communication.Contact` annotation in the `Target` property.
-
 
 
 <a name="loiob78c767eba97469f845f4743e44abd0c__section_srw_hg5_j5b"/>

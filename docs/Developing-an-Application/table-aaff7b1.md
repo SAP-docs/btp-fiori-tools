@@ -4,7 +4,7 @@
 
 # Table
 
-Table is an essential part of the *List Report* age. It’s based on the `UI.LineItem` annotation that can be generated along with the application, unless you choose differently in the SAP Fiori application generator. For more information, see [Overview](overview-66c5b6f.md). *Page Editor* lets you further configure the list report table by adding columns and actions.
+Table is an essential part of the *List Report* page. It is based on the `UI.LineItem` annotation that can be generated along with the application, unless you choose differently in the SAP Fiori application generator. For more information, see [Overview](overview-66c5b6f.md). The *Page Editor* lets you further configure the list report table by adding columns and actions.
 
 Currently supported elements for *List Report* table are:
 
@@ -31,7 +31,7 @@ Sorting table data is set in the `Presentation Variant` property of the table. A
 > ### Note:  
 > If your *List Report* is configured with the *Analytical Chart*, you can also choose to reuse the `Presentation Variant` applied for that chart. In this case, sort order will apply for both chart and table.
 
-When the `Presentation Variant` is set, you can define one or more direct properties of the entity to sort the table data by. For this, press the [Add Sort Property\] button. A new table row for the sort property is added with the **Property** and **Direction** fields. Update the default values for these fields in the table row if needed.
+When the `Presentation Variant` is set, you can define one or more direct properties of the entity to sort the table data by. To do this, click Add Sort Property. A new table row for the sort property is added with the **Property** and **Direction** fields. Update the default values for these fields in the table row if needed.
 
 If you have more than one sort property, you can define in which order they apply to the table data by moving them up and down within the Sort Order property.
 
@@ -72,7 +72,7 @@ To remove detached `UI.SelectionPresentationVariant` annotations from the annota
 
 ### Selection Variant: Default Filters
 
-When the *Selection Variant: Annotation* is set, you can define one or more direct properties of the entity to filter the table data by default. For this, press the [Add Default Filter\] button. You will be prompted to select one of the available properties.
+When the *Selection Variant: Annotation* is set, you can define one or more direct properties of the entity to filter the table data by default. To do this, click Add Default Filter. You will be prompted to select one of the available properties.
 
 > ### Note:  
 > The properties annotated with `UI.Hidden`, `UI.HiddenFilter` or set as `NonFilterableProperties` within `Capabilities.FilterRestrictions` are not provided for selection as they cannot be used for filtering.

@@ -15,7 +15,7 @@ To create a new reusable library that can be referenced in your SAP Fiori applic
 1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Reusable Library Generator* command.
 2.  Provide your library module name and namespace, and choose a minimum version of SAPUI5.
 3.  From the Library Folder Path drop-down list, choose the directory for the new reusable library. The library folder generated consists of the namespace and module name.
-4.  You can optionally choose to generate your library with *TypeScript*.
+4.  You can optionally choose to generate your library with TypeScript.
 
 
 
@@ -61,6 +61,6 @@ Deploying a Reuse Library Project using SAP Fiori tools.
 3.  From the list, select the project that you would like to migrate.
 4.  Now, click on *Start Migration*.
 5.  Once the dependencies are installed, you're ready to use SAP Fiori tools to deploy to an ABAP environment.
-6.  To generate the deployment configuration, see [Generate Deployment Configuration ABAP](../Deploying-an-Application/generate-deployment-configuration-abap-c06b9cb.md)
-7.  To deploy the project to ABAP environment, see [Deployment to ABAP](../Deploying-an-Application/deployment-of-application-607014e.md#loio607014e278d941fda4440f92f4a324a6__abap)
+6.  To generate the deployment configuration, see [Generate Deployment Configuration ABAP](../Deploying-an-Application/generate-deployment-configuration-abap-c06b9cb.md).
+7.  To deploy the project to ABAP environment, see [Deployment to ABAP](../Deploying-an-Application/deployment-of-application-607014e.md#loio607014e278d941fda4440f92f4a324a6__abap).
 

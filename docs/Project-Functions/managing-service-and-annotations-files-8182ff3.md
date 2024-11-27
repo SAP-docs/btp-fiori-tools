@@ -21,17 +21,17 @@
 2.  In the context menu, select *Service Manager*.
 3.  Click *Add Service*.
 4.  Choose Connection Type:
-    1.  Destination \(SAP Business Application Studio\) - Select server destination from the dropdown. Enter username and password if needed.
-    2.  SAP System \(Visual Studio Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
+    1.  Destination \(SAP Business Application Studio\) - Select the server destination from the dropdown. Enter your username and password if needed.
+    2.  SAP System \(Visual Studio Code\) - Select the server SAP System from the dropdown. Enter your username and password if needed.
     3.  Hostname - Enter the server hostname, SAP Client, and username and password if needed.
 
-5.  To specify the OData service URL
+5.  To specify the OData service URL:
     1.  Enter Service URL manually.
     2.  Fetch Services from the server catalog and select from the dropdown list.
 
 6.  Click *Add*.
 
-    A new service appears in a service list. A service `metadata.xml` is now added to a local service folder of the project along with the service back-end annotations \(if they’re available\).
+    A new service appears in a service list. A service`metadata.xml` is now added to a local service folder of the project along with the service back-end annotations \(if they’re available\).
 
 
 
@@ -42,13 +42,13 @@
 2.  In the context menu, select *Service Manager*.
 3.  Click the :pencil2: \(*Pencil*\) icon opposite the service.
 4.  Choose Connection Type:
-    1.  Destination \(SAP Business Application Studio\) - Select server destination from the dropdown. Enter username and password if needed.
-    2.  SAP System \(Visual Studio Code\) - Select server SAP System from the dropdown. Enter username and password if needed.
+    1.  Destination \(SAP Business Application Studio\) - Select the server destination from the dropdown. Enter your username and password if needed.
+    2.  SAP System \(Visual Studio Code\) - Select the server SAP System from the dropdown. Enter your username and password if needed.
     3.  Hostname - Enter the server hostname, SAP Client, and username and password if needed.
 
 5.  Click
-    -   *Refresh* - Refresh local copy of metadata and annotation files of service.
-    -   *Refresh & Save* - Refresh local copy of metadata and annotation files of service and save connection to UI5 yaml files.
+    -   *Refresh* - Refresh the local copy of service metadata and annotation files.
+    -   *Refresh & Save* - Refresh the local copy of service metadata and annotation files and save connection to UI5 `YAML` files.
 
 
 
@@ -57,9 +57,9 @@
 
 1.  Right-click the SAP Fiori elements application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
-3.  Click :wastebasket: \(*Delete*\) icon.
+3.  Click the:wastebasket: \(*Delete*\) icon.
 
-The `metadata.xml`, related annotation XML files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will removed any back-end routing and mockserver entries specific to the service being deleted.
+The `metadata.xml`, related annotation XML files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will remove any back-end routing and mockserver entries specific to the service being deleted.
 
 For more information about mockserver, see [Use Mock Data](../Previewing-an-Application/use-mock-data-bda83a4.md).
 
@@ -102,7 +102,7 @@ The newly created annotation file appears in the *Annotation File Manager* for t
 > ### Note:  
 > The highest-ranked annotation file in the *Annotation File Manager* table is at the bottom resembling precedence rules in the `manifest.json`.
 
-1.  In the *Annotation File Hierarchy* use the up/down arrows to change the hierarchy.
+1.  In the *Annotation File Hierarchy*, use the up/down arrows to change the hierarchy.
 
 ![Annotation File Hierarchy](images/Annotations_File_Hierarchy_a7d0242.png)
 

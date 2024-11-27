@@ -11,7 +11,7 @@ The SAP Fiori tools extensions help you create applications, visualize navigatio
     -   [Page Editor](../Developing-an-Application/configure-page-elements-047507c.md)
     -   [Page Map](../Developing-an-Application/define-application-structure-bae38e6.md)
 
--   [**Guided Development**](../Developing-an-Application/use-feature-guides-0c9e518.md). Access to **How-To** guides and tutorials that explain how to implement certain functionality in an SAP Fiori elements application. You can follow the steps required to implement a feature and then use the guided development approach to make the required changes in your project.
+-   [**Guided Development**](../Developing-an-Application/use-feature-guides-0c9e518.md). Access to How-To guides and tutorials that explain how to implement certain functionality in an SAP Fiori elements application. You can follow the steps required to implement a feature and then use the guided development approach to make the required changes in your project.
 -   [**Service Modeler**](../Project-Functions/viewing-service-metadata-e369c2c.md). Visualization of the OData service metadata files. You can use it to browse complex services easily, including entities, properties, and associations.
 -   **[Maintaining Annotations with Language Server](../Developing-an-Application/maintaining-annotations-with-language-server-6fc93f8.md)**. Access to resources that help to define annotations in the code editor, thus improving application development by reducing effort and maintaining code consistency. The following subset of features is part of this extension:
     -   Code completion

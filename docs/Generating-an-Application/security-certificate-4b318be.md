@@ -10,7 +10,7 @@ During application generation, invalid security certificate errors may occur whe
 > Please ensure you have Node.js installed locally. For more information, see [Visual Studio Code](../Getting-Started-with-SAP-Fiori-Tools/visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280).
 
 > ### Note:  
-> The instructions below are applicable where the security certificate is valid, but using a local certificate authority that is unknown to the operating system. If the SSL cert is invalid \(examples: expired cert, wrong host, unable to verify leaf signature...\), please contact your administrator. In these cases, they cannot be resolved by SAP Fiori tools.
+> The instructions below are applicable where the security certificate is valid, but using a local certificate authority that is unknown to the operating system. If the SSL cert is invalid such as an expired cert, wrong host or unable to verify leaf signature, please contact your administrator. In these cases, they cannot be resolved by SAP Fiori tools.
 
 1.  Ensure that you have a copy of the local certificate authority saved locally.
 
@@ -24,7 +24,7 @@ During application generation, invalid security certificate errors may occur whe
 
         -   Follow the prompts to add the certificate to the trust store either for the current user only or for all users logging onto this computer.
 
-    -   MacOs.
+    -   macOS.
         -   Right-click the *CA certificate* file.
 
         -   Select *Open With* and naviagte to *Keychain Access*.
@@ -48,7 +48,7 @@ During application generation, invalid security certificate errors may occur whe
             -   Click *Apply* and then *OK* for the changes to take effect.
 
 
-        MacOs
+        macOS
 
         -   In the command-line terminal, before executing the Yeoman command to run the generators, execute the following command:
 

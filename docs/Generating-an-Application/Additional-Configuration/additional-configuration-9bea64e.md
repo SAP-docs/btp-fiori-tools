@@ -9,12 +9,12 @@
 ## Add Deployment Configuration
 
 1.  Select *Yes* if you want to configure deployment settings.
-2.  From the *Choose the target* drop-down list, select the deploy target from the following options:
+2.  From the *Choose the target* dropdown list, select the deploy target from the following options:
     -   ABAP
     -   Cloud Foundry
 
 
-When the target system is selected, the SAP Fiori launchpad wizard steps with the prompts appear *Deploy Configuration*.
+When the target system is selected, the *Deploy Configuration* SAP Fiori launchpad wizard appears with the following prompts:
 
 
 
@@ -23,7 +23,7 @@ When the target system is selected, the SAP Fiori launchpad wizard steps with th
 -   *Destination name* \(required\). The ABAP destination to the back-end system.
 -   *Is this an SAP Cloud Platform system?*
 
-    Select *Yes* or *No*. Applicable only if the system is discovered to be a Steampunk system.
+    Select *Yes* or *No*. Applicable only if the system to be discovered is a Steampunk system.
 
 -   *Target System URL*. This field has already been prefilled according to the selected project.
 
@@ -39,7 +39,7 @@ When the target system is selected, the SAP Fiori launchpad wizard steps with th
     -   Enter client
     -   Use default system client
 
--   *Is this an SAP S/4HANA Cloud system?* Select *Yes* or *No*. Not applicable if the user responds *Yes* to the `Is this an SAP Cloud Platform system?` question.
+-   *Is this an SAP S/4HANA Cloud system?* Select *Yes* or *No*. Not applicable if the user responds *Yes* to *Is this an SAP Cloud Platform system?*.
 -   *SAPUI5 ABAP Repository* \(required\). The technical name of the SAP Fiori application being deployed.
 -   *Package*. A transportable ABAP repository object that groups development objects. An SAP Fiori application deployed in the ABAP backend must be assigned to an appropriate package. If it’s supposed to be a local application that isn't sent to another system, the package can be $TMP. In this case, there’s no Transport Request. Not applicable for SAP S/4HANA Cloud.
 -   *Fetch Transport Request list from target system?*. Select *Yes* or *No*. If you select *Yes*, the applicable list of transport requests is retrieved from the target system and displayed in a dropdown for you to choose. If the lists of transport requests are unable to be retrieved from the target system, the existing manual text entry will be required.
@@ -97,21 +97,21 @@ Select *Yes* if you want to configure advanced options.
 
     Choosing this option includes the Fiori [eslint plugin library](https://www.npmjs.com/package/eslint-plugin-fiori-custom) in the generated application that allows the developer to check and ensure that the Fiori application adheres to the best practice for Fiori code development. Executing the target `npm run lint` in the generated application checks for any linting errors.
 
--   *Add javascript code assist libraries to your project*
+-   *Add JavaScript code assist libraries to your project*
 
     With this option, libraries are included in the generated project to provide `ui5` code completion prompts in the editor along with the `eslint` rules and recommended configuration for the static `jsdoc` code checks.
 
-    For more information, see [Adding Javascript Code Assist](adding-javascript-code-assist-5c561ed.md).
+    For more information, see [Adding JavaScript Code Assist](adding-javascript-code-assist-5c561ed.md).
 
 -   *Update project to use NPM Workspaces \(CAP only\)*
 
-    Optionally update your *CAP* application to support NPM workspaces which will permit the generated SAP Fiori application to maintain and define the *NPM* libraries it needs inside the application and not at the root of the *CAP* project. This is a pre-requisite to adding support for *TypeScript* for SAP Fiori application in a CAP project.
+    Optionally update your CAP application to support NPM workspaces which will permit the generated SAP Fiori application to maintain and define the npm libraries it needs inside the application and not at the root of the CAP project. This is a pre-requisite to adding support for TypeScript for SAP Fiori applications in a CAP project.
 
 -   *Enable TypeScript \(Experimental\)*
 
-    You can optionally choose to generate your application with *TypeScript* support. This is currently an experimental feature and is subject to future updates to enhance support.
+    You can optionally choose to generate your application with TypeScript support. This is currently an experimental feature and is subject to future updates to enhance support.
 
     > ### Note:  
-    > *TypeScript* support in a *CAP* application requires *NPM* workspaces to be enabled as detailed above.
+    > TypeScript support in a CAP application requires npm workspaces to be enabled as detailed above.
 
 

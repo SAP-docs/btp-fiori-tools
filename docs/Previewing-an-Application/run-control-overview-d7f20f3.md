@@ -2,7 +2,7 @@
 
 # Run Control Overview
 
-The **Run** dialog in VS Code as well as in SAP Business Application Studio looks for the file `<workspace_root>/.vscode/launch.json`, but won’t traverse into any subfolders and consequently will not find any configurations in `launch.json` files, that reside in nested folders. It is possible to merge configurations from multiple`launch.json` files by using workspaces. Here is a sample that shows different development environment setups.
+The *Run Configuration* dialog looks for the `<workspace_root>/.vscode/launch.json` file, but it will not traverse into any subfolders so it will not find any configurations inside `launch.json` files that reside in nested folders. You can merge configurations from multiple`launch.json` files by using workspaces. Here is a sample that shows different development environment setups.
 
 
 
@@ -14,24 +14,24 @@ Assuming the following file system structure:
 
 ![](images/RunConfig_Image1_5cfcf01.png)
 
-The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. In VS Code you can open a folder in via `File->Open`. Regardless in which environment you open the folder, VS Code or SAP Business Application Studio, depending on which folder you choose, you will get different results.
+The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. Iepending on which folder you choose, you will get different results.
 
-When opening **Folder\_One**, **Config One** is shown in `Run and Debug` view.
+When opening Folder\_One, Config One is shown in *Run and Debug* view.
 
 ![](images/Runconfiguration_Image2_247b086.png)
 
 ![](images/Runconfig_Image3_ad1782a.png)
 
-If you open**Folder Two** the `Run and Debug` view shows **Config Two**.
+If you open Folder Two, the *Run and Debug* view shows Config Two.
 
 ![](images/Runconfig_image4_7cc5305.png)
 
 > ### Note:  
-> The config from Subfolder isn’t shown in this case, as the configuration file `launch.json` can't be found in `<workspace_root>/.vscode`.
+> The config from Subfolder is not shown because the`launch.json` configuration file cannot be found in the `<workspace_root>/.vscode` file.
 
-When you open **Subfolder** in your development environment, only **Config Subfolder** would be shown.
+When you open Subfolder in your development environment, only Config Subfolder is shown.
 
-In addition, you can create a workspace, by opening one of the folders and selecting `Add Folder to Workspace` in your development environment. The workspace could be configured in many ways, here are some examples:
+In addition, you can create a workspace, by opening one of the folders and selecting *Add Folder to Workspace* in your development environment. The workspace can be configured in many ways. Here are some examples:
 
 -   **workspace root:** Folder\_One
 
@@ -41,7 +41,7 @@ In addition, you can create a workspace, by opening one of the folders and selec
 
     ![](images/Runconfig_Image5_7d410a4.png)
 
-    in this case Config One and Config Two are displayed, because these two configurations can be found in `Folder_One/.vscode/launch.json` and `Folder_Two/.vscode/launch.json`
+    In this case, Config One and Config Two are displayed, because these two configurations can be found in `Folder_One/.vscode/launch.json` and `Folder_Two/.vscode/launch.json`
 
     ![](images/Runconfig_Image6_7fe89a4.png)
 
@@ -49,15 +49,15 @@ In addition, you can create a workspace, by opening one of the folders and selec
 
     ![](images/Runconfig_Image7_9d494db.png)
 
-    in this case configurations from all three `launch.json` files are displayed:
+    In this case configurations from all three `launch.json` files are displayed:
 
     ![](images/Runconfig_Image8_40f2fe8.png)
 
 
 > ### Note:  
-> As seen in the last example, it’s possible to add a subfolder of an existing workspace root folder as stand-alone workspace root.
+> As seen in the last example, you can add a subfolder of an existing workspace root folder as a standalone workspace root.
 
-For more information on run configurations, refer to.[Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) 
+For more information on run configurations, see[Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) 
 
 **Related Information**  
 

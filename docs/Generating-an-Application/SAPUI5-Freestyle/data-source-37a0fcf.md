@@ -10,14 +10,14 @@ This section provides information on how to connect your application with a data
 
 ## Connect to an SAP system
 
--   **Connect to an SAP system using** **VS Code.**
+-   **Connect to an SAP system using** **VS Code**
 
     In either case, you can create a system to connect to or select from any saved systems you may have already used.
 
     *Adding a new system*
 
     1.  **Enter a system name** that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
-    2.  **Select the SAP ABAP system type**.
+    2.  **Select the SAP ABAP system type**
 
         For the SAP ABAP system hosted in the SAP Business Technology Platform, you can choose from the following authentication types:
 
@@ -47,7 +47,7 @@ This section provides information on how to connect your application with a data
     In both scenarios, you can store the system details in the secure storage of your operating system.
 
     -   Microsoft Windows: Keychain.
-    -   MacOS: Credential Manager.
+    -   macOS: Credential Manager.
 
     Saving the system in this way ensures that you do not need to continually provide these details for generating an application or running the generated application locally.
 
@@ -56,9 +56,9 @@ This section provides information on how to connect your application with a data
     > ### Note:  
     > When connecting for the first time, only the *New System* option is available.
 
--   **Connecting to an SAP System using** **SAP Business Application Studio.**
+-   **Connecting to an SAP System using** **SAP Business Application Studio**
 
-    When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for *Business Application Studio* instance. The generator automatically retrieves the available destinations, and you can select from the list. If you do not have the correct access to use the destination end point, an error occurs.
+    When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for a Business Application Studio instance. The generator automatically retrieves the available destinations, and you can select from the list. If you do not have the correct access to use the destination end point, an error occurs.
 
 
 
@@ -70,11 +70,11 @@ This section provides information on how to connect your application with a data
 If the OData endpoint that you want to use in your application can't be accessed directly, you can set it up as a destination and directly reference it in the generator. To do so, perform the following steps:
 
 1.  In SAP Business Application Studio, launch the SAP Fiori generator and select the required template.
-2.  Select *Connect to an OData Service* from the data source drop-down list.
+2.  Select *Connect to an OData Service* from the data source dropdown list.
 3.  For the data source URL field, use the destination name followed by `.dest`. In this case, SAP Business Application Studio should be able to route to your service with the destination name.
 
 > ### Example:  
-> If the URL defined in the Destination is `https://someurl.com/someservice` with the destination name “MyDestination”, the following URL will be used in the SAP Fiori generator:
+> If the URL defined in the Destination is `https://someurl.com/someservice` with the destination name MyDestination, the following URL will be used in the SAP Fiori generator:
 > 
 > `https://MyDestination.dest/someservice`
 
@@ -84,7 +84,7 @@ If the OData endpoint that you want to use in your application can't be accessed
 
 ## Connect to an OData Service
 
-Enter the OData endpoint URL to generate your application. All OData endpoints that are either **authenticated** with Basic authentication or **unauthenticated** are supported.
+Enter the OData endpoint URL to generate your application. All OData endpoints that are either authenticated with basic authentication or unauthenticated are supported.
 
 > ### Note:  
 > The provided OData endpoint must be the correct version for the template that you select. For example, a V2 endpoint must be provided for the V2 template. The wizard informs you if there is any mismatch between the OData version and the template version.
@@ -99,7 +99,7 @@ If necessary, the system prompts you to provide your name and password.
 
 To generate the application without relying on a backend service being available, upload a metadata xml file that you want to use.
 
-Only [EDMX format](https://docs.microsoft.com/en-us/openspecs/windows_protocols/mc-edmx/5dff5e25-56a1-408b-9d44-bff6634c7d16) is supported for metadata xml file.
+Only [EDMX format](https://docs.microsoft.com/en-us/openspecs/windows_protocols/mc-edmx/5dff5e25-56a1-408b-9d44-bff6634c7d16) is supported for the metadata xml file.
 
 Once the metadata xml file has been validated, the system allows you to select the required entity options for the application.
 
@@ -117,9 +117,9 @@ Once the metadata xml file has been validated, the system allows you to select t
 > 
 > For more information, see [Service Center](https://help.sap.com/products/SAP%20Business%20Application%20Studio/9d1db9835307451daa8c930fbd9ab264/1e8ec75c9c784b51a91c7370f269ff98.html).
 
-When users do not have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support the development and should be replaced with a real one before going live. When the SAP Business Accelerator Hub option is selected, a list of predefined services relevant to different industries appears.
+When users do not have their data source available, they can generate an application with the SAP Business Accelerator Hub. This data source is only intended to support development and must be replaced with a real data source before going live. When the SAP Business Accelerator Hub option is selected, a list of predefined services relevant to different industries appears.
 
--   Select a service that you want to generate an application with. For example, Just-In-Time Calls, Transaction Classifications, Content, Request of Quotation, and more.
+-   Select a service that you want to generate an application with. For example, Just-In-Time Calls, Transaction Classifications, Content, and Request of Quotation.
 -   Once the service is selected, two more fields appear for authentication purposes: *Enter your Username* and *Enter your Password*.
 -   Fill in the fields and click *Next* to proceed with the application generation.
 

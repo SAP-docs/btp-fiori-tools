@@ -3,7 +3,7 @@
 # Capabilities Overview
 
 > ### Note:  
-> To view information on the features available in your application, open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Application Info* command in Visual Studio Code \(VS Code\) or SAP Business Application Studio. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+> To view information on the features available in your application, open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Application Info* command. For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
 
 The following table lists the SAP Fiori tools features provided in each template and data source.
 
@@ -256,7 +256,7 @@ Build Application
 </td>
 <td valign="top">
 
-Build the application. Results are stored in 'dist'-folder.
+Build the application. The results are stored in the `dist` folder.
 
 </td>
 <td valign="top">
@@ -484,7 +484,7 @@ Create Archive
 </td>
 <td valign="top">
 
-Zip the project excluding the node\_modules for sharing \(e.g. support cases\)
+Zip the project excluding the `node_modules` folder for sharing which can be useful in support cases.
 
 </td>
 <td valign="top">
@@ -541,7 +541,7 @@ Deploy
 </td>
 <td valign="top">
 
-Deploy according to the configuration by default stored in 'ui5-deploy.yaml'.
+Deploy according to the configuration by default stored in the `ui5-deploy.yaml`.
 
 </td>
 <td valign="top">
@@ -655,7 +655,7 @@ Manage Service Models
 </td>
 <td valign="top">
 
-You can sync metadata.xml with back end.
+You can sync `metadata.xml` with the back end.
 
 </td>
 <td valign="top">
@@ -712,7 +712,7 @@ Manage XML Annotations
 </td>
 <td valign="top">
 
-You can choose or create local XML annotation files.
+You can choose or create local `XML` annotation files.
 
 </td>
 <td valign="top">

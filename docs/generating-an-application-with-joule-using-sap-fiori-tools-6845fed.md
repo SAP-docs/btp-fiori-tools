@@ -51,9 +51,6 @@ Ensure the following prerequisites are met:
 
 2.  Prepare your business requirements document for generating a new application. To get started, see [Example 1: Manage Contracts and Customer Information in the System](example-1-manage-contracts-and-customer-information-in-the-system-c1bccf2.md) and [Example 2: Display Customers with Related Contracts](example-2-display-customers-with-related-contracts-a6c978f.md).
 
-    > ### Caution:  
-    > SAP Fiori tools does not filter personal or sensitive data. Therefore, you should not share personal or sensitive data in your business requirements document.
-
 3.  Paste your business requirements document following the pattern provided in the examples. We recommend that you use English to achieve the best results.
 
     > ### Note:  

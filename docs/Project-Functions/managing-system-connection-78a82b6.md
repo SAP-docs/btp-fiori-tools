@@ -14,7 +14,7 @@ SAP Fiori tools running in Visual Studio Code \(VS Code\) allows you to save the
 
 To view the details of an existing SAP system, perform the following steps:
 
-1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
+1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](../Getting-Started-with-SAP-Fiori-Tools/images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
 2.  Expand the *SAP Systems* view.
 
     You can see the list of saved systems along with the usernames used for authentication.
@@ -87,7 +87,7 @@ To edit the connection details for an existing SAP system, perform the following
 
 To delete the connection to a SAP system, perform the following steps:
 
-1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
+1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](../Getting-Started-with-SAP-Fiori-Tools/images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\).
 2.  Expand the *SAP Systems* view.
 3.  Select the saved system you wish to delete.
 4.  Click the :wastebasket: \(*Delete*\) icon next to the system name.
@@ -188,7 +188,7 @@ To export an existing ABAP On Premise system, perform the following steps:
 
 To import an ABAP On Premise system, perform the following steps:
 
-1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\) .
+1.  On the activity toolbar from the left side, click *SAP Fiori* \(![Wrench/Pencil icon](../Getting-Started-with-SAP-Fiori-Tools/images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\) .
 2.  Alongside the SAP Systems title bar, click *Import SAP System* \( ![](images/Fiori_tools_Saved_Systems_9dce22e.png)\).
 3.  Navigate to the JSON file that you would like to import.
 4.  Upon successful import, provide your credentials for that system and click *Test Connection*.

@@ -8,7 +8,7 @@ Start the application using the `npm start` command. Then, the application runs 
 
 <a name="loio497aee2de4584822a7e936310b704743__section_axy_wg5_t4b"/>
 
-## VS Code
+## Visual Studio Code
 
 1.  In VS Code, open the terminal.
 
@@ -17,7 +17,7 @@ Start the application using the `npm start` command. Then, the application runs 
     > 
     > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
     > -   Navigate to the *View* \> *Terminal* menu command.
-    > -   From the *Command Palette* \([Ctrl\]+[Shift\]+[P\]\), use the *View: Toggle Integrate Terminal* command.
+    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the *View: Toggle Integrate Terminal* command.
 
 2.  Ensure you are in the root directory of your project.
 3.  In the terminal pane, type `npm start` and press *Enter*.
@@ -26,7 +26,7 @@ Start the application using the `npm start` command. Then, the application runs 
 
 
 > ### Note:  
-> If `port 8080` is already in use, the system selects the next available port to start the application.
+> If port 8080 is already in use, the system selects the next available port to start the application.
 
 
 

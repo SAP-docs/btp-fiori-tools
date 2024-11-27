@@ -1,10 +1,12 @@
 <!-- loioa80d603f85164482b192eeeb2df535a2 -->
 
+<link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
+
 # Table Columns
 
 You can add columns of different types to the table [Table](table-aaff7b1.md) or a [Table Section](table-section-fc59378.md) in the *Object Page*.
 
-To add a table column, press [\+\] in the columns node and choose the desired column type. Then enter the requested information and choose `Add`.
+To add a table column, press the :heavy_plus_sign: \(*Add*\) icon in the columns node and choose the desired column type. Then enter the requested information and choose `Add`.
 
 > ### Note:  
 > The requested information depends on the selected column type.
@@ -21,11 +23,6 @@ The following column types are supported:
 -   [Contact Column](contact-column-dc5931d.md)
 -   [External Navigation Column](table-actions-da1931b.md)
 
-To add a table column, press [\+\] in the columns node and choose the desired column type. Then enter the requested information and choose [Add\].
-
-> ### Note:  
-> The requested information depends on the selected column type.
-
 Once the table columns are added, you can move them within the table, delete or define additional properties for them in the *Property Panel*.
 
 
@@ -38,7 +35,7 @@ Some column properties, such as *Label* and *Importance* can be defined for all 
 
 All the properties are by default accompanied with the short descriptions helping you understand and configure them. This documentation provides additional information for the relatively complex properties.
 
-The following common properties can be configured for the columns of all types in the*Property Panel*. The remaining properties depend on the column type \(*Chart*, *Rating*, etc\) and value type \(*String*, *Date*, *Decimal*, etc\) you select in the outline. Please see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information.
+The following common properties can be configured for the columns of all types in the*Property Panel*. The remaining properties depend on the column type \(*Chart*, *Rating*, etc\) and value type \(*String*, *Date*, *Decimal*, etc\) you select in the outline. For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 

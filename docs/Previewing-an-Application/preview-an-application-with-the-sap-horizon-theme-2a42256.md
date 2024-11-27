@@ -2,15 +2,15 @@
 
 # Preview an Application with the SAP Horizon Theme
 
-We now include the latest SAP theme, Horizon, for applications you create in SAPUI5 versions 1.93.3 and 1.96.0 or higher. The Horizon theme isn’t released for productive use. We have made it available as experimental to gather your feedback as we continue to evolve the SAP Fiori design system.
+The SAP theme, Horizon is included in applications you create in SAPUI5 versions 1.93.3 and 1.96.0 or higher.
 
 Existing applications and extensions that use SAP Fiori elements or standard SAPUI5 controls will work with the Horizon theme without the need for technical adoption effort. This benefit is part of the value of using SAP Fiori elements.
 
-If you build custom controls, you need to check if they maintain design consistency when rendered with the Horizon theme. To learn more, see [SAP’s UI Technologies supporting the new Horizon visual theme of SAP Fiori](https://blogs.sap.com/2021/11/17/saps-ui-technologies-supporting-the-new-Horizon-visual-theme-of-SAP-Fiori/).
+If you build custom controls, you need to check if they maintain design consistency when rendered with the Horizon theme. For more information, see [SAP’s UI Technologies supporting the new Horizon visual theme of SAP Fiori](https://blogs.sap.com/2021/11/17/saps-ui-technologies-supporting-the-new-Horizon-visual-theme-of-SAP-Fiori/).
 
 To ensure you have a version of SAPUI5 compatible with the new Horizon theme in your application, perform the following steps:
 
--   For a new SAP Fiori application using the SAP Fiori application generator, ensure that you have chosen a minimum SAPUI5 version compatible with the SAP Horizon theme on the project attributes step. Also ensure that **Advanced Options** are set to **Yes** on the project attributes step. Then, you should be able to choose *SAP Horizon \(experimental\)* from the UI5 Theme dropdown.
+-   For a new SAP Fiori application using the SAP Fiori application generator, ensure that you have chosen a minimum SAPUI5 version compatible with the SAP Horizon theme on the project attributes step.
 -   For an existing SAP Fiori application, you can update the SAPUI5 version used by the application by modifying the SAPUI5 version detailed in the `ui5.yaml` file.
 
     > ### Note:  
@@ -23,5 +23,5 @@ To ensure you have a version of SAPUI5 compatible with the new Horizon theme in 
 
 ## Use the SAP Horizon Theme
 
-When you have a compatible version of SAPUI5 in your application, you can start using the new SAP Horizon theme. To learn more, see [How to use the Horizon visual theme?](https://blogs.sap.com/2021/11/17/saps-ui-technologies-supporting-the-new-Horizon-visual-theme-of-SAP-Fiori/)
+When you have a compatible version of SAPUI5 in your application, you can start using the new SAP Horizon theme. For more information, see [How to use the Horizon visual theme?](https://blogs.sap.com/2021/11/17/saps-ui-technologies-supporting-the-new-Horizon-visual-theme-of-SAP-Fiori/)
 

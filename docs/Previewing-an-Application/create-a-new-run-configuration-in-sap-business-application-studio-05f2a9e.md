@@ -13,7 +13,7 @@ In SAP Business Application Studio, you can create additional run configurations
 
     The run configuration pane appears.
 
-2.  In the left pane, click [\+\] \(the `Create Configuration` icon\) to create a new configuration.
+2.  In the left pane, click the :heavy_plus_sign: \(*Add*\) icon to create a new configuration.
 
     A dialog box appears.
 
@@ -21,13 +21,13 @@ In SAP Business Application Studio, you can create additional run configurations
 4.  Fill in the following sections:
 
     -   *Name* \(**mandatory**\) - You can change the name.
-    -   *Endpoint*\(**mandatory**\) - Select htm file that is used when application is started.
+    -   *Endpoint*\(**mandatory**\) - Select the HTML file that is used when the application is started.
     -   *Mock Data* - Runs your application with a mock server which will mock the OData requests.
     -   *Support Assistant* - Enables application developers to check whether their applications are built according to the best practices for building SAPUI5 applications. The tool uses a set of pre-defined rules to check all aspects of an application.
     -   *URL Components* - Enables application developer to define additional URL parameters and/or hash fragment for the SAP Fiori launchpad intent-based navigation.
     -   *Advanced Settings* - Enables the application developer to define which SAPUI5 version will be used during runtime and/or change the destinations that are used by the application.
 
-        Additionally the application developer can choose to download the SAPUI5 sources for a specific version by selecting [Use local SAPUI5 sources\]. The downloaded SAPUI5 libraries are then used when running the preview. When [Use local SAPUI5 sources\] is selected for preview, then the option [Run with mock data\] is automatically selected.
+        Additionally the application developer can choose to download the SAPUI5 sources for a specific version by selecting *Use local SAPUI5 sources*. The downloaded SAPUI5 libraries are then used when running the preview. When *Use local SAPUI5 sources* is selected for preview, then the option *Run with mock data* is automatically selected.
 
 
     Click [Save\]

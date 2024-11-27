@@ -26,7 +26,7 @@ After the application is successfully generated, several options to preview it a
 
 ## Starting a Preview with Run Control
 
-For various options of starting your application, use the *Run Control* function in VS Code or SAP Business Application Studio. Also, you can create a new `Run Configuration` in SAP Business Application Studio and `Launch Configuration` in VS Code:
+For various options of starting your application, use the *Run Control* function in VS Code or SAP Business Application Studio. You can also create a new *Run Configuration* in SAP Business Application Studio or *Launch Configuration* in VS Code:
 
 -   [Use Run Control](use-run-control-09171c8.md)
 
@@ -41,7 +41,7 @@ For various options of starting your application, use the *Run Control* function
 
 This section provides instructions on previewing an application from a context menu in VS Code and SAP Business Application Studio.
 
-Alternatively to the launch of the start scripts on the command line, right-click the project folder or any application-related subfolder and select *Preview Application*. Here, you have the following default options:
+You can right-click the project folder or any application-related subfolder and click *Preview Application*. You have the following options by default:
 
 ![](images/preview_application_cefc505.png)
 
@@ -54,10 +54,10 @@ Alternatively to the launch of the start scripts on the command line, right-clic
 -   **start-mock** - starts the application with mock data.
 
 
-Run configurations - starts the application via the existing run configuration selection in the preview command.
+Run configurations - starts the application using the existing run configuration selection in the preview command.
 
 > ### Note:  
-> The automatic download is only supported with SAPUI5 versions 1.76 and higher.
+> Automatic download is only supported with SAPUI5 versions 1.76 and higher.
 
 
 

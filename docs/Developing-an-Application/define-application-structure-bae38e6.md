@@ -4,10 +4,10 @@
 
 # Define Application Structure
 
-Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings like the *Flexible Column Layout* that's available when using SAP Fiori elements.
+Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings like the *Flexible Column Layout* that iss available when using SAP Fiori elements.
 
 > ### Tip:  
-> Page Map also supports SAPUI5 freestyle applications. However, this is an experimental feature with a limited scope. For example, you currently can't add and delete pages.
+> Page Map also supports SAPUI5 freestyle applications. However, this is an experimental feature with a limited scope. For example, you cannot add and delete pages.
 
 
 
@@ -15,24 +15,27 @@ Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori t
 
 ## Launching Page Map
 
-You can launch *Page Map* in several ways:
+You can launch the *Page Map* in several ways:
 
-1.  From the Application Information page, see [Application Information](../Project-Functions/application-information-c3e0989.md) for more information.
-2.  **By using Command Palette**.
-    -   Open *Command Palette* and start typing *Page Map*.
-    -   Select *Fiori: Show Page Map*.
+1.  *Application Info*
+
+    For more information, see [Application Information](../Project-Functions/application-information-c3e0989.md).
+
+2.  **Command Palette**.
+    -   Open the *Command Palette*\([CMD/CTRL\] + [Shift\] + [P\] \) and start typing *Page Map*.
+    -   Click *Fiori: Show Page Map*.
     -   In your workspace, select the SAP Fiori elements project.
 
-3.  **By using folder context menu**.
+3.  **Folder Context Menu**.
 
-    If you already have a SAP Fiori elements project in your current workspace, right-click the project folder and select *Show Page Map*.
+    If you already have a SAP Fiori elements project in your current workspace, right-click the project folder and click *Show Page Map*.
 
 
 
 
 <a name="loiobae38e6216754a76896b926a3d6ac3a9__section_kqt_fwk_xlb"/>
 
-## Using Page Map
+## Using the Page Map
 
 **Application Settings**
 
@@ -42,8 +45,8 @@ When the *Page Map* is open, you can see *Application Settings* in the default v
 -   To change the application description, use the *Description* field.
 -   The *Flex Enabled* field indicates whether the application supports UI adaptation. This field has the following options available:
 
-    -   `true`. Enables UI Adaptation.
-    -   `false`. Disables UI Adaptation.
+    -   `true`: Enables UI Adaptation.
+    -   `false`: Disables UI Adaptation.
 
     The default value is undefined.
 
@@ -82,11 +85,11 @@ For `OData V4`, you can add a custom page.
 -   Click *Add*. As a result, a success message appears, such as *Custom Page ProcessFlow added successfully*.
 
 > ### Note:  
-> In case of `OData V4` based applications the templates used by the *Page Map* to provide this flexibility are published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the sources behind the scenes.
+> For `OData V4` based applications, the templates used by the *Page Map* to provide this flexibility are published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the sources behind the scenes.
 
 **Configuring the Page**
 
-Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With the [Configure Page Elements](configure-page-elements-047507c.md) you can edit page properties . You can also open the [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` or the SAPUI5 flexibility changes are updated accordingly.
+Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With [Configure Page Elements](configure-page-elements-047507c.md), you can edit page properties. You can also open [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` file or the SAPUI5 flexibility changes are updated accordingly.
 
 **Deleting the Page** 
 

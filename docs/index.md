@@ -48,7 +48,7 @@ Last Updated: May 2023
         -   [Adding a Fiori Application to an MTA Deployment File with the SAP Fiori Application Generator](Generating-an-Application/Additional-Configuration/adding-a-fiori-application-to-an-mta-deployment-file-with-the-5a17ba6.md#loio5a17ba6b62b2462aa0e25ffae7b8d728)
             -   [Adding Deployment Configuration to an Existing MTA Deployment File](Generating-an-Application/Additional-Configuration/adding-a-fiori-application-to-an-mta-deployment-file-with-the-5a17ba6.md#loiod7525cef6f6c4aa4acf3ec09c5a8eacb)
             -   [Creating an MTA Deployment File during Application Generation](Generating-an-Application/Additional-Configuration/adding-a-fiori-application-to-an-mta-deployment-file-with-the-5a17ba6.md#loioe03f08cfec9e44e59da828542cbaf906)
-        -   [Adding Javascript Code Assist](Generating-an-Application/Additional-Configuration/adding-javascript-code-assist-5c561ed.md)
+        -   [Adding JavaScript Code Assist](Generating-an-Application/Additional-Configuration/adding-javascript-code-assist-5c561ed.md)
     -   [Security Certificate](Generating-an-Application/security-certificate-4b318be.md)
 -   [Generating an Application with Joule Using SAP Fiori Tools](generating-an-application-with-joule-using-sap-fiori-tools-6845fed.md)
     -   [Example 1: Manage Contracts and Customer Information in the System](example-1-manage-contracts-and-customer-information-in-the-system-c1bccf2.md)

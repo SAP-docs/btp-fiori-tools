@@ -11,7 +11,7 @@ You can perform the following operations with the Service Modeler:
 -   Easily browse complex services and view the entity sets, entities, and properties of a service.
 -   View annotations associated with the entity and properties
 -   Manage services required for SAP Fiori elements applications, such as adding new services to a project or syncing services that already exist to ensure they are up to date.
--   Manage local annotation files associated to the different OData services of an of a service.SAP Fiori elements project.
+-   Manage local annotation files associated to the different OData services of a SAP Fiori elements project.
 
 
 
@@ -27,7 +27,7 @@ You can launch the Service Modeler in several ways:
     -   Select the SAP Fiori elements project from your workspace.
 
         > ### Note:  
-        > of aIf the project contains multiple services, you need to specify the service that you want to visualize.
+        > If the project contains multiple services, you need to specify the service that you want to visualize.
 
 
 -   **Use the Folder Context Menu**
@@ -47,7 +47,7 @@ You can launch the Service Modeler in several ways:
 
 **Visualize a Service**
 
-The Service Modeler displays the entities and properties of a service in a list format. You can expand the entity node to view all the associated properties for that entity. You can expand the sections for *Complex Types* and *Entity Containers* to see the associated properties and entity sets. The namespace is hidden from the metadata by default. You can click the [Settings\] icon to toggle it on.
+The Service Modeler displays the entities and properties of a service in a list format. You can expand the entity node to view all the associated properties for that entity. You can expand the sections for *Complex Types* and *Entity Containers* to see the associated properties and entity sets. The namespace is hidden from the metadata by default. You can click the :gear: \(*Settings*\) icon to toggle it on.
 
 Properties that are the primary key of the entity or projection are identified by a :key: \(*Key*\) icon.
 

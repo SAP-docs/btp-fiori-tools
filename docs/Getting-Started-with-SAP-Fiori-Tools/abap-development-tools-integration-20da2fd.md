@@ -2,7 +2,7 @@
 
 # ABAP Development Tools Integration
 
-You can launch the SAP Fiori Generator directly whilst working with ABAP Development Tools \(ADT\) in Eclipse. You can either launch the Application Generator from SAP Fiori tools in SAP Business Application Studio in your browser, or directly launch Visual Studio Code \(VS Code\) locally if that is your preferred integrated development environment \(IDE\).
+You can launch the SAP Fiori Generator directly when working with ABAP Development Tools \(ADT\) in Eclipse. You can either launch the Application Generator from SAP Fiori tools in SAP Business Application Studio in your browser, or directly launch Visual Studio Code \(VS Code\) locally if that is your preferred integrated development environment \(IDE\).
 
 First, you configure the integration between ADT and SAP Fiori tools. This is a one-time setup within ADT for each system you want to integrate. Proceed as follows:
 
@@ -16,5 +16,5 @@ After the configuration, a new button is displayed alongside the service details
 When you launch the SAP Fiori Generator, the data source selection step is skipped since you’ve already selected your data source in ADT, and the main entity for your template is pre-selected with the entity you chose in ADT.
 
 > ### Note:  
-> For the integration with VS Code, please ensure you have saved your ABAP system with the same system URL that is used by ADT. To check, click *SAP Fiori* \(the wrench and pencil icon\) on the activity toolbar from the left side, then click *SAP Systems*. If the saved system cannot be matched after launching from ADT, you can choose any of the existing systems you have already saved. If you already have any SAP Fiori projects in your workspace that use the same system and main entity, you'll get the option to choose an existing matching SAP Fiori project or to create a new one with the SAP Fiori Generator.
+> For the integration with VS Code, please ensure you have saved your ABAP system with the same system URL that is used by ADT. To check, click *SAP Fiori* \(![Wrench/Pencil icon](images/SAP_Fiori_tools_Wrench_Pencil_9d6b0f8.png)\) on the activity toolbar from the left side, then click *SAP Systems*. If the saved system cannot be matched after launching from ADT, you can choose any of the existing systems you have already saved. If you already have any SAP Fiori projects in your workspace that use the same system and main entity, you'll get the option to choose an existing matching SAP Fiori project or to create a new one with the SAP Fiori Generator.
 

@@ -10,15 +10,15 @@
 1.  Select [Supported Templates](supported-templates-20d1146.md), click *Next*.
 2.  Select [Data Source](data-source-37a0fcf.md), click *Next*.
 
-    -   **Connect to an SAP system**.
-    -   **Connect to an OData service**.
-    -   **Connect to SAP Business Accelerator Hub**.
+    -   **Connect to an SAP system**
+    -   **Connect to an OData service**
+    -   **Connect to SAP Business Accelerator Hub**
     -   **Use a local CAP Node.js project**
-    -   **Upload a Metadata Document**.
+    -   **Upload a Metadata Document**
     -   **None**
 
     > ### Note:  
-    > If username and password are required, enter these credentials and click *Login*.
+    > If username and password are required, enter these credentials and click the *Login* icon \(person with an arrow\).
     > 
     > ![](../SAP-Fiori-Elements/images/Login_button_App_Gen_fb8dd99.png)
 
@@ -28,15 +28,15 @@
     > ### Tip:  
     > Mandatory fields are prefilled with default text.
 
-    -   **Module Name** \(Required\). Must be alphanumeric and **can’t contain spaces**. The generated NodeJS application uses the module name as its package name. It’s used as the folder name of the generated application.
+    -   **Module Name** \(Required\). Must be alphanumeric and can’t contain spaces. The generated Node.js application uses the module name as its package name. It’s used as the folder name of the generated application.
     -   **App Title** \(Required\). The title in the header of the generated application.
-    -   **App Namespace** \(Required\). The SAPUI5 project namespace to be used. Must start with a letter and contain letters, digits, and periods only.
+    -   **App Namespace** \(Required\). The SAPUI5 project namespace to be used. It must start with a letter and contain letters, digits, and periods only.
     -   **Description**. The text description of the application.
     -   **Project Folder** \(Required\). The parent folder in which the new application is generated. The new application is generated in a new folder with the module name. If a folder with the same name already exists, the user must choose a new module name.
-    -   **Minimum SAPUI5 version**. From the drop-down list, select the minimum SAPUI5 version that the application will require.
+    -   **Minimum SAPUI5 version**. From the dropdown list, select the minimum SAPUI5 version that the application will require.
 
-        -   The dropdown will show the list of available versions of SAPUI5, with the current **default** version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
-        -   If the source system during generation is an ABAP on-premise system, then the **default** version selected in the dropdown will be equal to the SAPUI5 version on that ABAP system where possible.
+        -   The dropdown will show the list of available versions of SAPUI5, with the current default version being preselected. The dropdown will list SAPUI5 versions grouped by maintenance status as listed [here](https://ui5.sap.com/versionoverview.html).
+        -   If the source system during generation is an ABAP on-premise system, then the default version selected in the dropdown will be equal to the SAPUI5 version on that ABAP system where possible.
 
         > ### Note:  
         > For an application generated with the `OData V4` data source, the list of SAPUI5 versions supported is limited to the most recent ones.
@@ -52,9 +52,9 @@
 
 
 
-    -   **Adding to MTA project**.
+    -   **Adding to MTA project**
 
-        Generated project is added to the existing MTA config at the time of application generation. The project creates in a subfolder with MTA config.
+        The generated project is added to the existing MTA config at the time of application generation. The project creates in a subfolder with MTA config.
 
         Enter a mandatory destination name.
 

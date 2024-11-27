@@ -16,12 +16,12 @@ A basic column is used for the standard representation of the value type. For ex
 
 To add a basic column to a table in a section, perform the following steps:
 
-1.  Click `Add Basic Column` when choosing the [\+\] button in Columns node in the *Page Editor* .
+1.  Click *Add Basic Column* when clicking the :heavy_plus_sign: \(*Add*\) icon in Columns node in the *Page Editor* .
 2.  Select *Columns* via a tree control.
 3.  Click [Add\].
 
     > ### Note:  
-    > You can't add the column based on the same value twice into the table.
+    > You cannot add the column based on the same value twice into the table.
 
 
 Column properties can be configured in the *Property Panel*. Here are some examples:

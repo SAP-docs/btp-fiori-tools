@@ -6,9 +6,9 @@ You can plug custom middleware implementations into the internal express server 
 
 SAP Fiori tools use the capabilities of custom middlewares to start and preview SAP Fiori elements applications:
 
--   [Application reload](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_xvv_51q_x4b). The middleware to reload the application automatically in the browser, when any change is done.
--   [Proxy](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_uxj_55w_x4b). The middleware to connect to the backend server side and to load the remote SAPUI5 resources.
--   [Serve static](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_xty_5vw_x4b). The middleware to serve local resources from your workspace, such as the reuse libraries.
+-   [Application reload](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_xvv_51q_x4b) - The middleware to reload the application automatically in the browser, when any change is done.
+-   [Proxy](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_uxj_55w_x4b) - The middleware to connect to the backend server side and to load the remote SAPUI5 resources.
+-   [Serve static](use-custom-middlewares-dce5315.md#loiodce5315a26964ba59d9f3e7f827dceca__section_xty_5vw_x4b) - The middleware to serve local resources from your workspace, such as the reuse libraries.
 
 
 

@@ -38,10 +38,10 @@ This is a list of supported floorplans that give you the ability to create SAP F
     For more information, see [Analytical List Page](https://experience.sap.com/fiori-design-web/analytical-list-page/).
 
     > ### Note:  
-    > For analytical list page floorplans using `Odata V4` data source, only `SAPUI5` versions 1.90 and above are supported.
+    > For analytical list page floorplans using an `Odata V4` data source, only `SAPUI5` versions 1.90 and above are supported.
 
 
--   *Overview Page*.
+-   *Overview Page*
 
     The overview page is a data-driven SAP Fiori application type and floorplan that provides all the information the user needs on a single page, based on the user specific domain or role. It allows the user to focus on the most important tasks, and view, filter, and react to the information quickly.
 
@@ -51,13 +51,13 @@ This is a list of supported floorplans that give you the ability to create SAP F
 
     For more information, see [Overview Page](https://experience.sap.com/fiori-design-web/overview-page/).
 
--   *Form entry object page*.
+-   *Form entry object page*
 
     The form entry object page allows users to create an application with an object page and a generated form. The object page floorplan enables end-users to provide data entry in the generated application.
 
     For more information, see [Object Page](https://experience.sap.com/fiori-design-web/object-page/).
 
--   *Flexible programming model*.
+-   *Flexible programming model*
 
     The flexible programming model makes it easy for you to extend apps based on SAP Fiori elements for OData V4. You can use any `SAPUI5` coding or controls in extension points, and take advantage of the provided building blocks.
 

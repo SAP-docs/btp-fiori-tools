@@ -14,9 +14,9 @@ Rating column can be added to a *List Report* table or an *Object Page* section.
 
 To add a rating column to a table to a section, perform the following steps:
 
-1.  Click `Add Rating Columns` when choosing [\+\] button in Columns node in the *Page Editor* .
-2.  Select *Columns* via a tree control.
-3.  Click [Add\], a new `UI.DataPoint` annotation is created with the following values:
+1.  Click *Add Rating Columns* when clicking the :heavy_plus_sign: \(*Add*\) icon in the Columns node in the *Page Editor*.
+2.  Select *Columns* using the tree control.
+3.  Click *Add* and a new `UI.DataPoint` annotation is created with the following values:
     -   `Value` property is set to the property chosen by the user.
     -   `TargetValue` property is set to 5.
     -   `Visualization` property is set to enum value **Rating**.
@@ -24,7 +24,7 @@ To add a rating column to a table to a section, perform the following steps:
 
 Column properties, can be configured in the *Property Panel*.
 
-Please see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on defining and editing the properties.
+For more information on defining and editing the properties, see[Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 

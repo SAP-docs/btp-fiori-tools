@@ -27,10 +27,10 @@ To add a *Filter Fields*, perform the following steps:
     Then, the *Filter Bar* appears.
 
 3.  Navigate your pointer over *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Compact Filters*
-4.  Click [\+\] to add a filter field.
+4.  Click the :heavy_plus_sign: \(*Add*\) icon to add a filter field.
 
     > ### Note:  
-    > If your service is enabled for analytics but there are no visual filters in your *List Report*, choose *Add Compact Filters*.
+    > If your service is enabled for analytics but there are no visual filters in your *List Report*, click *Add Compact Filters*.
 
     A new *Add Filter Fields* pop-up window with a list of available filter fields appears.
 
@@ -38,11 +38,11 @@ To add a *Filter Fields*, perform the following steps:
     > Properties annotated with `UI.Hidden`, `UI.HiddenFilter`, or set as `NonFilterableProperties` within `Capabilities.FilterRestrictions` are not available for selection, as they cannot be used for filtering.
 
 5.  Search for or select the properties to be used as filters.
-6.  Choose *Add*.
+6.  Click *Add*.
 
 While adding new *Filter Fields* the following logic applies:
 
--   `UI.SelectionFields` annotation is generated or updated in local annotation file.
+-   `UI.SelectionFields` annotation is generated or updated in the local annotation file.
 
 
 
@@ -55,7 +55,7 @@ If your service is enabled for analytics, you can define visual filters represen
 1.  Navigate to *Page Map* \> *List Report* to open a list report project.
 2.  Click the :pencil2: \(*Configure Page*\) icon.
 3.  Navigate your pointer *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Visual Filters*.
-4.  Click [\+\] to add a filter field.
+4.  Click the:heavy_plus_sign: \(*Add* icon to add a filter field.
 
     > ### Note:  
     > If your service is enabled for analytics but there are no visual filters in your *List Report*, choose *Add Visual Filters*.
@@ -74,12 +74,12 @@ If your service is enabled for analytics, you can define visual filters represen
 8.  Choose the measure for the chart representing the visual filter. You can use an existing measure, if available, or create a new one.
 
     > ### Note:  
-    > A new measure can be created based on the aggregated property of the selected value source and supported aggregation method as long as there's no existing measure based on the same combination. Creating new measures based on properties with custom aggregations aren't supported.
+    > A new measure can be created based on the aggregated property of the selected value source and supported aggregation method as long as there is no existing measure based on the same combination. Creating new measures based on properties with custom aggregations are not supported.
 
     -   If you choose to use an existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
     -   If you choose to create new measure, choose the aggregatable property and one of the supported aggregation methods.
 
-9.  Select *Add*.
+9.  Click *Add*.
 
     A new visual filter is added with the basic properties. You can maintain additional properties of your visual filters in the *Property Panel*. A new compact filter is added for the same property if not yet defined to follow the best practices.
 
@@ -105,12 +105,12 @@ The `manifest.json` is updated with the control configuration for the `com.sap.v
 To move a field within the list of the *Filter Fields* or *Compact Filters*, you can perform one of the following options:
 
 -   Drag and drop *Filter Fields* to the desired location.
--   Press the [↑\][↓\] buttons on the UI using your mouse.
--   Use your keyboard to set the focus on the [↑\][↓\] buttons on UI and hit [Enter\].
+-   Press the :arrow_up: \(*Up*\) and :arrow_down: \(*Down*\) icons.
+-   Use your keyboard to set the focus on the :arrow_up: \(*Up*\) and :arrow_down: \(*Down*\) icons and press [Enter\].
 
 The sequence of the property paths in `UI.SelectionFields` is adjusted, which changes the sequence of the filters in the application preview.
 
-You can't change the sequence of the visual filters directly, as it depends on the sequence of the compact filters defined in `UI.SelectionFields`. To change the sequence of the visual filters, make sure you've defined the compact filter for the same property and then move it as described above. This changes the sequence of the property paths in `UI.SelectionFields` and the sequence of the visual filter is adjusted accordingly.
+You cannot change the sequence of the visual filters directly, as it depends on the sequence of the compact filters defined in `UI.SelectionFields`. To change the sequence of the visual filters, make sure you have defined the compact filter for the same property and then move it as described above. This changes the sequence of the property paths in `UI.SelectionFields` and the sequence of the visual filter is adjusted accordingly.
 
 
 
@@ -183,10 +183,10 @@ For more information about editing measures and currencies, see [Appendix](appen
 
 To change the label, perform the following steps:
 
-1.  Choose the *Filter* in the outline to display its properties in the *Property Panel*.
+1.  Click the *Filter* in the outline to display its properties in the *Property Panel*.
 2.  In the *Measures* or *Dimensions* table, change the value in the *Label* field.
 
-If you don't define a label, the property name for the respective measure and dimension is displayed in the visual filter title.
+If you don not define a label, the property name for the respective measure and dimension is displayed in the visual filter title.
 
 > ### Note:  
 > Changing the dimension label as well as a label of custom aggregated measure updates the `Common.Label` or `@title` annotation applied to the property used as measure or dimension. Changing the label for the measure built with transformation aggregation, updates the `Common.Label` annotation applied to `Analytics.AggregatedProperty`.
@@ -204,7 +204,7 @@ By default, the scale factor for the visual filter measure data is calculated au
 
 ### Number of Fractional Digits
 
-If the measure data in your visual filter is numeric, you can choose how many decimal places to display for it. By default no decimals are displayed, but you can set it to 1 or 2. For a currency-based measure, the number of decimal places as specified here is only considered if the scale factor is defined. Otherwise, the number of decimal places is based on the currency.
+If the measure data in your visual filter is numeric, you can choose how many decimal places to display for it. By default, no decimals are displayed, but you can set it to 1 or 2. For a currency-based measure, the number of decimal places as specified here is only considered if the scale factor is defined. Otherwise, the number of decimal places is based on the currency.
 
 
 
@@ -212,14 +212,14 @@ If the measure data in your visual filter is numeric, you can choose how many de
 
 You can sort the measure data in the visual filters represented by the bar chart as follows:
 
-1.  Choose the *Add Sort Property* button. The property used for the chart measure is set as the sort property in ascending order.
+1.  Click *Add Sort Property*. The property used for the chart measure is set as the sort property in ascending order.
 2.  Choose *Descending* in the direction field to sort the measure data in descending order.
 
 > ### Note:  
-> You can't sort the chart data in the visual filters represented by the bar chart by a different property.
+> You cannot sort the chart data in the visual filters represented by the bar chart by a different property.
 
 > ### Note:  
-> You can’t sort the chart data in visual filters based on the line chart.
+> You cannot sort the chart data in visual filters based on the line chart.
 
 
 
@@ -227,7 +227,7 @@ You can sort the measure data in the visual filters represented by the bar chart
 
 You can limit the data displayed in the visual filter by defining one or more filters. To do so, proceed as follows:
 
-1.  Choose the *Add Filters* button. By default, the property used as the dimension is suggested. You can accept it or change it to any other numeric, string, or Boolean property of the visual filter entity.
+1.  Click *Add Filters*. By default, the property used as the dimension is suggested. You can accept it or change it to any other numeric, string, or Boolean property of the visual filter entity.
 
 2.  Define filter properties:
 

@@ -10,7 +10,7 @@ When your SAP Fiori elements project is generated, an **Application Information*
 
 -   **Status** provides a summary of the project dependencies with links to fix any issues.
 -   **What you can do** provides quick links to the SAP Fiori tools commands that are relevant to the project.
--   **What you can learn**. Links to various help topics including how to contact support.
+-   **What you can learn** links to various help topics including how to contact support.
 
-You can relaunch the **Application Information** page at any time by executing the `Fiori: Open Application Info` command. In addition, you can also run [Project Validation](project-validation-6f3c737.md) at any time after generating your project.
+You can relaunch the **Application Information** page at any time by executing the *Fiori: Open Application Info* command. In addition, you can also run [Project Validation](project-validation-6f3c737.md) at any time after generating your project.
 

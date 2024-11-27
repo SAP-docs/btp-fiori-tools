@@ -30,7 +30,7 @@ Adding the table actions can be applied to the following nodes in the *Page Edit
 
 To add an action, do the following:
 
-1.  Click [\+\] in the respective node and choose the type of action to add.
+1.  Click the :heavy_plus_sign: \(*Add*\) icon in the respective node and choose the type of action to add.
 2.  Provide the requested data:
     -   For the table actions to be performed within the app, choose **Action** or **Function** representing.
     -   For the external navigation actions, enter the semantic object name and action name as defined in the target application.
@@ -88,7 +88,7 @@ Choose *Add Semantic Mapping* and enter the name of the semantic object property
 
 **Requires Context**
 
-If the external navigation action is defined in the table toolbar, you can use this property to define whether a table row needs to be selected as a navigation context. By default, it’s set to off, which is interpreted as 'context not required' and the end user can choose this action without the table row selection. This property is not available for the actions set as table columns, as in that case the context is always available.
+If the external navigation action is defined in the table toolbar, you can use this property to define whether a table row needs to be selected as a navigation context. By default, it’s set to off, which is interpreted as "context not required" and the end user can choose this action without the table row selection. This property is not available for the actions set as table columns, as in that case the context is always available.
 
 
 
@@ -104,5 +104,5 @@ Moving a table action from the **toolbar** to **columns** or vice versa will swi
 
 ## Deleting Actions
 
-You can delete actions by choosing the :wastebasket: \(*Delete*\) icon.
+You can delete actions by clicking the :wastebasket: \(*Delete*\) icon.
 

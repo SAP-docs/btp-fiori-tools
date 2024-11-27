@@ -12,11 +12,12 @@ SAP Fiori tools environment check creates a report that you can use to troublesh
 
 To use SAP Fiori tools environment check, perform the following steps:
 
-1.  In SAP Business Application Studio, execute the command `Fiori: Open Environment Check` and click *Create destination*.
-2.  Select a destination from the dropdown.
-3.  If prompted, enter your credentials.
-4.  To view the results, click *View the results*.
-5.  To view the results and save them to a `.zip` file that you can send to SAP Product Support, click *View and Save results*.
+1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Environment Check* command.
+2.  Click *Create destination*.
+3.  Select a destination from the dropdown.
+4.  If prompted, enter your credentials.
+5.  To view the results, click *View the results*.
+6.  To view the results and save them to a `.zip` file that you can send to SAP Product Support, click *View and Save results*.
 
 The SAP Fiori tools environment check report has the following sections:
 
@@ -35,7 +36,8 @@ SAP Fiori tools environment check can also check and create reports on the devel
 
 To gather environment information, perform the following steps:
 
-1.  In SAP Business Application Studio or VS Code, execute the command `Fiori: Open Environment Check` and click `Gather environment information`.
-2.  To view the results, click *View and Copy results*. The environment check details will be copied to your clipboard for easy access.
-3.  To view the results and save them to a `.zip` file that you can send to SAP Product Support, click *View and Save results*.
+1.  Open the Command Palette in Visual Studio Code \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and execute the *Fiori: Open Environment Check* command.
+2.  Click *Gather environment information*.
+3.  To view the results, click *View and Copy results*. The environment check details will be copied to your clipboard for easy access.
+4.  To view the results and save them to a `.zip` file that you can send to SAP Product Support, click *View and Save results*.
 
