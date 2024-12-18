@@ -60,7 +60,7 @@ Enter the search criteria in the search input box in the upper-right corner. The
 
 ## Editing Annotations
 
-You can’t edit back-end annotations with the SAP Fiori tools - Service Modeler. However, you can edit local annotations by navigating to XML annotation language server with the Service Modeler.
+You cannot edit back-end annotations with the SAP Fiori tools - Service Modeler. However, you can edit local annotations by navigating to XML annotation language server with the Service Modeler.
 
 1.  Select the target entity set in the tree list, this will highlight the annotations in the side panel.
 2.  Click the ![](images/show_source_icon_dd4bbff.png) \(*Show in Source*\) icon opposite the selected local annotation in the service local annotation file.

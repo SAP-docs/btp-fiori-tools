@@ -14,20 +14,20 @@ The deployment to ABAP task allows deploying SAP Fiori applications to SAP syste
 
 ### Prerequisites:
 
--   SAP component SAP\_UI 7.53 or higher is installed in your SAP system
+-   SAP component SAP\_UI 7.53 or higher is installed in your SAP system.
 
     > ### Note:  
     > For systems below 7.53, the alternative is to [upload](https://help.sap.com/viewer/0ce0b8c56fa74dd897fffda8407e8272/7.5.17/en-US/a560bd6ed4654fd1b338df065d331872.html) the application.
 
--   Service needs to be enabled and accessible from your development environment \([activate and maintain services](https://help.sap.com/viewer/68bf513362174d54b58cddec28794093/7.52.5/en-US/bb2bfe50645c741ae10000000a423f68.html)\)
--   For operations on a SAPUI5 ABAP repository, you need the S\_DEVELOP authorization
+-   Service needs to be enabled and accessible from your development environment \([activate and maintain services](https://help.sap.com/viewer/68bf513362174d54b58cddec28794093/7.52.5/en-US/bb2bfe50645c741ae10000000a423f68.html)\).
+-   For operations on a SAPUI5 ABAP repository, you need the S\_DEVELOP authorization.
 
 
 
 ### Limitations
 
--   The task doesn’t create ABAP transports, therefore, it requires an existing transport if the target ABAP package requires a transport
--   Basic Authentication \(user/password based authentication\) is supported for all back-end systems. Additional support for OAuth2 authentication is provided for ABAP systems on SAP Business Technology Platform.
+-   The task does not create ABAP transports, therefore, it requires an existing transport if the target ABAP package requires a transport.
+-   Basic Authentication \(user and password based authentication\) is supported for all back-end systems. Additional support for OAuth2 authentication is provided for ABAP systems on SAP Business Technology Platform.
 
 
 
@@ -35,9 +35,9 @@ The deployment to ABAP task allows deploying SAP Fiori applications to SAP syste
 
 ## Generation of Deployment Configurations
 
-In order to create deployment configuration, launch the deployment configuration wizard from the command palette entry `Fiori: Add Deployment Configuration` and chose the **Fiori** project you would like to configure, or you can launch from the command line using the command `npx fiori add deploy-config` while in the required **Fiori** project folder.
+In order to create deployment configuration, launch the deployment configuration wizard from the Command Palette entry: *Fiori: Add Deployment Configuration* and chose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` while in the required SAP Fiori project folder.
 
-You're prompted for required information and then the `ui5-deploy.yaml` file is created based on your input and the content of the existing `ui5.yaml` file used for preview. In addition to creating the configuration, the create deployment command will also update your `package.json` so that you can execute `npm run deploy` - afterwards to deploy your application. See [Deployment of Application](deployment-of-application-607014e.md).
+You are prompted for the required information and then the `ui5-deploy.yaml` file is created based on your input and the content of the existing `ui5.yaml` file used for preview. In addition to creating the configuration, the create deployment command will also update your `package.json` file so that you can execute `npm run deploy` afterwards to deploy your application. See [Deployment of Application](deployment-of-application-607014e.md).
 
 When prompted, add or choose:
 
@@ -87,7 +87,7 @@ Enter client
 </td>
 <td valign="top">
 
-Add a new client or leave **default**.
+Add a new client or leave as default.
 
 </td>
 </tr>
@@ -137,8 +137,8 @@ How do you want to enter Transport Request
 
 -   **Enter manually:** Manually provide the transport request.
 -   **Choose from existing:** The applicable list of transport requests and their description is retrieved from the target system and displayed in a list for you to choose from. If the list of transport requests is unable to be retrieved from the target system, a user must provide the entry manually.
--   **Create new:** A new transport request is automatically created for use. If the transport request is unable to be created from the target system, the user must provide the entry manually. The generated transport request will have a description 'Created by SAP Fiori tools for ABAP repository <repository name\>', where <repository name\> refers to the name of the deployed application.
--   **Create during deployment:** The transport request is automatically created the first time the application is deployed. If the transport request is unable to be created from the target system, deployment fails. The generated transport request will have a description 'Created by SAP Open UX Tools for ABAP repository <repository name\>', where <repository name\> refers to the name of the deployed application.
+-   **Create new:** A new transport request is automatically created for use. If the transport request is unable to be created from the target system, the user must provide the entry manually. The generated transport request will have the description: Created by SAP Fiori tools for ABAP repository <repository name\>, where <repository name\> refers to the name of the deployed application.
+-   **Create during deployment:** The transport request is automatically created the first time the application is deployed. If the transport request is unable to be created from the target system, deployment fails. The generated transport request will have a description: Created by SAP Open UX Tools for ABAP repository <repository name\>, where <repository name\> refers to the name of the deployed application.
 
 
 
@@ -165,11 +165,11 @@ When prompted, either choose a transport request from the list or add a valid tr
 
 ## Example Configuration - ABAP
 
-Executing `ui5 build --config ui5-deploy.yaml` in your project with the configuration below in a `ui5-deploy.yaml` manually added to the project, would deploy all files of your `dist` folder except files ending with `.test.js` and the `internal.md` file. The target system is `XYZ` with client 200. Username and password for authentication is read from the environment variables `XYZ_USER` and `XYZ_PASSWORD`.
+Executing `ui5 build --config ui5-deploy.yaml` in your project with the configuration below in a `ui5-deploy.yaml` file manually added to the project, would deploy all files of your `dist` folder except files ending with `.test.js` and the `internal.md` file. The target system is `XYZ` with client 200. Username and password for authentication is read from the environment variables `XYZ_USER` and `XYZ_PASSWORD`.
 
-Based on this example, the application is created/updated as `/TEST/SAMPLE_APP` in package `/TEST/UPLOAD` and all changes is recorded in transport request `XYZQ300582`.
+Based on this example, the application is created and updated as `/TEST/SAMPLE_APP` in package `/TEST/UPLOAD` and all changes is recorded in transport request `XYZQ300582`.
 
-Sample **content of `ui5-deploy.yaml`**
+Sample **content of the `ui5-deploy.yaml` file:**
 
 > ### Sample Code:  
 > ```
@@ -200,9 +200,9 @@ Sample **content of `ui5-deploy.yaml`**
 
 ## Example Configuration - Additional Params
 
-For example, you can add additional settings params such as `sap-language` to your yaml file.
+For example, you can add additional settings params such as `sap-language` to your `yaml` file.
 
-Sample **content of `ui5-deploy.yaml`**
+Sample **content of the `ui5-deploy.yaml` file:**
 
 > ### Sample Code:  
 > ```

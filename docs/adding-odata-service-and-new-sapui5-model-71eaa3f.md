@@ -8,7 +8,7 @@ Learn how to add a new OData service and SAPUI5 model.
 
 ## Context
 
-To add an OData V2 service using annotations, the new annotation data source has to be added.
+To add an OData V2 service using annotations, the new annotation data source has must be added.
 
 
 

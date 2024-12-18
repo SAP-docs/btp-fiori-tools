@@ -4,7 +4,7 @@
 
 # Contact Column
 
-Contact column can be added to a table that is part of *List Report* or in an *Object Page* section.
+Contact columns can be added to a table that is part of a *List Report* or in an *Object Page* section.
 
 ![Contact Column](images/FIORI_TOOLS_CONTACT_COLUMN_0e0431c.png)
 
@@ -22,7 +22,7 @@ To add a contact column to a table to a section, perform the following steps:
 
 Column properties, can be configured in the *Property Panel*.
 
-See [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on defining and editing the properties.
+For information on defining and editing the properties, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 
@@ -67,43 +67,43 @@ A contact column or field has the following properties.
 
 ### Label
 
-`Label` for Contact Field or Contact Column have the same behavior as for a regular Field or Column, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
+`Label` has the same behavior as a regular field or column. For more information, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
 
 
 
 ### Importance
 
-`Importance` for Contact Field or Contact Column have the same behavior as for a regular Field or Column, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
+`Importance` for has the same behavior as a regular field or column. For more information, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
 
 
 
 ### Contact
 
-Property *Contact* represents property `fn` of `Communication.Contact`. You can't change the property used as*Contact Name* in the *Property Panel*. If you need to have your Contact column based on a different property, delete this column and use the [\+\] button to add a new contact column.
+The *Contact* property represents the `fn` property of `Communication.Contact`. You cannot change the property used as the *Contact Name* in the *Property Panel*. If you need to have your contact column based on a different property, delete this column and click the :heavy_plus_sign: \(*Add*\) icon to add a new contact column.
 
 
 
 ### Job Title
 
-Property *Job Title* represents property title of `Communication.Contact`.
+The *Job Title* property represents the property title of `Communication.Contact`.
 
 
 
 ### Photo
 
-Property *Photo* represents property photo of `Communication.Contact`.
+The *Photo* property represents the property photo of `Communication.Contact`.
 
 
 
 ### Role
 
-Property *Role* represents property role of `Communication.Contact`.
+The *Role* property represents the property role of `Communication.Contact`.
 
 
 
 ### Address
 
-Property *Address* represents collection property `adr` of `Communication.Contact`, which has record type `Communication.AddressType`. You can maintain multiple addresses, each represented by a table row.
+The *Address* property represents the collection property `adr` of `Communication.Contact`, which has the record type `Communication.AddressType`. You can maintain multiple addresses, each represented by a table row.
 
 The row contains the following fields:
 
@@ -117,7 +117,7 @@ The row contains the following fields:
 
 ### Phone
 
-Property *Phone* represents collection property `tel` of `Communication.Contact`, which has record type `Communication.PhoneNumberType`. User can maintain multiple phone entries, each represented by a table row.
+The *Phone* property represents the collection property `tel` of `Communication.Contact`, which has record type `Communication.PhoneNumberType`. Users can maintain multiple phone entries, each represented by a table row.
 
 The row contains the following fields:
 
@@ -128,7 +128,7 @@ The row contains the following fields:
 
 ### Email
 
-Property *Email* represents collection property `email` of `Communication.Contact`, which has record type `Communication.EmailAddressType`. User can maintain multiple email entries, each represented by a table row.
+The *Email* Property represents the collection property `email` of `Communication.Contact`, which has record type `Communication.EmailAddressType`. Users can maintain multiple email entries, each represented by a table row.
 
 The row contains the following field:
 

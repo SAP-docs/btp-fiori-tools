@@ -39,12 +39,12 @@ To maintain the annotations using XML annotation language server features, proje
 
 -   OData service
 
-    Your project contains the local copy of service metadata. The path to this copy is provided in theSAP OData vocabularies `manifest.json` file as a local Uri.
+    Your project contains the local copy of service metadata. The path to this copy is provided in the SAP OData vocabularies `manifest.json` file as a local `Uri`.
 
     > ### Note:  
-    > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It isn’t synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end, see [Syncing Annotations](../Project-Functions/managing-service-and-annotations-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
+    > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It is not synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end. For more information, see [Syncing Annotations](../Project-Functions/managing-service-and-annotations-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
 
-    The metadata of the OData serviceSAP OData must include one or multiple *< edm:Schema\>* definitions within the *<edmx:DataServices\>* element.
+    The metadata of the OData serviceSAP OData must include one or multiple *<edm:Schema\>* definitions within the *<edmx:DataServices\>* element.
 
     According to the OData CSDL, your metadata file must contain a single EntityContainer.
 
@@ -56,21 +56,21 @@ To maintain the annotations using XML annotation language server features, proje
     Your project contains at least one valid annotation XML file that includes the *< /edmx:DataServices/Schema\>* node and references to the metadata. The metadata namespace must match that of the metadata file.
 
     > ### Note:  
-    > If your project doesn’t contain an `annotation.xml` file or you need more than one, you can create a new annotation file automatically registered in `manifest.json`, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
+    > If your project does not contain an `annotation.xml` file or you need more than one, you can create a new annotation file automatically registered in `manifest.json`. For more information, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
 
 -   `manifest.json` file
 
     Your project contains a `manifest.json` file with the following information:
 
-    -   Uri and localUri of the OData service
+    -   `Uri` and `localUri` of the OData service
     -   List of OData annotation sources
-    -   @i18n model with the uri to the `i18n.properties` file
+    -   `@i18n` model with the `uri` to the `i18n.properties` file
 
     > ### Note:  
     > All paths used in annotation file are relative to the location of the `manifest.json` file.
 
     > ### Note:  
-    > For an overview of how to maintain the configuration in the `manifest.json` file, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
+    > For more information on how to maintain the configuration in the `manifest.json` file, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
 
 
 
@@ -112,7 +112,7 @@ SAP
 
 ### OData
 
-**For more information about OData**
+**For more information about OData:**
 
 -   [OData specifications](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)
 
@@ -121,8 +121,8 @@ SAP
 
 ### Limitations
 
--   Annotations directly embedded in the metadata aren’t supported.
+-   Annotations directly embedded in the metadata are not supported.
 
--   Dynamic expressions aren’t supported.
+-   Dynamic expressions are not supported.
 
 

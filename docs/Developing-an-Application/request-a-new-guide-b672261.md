@@ -11,7 +11,7 @@ You can request a new guide through one of the following options:
 -   Scroll to the bottom of the guides list and click *Request Guide* in the *Don't have what you are looking for?* section.
 -   Enter *request guide* into the *Search guides* field.
 -   Navigate your pointer to the <span class="SAP-icons-V5"></span> \(*Help*\) icon and select *Request New Guide* from the drop-down list.
--   Using the command palette entry `Fiori: Request New Guide`.
+-   Using the Command Palette entry: *Fiori: Request New Guide*.
 
 -   From the *INFORMATION* panel, under the *USEFUL LINKS* section, choose *Guide Requests for Guided Development*.
 

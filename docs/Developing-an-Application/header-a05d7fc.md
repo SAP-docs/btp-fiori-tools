@@ -12,7 +12,7 @@
 
 
 
-The following annotation-based properties can be defined on the Header node of an *Object Page*
+The following annotation-based properties can be defined on the Header node of an *Object Page*:
 
 -   Type Name
 -   [Type Name Plural](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__TypeName)
@@ -22,26 +22,26 @@ The following annotation-based properties can be defined on the Header node of a
 -   [Initials](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__Initials)
 -   [Icon URL](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__URL)
 
-All properties are based on annotation `@UI.HeaderInfo`.
+All properties are based on the `@UI.HeaderInfo` annotation.
 
-If `@UI.HeaderInfo` doesn't exist, it will be created as soon as one of the properties above gets a value.
+If `@UI.HeaderInfo` does not exist, it is created as soon as one of the properties above gets a value.
 
-If `@UI.HeaderInfo` annotation it’s defined in the lower layer, such as service, the values of these properties are marked with the "\(base layer\)" suffix indicating the value origin. Once changed at least one property value, the complete annotation is copied to the local annotation file and \(base layer\) suffix is no longer displayed to indicate it.
+If `@UI.HeaderInfo` annotation is defined in the lower layer, such as service, the values of these properties are marked with the "\(base layer\)" suffix indicating the value origin. Once changed at least one property value, the complete annotation is copied to the local annotation file and \(base layer\) suffix is no longer displayed to indicate it.
 
 
 
 ### Type Name/Type Name Plural
 
-String properties describing the main object of the page. `Type Name` is displayed in on the very top of the *Object Page*: `Type Name Plural` represents a plural form of the object name and is displayed as a table header on the previous page. As these properties are mandatory, they’re set to the empty string if not \(yet\) defined otherwise. The properties support internationalization. See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for more information.
+String properties describing the main object of the page. `Type Name` is displayed in on the very top of the *Object Page*: `Type Name Plural` represents a plural form of the object name and is displayed as a table header on the previous page. As these properties are mandatory, they are set to the empty string if not \(yet\) defined otherwise. The properties support internationalization. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
 
 
 ### Title
 
-Property representing the main object of the page. It’s displayed in the page header area. You can choose one of the direct properties of the page entity provided in the drop-down box. If you set it to **None**, *Object Page* header will not contain the title. Default text will be displayed instead. Always define the **Title** if the property **Visible** of the page header is set to **true**.
+Title is a property representing the main object of the page. It is displayed in the page header area. You can choose one of the direct properties of the page entity provided in the dropdown. If you set it to *None*, *Object Page* header will not display the title. The default text will be displayed instead. Always define the *Title* if the *Visible* property of the page header is set to `true`.
 
 > ### Note:  
-> None option isn’t available if the Title is defined in a lower layer such as service.
+> The none option is not available if the Title is defined in a lower layer such as service.
 
 
 
@@ -49,7 +49,7 @@ Property representing the main object of the page. It’s displayed in the page 
 
 -   Adds property `ImageUrl` with the selected property as a value to the `UI.HeaderInfo`.
 -   Value is a path pointing to string properties of the entity or of a to one associated entity.
--   To remove `ImageUrl` property, you can select option **None**.
+-   To remove `ImageUrl` property, you can select the option *None*.
 
 For more information on images, see: [Using Images, Initials, and Icons](https://sapui5.hana.ondemand.com/sdk/#/topic/5760b638ea274d7aab59e4e434899528.html).
 
@@ -59,18 +59,18 @@ For more information on images, see: [Using Images, Initials, and Icons](https:/
 
 -   Adds property `Initials` with the selected property as a value to the `UI.HeaderInfo`.
 -   Value is a path pointing to string properties of the entity or of a to one associated entity.
--   To remove `Initials` property, you can select option `None`
+-   To remove `Initials` property, you can select the option *None*.
 
 
 
 ### Icon URL
 
--   Adds property `TypeImageUrl` with the sap icon text as a value to the `UI.HeaderInfo`.
+-   Adds property `TypeImageUrl` with the SAP icon text as a value to the `UI.HeaderInfo`.
 
     > ### Example:  
     > sap-icon://accept
 
--   Value is a string pointing to sap icon, for example, from icon explorer.
+-   Value is a string pointing to a SAP Icon such as from the Icon Explorer.
 
 <a name="loioed6ebe654f8d4aacb472c691eb11e5e3"/>
 
@@ -125,7 +125,7 @@ Custom actions are based on application extensions. For more information, see [A
 
 
 
-Header sections show that the key information on the *Object Page* entity are displayed in the header area. The visualization of this information depends on the `section type. information`.
+Header sections show that the key information on the *Object Page* entity are displayed in the header area. The visualization of this information depends on the section type.
 
 
 
@@ -136,17 +136,17 @@ Header sections show that the key information on the *Object Page* entity are di
 To add a Header section, perform the following steps:
 
 1.  Click the *Object Page* to open the *Page Editor*.
-2.  Navigate to the Header section now and click [\+\] icon.
+2.  Navigate to the Header section and click the :heavy_plus_sign: \(*Add*\) icon.
 
     As a result, a list of section types supported in the page header appears.
 
-3.  Choose the desired section type, respond to the prompts, and press *Add*.![Object Page Header Section](images/Fiori_tools_Object_Page_Header_Section_329d536.png)
+3.  Choose the desired section type, respond to the prompts, and click *Add*.![Object Page Header Section](images/Fiori_tools_Object_Page_Header_Section_329d536.png)
 4.  Depending on the section type selected, additional information is needed:
     -   Form Section - Label
     -   Data Point Section - Value Source Property
     -   Progress Section - Value Source Property
     -   Rating Section - Value Source Property
-    -   Chart Header Section - Chart Type. You're prompted for more information depending on the selected chart type, same as for Chart Column.
+    -   Chart Header Section - Chart Type. You are prompted for more information depending on the selected chart type, same as for Chart Column.
 
 
 Once the header section is generated, you can add and maintain its properties in the *Property Panel*.
@@ -155,7 +155,7 @@ Once the header section is generated, you can add and maintain its properties in
 
 ### Form Section
 
-The Form header section displays a group of fields under the common label. Once you add the Form section, no fields are added automatically. Add the fields you need using the [\+\] icon in the *Fields* node.
+The Form header section displays a group of fields under the common label. Once you add the Form section, no fields are added automatically. Add the fields you need using the :heavy_plus_sign: \(*Add*\) icon in the *Fields* node.
 
 For more information, see [Form Section](form-section-4102b3d.md)
 
@@ -167,15 +167,15 @@ The *Progress* header section visualizes the numeric value you chose as an indic
 
 *Target* initially the progress indicator is generated based on the value you entered and the default target \(goal\) of 100. You can then modify the target by setting it to a different numeric constant or choose a numeric service property that represents a target. For that, you first choose the target value type and then the desired number or property.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed), [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) and [Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613).
+For more information, see the following: [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed), [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) [Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613)
 
 
 
 ### Data Point Section
 
-The *Data Point* header section is used to display the single point of the key data. It's typically a number but can also be textual, for example, a status value. Initially, it is generated with a minimum property based on the value you entered. You can then enhance it in the properties pane with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency for it if this isn't done in the base level.
+The *Data Point* header section is used to display the single point of the key data. It's typically a number but can also be textual, for example, a status value. Initially, it is generated with a minimum property based on the value you entered. You can then enhance it in the Properties pane with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency for it if this isn't done in the base level.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed), [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) and [Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613).
+For more information, see the following: [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed) [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98)[Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613)
 
 
 
@@ -194,7 +194,7 @@ The *Micro Chart* header section allows you visualizing the numeric properties o
 Required and optional properties you can configure depend on the selected chart type.
 
 > ### Note:  
-> You can't change the type or main value \(measure\) of the micro chart. If you need to modify one of these properties, just add a new micro chart section and delete an existing one instead.
+> You cannot change the type or main value \(measure\) of the micro chart. If you need to modify one of these properties, just add a new micro chart section and delete an existing one instead.
 
 **Radial Chart**
 
@@ -232,7 +232,7 @@ To semantically color the bullet chart according to the value criticality, you c
 -   Maximize: hight values are considered as best
 -   Target: values close to the target are considered as best Depending on the selected direction, enter the values to be used as threshold for critical and warning coloring.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on setting the radial chart description.
+For more information on setting the radial chart description, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 
@@ -280,7 +280,7 @@ To delete the section in the application, perform the following steps:
 
 ### Label
 
-All the *Header* sections regardless the type contain the *Label* property. It can be based on a different annotation properties depending on the section type. For example, the *Label* for the *Form* section is based on the *Label* property of the `UI.ReferenceFacet` record within the `UI.Facets` annotation since the *Label* of the *Data Point* section is based on the *Title* property of the `UI.Chart` annotation. Nevertheless, you can maintain the *Label* for all the *Header* section types in the same way. All the other *Header* section properties depend on the *Header* section type.
+All the *Header* sections regardless of the type contain the *Label* property. They can be based on a different annotation properties depending on the section type. For example, the *Label* for the *Form* section is based on the *Label* property of the `UI.ReferenceFacet` record within the `UI.Facets` annotation since the *Label* of the *Data Point* section is based on the *Title* property of the `UI.Chart` annotation. Nevertheless, you can maintain the *Label* for all the *Header* section types in the same way. All the other *Header* section properties depend on the *Header* section type.
 
 To change the section label, perform the following steps:
 

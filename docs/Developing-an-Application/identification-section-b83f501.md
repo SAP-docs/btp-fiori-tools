@@ -18,11 +18,11 @@ An Identification Section can be added if `UI.Identification` annotation isn’t
 To add an Identification section, perform the following steps:
 
 1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
-2.  Navigate to the section node in the outline and click the *Add* icon [\+\].
+2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
 
-    As a result, a drop-down menu displaying currently supported section type appears.
+    As a result, a dropdown menu displaying the supported section types appears.
 
-3.  Select *Add Identification Section* from the drop-down list.
+3.  Select *Add Identification Section* from the dropdown list.
 
     A pop-up window *Add Identification Section* appears with a field to provide a label for the section to be added.
 
@@ -31,7 +31,7 @@ To add an Identification section, perform the following steps:
     A new section tab appears in the application preview of the form and object page.
 
     > ### Note:  
-    > As a result a `UI.Identification` annotation with no qualifier is generated and referenced in the `UI.Facets` annotation. If `UI.Identification` already exists, a new one isn’t generated, but the existing one is referenced in `UI.Facets`.
+    > As a result a `UI.Identification` annotation with no qualifier is generated and referenced in the `UI.Facets` annotation. If `UI.Identification` already exists, a new one is not generated, but the existing one is referenced in `UI.Facets`.
 
 
 You can prepare the section label for translation.

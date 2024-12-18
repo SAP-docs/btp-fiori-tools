@@ -940,7 +940,7 @@ Run UI5 Linter
 </td>
 <td valign="top">
 
-Checks the compatibility of your project with SAPUI5 version 2. For more information, see [UI5 linter](https://github.com/SAP/ui5-linter).
+Run a static code analysis to validate compliance with SAPUI5 best practices. For more information, see [UI5 linter](https://github.com/SAP/ui5-linter).
 
 </td>
 <td valign="top">

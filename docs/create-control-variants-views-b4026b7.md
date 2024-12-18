@@ -10,7 +10,7 @@ As a developer, you can create control variants within the SAPUI5 Visual Editor.
 
 ## Prerequisites
 
--   Make sure that you have enabled your application for UI adaptation and have the `sap.ui.fl.variants.VariantManagement` control as part of the page \(XML view\) that is going to be adapted. For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://sapui5.hana.ondemand.com/#/topic/f1430c0337534d469da3a56307ff76af) and the `sap.ui.fl.variants.VariantManagement` [API Reference](https://sapui5.hana.ondemand.com/#/api/sap.ui.fl.variants.VariantManagement).
+-   Make sure that you have enabled your application for UI adaptation and have the `sap.ui.fl.variants.VariantManagement` control as part of the page \(XML view\) you want to adapt. For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://sapui5.hana.ondemand.com/#/topic/f1430c0337534d469da3a56307ff76af) and the `sap.ui.fl.variants.VariantManagement` [API Reference](https://sapui5.hana.ondemand.com/#/api/sap.ui.fl.variants.VariantManagement).
 
 -   For more information on the use of `sap.ui.comp.smartvariants.SmartVariantManagement`, see `sap.ui.comp.smartvariants.SmartVariantManagement` [API Reference](https://sapui5.hana.ondemand.com/#/api/sap.ui.comp.smartvariants.SmartVariantManagement).
 

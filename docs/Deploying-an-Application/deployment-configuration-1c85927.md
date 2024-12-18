@@ -24,30 +24,30 @@ The target object contains properties identifying your target SAP system.
 **client**
 
 -   `<number> range [0..999]` **\(Optional\)**
--   The client property is used to identify the SAP client that is to be used in the backend system. It translates to the url parameter`sap-client=<client>`. If the client parameter isn’t provided, the default client is used.
+-   The client property is used to identify the SAP client that is to be used in the backend system. It translates to the url parameter`sap-client=<client>`. If the client parameter is not provided, the default client is used.
 
 **params \(Optional\)**
 
 -   `<string>` \(optional\)
--   Specifiy addtional query paramaters to pass to the backend deployment `API`. It translates to the url parameter e.g. `sap-language=<2-digit sap language code>`. If the parameter isn’t provided, the backend/user default is used.
+-   Specify addtional query paramaters to pass to the backend deployment `API`. It translates to the url parameter e.g. `sap-language=<2-digit sap language code>`. If the parameter is not provided, the backend/user default is used.
 
 **scp**
 
 -   `<boolean>` \(default: `false`\)
--   By default the deployment task uses basic authentication when connecting to the backend. If the target system is ABAP Environment on SAP Business Technology Platform, this parameter needs to be set to `true`.
+-   By default, the deployment task uses basic authentication when connecting to the backend. If the target system is ABAP Environment on SAP Business Technology Platform, this parameter needs to be set to `true`.
 
 **service**
 
 -   `<string>` \(default: `/sap/opu/odata/UI5/ABAP_REPOSITORY_SRV`\)
--   Path pointing to the SAPUI5 ABAP repository OData service in your target system. This parameter only needs to be used if the service is exposed at a different path in your backend system, for example, via alias.
+-   Path pointing to the SAPUI5 ABAP repository OData service in your target system. This parameter only needs to be used if the service is exposed at a different path in your backend system. For example, using alias.
 
 
 
 ### credentials \(optional\)
 
-The credentials object is required for `CI/CD` based deployments and it needs to contain the required parameters to authenticate at your target system. We strongly encourage to not add the credentials directly but use references to environment variables example `env:MY_VARIABLE` here.
+The credentials object is required for `CI/CD` based deployments and it needs to contain the required parameters to authenticate at your target system. We strongly encourage not to add the credentials directly but use references to environment variables. For example: `env:MY_VARIABLE` here.
 
-For local usage \(not in SAP Business Application Studio\), we do not recommend to use the credentials object at all. As a result, the deployment task utilizes the operating systems secure storage maintain credentials.
+For local usage \(not in SAP Business Application Studio\), we do not recommend using credential objects. As a result, the deployment task utilizes the operating systems' secure storage to maintain credentials.
 
 **username**
 
@@ -73,7 +73,7 @@ The app object describes the backend object that is created/updated as result of
 **package**
 
 -   `<string>` **\(Required for new apps\)**
--   Name of an existing ABAP package that is used as parent of the deployed application. The parameter is required for the creation of the application in the backend. Any following deployment updating the application does not require the package parameter, that is ignored .
+-   Name of an existing ABAP package that is used as parent of the deployed application. The parameter is required for the creation of the application in the backend. Any following deployment updating the application does not require the package parameter is ignored .
 
 **transport**
 
@@ -88,7 +88,7 @@ The app object describes the backend object that is created/updated as result of
 **exclude**
 
 -   `<string[] array of regex>` **\(Optional\)**
--   By default, the deployment task creates an archive \(zip file\) of all build files and sends it to the backend. By using exclude, you can define expressions to match files that shall not be included into the deployment.
+-   By default, the deployment task creates an archive \(`.zip` file\) of all build files and sends it to the backend. By using exclude, you can define expressions to match files that shall not be included into the deployment.
 
     > ### Note:  
     > `string.match()` is used to evaluate the expressions.
@@ -97,21 +97,21 @@ The app object describes the backend object that is created/updated as result of
 **index**
 
 -   `true|false` **\(Default: `false`\)**
--   If set to `true`, then an additional `index.html` is generated and deployed to run the application standalone.
+-   If set to `true`, then an additional `index.html` file is generated and deployed to run the application standalone.
 
 
 
 
 
-### Location of MTA Directory
+### Location of the MTA Directory
 
-The tool finds the nearest parent directory that contains `mta.yaml` and offers that as the MTA directory. Failing that, it defaults to the parent directory of the application.
+The tool finds the nearest parent directory that contains `mta.yaml` file and offers that as the MTA directory. Failing that, it defaults to the parent directory of the application.
 
 
 
 ### Destination
 
-Destination configured to connect to the backend on Cloud Foundry. If there's a setting in `ui5.yaml`, that value is offered as the default.
+Destination configured to connect to the backend on Cloud Foundry. If there's a setting in the `ui5.yaml` file, that value is offered as the default.
 
 
 
@@ -127,7 +127,7 @@ Prefix is used for the ID of the MTA and the service names. It defaults to the n
 
 If you prefer to keep the environment variables in a file, you can create the `.env` file at the root of your project that contains the environment variables to be referenced in the `ui5-deploy.yaml` file.
 
-We recommend that you do not have your actual username and password in the `ui5-deploy.yaml`. In this case, you will be asked to provide these credentials during deployment if needed.
+We recommend that you do not have your actual username and password in the`ui5-deploy.yaml`. In this case, you will be asked to provide these credentials during deployment if needed.
 
 > ### Sample Code:  
 > ```

@@ -11,7 +11,7 @@ This guide describes how to replace an OData service in an adaptation project wi
 ## Context
 
 > ### Note:  
-> The new OData service needs to be compatible to the OData service of the original app. The entity set names, properties in the entity set, and function imports used from the original service must also exist in the new service. For OData V2 services using annotations, the annotation data source needs to be changed and the new annotation must also be compatible with the annotation of the original app.
+> The new OData service mustbe compatible to the OData service of the original app. The entity set names, properties in the entity set, and function imports used from the original service must also exist in the new service. For OData V2 services using annotations, the annotation data source must be changed and the new annotation must also be compatible with the annotation of the original app.
 
 
 
@@ -29,7 +29,7 @@ This guide describes how to replace an OData service in an adaptation project wi
 
 6.  \(Optional\) Enter the URI of the OData Annotation Data Source you want to use instead.
 
-    This field will be visible if the service you are using supports annotations.
+    This field is visible if the service you are using supports annotations.
 
 7.  Click *Finish* to save your changes.
 

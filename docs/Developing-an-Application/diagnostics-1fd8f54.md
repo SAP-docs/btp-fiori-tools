@@ -7,9 +7,9 @@
 XML annotation language server validates the annotation file against the project metadata, annotation vocabularies, and OData specification. Validation is performed when you open the annotation file and then is retriggered with each change to the annotation files, metadata, or project structure.
 
 > ### Note:  
-> Annotations embedded in the metadata and dynamic expressions aren’t supported by Diagnostics feature.
+> Annotations embedded in the metadata and dynamic expressions aren not supported by the Diagnostics feature.
 
-Annotation LSP provides error, warning, and info messages, as well as actions to fix problems - Quick Fixes.
+Annotation LSP provides error, warning, and info messages, as well as actions to fix problems which are called Quick Fixes.
 
 
 
@@ -25,7 +25,7 @@ You can view the diagnostic messages by hovering over the highlighted part in th
 You can fix the diagnostic message in several ways, depending on the issue:
 
 -   Using the Code Completion \(provided when the issue is related to the incorrect element or value\)
-    -   Trigger the code completion by [Ctrl\] + [Space\]  \(Win\),[CMD\] + [Space\]  \(Mac\)
+    -   Trigger the code completion by pressing [Ctrl\] + [Space\]  for Windows and [CMD\] + [Space\]  for macOS
     -   Choose one of suggested values.
 
 -   Choosing one of the suggested Quick Fix actions \(if provided\)
@@ -35,5 +35,5 @@ You can fix the diagnostic message in several ways, depending on the issue:
 -   Manually
 
 > ### Note:  
-> Diagnostics for annotations in the local copies of the metadata and back-end annotation file is provided for the information purposes only. All the relevant fixes should be made in the original service metadata. Changes to the local copies will not affect the deployed app or preview with the real service data.
+> Diagnostics for annotations in the local copies of the metadata and back-end annotation files are provided for information purposes only. All the relevant fixes should be made in the original service metadata. Changes to the local copies will not affect the deployed app or preview with the real service data.
 

@@ -36,7 +36,7 @@ Create an adaptation project from existing SAP Fiori elements or freestyle SAPUI
 
     9.  Click *Next*.
 
-    10. If the base app has an navigation intent specified in its manifest, you can choose it. If not, you need to enter semantic object, action, and parameters.
+    10. If the base app has an navigation intent specified in its manifest, you can choose it. If not, you need to enter a semantic object, action, and parameters.
 
     11. Enter the title and the subtitle \(optional\) for the new tile and click *Next*.
 

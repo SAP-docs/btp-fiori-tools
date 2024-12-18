@@ -4,7 +4,7 @@
 
 # Table Section
 
-Table section can be added either on the section node or inside the group on the subsection node.
+A table section can be added either on the section node or inside the group on the subsection node.
 
 -   [Add Table Section](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_g5r_hpb_zrb)
 -   [Move Table Section](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_udp_pxx_xrb)
@@ -20,11 +20,11 @@ Table section can be added either on the section node or inside the group on the
 To add a table section, perform the following steps:
 
 1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
-2.  Navigate to the section node in the outline and click the *Add* icon [\+\].
+2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
 
-    As a result, a drop-down menu displaying currently supported section types appears.
+    As a result, a dropdown menu displaying the supported section types appears.
 
-3.  Select *Add Table Section* from the drop-down list.
+3.  Select *Add Table Section* from the dropdown list.
 
     A pop-up window *Add Table Section* appears.
 

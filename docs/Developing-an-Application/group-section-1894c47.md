@@ -17,19 +17,19 @@ A Group section groups multiple sections together. It can contain a group of sec
 
 To add a Group section or subsections, perform the following steps:Fiori elements may not render group sections beyond the certain level and have rendering limitations on displaying Table sections as peer to the form sections. Please check the current documentation for
 
-1.  Click the [Object/Form Entry Page\] to open the *Page Editor*.
+1.  Click the Object/Form Entry Page to open the *Page Editor*.
 2.  Navigate to the section layer and click the :heavy_plus_sign: \(*Add*\) icon.
 
-    As a result, a drop-down menu displaying currently supported section type appears.
+    As a result, a dropdown menu displaying currently supported section type appears.
 
-3.  Select *Add Group Section* from the drop-down list.
+3.  Select *Add Group Section* from the dropdown list.
 
     A new pop-up window *Add Group Section* appears with a field to provide a label for the section to be added.
 
-4.  Enter a title in the *Label*Fiori text box and click [Add\].
+4.  Enter a title in the *Label*Fiori text box and click *Add*.
 
     > ### Note:  
-    > Internally, a new entry is added to the annotation `UI.Facets`. This entry is of the type `UI.CollectionFacet` with corresponding property Label and property Facets being set to an empty array. If `UI.Facets` doesn’t exist yet or is not present in the changeable annotation file, managing process is the same as when adding a new Form section.
+    > Internally, a new entry is added to the annotation `UI.Facets`. This entry is of the type `UI.CollectionFacet` with corresponding property Label and property Facets being set to an empty array. If `UI.Facets` does not exist yet or is not present in the changeable annotation file, managing process is the same as when adding a new Form section.
 
     A new Group tab appears in the application preview.
 
@@ -43,10 +43,10 @@ To add a Group section or subsections, perform the following steps:Fiori element
 
     A new pop-up window *Add Form Section* appears with a field to provide a label for the section to be added.
 
-3.  Enter a title in the *Label* text box and click [Add\].
+3.  Enter a title in the *Label* text box and click *Add*.
 
 > ### Note:  
-> In the new Form section, you can perform the same actions as in the classic [Form Section](form-section-4102b3d.md) , such as adding, editing, moving, and deleting fields.
+> In the new Form section, you can perform the same actions as in the classic [Form Section](form-section-4102b3d.md), such as adding, editing, moving, and deleting fields.
 
 Label properties can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md). In addition, see [Edit in Source Code](edit-in-source-code-7d8e942.md) feature to navigate to code fragments in the annotation file.
 

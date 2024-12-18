@@ -8,18 +8,18 @@
 
 XML annotation language server provides support for internationalization of language-dependent strings in your annotation file.
 
-Language-dependent strings are the string values of annotation properties tagged with*IsLanguageDependent* in the respective vocabulary. For example, out of the two string values below, only that for *Label* property is considered as language dependent, as it is tagged as*IsLanguageDependent* in the [UI vocabulary](https://sap.github.io/odata-vocabularies/vocabularies/UI.html). Any value of property ID isn’t tagged as language dependent in the vocabulary and thus is not considered for internationalization by Annotation LSP.
+Language-dependent strings are the string values of annotation properties tagged with*IsLanguageDependent* in the respective vocabulary. For example, out of the two string values below, only that *Label* property is considered as language dependent, as it is tagged as *IsLanguageDependent* in the [UI vocabulary](https://sap.github.io/odata-vocabularies/vocabularies/UI.html). Any value of property ID that is not tagged as language dependent in the vocabulary is not considered for internationalization by Annotation LSP.
 
-When you open an annotation file, all language-dependent string values are checked against the`i18n.properties` file.
+When you open an annotation file, all language-dependent string values are checked against the `i18n.properties` file.
 
 > ### Note:  
-> Annotation LSP uses the`i18.properties` file referenced in the @18n model of the `manifest.json` file of your project. If the model or file is missing, you see the respective warning message for your annotation file.
+> Annotation LSP uses the `i18.properties` file referenced in the `@18n` model of the `manifest.json` file of your project. If the model or file is missing, you see the respective warning message for your annotation file.
 
-Each value that doesn’t represent a valid reference to the existing text key in the `i18n.properties` file, is indicated in the annotation file with a warning. If the text key for the string value is already available in `i18n.properties` file, you can apply a **Quick Fix** to automatically reference it in your annotation file. Otherwise, a **Quick Fix** action is suggested to generate a new text key and then substitute your string value with the reference to that entry.
+Each value that does not represent a valid reference to the existing text key in the`i18n.properties` file, is indicated in the annotation file with a warning. If the text key for the string value is already available in the `i18n.properties` file, you can apply a Quick Fix to automatically reference it in your annotation file. Otherwise, a Quick Fix action is suggested to generate a new text key and then substitute your string value with the reference to that entry.
 
 The same check is performed when you add a new value for a language-dependent property. As an alternative, you can use the [Code Completion](code-completion-dd4fc3b.md) directly in the string value of the language-dependent property. It will show the list of references to text entries already available in the properties file. You can use [Documentation \(Quick Info\)](documentation-quick-info-8728bd7.md) feature to view the text value and attributes for each list item.
 
-If you want to view or update the text value or attributes in `i18n.properties` file, use the Pick Definition or Go To Definition features, see [Peek and Go to Definition](peek-and-go-to-definition-1ccb911.md).
+If you want to view or update the text value or attributes in the `i18n.properties` file, use the Pick Definition or Go To Definition features, see [Peek and Go to Definition](peek-and-go-to-definition-1ccb911.md).
 
 
 
@@ -35,9 +35,9 @@ Reusing Existing Texts
 
 -   With Code Completion
 
-    -   Trigger the Code Completion [Ctrl\] + [Space\]  \(Win\),[CMD\] + [Space\]  \(Mac\) for the string value in the language-dependent element.
+    -   Trigger the Code Completion, in Windows, [Ctrl\] + [Space\] , and macOS, [CMD\] + [Space\]  \(Mac\), for the string value in the language-dependent element.
 
-        The list of existing text key reference / text value pairs from the `i18n.properties` file is displayed.
+        The list of existing text key reference and text value pairs from the `i18n.properties` file is displayed.
 
     -   Select a value from the Code Completion list.
 
@@ -54,9 +54,9 @@ Defining new texts
 
 -   Enter a string value for the language-dependent element.
 
-    Annotation LSP checks if the value is already provided as a text key in`i18n.properties` file.
+    Annotation LSP checks if the value is already provided as a text key in the `i18n.properties` file.
 
-    If the value isn’t provided a warning along with Quick Fix action is shown.
+    If the value is not provided a warning along with Quick Fix action is shown.
 
 -   Click on the :bulb: \(*Light Bulb*\) icon and choose the suggested action.
 
@@ -72,9 +72,9 @@ Defining new texts
 
 -   Open the annotation file.
 
-    If missed referenced are found - a warning is shown.
+    If missed referenced are found, a warning is shown.
 
--   Apply Quick Fix action. See Adding Internationalized Values for more details.
+-   Apply the Quick Fix action. See Adding Internationalized Values for more details.
 
 
 
@@ -85,17 +85,17 @@ Defining new texts
 
 Place your text cursor inside the path referencing the translatable string value and trigger *Go To Definition*:
 
--   Using keyboard: press [F12\] in VS Code, [Ctrl\] + [F11\]  in SAP Business Application Studio
+-   Using a keyboard: press [F12\] in VS Code or [Ctrl\] + [F11\]  in SAP Business Application Studio
 
 -   Using the mouse: right-click and select *Go To Definition*
 
--   Using the keyboard and mouse: [Ctrl\] + mouse click \(Win\), [CMD\] + mouse click \(Mac\)
+-   Using the keyboard and mouse: [Ctrl\] + mouse click in Windows and [CMD\] + mouse click in macOS
 
 
 **Using Peek Definition**
 
 Place your text cursor inside the path referencing to translatable string value and trigger *Peek Definition*:
 
--   Using the keyboard: press [Alt\] + [F12\]  \(Win\), [Option\] + [F12\]  \(Mac\)
+-   Using the keyboard: press [Alt\] + [F12\]  in Windows and [Option\] + [F12\]  in macOS.
 -   Using the mouse: right-click and select *Peek Definition*
 

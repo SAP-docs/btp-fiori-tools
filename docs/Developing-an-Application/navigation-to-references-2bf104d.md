@@ -16,7 +16,7 @@ Checking the references before making any changes to annotations or metadata ele
 
 Place your cursor inside the metadata element name or annotation term/qualifier and trigger *Find All References*
 
--   Using the keyboard: press [Alt\] + [Shift\] + [F12\]  \(Win\), [Option\] + [F12\]  \(Mac\)
+-   Using the keyboard: press [Alt\] + [Shift\] + [F12\]  in Windows and [Option\] + [F12\]  in macOS
 
 -   Using the mouse: right-click and select *Find All References*
 

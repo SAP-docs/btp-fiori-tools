@@ -8,7 +8,7 @@
 
 ## Deployment Overview
 
-SAP Fiori tools support deployment to ABAP as well as deployment to Cloud Foundry \(CF\) on SAP Business Technology Platform. In contrast to the SAP Web IDE approach, the deployment target isn't required during the application generation which allows a simplified user experience when the project is first created. This approach means that the decision could be deferred until when the developer is ready to deploy the application.
+SAP Fiori tools support deployment to ABAP as well as deployment to Cloud Foundry \(CF\) on SAP Business Technology Platform. In contrast to the SAP Web IDE approach, the deployment target is not required during the application generation which allows a simplified user experience when the project is first created. This approach means that the decision can be deferred until the developer is ready to deploy the application.
 
 
 
@@ -18,7 +18,7 @@ SAP Fiori tools support deployment to ABAP as well as deployment to Cloud Foundr
 
 **Prerequisite**. Ensure all prerequisites are met when using an [OData service to load data to the SAPUI5 ABAP](https://ui5.sap.com/#/topic/a883327a82ef4cc792f3c1e7b7a48de8) repository.
 
-For deployment to ABAP, the SAPUI5 Repository service exposed by the ABAP system is used to upload a deployment artifact. The ABAP backend provides all functionality to run the application, such as hosting, routing, and authentication. As a result, the deployment artifact is just an SAP Fiori application. In other words, it's a zipped dist folder of the SAP Fiori tools project.
+For deployment to ABAP, the SAPUI5 Repository service exposed by the ABAP system is used to upload a deployment artifact. The ABAP backend provides all functionality to run the application, such as hosting, routing, and authentication. As a result, the deployment artifact is just an SAP Fiori application. In other words, it's a zipped `dist` folder of the SAP Fiori tools project.
 
 For more information see, [Deployment to ABAP](deployment-of-application-607014e.md#loio607014e278d941fda4440f92f4a324a6__abap)
 
@@ -49,26 +49,26 @@ The process to deploy the application involves the following steps:
 
 ## Troubleshooting Tips
 
-The backend system contains the SAP\_UI component version 7.53 or newer, but the SAPUI5 repository service can't be reached.
+The backend system contains the SAP\_UI component version 7.53 or newer, but the SAPUI5 repository service cannot be reached.
 
 -   Check if the service is activated. For more information, see [Using an OData Service to Load Data to the SAPUI5 ABAP Repository](https://ui5.sap.com/#/topic/a883327a82ef4cc792f3c1e7b7a48de8).
 
-The SAPUI5 repository service is active and reachable but whenever I deploy an application, I see the following error ***Request failed with status code 400***.
+The SAPUI5 repository service is active and reachable but whenever I deploy an application, I see the following error: ***Request failed with status code 400***.
 
--   This could have multiple reasons, check the console for more information, or open transaction `/IWFND/ERROR_LOG` and check the server logs. A common issue is that during the setup, configuring a virus scan profile is forgotten. This can be corrected in the transaction `/IWFND/VIRUS_SCAN`.
+-   There are multiple reasons for this error. check the console for more information, or open the transaction `/IWFND/ERROR_LOG` and check the server logs. A common issue is that during the setup, configuring a virus scan profile is forgotten. This can be corrected in the transaction `/IWFND/VIRUS_SCAN`.
 
 > ### Note:  
 > You can retrieve more detailed logging information when deploying to ABAP by executing the following commands during deployment.
 > 
 > -   For detailed log messages from the backend services during deployment:
 > 
->     **MacOs/Linux:** `DEBUG=ux-odata-client npm run deploy`
+>     **macOS/Linux:** `DEBUG=ux-odata-client npm run deploy`
 > 
 >     **Windows:** `set DEBUG=ux-odata-client & npm run deploy`
 > 
 > -   For detailed log messages from archiving and deploying the artefacts:
 > 
->     **MacOs/Linux:** `DEBUG=ux-odata-client npm run deploy`
+>     **macOS/Linux:** `DEBUG=ux-odata-client npm run deploy`
 > 
 >     **Windows:** `set DEBUG=ux-odata-client & npm run deploy`
 
@@ -84,5 +84,5 @@ The SAPUI5 repository service is active and reachable but whenever I deploy an a
 SAP Fiori tools CLI offers additional help options to find more information about the various commands and their options for deployment plus other commands.
 
 -   Execute the following command to list all the available commands: `npx fiori help`.
--   Execute the following command to get the details about a specific command. For example, deploy: `npx fiori deploy help`.
+-   Execute the following command to get the details about a specific command. For example: `npx fiori deploy help`.
 

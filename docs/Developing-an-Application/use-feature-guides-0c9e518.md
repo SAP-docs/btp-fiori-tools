@@ -18,7 +18,7 @@ You can launch guided development in the following ways:
 
 ### Using the Command Palette
 
--   Open *Command Palette* \([CMD\]/[CTRL\] + [Shift\] + [P\]\).
+-   Open the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \).
 -   Start typing *guided development*.
 -   Select *Fiori: Open Guided Development* or *Fiori: Open Guided Development to the Side*.
 -   Select SAP Fiori elements project from your workspace.
@@ -32,7 +32,7 @@ The *Fiori: Open Guided Development* option opens guided development in a new ta
 If you already have an SAP Fiori elements project in your current workspace, you can right-click its folder and select *SAP Fiori tools - Open Guided Development*. Then, guided development opens to the side of the current file in another column.
 
 > ### Note:  
-> If you don’t have any SAP Fiori elements project in your workspace, you can still open guided development by using the *Command Palette*. It’s possible to check the available guides descriptions and code samples, while interactive features are disabled in this case.
+> If you do not have any SAP Fiori elements project in your workspace, you can still open guided development by using the *Command Palette*. You can check the available guides descriptions and code samples but the interactive features are disabled.
 
 
 
@@ -51,7 +51,7 @@ The project-specific data contains the following components:
 -   The annotation terms that are defined in the service across all the guides.
 
     > ### Note:  
-    > In guided development, you can add annotations from services other than the mainService.
+    > In guided development, you can add annotations from services other than the `mainService`.
 
 
 To select or change a project, proceed as follows:

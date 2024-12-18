@@ -38,6 +38,15 @@ You can add fragments to an aggregation or to an extension point.
     > ### Note:  
     > The index is disabled for **controlConfiguration** aggregation in the control Smart Filter Bar. This aggregation currently does not support positioning at a specific index.
 
+    > ### Tip:  
+    > You can use the quick actions in the top-right panel for the most common cases. To add a fragment, click on the action, enter a name for the fragment file, and choose *Create*. The generated file will contain dummy data, so you can immediately see the result in the preview when you press *Save and Reload* in the toolbar. You can then edit the generated file as needed for your extended app. The following quick actions for are provided for adding fragments:
+    > 
+    > -   Add Custom Page Action
+    > -   Add Custom Table Action
+    > -   Add Custom Table Column
+    > -   Add Header Field
+    > -   Add Custom Section
+
 4.  To create a fragment:
 
     1.  Click *Create New*.
@@ -64,7 +73,7 @@ You can add fragments to an aggregation or to an extension point.
 
 6.  Navigate to the canvas to see the changes that you made.
 
-    After adding fragments, you'll be prompted to reload the SAPUI5 Visual Editor to see your changes.
+    After adding fragments, you are prompted to reload the SAPUI5 Visual Editor to see your changes.
 
     > ### Note:  
     > You must add the definition of the namespace of the controls you are going to use inside of the fragment. Also, you must use stable and unique IDs for the controls you define.
@@ -80,7 +89,7 @@ You can add fragments to an aggregation or to an extension point.
     > Also, follow the specific rule each control has for its definition.
 
     > ### Remember:  
-    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not, you will not be able to add fragments to the adaptation project.
+    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not, you cannot add fragments to the adaptation project.
 
 
 
@@ -105,7 +114,7 @@ You can add fragments to an aggregation or to an extension point.
 
 2.  From the editor header, click *Edit*.
 
-3.  If you expand the outline tree, you will be able to see which element is a possible extension point. Then you can select the element in the tree and you will see its parent marked and highlighted in the visual part of the editor. You can then right click on that highlighted element and click *Add fragment at extension point*.
+3.  If you expand the outline tree, you can see which element is a possible extension point. Then, you can select the element in the tree and see its parent marked and highlighted in the visual part of the editor. You can then right click on that highlighted element and click *Add fragment at extension point*.
 
     In the dialog box that opens, the default extension point is selected. A list displays the fragments available for the selected extension point. You can also create fragments. Choose the target extension point and the index from the list where you want to add the fragment. You cannot reuse the same fragment multiple times.
 
@@ -135,7 +144,7 @@ You can add fragments to an aggregation or to an extension point.
 
 6.  Navigate to the canvas to see the changes that you made.
 
-    After adding fragments, you'll be prompted to reload the SAPUI5 Visual Editor to see your changes.
+    After adding fragments, you are prompted to reload the SAPUI5 Visual Editor to see your changes.
 
     > ### Note:  
     > You must add the definition of the namespace of the controls you are going to use inside of the fragment. You must use stable and unique IDs for the controls you define.
@@ -151,6 +160,6 @@ You can add fragments to an aggregation or to an extension point.
     > Also, follow the rules each control has for its definition.
 
     > ### Remember:  
-    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not delete them, you will not be able to add further fragments to the adaptation project.
+    > You can delete the fragments that you create. Delete the change files associated to a fragment and then delete the fragment. If you do not delete them, you will cannot add further fragments to the adaptation project.
 
 

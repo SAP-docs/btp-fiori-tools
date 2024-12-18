@@ -13,7 +13,7 @@
 To add a new field to an existing section, perform the following steps:
 
 1.  Expand the required section and navigate your pointer to the field layer.
-2.  Click the plus icon [\+\] to open the *Add Fields* pop-up window.
+2.  Click the :heavy_plus_sign: \(*Add* to open the *Add Fields* pop-up window.
 3.  In the *Add Fields* pop-up window, search for or select one or several fields from the drop-down menu.
 4.  Click *Add* to add new fields to the Form section.
 
@@ -29,7 +29,7 @@ To add a new field to an existing section, perform the following steps:
 > -   The properties already referenced in this or other sections.
 
 > ### Note:  
-> You can't add the field twice to the same section.
+> You cannot add the field twice to the same section.
 
 
 
@@ -45,7 +45,7 @@ To move a field within a section or to a different section in the application, u
 
 -   **Arrow buttons**
 
-    By using the *Move up* and *Move down* buttons next to the field name, you can move the field either within its section or to the different section.
+    By using the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons next to the field name, you can move the field either within its section or to the different section.
 
 
 
@@ -105,7 +105,7 @@ Field properties are associated with fields in the Field section and the applica
 -   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6) 
 -   Display Type
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information.
+For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
 
@@ -128,7 +128,7 @@ See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301
 
 ### Restrictions
 
-Define whether the field input in create/edit mode is mandatory, optional, or read-only. Use field *Restrictions* to control the state of a property.
+Define whether the field input in create/edit mode is mandatory, optional, or read-only. Use the *Restrictions* field to control the state of a property.
 
 The following options are displayed in the restriction value drop-down menu:
 
@@ -166,7 +166,7 @@ No annotations are applied. Therefore, this field by default is considered optio
 </td>
 <td valign="top">
 
-This field can be left empty, no obligatory data input is required.
+This field can be left empty. No obligatory data input is required.
 
 </td>
 </tr>
@@ -178,7 +178,7 @@ This field can be left empty, no obligatory data input is required.
 </td>
 <td valign="top">
 
-This field value must be provided, can't be empty.
+This field value must be provided. It cannot be empty.
 
 </td>
 </tr>
@@ -197,8 +197,8 @@ This field is displayed as read-only data with no editing allowed.
 </table>
 
 > ### Note:  
-> When the Object Page entity isn't draft enabled \(read-only\), Display Type and Restrictions fields aren't available in the property panel as the fields aren't editable and are only used for displaying the value.
+> When the Object Page entity is not draft enabled \(read-only\), Display Type and Restrictions fields are not available in the property panel as the fields are not editable and are only used for displaying the value.
 
 > ### Note:  
-> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* isn't available. If the back-end restriction value can't be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
+> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* is not available. If the back-end restriction value cannot be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
 

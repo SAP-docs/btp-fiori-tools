@@ -2,7 +2,7 @@
 
 # Adapting the UI
 
-Learn how to adapt the UI of applications using the Adaption Editor .
+Learn how to adapt the UI of applications using the Adaption Editor.
 
 
 
@@ -36,7 +36,7 @@ SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
-If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version.
+If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page's floorplan and the SAPUI5 version. For more information, see [Quick Actions Availablity Matrix](quick-actions-availablity-matrix-5d3d94b.md).
 
 The buttons on the Adaptation Editor toolbar allow you to:
 
@@ -56,7 +56,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 ## Procedure
 
-1.  In your workspace, еxpand the `webapp` folder, right click the `manifest.appdescr_variant` file and choose *Open Adaptation Editor*..
+1.  In your workspace, еxpand the `webapp` folder, right click the `manifest.appdescr_variant` file and choose *Open Adaptation Editor*.
 
     The Adaptation Editor launches in a browser window and the application loads in the editor for you to make the changes when you switch to Adaptation mode or to navigate and preview the application when you switch to Navigation mode.
 
@@ -264,5 +264,5 @@ You can combine up to three fields so that they’re displayed in a single line.
 
 After you have made your changes, click *Save* from the toolbar above the canvas.
 
-Embedding content is performed in the same way as the key user scenario. For more information, see [https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
+Embedding content is performed in the same way as the key user scenario. For more information, see [Embedding Content](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
 

@@ -50,9 +50,9 @@ To find out what changed in a base app provided by SAP S/4HANA Cloud, check the 
 
 To update the adaptation project, proceed as follows:
 
-1.  In SAP Business Application Studio, open *Visual Editor* and test that everything is still working with the new base version.
+1.  In SAP Business Application Studio, open the *Visual Editor* and test that everything is still working with the new base version.
 
-    *Visual Editor* automatically fetches the latest version of the base app.
+    The *Visual Editor* automatically fetches the latest version of the base app.
 
 2.  Once everything is tested, re-deploy your application.
 
@@ -71,7 +71,7 @@ The base app *<base app ID\>* was deleted, please check the successor app
 </td>
 <td valign="top">
 
-If you do not re-deploy your adaptation project, this will not affect anything. We recommend that you create a new adaptation project based on the successor app.
+If you do not re-deploy your adaptation project, this error does not affect you. However, we recommend that you create a new adaptation project based on the successor app.
 
 </td>
 </tr>

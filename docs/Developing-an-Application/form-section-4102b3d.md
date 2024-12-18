@@ -15,7 +15,7 @@ Form sections are based on the annotation `UI.FieldGroup` and can be added, move
 To add a Form section, perform the following steps:
 
 1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
-2.  Navigate to the section node in the outline and click the *Add* icon [\+\].
+2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
 
     As a result, a dropdown menu displaying currently supported section types appears.
 
@@ -26,7 +26,7 @@ To add a Form section, perform the following steps:
 4.  Enter a title to the *Label* field and click *Add*.
 
     > ### Note:  
-    > See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for translation if not yet there.
+    > See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for translation if there is none.
 
     A new section tab appears in the application preview of the form and *Object Page*. Now you can add fields to the newly created form section. For more information, see [Adding Filter Fields](filter-fields-0b84286.md#loio0b8428645243486680ffa22c0b541039__addingfilterfields).
 
@@ -106,14 +106,14 @@ See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301
 
 ### Display on Demand
 
-`Display On Demand` switch is displayed in the *Property Panel* for the [Form Section](form-section-4102b3d.md) and [Identification Section](identification-section-b83f501.md) section if they are used as a sub section in a [Group Section](group-section-1894c47.md). Switch it on to hide the [Form Section](form-section-4102b3d.md) or [Identification Section](identification-section-b83f501.md) under the [Show More\] button by default. Press the [Show More\] button to make it visible. Switch it off to always display the section.
+The `Display On Demand` switch is displayed in the *Property Panel* for the [Form Section](form-section-4102b3d.md) and [Identification Section](identification-section-b83f501.md) section if they are used as a sub section in a [Group Section](group-section-1894c47.md). Activate it to hide the [Form Section](form-section-4102b3d.md) or [Identification Section](identification-section-b83f501.md) under the *Show More* by default. Click *Show More* to make it visible. Deactive it to always display the section.
 
 > ### Note:  
-> By default this property is switched off. Once the user switches it on, an embedded annotation `UI.PartOfPreview` is added to the respective `UI.ReferenceFacet` record with boolean value `false`. The embedded annotation will be removed, if the property is switched off again. The embedded annotation is also removed, if the section is moved and not contained in a [Group Section](group-section-1894c47.md) after the move.
+> By default, this property is deactivated. Once the user activates it, an embedded annotation `UI.PartOfPreview` is added to the respective `UI.ReferenceFacet` record with boolean value `false`. The embedded annotation will be removed, if the property is switched off again. The embedded annotation is also removed, if the section is moved and not contained in a [Group Section](group-section-1894c47.md) after the move.
 
 
 
 ### Hidden
 
-See, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0) in the Appendix.
+For more information, see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 

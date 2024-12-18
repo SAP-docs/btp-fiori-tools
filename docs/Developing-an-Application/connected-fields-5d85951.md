@@ -14,19 +14,19 @@ You can add two semantically connected fields under the same label to the [Form 
 
 1.  Expand the required section and navigate your pointer to the *Fields* node.
 
-2.  Click the plus icon [\+\] and choose [Add Connected Fields\].
+2.  Click the :heavy_plus_sign: \(*Add*\) icon and click *Add Connected Fields*.
 
-3.  In the [Add Connected Fields\] popup window, set the common label. Then choose two semantically related properties as *Field 1* and *Field 2*.
+3.  In the *Add Connected Fields* popup window, set the common label. Then choose two semantically related properties as *Field 1* and *Field 2*.
 
     > ### Note:  
-    > If the field is already used as part of another connected fields node in the section, you can't choose it when adding a new one.
+    > If the field is already used as part of another connected fields node in the section, you cannot choose it when adding a new one.
 
 4.  You can optionally set the delimiter to be displayed between the field values.
 
 5.  Click *Add* to add connected fields to the *Form section*.
 
 > ### Note:  
-> You can't add the property that is already used in another connected fields node of the section.
+> You cannot add the property that is already used in another connected fields node of the section.
 
 
 
@@ -45,13 +45,13 @@ You can move the connected fields node within a section or to a different sectio
 
 **Arrow buttons**
 
--   Use the *Move up* and *Move down* buttons next to the connected fields label to move the connected fields either within its section or to the different section in the content area.
+-   Use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons next to the connected fields label to move the connected fields either within its section or to the different section in the content area.
 
--   Use the *Move up* or *Move down* button next to the field within the connected fields node to swap the sequence of the connected fields within the node.
+-   Use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down* icons next to the field within the connected fields node to swap the sequence of the connected fields within the node.
 
 
 > ### Note:  
-> You can't move connected fields to the [Header Section](header-a05d7fc.md#loio8a127fc36f5640abaab0056e632fe630).
+> You cannot move connected fields to the [Header Section](header-a05d7fc.md#loio8a127fc36f5640abaab0056e632fe630).
 
 
 
@@ -71,7 +71,7 @@ To delete the connected fields node, perform the following steps:
 
 
 > ### Note:  
-> During deletion of the field, `UI.DataField`record is removed from the `UI.FieldGroup` or `UI.Identification` annotation. The annotations applied to the entity properties aren’t deleted.
+> During deletion of the field, `UI.DataField` record is removed from the `UI.FieldGroup` or `UI.Identification` annotation. The annotations applied to the entity properties are not deleted.
 
 > ### Note:  
 > To clean up the orphaned `UI.ConnectedFields` annotation, you need to explicitly run the cleanup procedure that deletes the unreferenced annotations.
@@ -90,10 +90,10 @@ The label for connected fields is maintained the same as the label for the basic
 
 **Delimiter**
 
-You can choose one or multiple text characters such as `:`, `/`, or `-` to be displayed between the connected fields. If the delimiter isn’t set, the fields will be separated by space.
+You can choose one or multiple text characters such as `:`, `/`, or `-` to be displayed between the connected fields. If the delimiter is not set, the fields will be separated by space.
 
 > ### Note:  
-> The delimiter value isn’t translatable.
+> The delimiter value is not translatable.
 
 **Hidden**
 
@@ -101,7 +101,7 @@ Similar to the basic fields, connected fields nodes can be set hidden either sta
 
 For more information, see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 
-You can’t change the properties used as connected fields. If you need to do so, delete the complete connected fields node [Deleting Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#deleting-connected-fields) and add it again with different properties [Adding Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#adding-connected-fields).
+You cannot change the properties used as connected fields. If you need to do so, delete the complete connected fields node [Deleting Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#deleting-connected-fields) and add it again with different properties [Adding Connected Fields](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5d85951736f84ee19ffb2abedbc739f2.html#adding-connected-fields).
 
 You can set all the basic field properties other than **Label** and **Hidden** on the individual fields level.
 

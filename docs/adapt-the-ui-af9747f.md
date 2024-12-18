@@ -44,7 +44,7 @@ If you have created your project with Safe Mode, you cannot change properties, a
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
-If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version.
+If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version. For more information, see [Quick Actions Availablity Matrix](quick-actions-availablity-matrix-59408f9.md)
 
 The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 

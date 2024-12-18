@@ -8,10 +8,10 @@
 
 ## Overview
 
-SAPUI5 Flexibility ensures a modification-free extensibility approach by separating extension code from the original application life cycle. However, applications may change their UI implementation details and enhance their service implementation compatibility during the upgrade. Developing controller extensions using these rules will prevent breaking extensions after the upgrading the base application and reduce the effort to adapt to changes on the UI level.
+SAPUI5 Flexibility ensures a modification-free extensibility approach by separating extension code from the original application life cycle. However, applications can change their UI implementation details and enhance their service implementation compatibility during the upgrade. Developing controller extensions using these rules prevent breaking extensions after the upgrading the base application and reduce the effort to adapt to changes on the UI level.
 
 > ### Note:  
-> To comply with automatic upgrades in the adaptation project deployed to S/4HANA Cloud system will contain a runnable snapshot of the base application containing all UI artefacts as well as a local copy of all UI annotations. Once the base application is upgraded, the snapshot will ensure that the extended application is still runCloud, and stable even in case of conflicts between extension coding and new UI implementation details. However, you still need to solve these conflicts and deploy a new version of your adaptation project to benefit from the upgraded version as well as to receive support for the base app functionality.
+> To comply with automatic upgrades, an adaptation project deployed to a SAP S/4HANA Cloud system contaisn a runnable snapshot of the base application containing all UI artefacts as well as a local copy of all UI annotations. Once the base application is upgraded, the snapshot ensures that the extended application is still running, and stable even in case of conflicts between extension coding and new UI implementation details. However, you still need to solve these conflicts and deploy a new version of your adaptation project to benefit from the upgraded version as well as to receive support for the base app functionality.
 
 To check whether the base app of an adaptation project is up-to-date, see [Check Whether Your Adaptation Project Is Up-To-Date with Base App Upgrades](check-whether-your-adaptation-project-is-up-to-date-with-base-app-upgrades-c6ef105.md).
 

@@ -36,13 +36,22 @@ Learn how to add fragments to an aggregation or extension point using UI Adaptio
     > ### Note:  
     > The index is disabled for `controlConfiguration` aggregation in the control Smart Filter Bar. This aggregation does not support positioning at a specific index.
 
+    > ### Tip:  
+    > You can use the quick actions in the top-right panel for the most common cases. To add a fragment, click on the action, enter a name for the fragment file, and choose *Create*. The generated file will contain dummy data, so you can immediately see the result in the preview when you press *Save and Reload* in the toolbar. You can then edit the generated file as needed for your extended app. The following quick actions for are provided for adding fragments:
+    > 
+    > -   Add Custom Page Action
+    > -   Add Custom Table Action
+    > -   Add Custom Table Column
+    > -   Add Header Field
+    > -   Add Custom Section
+
 3.  To create a fragment:
 
     1.  Enter a name for the fragment and click *Create*.
 
         A `fragment.xml` file is created in the folder: *Your project name* \> *webapp* \> *changes* \> *fragments* and opens in the editor.
 
-    2.  Define the fragment. Save and close the `.xml` file. For more information, see [SAPUI5 documentation](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
+    2.  Define the fragment. Save and close the `.xml` file. For more information, see [XML Fragments](https://sapui5.hana.ondemand.com/#/topic/2c677b574ea2486a8d5f5414d15e21c5).
 
         An associated `addXML.change` file is created for every fragment in the folder: *Your project name* \> *webapp* \> *changes*. This change file contains the reference to the `fragment.xml` file, selected target aggregation, and index.
 
@@ -65,7 +74,7 @@ Learn how to add fragments to an aggregation or extension point using UI Adaptio
     > Follow the definition rules for your controls. Each control can have its own specific rules.
 
     > ### Remember:  
-    > You can delete the fragments that you create. Delete the change files associated to a fragment first and then delete the fragment. If you do not, you will not be able to add further fragments to the adaptation project.
+    > You can delete the fragments that you create. Delete the change files associated to a fragment first and then delete the fragment. If you do not, you cannot add further fragments to the adaptation project.
 
 
 
@@ -124,6 +133,6 @@ Learn how to add fragments to an aggregation or extension point using UI Adaptio
     > Follow the definition rules for your controls. Each control can have its own specific rules.
     > 
     > > ### Remember:  
-    > > You can delete the fragments that you create. Delete the change files associated to a fragment first and then delete the fragment. If you do not, you will not be able to add further fragments to the adaptation project.
+    > > You can delete the fragments that you create. Delete the change files associated to a fragment first and then delete the fragment. If you do not, you cannot be able to add further fragments to the adaptation project.
 
 

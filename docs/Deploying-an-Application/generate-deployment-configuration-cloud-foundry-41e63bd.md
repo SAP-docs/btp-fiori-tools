@@ -10,7 +10,7 @@
 
 -   **[MTA](https://github.com/SAP/cloud-mta) executable in the path**.
 
-    For SAP Fiori tools application deployment to Cloud Foundry, you must install MTA. It’s a tool for exploring and validating the multitarget application descriptor \(`mta.yaml`\). The tool can be used as a Go library or as a command-line tool, also available as an npm package.
+    For SAP Fiori tools application deployment to Cloud Foundry, you must install MTA. It is a tool for exploring and validating the multitarget application descriptor \(`mta.yaml` file\). The tool can be used as a Go library, a command line tool, or as an npm package.
 
     You can install it globally by running the following command:
 
@@ -18,19 +18,19 @@
     npm i -g mta
     ```
 
-    -   **Mac users**. When installing `MTA`, the following error may occur:
+    -   **macOS users**: When installing `MTA`, the following error may occur:
 
         ```
         Error: EACCES: permission denied, mkdir bin.
         ```
 
-        .In this case, permission needs to be altered by using the following command:
+        In this case, permission needs to be altered by using the following command:
 
         ```
         sudo chown -R $(whoami) FOLDER-NAME
         ```
 
-    -   **Windows users**. To build an MTA archive from a project source code in a Windows environment, install `GNU Make 4.2.1` on your machine. If required, you can install `Make` by following the instruction from [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/makefile).
+    -   **Windows users**: To build an MTA archive from a project source code in a Windows environment, install `GNU Make 4.2.1` on your machine. For more information, see [Cloud MTA Build Tool](https://sap.github.io/cloud-mta-build-tool/makefile).
 
     For information on adding a project to MTA config, see [SAP Fiori Elements](../Generating-an-Application/SAP-Fiori-Elements/sap-fiori-elements-1488469.md).
 
@@ -38,29 +38,29 @@
 
     To access SAP Business Technology Platform, download and install `CF CLI`, which is the official command line client for Cloud Foundry, from the [Cloud Foundry CLI page](https://github.com/cloudfoundry/cli#installers-and-compressed-binaries-1). We recommend that you follow the [installation instructions](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html) when installing `CF CLI` tools.
 
-    -   **Windows users**. You also need to create a `CF_HOME` variable. To do so, perform the following steps:
+    -   **Windows users**: You also need to create a `CF_HOME` variable. To do so, perform the following steps:
         1.  Navigate to *Environment Variables*.
-        2.  Click “New” under the user variables.
+        2.  Click *New* under *User Variables*.
         3.  Enter `CF_HOME` as a variable name.
-        4.  Set write permission for a directory.
+        4.  Set write permission for the directory.
         5.  Click *OK*.
         6.  Close all command line windows.
 
 
 -   **MultiApps Cloud Foundry plugin**.
 
-    MultiApps Cloud Foundry plugin performs multitarget application \(MTA\) operations in Cloud Foundry, such as deploying, removing, viewing, and more. To install the Multi-AppsCloud Foundry CLI plugin, execute the following command:
+    MultiApps Cloud Foundry plugin performs multitarget application \(MTA\) operations in Cloud Foundry, such as deploying, removing, viewing, and more. To install the Multi-Apps Cloud Foundry CLI plugin, execute the following command:
 
     ```
     cf install-plugin -r CF-Community "multiapps"
     ```
 
-    We recommend that you follow the [installation instructions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/27f3af39c2584d4ea8c15ba8c282fd75.html) when installing MTA plugin.
+    We recommend that you follow the [installation instructions](https://help.sap.com/viewer/65de2977205c403bbc107264b8eccf4b/Cloud/en-US/27f3af39c2584d4ea8c15ba8c282fd75.html) when installing the MTA plugin.
 
     For more information on Cloud Foundry plugins, see [https://plugins.cloudfoundry.org](https://plugins.cloudfoundry.org).
 
--   **A correctly configured destination to the back-end system**.
--   **User authorization on Cloud Foundry to deploy**.
+-   A correctly configured destination to the back-end system.
+-   User authorization on Cloud Foundry to deploy.
 
     To connect to Cloud Foundry, execute
 
@@ -76,11 +76,11 @@
 
 ## Generate Deployment Configuration Cloud Foundry
 
-For the deployment to Cloud Foundry, an MTA configuration will be created. The command allows to create a new configuration i.e. a new `mta.yaml` file or updates an existing `mta.yaml` with the information required for deployment. After successfully creating the configuration, running `npm run build` in the MTA directory that contains the application will try to build a deployable mtar file that can then be deployed to CF with `npm run deploy`.
+For the deployment to Cloud Foundry, an MTA configuration is created. The command allows to create a new configuration i.e. a new `mta.yaml` file or update an existing `mta.yaml` with the information required for deployment. After successfully creating the configuration, running `npm run build` in the MTA directory that contains the application will try to build a deployable `mta.yaml` file that can then be deployed to CF with `npm run deploy`.
 
-To generate MTA project, perform the following steps:
+To generate a MTA project, perform the following steps:
 
-1.  Launch the deployment configuration wizard from the command palette entry `Fiori: Add Deployment Configuration` and chose the **Fiori** project you would like to configure, or you can launch from the command line using the command `npx fiori add deploy-config` whilst in the required **Fiori** project folder.
+1.  Launch the deployment configuration wizard from the Command Palette entry: *Fiori: Add Deployment Configuration* and chose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` whilst in the required Fiori project folder.
 2.  When prompted, enter or select:
 
 
@@ -124,7 +124,7 @@ To generate MTA project, perform the following steps:
     </table>
     
     > ### Note:  
-    > Any instance-based destinations defined in the project `mta.yaml` file will be available as a destination option in SAP Business Application Studio. These destinations will be displayed with the label *Instance Based Destination* after the destination name.
+    > Any instance-based destinations defined in the project `mta.yaml` file will be available as a destination option in SAP Business Application Studio. These destinations will be displayed with the label: *Instance Based Destination* after the destination name.
 
 3.  Next, the installer runs and you can see updates in the project tree.
 
@@ -160,17 +160,17 @@ mta_directory
 
 ## SAP Business Application Studio Cloud Foundry Support
 
-If you don’t have an MTA in your dev space in SAP Business Application Studio, you can use the provided generators to create the required configuration as follows:
+If you do not have an MTA file in your dev space in SAP Business Application Studio, you can use the provided generators to create the required configuration as follows:
 
-1.  Open [File\] + [New Project from Template\] .
+1.  Open *File* \> *New Project from Template*.
 2.  Select *Basic Multitarget Application*.
-3.  Enter a project name, and then click [Finish\].
+3.  Enter a project name, and then click *Finish*.
 
 The IDE opens again with MTA as a workspace. You can then add app router configuration:
 
 1.  Right-click on the newly generated MTA file, and select *Create MTA Module from Template*.
-2.  Select *Approuter Configuration* and provide the relevant details and click [Next\].
-3.  As a result, the `mta.yaml` file is updated with the destination-content module. For full details on mta.yaml updates, please see [Managed Approuter Project Result](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/0e2ec06ee34742fd9054fabe09c12d35/cb57602041e04cd3910e6c7bd613b4a9.html).
+2.  Select *Approuter Configuration* and provide the relevant details and click *Next*.
+3.  As a result, the `mta.yaml` file is updated with the destination-content module. For more information, see [Managed Approuter Project Result](https://help.sap.com/docs/SAP%20Business%20Application%20Studio/0e2ec06ee34742fd9054fabe09c12d35/cb57602041e04cd3910e6c7bd613b4a9.html).
 
 After the app router has been added, you can proceed to add your SAP Fiori project:
 

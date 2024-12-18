@@ -12,7 +12,7 @@ Learn how to add a controller extension.
 
 Controller extensions allow you to enhance the functionality of a controller. You can create a controller extension specific to the view, for example, one controller extension for the list report view and one controller extension for the object page view. Additionally, a controller extension can be delivered with an adaptation project and is dynamically added to an existing controller. Controller extensions that an adaptation project delivers are added to the reserved `.extension` namespace of the controller to avoid name clashes with existing functionality.
 
-Controller extensions allow you to add new methods and override methods. These override methods are optional callback methods that override, or are called before or after the existing methods using a special override member. For more information on defining an extension, see [SAPUI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
+Controller extensions allow you to add new methods and override methods. These override methods are optional callback methods that override, or are called before or after the existing methods using a special override member. For more information on defining an extension, see [Using Controller Extension](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
 
 > ### Remember:  
 > You can only add a controller extension if:
@@ -30,6 +30,9 @@ Controller extensions allow you to add new methods and override methods. These o
 
 2.  On the canvas, select a view or element in the view you want to extend and click *Extend with Controller* from the project context menu.
 
+    > ### Tip:  
+    > You can use the *Add Controller to Page* quick action to easily add a controller extension on the page level in the list report or object page.
+
 3.  In the dialog box, provide a name for the controller extension.
 
     The controller extension file \(`.js`\) is created in the folder, *Your project name* \> *webapp* \> *changes* \> *coding*. The `.js` file opens in the editor.
@@ -39,7 +42,7 @@ Controller extensions allow you to add new methods and override methods. These o
     For list report, object page, and over view page applications, in addition to the lifecycle methods, this `.js` file contains new methods that come from the templates provided by SAP Fiori elements. These methods can be used to override the base methods in the applications. For analytical list page applications, the `.js` file contains only the lifecycle methods. Reuse the methods to write extensions.
 
     > ### Note:  
-    > If you need to add your own separate custom business logic files, they have to be located in the `changes/coding` folder. Do not create additional folders at higher levels because it will invalidate the project structure and you will not be able to deploy your application.
+    > If you need to add your own separate custom business logic files, they have to be located in the `changes/coding` folder. Do not create additional folders at higher levels because it invalidates the project structure and you cannot deploy your application.
 
 4.  Define a method in the controller extension file for the new fragment or override any lifecycle methods in the override section. Save the file.
 

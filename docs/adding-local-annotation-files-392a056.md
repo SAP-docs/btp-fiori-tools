@@ -10,7 +10,7 @@ Learn how to add local annotation files.
 
 ## Prerequisites
 
-For adaptation projects for an On-Premise System: Ensure you have ABAP Platform 2020 SP00 installed.
+For adaptation projects for an On-Premise System: ensure you have ABAP Platform 2020 SP00 installed.
 
 
 

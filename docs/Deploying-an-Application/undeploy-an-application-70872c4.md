@@ -21,7 +21,7 @@ To undeploy an application that is deployed to an ABAP system, perform the follo
 2.  When prompted, check undeployment configuration and press `Y` \(Yes\) for confirmation.
 
     > ### Tip:  
-    > If a `package.json` file does not contain an undeployment script, update `@sap/ux-ui5-tooling` and add the following script to `package.json`:
+    > If a `package.json` file does not contain an undeployment script, update `@sap/ux-ui5-tooling` and add the following script to the `package.json` file:
     > 
     > ```
     > "undeploy": "fiori undeploy --config ui5-deploy.yaml"

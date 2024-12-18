@@ -17,9 +17,9 @@ For example if you are within the `<Schema>` tag, you can define the annotation 
     > XML Annotation LSP provides micro-snippets for annotation targets, terms, records and property values.
 
 
-The micro-snippets is the fastest way to define annotations and together with the word based completion for annotation or metadata elements it eliminates a need to type in the code, thus speeding up the process and helping you to avoid typos or semantical errors.
+Micro-snippets are the fastest way to define annotations and together with the word based completion for annotation or metadata elements it eliminates a need to type in the code, thus speeding up the process and helping you to avoid typos or semantical errors.
 
 For annotation records, two types of micro-snippets are provided for each option: one containing only mandatory properties defined in the respected vocabulary as *nullable=false* and one containing all properties defined for this record.
 
-Usually you need to add just a subset of **properties** to the record, you can either select a full record and then remove the **properties** you don’t need, or add the record containing only required properties and then add the remaining properties one by one or all together.
+Usually you need to add just a subset of **properties** to the record, you can either select a full record and then remove the **properties** you do not need, or add the record containing only required properties and then add the remaining properties one by one or all together.
 

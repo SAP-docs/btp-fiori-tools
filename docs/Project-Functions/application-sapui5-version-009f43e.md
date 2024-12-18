@@ -8,7 +8,7 @@
 
 ## Minimum SAPUI5 Version
 
-The minimum SAPUI5 version declares the version which is required at runtime to support the features used in application development. It is set via the `minUI5Version` property in the `manifest.json` file:
+The minimum SAPUI5 version declares the version which is required at runtime to support the features used in application development. It is set via the `minUI5Version` property in the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](https://ui5.sap.com/#/topic/be0cf40f61184b358b5faedaec98b2da.html%23loiobe0cf40f61184b358b5faedaec98b2da/section_sap_ui5)
 
 > ### Sample Code:  
 > JSON
@@ -51,7 +51,7 @@ The SAPUI5 version used for a deployed application depends on the target platfor
 
 **SAP Fiori launchpad** 
 
-SAP Fiori applications deployed to an ABAP environment and embedded in SAP Fiori launchpad will use the SAPUI5 version deployed in the backend.
+SAP Fiori applications deployed to an ABAP environment and embedded in SAP Fiori launchpad will use the SAPUI5 version deployed in the backend. Therefore, you should use the same SAPUI5 version in your project.
 
 **Standalone** 
 
@@ -77,9 +77,9 @@ These applications will also use the SAPUI5 version installed in the backend sys
 
 ### Cloud Foundry Environment
 
-**Launchpad Service** 
+**SAP Build Work Zone Service** 
 
-SAP Fiori applications deployed to Cloud Foundry run in an iFrame using the SAPUI5 version of the backend. For more information about the launchpad service. For more information, see [SAP Build Work Zone](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/what-is-sap-build-work-zone-standard-edition).
+SAP Fiori applications deployed to Cloud Foundry run in an iFrame using the SAPUI5 version of the backend. For more information, see [SAP Build Work Zone](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/what-is-sap-build-work-zone-standard-edition).
 
 **Standalone** 
 
@@ -116,5 +116,5 @@ Also, an instance based destination pointing to `https://ui5.sap.com` is added t
 >       URL: https://ui5.sap.com
 > ```
 
-By default, the application uses the latest SAPUI5 version. This can be changed in the `mta.yaml` or by configuring the generated destination service using SAP Business Technology Platform \(SAP BTP\). You can also replace the instance based destination with an account level destination. For more information, see [SAP Cloud Portal Service on Cloud Foundry](https://help.sap.com/docs/cloud-portal-service/sap-cloud-portal-service-on-cloud-foundry/configure-application-routing-xs-app-json).
+By default, the application uses the latest SAPUI5 version. This can be changed in the `mta.yaml` or by configuring the generated destination service using SAP Business Technology Platform \(SAP BTP\). You can also replace the instance based destination with an account level destination. For more information, see [Configure Application Routing \(xs-app.json\)](https://help.sap.com/docs/build-work-zone-standard-edition/sap-build-work-zone-standard-edition/configure-application-routing-xs-app-json).
 

@@ -28,7 +28,7 @@ Discover how to extend an existing SAP Fiori application available in an on-prem
 
 Adaptation projects are only supported on on-premise ABAP systems with a minimum software component version of SAP\_UI 7.54. The minimum SAPUI5 version of the base app is 1.30.
 
-You can create an adaptation project forapplications that meet the following requirements:
+You can create an adaptation project for applications that meet the following requirements:
 
 -   The application has a `manifest.json` file.
 -   The application's system SAPUI5 version is 1.72 or higher.

@@ -54,12 +54,12 @@ In addition to the section label, some header section types, such as progress or
 
 ## Display as Image
 
-If the table column or section field is built on a string property and contains a link to the image, you can set it so that it displays as an image in your application at runtime. To do so, switch on the property *Display as Image*. This applies `@UI.IsImageURL : true` to the property used for that column or field.
+If the table column or section field is built on a string property and contains a link to the image, you can set it so that it displays as an image in your application at runtime. To do so, switch on the property *Display as Image*. This applies `@UI.IsImageURL: true` to the property used for that column or field.
 
 > ### Note:  
 > -   All fields and columns in your project built on this property use the same rendering. Deleting a column or field does not remove the annotation, as this could impact other instances of the field at runtime.
 > 
-> -   If the property is annotated with `@UI.IsImageURL : true` in the service or in the local annotation file of the lower layer, the setting cannot be changed in the Page Editor.
+> -   If the property is annotated with `@UI.IsImageURL: true` in the service or in the local annotation file of the lower layer, the setting cannot be changed in the Page Editor.
 > 
 > -   Table columns and section fields annotated with `@Core.MediaType` along with `@Core.IsURL` are also displayed as images at runtime. However, as these annotations are applicable on the service level, they cannot be maintained using the Page Editor, and so *Display as Image* is displayed in read-only mode for such fields and columns.
 
@@ -88,14 +88,14 @@ In this property, you can define the condition for hiding the UI element. For th
 
 ## Measures and Currencies
 
-You can display the numeric values of the section fields or basic table columns together with measures or currencies represented by these values. For example, you can display prices along with the currencies and product dimensions, such as width or weight, with the measure unit. For this, As a prerequisite, do the following:
+You can display the numeric values of the section fields or basic table columns together with measures or currencies represented by these values. For example, you can display prices along with the currencies and product dimensions, such as width or weight, with the measure unit. For this, as a prerequisite, do the following:
 
 -   In outline, choose the table column or field you want to show with the semantic information.
 -   In the Properties pane, choose one of the following options in the *Measures and Currencies* field:
     -   **Currency Unit**
     -   **Measure Unit**
 
--   In the pop-up, define how the unit should be represented by choosing one of the following options and choose `Apply`:
+-   In the pop-up, define how the unit should be represented by choosing one of the following options and clicking *Apply*:
     -   **Path** – if you want to define the unit as the property of associated entity. In this case, choose the property representing measure or currency units.
     -   **String**– if you want to define the unit as plain text, such as %. the property of associated entity. In this case, enter the text for the unit to be displayed along with the value
 
@@ -115,7 +115,7 @@ You can change the selected measure or currency in the properties pane at any ti
 The `Form/Table/Identification/Chart` section labels are translatable and readable elements which are rendered in the SAP Fiori apps. When the user creates a supported section, the label inputted by the user is assigned to the `Label` property of the `ReferenceFacet` record in the `Facet` annotation. During deletion of the section, the `ReferenceFacet` record is deleted which eventually deletes the `Label` in it.
 
 > ### Note:  
-> All the labels translatable and can maintained through project i18n files. See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
+> All the labels translatable and can maintained through project i18n files. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
 
 
@@ -129,7 +129,7 @@ The `Form/Table/Identification/Chart` section labels are translatable and readab
 -   In case, these annotations are not present for the entity property, the `Label` property of the `DataField` is generated with the same value as the `Value` property.
 -   The application does not generate the label annotations directly on the properties.
 -   If you attempt to change the value of the Label provided by annotation, the annotation value is not updated. Rather the `Label` property of `DataField` is generated or updated.
--   During deletion of the field, annotations mentioned above are not deleted, only labels which are directly maintained in record are deleted as record is fully completely removed. See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for more information.
+-   During deletion of the field, annotations mentioned above are not deleted, only labels which are directly maintained in record are deleted as record is fully completely removed. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for more information.
 
 
 
@@ -157,7 +157,7 @@ The `Column` labels can be maintained with annotations, such as `Common.Label` a
 
 ## Text
 
-Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes - `O, A, C`- could be meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, Cancelled.
+Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes: `O`, `A`, and `C` aree meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, Cancelled.
 
 To add such descriptive texts, select the property representing the descriptive text in the *Text* property. Then, the `Common.Text` annotation will be applied to the property representing field/column value.
 
@@ -206,7 +206,7 @@ To set the tooltip:
 3.  Enter the tooltip text or choose the desired property based on the option you selected.
 
 > ### Note:  
-> Tooltip defined as text string can be prepared for translation. For more information see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
+> Tooltip defined as text string can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
 <a name="loio43ced2fc24ac473e82ccaeb20b5f1f3f"/>
 
@@ -214,13 +214,13 @@ To set the tooltip:
 
 ## Text and Text Arrangement for Fields Configured with ValueHelp
 
-If the field display type is configured the same way as `Value Help`, you may want to configure the field value the same way as the `Value Help` value.
+If the field display type is configured the same way as `Value Help`, you can configure the field value the same way as the `Value Help` value.
 
 To do so, select the same property as *Text* for the field and *Value Description Property* for `Value Help`. Also, choose the same options for the text arrangement.
 
 -   **Example 1**:
 
-    The selected value in the filter field “Type” is consistent with the `Value Help` list values.
+    The selected value in the *Type* filter field is consistent with the `Value Help` list values.
 
     ![](images/example_d6376cf.jpg)
 
@@ -236,11 +236,11 @@ To do so, select the same property as *Text* for the field and *Value Descriptio
 
 -   **Example 2**:
 
-    Selected value in the filter field is not consistent with the value help list values.
+    The selected value in the filter field is not consistent with the value help list values.
 
     ![](images/example_1_0556254.jpg)
 
-    The *Text/Value Description Property* and *Text Arrangement* are configured differently on the field and value help. The `typedescription` property is used as *Value Description Property* and `Text Only` as *Text Arrangement* for the value help, while *Text* and *Text Arrangement* are not defined on the filter field itself as set to *None*.
+    The *Text/Value Description Property* and *Text Arrangement* are configured differently on the field and value help. The `typedescription` property is used as *Value Description Property* and `Text Only` as *Text Arrangement* for the value help, while *Text* and *Text Arrangement* are not defined on the filter field itself because it is set to *None*.
 
     **Filter Field properties**:
 
@@ -258,7 +258,7 @@ Similarly, it appears next to the *Value Description Property* field in the `Val
 > ### Note:  
 > The ![](images/Take_Over_Button_6452fbf.jpg) button doesn’t appear if both properties are set in the same way.
 
-If the values of *Value Description Property* and *Text* field are synchronized, *Text Arrangement* values are checked. If they don’t match, the ![](images/Take_Over_Button_6452fbf.jpg) buttons appear next to the *Text Arrangement* allowing you to synchronize one value with another.
+If the values of *Value Description Property* and *Text* field are synchronized, *Text Arrangement* values are checked. If they don’t match, the ![](images/Take_Over_Button_6452fbf.jpg) button appears next to the *Text Arrangement* allowing you to synchronize one value with another.
 
 As a result, the values in the `Common.Text` annotations applied to the field value and source value of the value help point to the same property and `UI.TextArrangement` have the same enum value.
 
@@ -293,7 +293,7 @@ As a result, the values in the `Common.Text` annotations applied to the field va
 
 ## Semantic Object Name
 
-Fields and basic table columns sometimes need to serve as links for navigation to other applications in the launchpad. Once the `manifest.json` of the target application is configured for the inbound navigation and respective configuration is set in the launchpad, enter the semantic object name as defined in the inbound navigation of the target application.
+Fields and basic table columns sometimes need to serve as links for navigation to other applications in the launchpad. Once the `manifest.json` file of the target application is configured for the inbound navigation and respective configuration is set in the launchpad, enter the semantic object name as defined in the inbound navigation of the target application.
 
 <a name="loio7726cb0d97194461973e3ec176c8a888"/>
 
@@ -301,7 +301,7 @@ Fields and basic table columns sometimes need to serve as links for navigation t
 
 ## Semantic Object Property Mapping
 
-When [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955) is defined, the Semantic Object Property Mapping property gets enabled in the properties pane right after it. If the semantic object property in the target application is different from the current one, provide the name of semantic object property in the target application for the correct mapping.
+When [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955) is defined, the Semantic Object Property Mapping property is enabled in the properties pane. If the semantic object property in the target application is different from the current one, provide the name of semantic object property in the target application for the correct mapping.
 
 <a name="loio3f4dde1260b24ecdae6b5c516b4790d3"/>
 
@@ -309,7 +309,7 @@ When [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a93
 
 ## ValueHelp
 
-You can configure the default value help for the section fields, table columns, and filter fields unless they’re represented by properties of type Boolean or defined as read-only \(directly or via the parent entity\). To do so, you need to set the *Display Type* property to *Value help*.
+You can configure the default value help for the section fields, table columns, and filter fields unless they arere represented by properties of type Boolean or defined as read-only \(directly or via the parent entity\). To do so, you need to set the *Display Type* property to *Value help*.
 
 To enable the value help, your service should contain the entity set representing the list of suitable values. For example, if you want to define the value help for the CapexType field, your service should have an entity set, such as CapexType containing at least one property representing available CAPEX categories.
 
@@ -328,7 +328,7 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
 
     Text displayed in the value help dialog if more than one value help is defined for the property.
 
--   **Value Source Entity**. Entity set representing the list of field values.
+-   **Value Source Entity** - Entity set representing the list of field values.
 
     If you work in the CAP project and the field value is defined as an association, the associated entity is suggested automatically. For example, if you configure the Value Help for the Type field defined as an association to the CapexType, Capex type will be added automatically as a value here.
 
@@ -339,25 +339,25 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
     
     ```
 
--   **Value Source Property**. Property to be used as an input field.
+-   **Value Source Property** - Property to be used as an input field.
 
     If you work in the CAP project and the field value is defined as an association, the first key property of the associated entity is automatically suggested.
 
--   **Value Description Property**. Property to be used for displaying the additional text along with or instead of the input value.
+-   **Value Description Property** - Property to be used for displaying the additional text along with or instead of the input value.
 
     This property is usually defined if an input value *Value Source Property* represents a code or ID, and serves for explaining the meaning of that code/ID. For example, if *Value Source Property* is set to the type field representing some CapexType code, we recommend that you choose in *Value Description Property* representing the human-readable description of the Capex type.
 
     > ### Note:  
-    > *Value Description Property* and *Text Arrangement* are similar to *Text* and *Text Arrangement* properties of Filter fields, Form section fields, and basic table columns. They result in the same annotations and are applied to the property selected as *Value Source Property*. If you expect the *Text* and *Text Arrangement* defined for the field to be the same as in the value help, click the [Take Over\] button to apply the respective values.
+    > *Value Description Property* and *Text Arrangement* are similar to *Text* and *Text Arrangement* properties of Filter fields, Form section fields, and basic table columns. They result in the same annotations and are applied to the property selected as *Value Source Property*. If you expect the *Text* and *Text Arrangement* defined for the field to be the same as in the value help, click *Take Over* to apply the respective values.
 
--   **Text Arrangement**. Defines how the *Value Description Property* is displayed with regards to the *Value Source Property*.
+-   **Text Arrangement** - Defines how the *Value Description Property* is displayed with regards to the *Value Source Property*.
 
     You can display them together by selecting the *Text First* or *Text Last* values or substitute the code/ID represented in *Value Source Property* with the descriptive value by selecting *Text Only*.
 
     > ### Note:  
     > If you select *ID only*, *Value Description Property* isn’t displayed in the value help.
 
--   *Display as Dropdown* checkbox. Defines if the field is displayed as a combo-box or a standard value help dialog.
+-   *Display as Dropdown* checkbox - Defines if the field is displayed as a combo-box or a standard value help dialog.
 
     > ### Note:  
     > Check SAP Fiori guidelines to decide which option to use.
@@ -370,7 +370,7 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
 
     If needed, you can set the dependent filtering. For this, you choose the dependency direction in the *Dependency* column, and the respective local property in the *Local Value* column:
 
-    -   *None:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterDisplayOnly`. At runtime, the selected value doesn't affect other fields or columns based on the same property. The *Local Value* column isn’t applicable in this case.
+    -   *None:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterDisplayOnly`. At runtime, the selected value doesn't affect other fields or columns based on the same property. The *Local Value* column is not applicable in this case.
 
     -   *In:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterIn`. At runtime, the selected value filters the available options in other fields or columns based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
 
@@ -381,26 +381,26 @@ When the *Value help* option is selected, the dialog window *Define Value Help P
 
 -   *Sort Order*
 
-    You can define how the *Result List* is sorted by default. For example, you can choose by which property \(column\) it’s to be sorted and in which direction. You can set the sorting by multiple columns in the pre-defined order.
+    You can define how the *Result List* is sorted by default. For example, you can choose by which property \(column\) is sorted and in which direction. You can set the sorting by multiple columns in the pre-defined order.
 
     > ### Note:  
-    > Sorting by properties that aren’t part of the *Result List* isn’t possible. Sorting by properties of associated entities isn’t possible.
+    > Sorting by properties that are not part of the *Result List* is not possible. Sorting by properties of associated entities is not possible.
 
     To set the default sorting:
 
-    -   Press the *Add Sort Property* button.
+    -   Click *Add Sort Property*.
 
     -   Choose the property to sort by first. If needed, change the default sorting direction.
 
     -   Repeat to sort by additional properties \(columns\).
 
-        You can change the sequence of properties to sort by with drag-and-drop or by clicking the <span class="SAP-icons-V5"></span> \(*Sort*\) icon in the *Sort Order* table row. You can delete the sort property by pressing the :wastebasket: \(*Delete*\) icon in the *Sort Order* table row.
+        You can change the sequence of properties to sort by with drag-and-drop or by clicking the <span class="SAP-icons-V5"></span> \(*Sort*\) icon in the *Sort Order* table row. You can delete the sort property by clicking the :wastebasket: \(*Delete*\) icon in the *Sort Order* table row.
 
 
 
-Select the required value and click [Apply\].
+Select the required value and click *Apply*.
 
-When the configuration is done, the following annotations are generated/updated on the application layer:
+When the configuration is done, the following annotations are generated and updated on the application layer:
 
 -   `UI.MultiLineText`
 -   `Common.ValueList`
@@ -416,8 +416,8 @@ These annotations map to the *Value Help* properties as follows:
 ![](images/Value_help_screenshot_adf0b9c.png)
 
 > ### Note:  
-> To edit previously selected properties, click [Edit properties for Value Help\].
+> To edit previously selected properties, click *Edit properties for Value Help*.
 
 > ### Note:  
-> It’s possible that several value help variants are manually defined for your application in addition to the default one. You can’t re or update such additional value helps with the *Page Editor*, but you can redefinecognize they’re already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` aren’t supported.
+> It is possible that several value help variants are manually defined for your application in addition to the default one. You cannot read or update such additional value helps with the *Page Editor*, but you can reecognize that they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
 

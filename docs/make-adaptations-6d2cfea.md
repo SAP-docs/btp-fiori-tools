@@ -27,5 +27,5 @@ Define changes to the generated application variant in your SAPUI5 adaptation pr
 
 
 > ### Note:  
-> Fiori Elements based apps can be additionally adapted using adaptation extensions. For more information, see [Extending Delivered Apps Using Adaptation Extensions](https://ui5.sap.com/#/topic/52fc48b479314d0688be24f699778c47).
+> SAP Fiori elements based apps can be additionally adapted using adaptation extensions. For more information, see [Extending Delivered Apps Using Adaptation Extensions](https://ui5.sap.com/#/topic/52fc48b479314d0688be24f699778c47).
 
