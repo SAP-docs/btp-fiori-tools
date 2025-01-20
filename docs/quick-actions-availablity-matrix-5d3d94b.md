@@ -1098,6 +1098,130 @@ x
 <tr>
 <td valign="top">
 
+Enable Empty Row Mode for Tables\*
+
+</td>
+<td valign="top">
+
+OData V2
+
+</td>
+<td valign="top">
+
+Object Page
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable Empty Row Mode for Tables\*
+
+</td>
+<td valign="top">
+
+OData V4
+
+</td>
+<td valign="top">
+
+Object Page
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Enable Semantic Date Range\*
 
 </td>

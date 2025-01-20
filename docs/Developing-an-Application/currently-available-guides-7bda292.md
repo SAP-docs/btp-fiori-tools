@@ -179,6 +179,7 @@ Add a new contact view column to a table
 <td valign="top" align="center">
 
 -   XML
+-   CAP CDS
 -   ABAP CDS
 
 

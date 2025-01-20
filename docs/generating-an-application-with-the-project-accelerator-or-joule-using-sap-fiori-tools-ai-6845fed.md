@@ -31,10 +31,10 @@ Prepare your business requirements for generating a new application. Your busine
 > ### Tip:  
 > Field values and restrictions, such as an alphanumeric string, are easier to describe using text. Columns are easier to describe using images.
 
--   To generate an application using text, proceed with the following: [Generating an Application Using Text](generating-an-application-using-text-e7f9f8c.md).
+-   To generate an application using text, proceed with the following: [Generating an Application Using Text](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/e7f9f8c26ebb4ab181372d09bb054cac.html?state=DRAFT).
 
--   To generate an application using an image, proceed with the following: [Generating an Application Using an Image](generating-an-application-using-an-image-39193df.md).
--   To generate an application using text and images, proceed with the following: [Generating an Application Using Text and Images](generating-an-application-using-text-and-images-5dd43dc.md).
+-   To generate an application using an image, proceed with the following: [Generating an Application Using an Image](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/39193dfef3654ded850d39e7008e77d3.html?state=DRAFT).
+-   To generate an application using text and images, proceed with the following: [Generating an Application Using Text and Images](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/5dd43dc5dcab4c36b8a654ce20bac71e.html?state=DRAFT).
 
 
 > ### Caution:  
@@ -113,5 +113,5 @@ SAP Fiori tools AI uses your input to create UI features such as fields and colu
 
 By default, all generated apps are draft-enabled and contain standard actions. Other actions are not supported.
 
-To learn more about how SAP Fiori tools AI generates your application, observe the logs. For more information, see [Viewing Generation Logs](viewing-generation-logs-4ecc286.md).
+To learn more about how SAP Fiori tools AI generates your application, observe the logs. For more information, see [Viewing Generation Logs](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/4ecc286176b1429b98f6f0a243e49ee2.html?state=DRAFT).
 
