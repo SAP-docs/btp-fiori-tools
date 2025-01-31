@@ -1,6 +1,6 @@
-<!-- loio5d3d94bf3e0b4de0a6e8b4964eec5d10 -->
+<!-- copy59408f9e0a5b405a93847195e8caf64a -->
 
-# Quick Actions Availablity Matrix
+# Quick Actions Availability Matrix
 
 Get an overview of supported SAPUI5 versions for quick actions in adaptation projects that are based on SAP Fiori Elements applications.
 
@@ -34,6 +34,11 @@ SAPUI5 1.71
 </th>
 <th valign="top">
 
+SAPUI5 1.84
+
+</th>
+<th valign="top">
+
 SAPUI5 1.96
 
 </th>
@@ -44,12 +49,7 @@ SAPUI5 1.108
 </th>
 <th valign="top">
 
-SAPUI5 1.108
-
-</th>
-<th valign="top">
-
-SAPUI5 1.124
+SAPUI5 1.120
 
 </th>
 <th valign="top">
@@ -69,7 +69,12 @@ SAPUI5 1.130
 </th>
 <th valign="top">
 
-\>=SAPUI5 1.131
+SAPUI5 1.131
+
+</th>
+<th valign="top">
+
+\>=SAPUI5 1.132
 
 </th>
 </tr>
@@ -86,10 +91,15 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -151,10 +161,15 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -264,6 +279,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -326,6 +346,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -388,6 +413,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -450,6 +480,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -464,7 +499,7 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -503,6 +538,11 @@ OData V2
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -529,7 +569,7 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -568,6 +608,11 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -594,7 +639,7 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -608,6 +653,11 @@ OData V2
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -659,7 +709,7 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -673,6 +723,11 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -724,7 +779,7 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -738,6 +793,11 @@ OData V2
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -789,7 +849,7 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -803,6 +863,11 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -844,7 +909,7 @@ x
 <tr>
 <td valign="top">
 
-Change Table Columns
+Add Local Annotation File\*
 
 </td>
 <td valign="top">
@@ -854,7 +919,7 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -868,6 +933,151 @@ OData V2
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add Local Annotation File\*
+
+</td>
+<td valign="top">
+
+OData V4
+
+</td>
+<td valign="top">
+
+-   List Report/Analytical List Page
+-   Object Page
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Change Table Columns
+
+</td>
+<td valign="top">
+
+OData V2
+
+</td>
+<td valign="top">
+
+-   List Report/Analytical List Page
+-   Object Page
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -919,7 +1129,7 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -933,6 +1143,11 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -984,7 +1199,12 @@ OData V2
 </td>
 <td valign="top">
 
-List Report
+List Report/Analytical List Page
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -1046,7 +1266,12 @@ OData V4
 </td>
 <td valign="top">
 
-List Report
+List Report/Analytical List Page
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -1156,6 +1381,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1218,6 +1448,11 @@ Object Page
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1232,7 +1467,7 @@ OData V2
 </td>
 <td valign="top">
 
-List Report
+List Report/Analytical List Page
 
 </td>
 <td valign="top">
@@ -1268,6 +1503,11 @@ x
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -1294,7 +1534,7 @@ OData V4
 </td>
 <td valign="top">
 
-List Report
+List Report/Analytical List Page
 
 </td>
 <td valign="top">
@@ -1330,6 +1570,11 @@ List Report
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -1356,7 +1601,7 @@ OData V2
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -1407,6 +1652,11 @@ x
 x
 
 </td>
+<td valign="top">
+
+x
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1421,7 +1671,7 @@ OData V4
 </td>
 <td valign="top">
 
--   List Report
+-   List Report/Analytical List Page
 -   Object Page
 
 
@@ -1465,6 +1715,215 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable Variant Management in Tables\*
+
+</td>
+<td valign="top">
+
+OData V2
+
+</td>
+<td valign="top">
+
+Object Page
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable Variant Management in Tables and Charts\*
+
+</td>
+<td valign="top">
+
+OData V2
+
+</td>
+<td valign="top">
+
+List Report/Analytical List Page
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Enable Variant Management in Tables and Charts\*
+
+</td>
+<td valign="top">
+
+OData V4
+
+</td>
+<td valign="top">
+
+-   List Report/Analytical List Page
+-   Object Page
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">

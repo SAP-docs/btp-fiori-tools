@@ -9,18 +9,18 @@
 ## Installing Mock Server
 
 > ### Note:  
-> For a new project that is created with SAP Fiori application generator the mock server configuration is automatically added. See [Capabilities Overview](../Getting-Started-with-SAP-Fiori-Tools/capabilities-overview-f540ae1.md).
+> For a new project that is created with SAP Fiori application generator the mock server configuration is automatically added. For more information, see [Capabilities Overview](../Getting-Started-with-SAP-Fiori-Tools/capabilities-overview-f540ae1.md).
 
-If you've created a project and want to install mock server, you can either:
+If you haveve created a project and want to install mock server, you can either:
 
 -   Execute: *Fiori: Open Application Info*.
 
-    -   Under **What you can do** click *Add Mock server Config*.
+    -   Under *What you can do*, click *Add Mock server Config*.
 
 -   In the project root, open the terminal, and run the `npx @sap-ux/create add mockserver-config` command. For more information on opening the terminal, see [Use Mock Data](use-mock-data-bda83a4.md).
 
     > ### Note:  
-    > To remove mock server, run the`npx @sap-ux/create remove mockserver-config` command.
+    > To remove mock server, run the `npx @sap-ux/create remove mockserver-config` command.
 
 
 Once the mock server is installed, the following configuration is included in your application:

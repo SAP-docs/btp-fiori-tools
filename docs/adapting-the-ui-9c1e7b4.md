@@ -36,7 +36,7 @@ SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
-If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page's floorplan and the SAPUI5 version. For more information, see [Quick Actions Availablity Matrix](quick-actions-availablity-matrix-5d3d94b.md).
+If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page's floorplan and the SAPUI5 version. For more information, see [Quick Actions Availability Matrix](quick-actions-availability-matrix-5d3d94b.md).
 
 The buttons on the Adaptation Editor toolbar allow you to:
 

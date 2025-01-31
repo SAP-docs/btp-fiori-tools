@@ -4,7 +4,7 @@
 
 # Table Columns
 
-You can add columns of different types to the table [Table](table-aaff7b1.md) or a [Table Section](table-section-fc59378.md) in the *Object Page*.
+You can add columns of different types to the [Table](table-aaff7b1.md) or a [Table Section](table-section-fc59378.md) in the *Object Page*.
 
 To add a table column, press the :heavy_plus_sign: \(*Add*\) icon in the columns node and choose the desired column type. Then enter the requested information and choose `Add`.
 
