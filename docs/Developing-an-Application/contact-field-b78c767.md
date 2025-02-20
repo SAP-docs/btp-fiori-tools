@@ -14,9 +14,9 @@ An SAP Fiori application can display contact information as a quick view for a [
 
 To add a contact field to a section, perform the following steps:
 
-1.  Click [Add Contact Field\] when choosing [\+\] button in Form or Identification node in the *Page Editor* .
-2.  Select `Contact` via a tree control.
-3.  Click `Add`, a new `Communication.Contact` annotation is created.
+1.  In the *Page Editor*, under the *Form* or *Identification* node, click the :heavy_plus_sign: \(*Add*\) icon. Then click, *Add Contact Field*.
+2.  Select *Contact* using the tree control.
+3.  Click *Add* to create a new `Communication.Contact` annotation.
 
 
 

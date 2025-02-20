@@ -60,6 +60,7 @@ Last Updated: May 2023
         -   [Example: Manage Travel App List Report Object Page](example-manage-travel-app-list-report-object-page-d17b256.md)
     -   [Viewing Generation Logs](viewing-generation-logs-4ecc286.md)
 -   [Previewing an Application](Previewing-an-Application/previewing-an-application-b962685.md)
+    -   [Convert a Project to Use Virtual Endpoints](Previewing-an-Application/convert-a-project-to-use-virtual-endpoints-630ddec.md)
     -   [Previewing an SAP Fiori Elements CAP Project](Previewing-an-Application/previewing-an-sap-fiori-elements-cap-project-1dc179a.md)
     -   [Use Live Data](Previewing-an-Application/use-live-data-497aee2.md)
     -   [Use Mock Data](Previewing-an-Application/use-mock-data-bda83a4.md)

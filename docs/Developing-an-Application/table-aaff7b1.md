@@ -17,7 +17,7 @@ Currently supported elements for *List Report* table are:
 
 ## Table Sorting
 
-Sorting table data is set in the `Presentation Variant` property of the table. A table node in *Page Editor* layout tree therefore has the annotation based properties `Presentation Variant` and `Sort Order`..
+Sorting table data is set in the `Presentation Variant` property of the table. A table node in *Page Editor* layout tree therefore has the annotation based properties `Presentation Variant` and `Sort Order`.
 
 > ### Note:  
 > Maintaining `Presentation Variant` and `Sort Order` in analytical charts is described in [Analytical Chart](analytical-chart-9c086ec.md).

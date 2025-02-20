@@ -42,7 +42,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 -   Navigate through and preview the application using the *Navigation* mode.
 
--   Change the application using the *Adaptation Mode* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the other way around. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
+-   Change the application using the *Adaptation* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the other way around. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
 
 -   Change the device format of the canvas to smartphone, tablet, or desktop view.
 
@@ -70,6 +70,8 @@ The buttons on the Adaptation Editor toolbar allow you to:
 <a name="loio9c1e7b438d2f48038d8870c55d75770a__EditingOptions"/>
 
 ## UI Editing Options
+
+As mentioned in the overview section, you can modify the configurable properties of the UI elements and edit the fields or groups. Here are some specific examples of such actions:
 
 
 <table>
@@ -100,6 +102,10 @@ The buttons on the Adaptation Editor toolbar allow you to:
 <td valign="top">
 
 1.  Hover over or select a group or a field and click *Add Field* from the context menu.
+
+    > ### Tip:  
+    > The context menu is available both in the canvas and in the outline pane of the Adaptation Editor.\*
+
 2.  Select the fields that you want to add to the UI.
 
     You can also search for field labels and tooltips, or sort the fields in alphabetical order.
@@ -255,6 +261,8 @@ You can combine up to three fields so that they’re displayed in a single line.
 </td>
 </tr>
 </table>
+
+\*The context menu in the outline pane of the adaptation editor is available for projects based on the maintained SAPUI5 versions ≥1.84.
 
 
 

@@ -41,13 +41,13 @@ To move a column within a table, use one of the following options:
 
 -   **Drag-and-drop**
 
-    Hover over the table column in outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
+    Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop option you can move multiple columns at once by pressing CTRL+.
+    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
 -   **Arrow buttons**
 
-    Press [Move up\] or [Move down\] buttons next to the column name. This option only moves one column at a time.
+    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
 
 
 
