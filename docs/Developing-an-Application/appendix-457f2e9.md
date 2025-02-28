@@ -69,7 +69,7 @@ If the table column or section field is built on a string property and contains 
 
 ## Hidden
 
-Defines if the UI element is hidden in the application UI. Once you have activated the *Hidden* feature with the toggle button, the *Hide by Property* field is displayed right after it to let you set the condition for hiding.
+The *Hidden* property defines if a column should be hidden in the application UI. Once you have activated the *Hidden* feature with the toggle button, you can choose the boolean property as a hiding condition in the *Hide by Property* field.
 
 <a name="loio4e8bb3df433546f8a80f16e53b29e4c1"/>
 
