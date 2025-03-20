@@ -2,7 +2,7 @@
 
 # Importing an Application
 
-You can manually import an existing SAP Fiori application from the SAPUI5 ABAP repository to SAP Business Application Studio or Visual Studio Code \( VS Code\).
+You can manually import an existing SAP Fiori application from the SAPUI5 ABAP repository to SAP Business Application Studio or Visual Studio Code \(VS Code\).
 
 
 
@@ -46,7 +46,7 @@ This folder contains the restored app.
 </td>
 <td valign="top">
 
-This folder will contain the content of the downloaded zip/tgz.
+This folder will contain the content of the downloaded `zip`/`tgz`.
 
 </td>
 </tr>
@@ -61,9 +61,9 @@ This folder will contain the content of the downloaded zip/tgz.
 > ### Note:  
 > The BSP application code is normally minified before deployment, and so the resulting code that is downloaded is also the minified version. We recommend that you only use this import procedure if the application code is not already available under source control.
 > 
-> The `-dbg.js` file, for example `(Component-dbg.js)`, contains the original un-minified code. You can copy its contents into the corresponding `.js` file, for example *Component-dbg.js* \> *Component.js* for more human readable code.
+> The `-dbg.js` file, such as `(Component-dbg.js)`, contains the original un-minified code. You can copy its contents into the corresponding `.js` file, for example, *Component-dbg.js* \> *Component.js* for more human readable code.
 > 
-> Please remove `-dbg.js`, `-preload.js` and `.js.map` before running UI5 CLI build, otherwise they are recreated in the `dist` folder.
+> Remove `-dbg.js`, `-preload.js` and `.js.map` before running UI5 CLI build, otherwise they are recreated in the `dist` folder.
 
 To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following steps:
 
@@ -87,14 +87,14 @@ To import SAP Fiori apps from the SAPUI5 ABAP repository, perform the following 
 
     ```
     {
-    "sap.app": {
-    "id": "sap.fe.demo.awesomeapp",
-    ..
+       "sap.app": {
+          "id": "sap.fe.demo.awesomeapp",
+          ..
     }
     ```
 
 8.  In SAP Business Application Studio or VS Code workspace, start the migration command `Fiori: Migrate Project for use in Fiori tools` if not already prompted to do so.
 9.  The project should be found in `restore-from-exported` and listed for migration.
 10. Choose the appropriate options and migrate the project.
-11. Upon successful completion the project should now be compatible with SAP Fiori tools.
+11. The project is now compatible with SAP Fiori tools.
 

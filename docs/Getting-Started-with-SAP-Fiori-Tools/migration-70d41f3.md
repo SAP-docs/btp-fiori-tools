@@ -23,12 +23,12 @@ For more information about extensibility, please see [Extending an SAP Fiori App
 
 ## Prerequisites
 
--   Ensure that you've installed the latest SAP Fiori tools extensions. For more information, see [Getting Started with SAP Fiori Tools](getting-started-with-sap-fiori-tools-2d8b1cb.md).
+-   Ensure that you've installed the latest SAP Fiori tools extensions. For more information, see [Getting Started with SAP Fiori Tools](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2d8b1cb11f6541e5ab16f05461c64201.html).
 -   Ensure that your SAP Fiori project is running as expected in SAP Web IDE and belongs to the supported project types:
-    -   SAP Fiori elements V2.
-    -   SAP Fiori elements V4.
-    -   freestyle SAPUI5.
-    -   Extension project.
+    -   SAP Fiori elements V2
+    -   SAP Fiori elements V4
+    -   freestyle SAPUI5
+    -   Extension project
 
 
 

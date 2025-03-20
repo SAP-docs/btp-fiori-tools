@@ -24,5 +24,5 @@ In SAP Business Application Studio, an SAP Fiori tools Dev Space already include
 
 [Set Up SAP Business Application Studio for Development](https://developers.sap.com/tutorials/appstudio-onboarding.html)
 
-[SAP Business Application Studio - Getting Started](https://help.sap.com/viewer/9d1db9835307451daa8c930fbd9ab264/Cloud/en-US/19611ddbe82f4bf2b493283e0ed602e5.html)
+[Set Up SAP Business Application Studio - Getting Started](https://help.sap.com/docs/bas/sap-business-application-studio/getting-started?version=Cloud)
 

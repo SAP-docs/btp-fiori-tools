@@ -1,6 +1,6 @@
 <!-- loio3db61907573647ddad327763783a78dc -->
 
-# Delete the Adaptation Project
+# Deleting an Adaptation Project
 
 If you no longer need an app variant that you have created using an adaptation project, you can delete it from the back-end system.
 

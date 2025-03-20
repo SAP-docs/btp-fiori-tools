@@ -1,6 +1,6 @@
 <!-- loio8701335d5dbd4d09babfabb5e9f752d7 -->
 
-# Previewing the Adaptation Project
+# Previewing an Adaptation Project
 
 Learn how to preview an adaption project.
 

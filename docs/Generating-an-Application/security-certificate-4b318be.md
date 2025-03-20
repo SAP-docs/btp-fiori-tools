@@ -7,7 +7,7 @@
 During application generation, invalid security certificate errors may occur when the system the user is connected to is using SSL to support secure HTTPS traffic. In some cases, the certificate is generated using a local certificate authority that is unknown to the user operating system. If this happens, the SAP Fiori application generator will by default reject the connection request and report an error. We recommend that you fix this error by installing the required certificates using the instructions below. You can optionally choose to ignore the error and continue generation with the invalid certificate \(not recommended\).
 
 > ### Tip:  
-> Please ensure you have Node.js installed locally. For more information, see [Visual Studio Code](../Getting-Started-with-SAP-Fiori-Tools/visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280).
+> Please ensure you have Node.js installed locally. For more information, see [Visual Studio Code](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/17efa217f7f34a9eba53d7b209ca4280.html).
 
 > ### Note:  
 > The instructions below are applicable where the security certificate is valid, but using a local certificate authority that is unknown to the operating system. If the SSL cert is invalid such as an expired cert, wrong host or unable to verify leaf signature, please contact your administrator. In these cases, they cannot be resolved by SAP Fiori tools.

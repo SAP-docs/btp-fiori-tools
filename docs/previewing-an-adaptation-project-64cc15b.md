@@ -1,6 +1,6 @@
 <!-- loio64cc15b92a194df29d5f6dcf8277a799 -->
 
-# Preview the Adaptation Project
+# Previewing an Adaptation Project
 
 You can preview the adaptation project in a new browser tab.
 

@@ -1,6 +1,6 @@
 <!-- loio458f1f3280a04df3805849f1c29ac5c5 -->
 
-# Deleting the Adaptation Project
+# Deleting an Adaptation Project
 
 Learn how to delete an adaptation project.
 

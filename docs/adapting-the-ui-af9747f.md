@@ -1,6 +1,6 @@
 <!-- loioaf9747fdd5e04ac38faefe535c4c6789 -->
 
-# Adapt the UI
+# Adapting the UI
 
 Make changes to the UI elements of the adaptation project.
 
@@ -10,15 +10,15 @@ Make changes to the UI elements of the adaptation project.
 
 ## Contents
 
-1.  [Overview](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Overview)
+1.  [Overview](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Overview)
 
-2.  [Procedure](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Procedure)
+2.  [Procedure](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Procedure)
 
-3.  [UI Editing Options](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EditingOptions)
+3.  [UI Editing Options](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EditingOptions)
 
-4.  [Embedding Content](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EmbeddingContent)
+4.  [Embedding Content](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EmbeddingContent)
 
-5.  [Preview in a Separate Browser Tab](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__PreviewSepertaeTab)
+5.  [Preview in a Separate Browser Tab](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__PreviewSepertaeTab)
 
 
 
@@ -275,5 +275,5 @@ To embed content, perform the following steps in [Embedding Content](https://hel
 
 ## Preview in a Separate Browser Tab
 
-You can preview your project in a separate browser tab. For more information, see [Preview the Adaptation Project](preview-the-adaptation-project-64cc15b.md).
+You can preview your project in a separate browser tab. For more information, see [Previewing an Adaptation Project](previewing-an-adaptation-project-64cc15b.md).
 

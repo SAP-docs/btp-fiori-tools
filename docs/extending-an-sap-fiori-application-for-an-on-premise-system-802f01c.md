@@ -54,14 +54,14 @@ You can create an adaptation project for applications that meet the following re
 
 A typical workflow for extending an SAP Fiori application includes the following steps:
 
-1.  [Creating the Project](creating-the-project-072f566.md)
+1.  [Creating an Adaptation Project](creating-an-adaptation-project-072f566.md)
 2.  \(Optional\) Use source control, such as Git, to maintain your project source code.
 
     You must use the project source code to preview and modify it.
 
 3.  [Making Adaptations](making-adaptations-2a076dd.md)
-4.  [Previewing the Adaptation Project](previewing-the-adaptation-project-8701335.md)
-5.  [Deploying the Adaptation Project to the ABAP Repository](deploying-the-adaptation-project-to-the-abap-repository-febf0d9.md)
+4.  [Previewing an Adaptation Project](previewing-an-adaptation-project-8701335.md)
+5.  [Deploying an Adaptation Project to the ABAP Repository](deploying-an-adaptation-project-to-the-abap-repository-febf0d9.md)
 
 
 

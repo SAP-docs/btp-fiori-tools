@@ -1,6 +1,6 @@
 <!-- loiofebf0d9e3266451b8fc751ed25736ce1 -->
 
-# Deploying the Adaptation Project to the ABAP Repository
+# Deploying an Adaptation Project to the ABAP Repository
 
 Learn how to deploy an adaptation project to the ABAP repository.
 

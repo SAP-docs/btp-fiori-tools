@@ -14,11 +14,12 @@ A basic column is used for the standard representation of the value type. For ex
 
 ## Adding a Basic Column
 
-To add a basic column to a table in a section, perform the following steps:
+To add a basic column to a table in a section, perform the following steps in the *Page Editor*:
 
-1.  Click *Add Basic Column* when clicking the :heavy_plus_sign: \(*Add*\) icon in Columns node in the *Page Editor* .
-2.  Select *Columns* via a tree control.
-3.  Click [Add\].
+1.  Click the :heavy_plus_sign: \(*Add*\) icon next to the *Columns* node.
+2.  Click *Add Basic Columns* .
+3.  Select columns in the *Columns* dropdown.
+4.  Click *Add*.
 
     > ### Note:  
     > You cannot add the column based on the same value twice into the table.
@@ -77,7 +78,6 @@ In addition to the column properties available for all column types, you can def
 -   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
 -   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
 -   Display Type
--   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
 -   [Hide by Property](appendix-457f2e9.md#loio4e8bb3df433546f8a80f16e53b29e4c1)
 -   [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98)
 -   Restrictions

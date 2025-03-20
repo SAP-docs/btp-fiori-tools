@@ -190,7 +190,7 @@ For more information about CAP services, see: [https://cap.cloud.sap/docs/about/
 
 **Project Prerequisites**
 
--   [Node.js](../../Getting-Started-with-SAP-Fiori-Tools/visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280)
+-   [Node.js](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/17efa217f7f34a9eba53d7b209ca4280.html#system-requirements)
 -   Sample Projects:
     -   [CAP Node.js Teched2020](https://github.com/SAP-samples/teched2020-IIS360)
     -   [Cloud CAP Samples](https://github.com/SAP-samples/cloud-cap-samples)

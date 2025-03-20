@@ -2,7 +2,7 @@
 
 # Adapting the UI
 
-Learn how to adapt the UI of applications using the Adaption Editor.
+Learn how to adapt the UI of applications using the Adaptation Editor.
 
 
 

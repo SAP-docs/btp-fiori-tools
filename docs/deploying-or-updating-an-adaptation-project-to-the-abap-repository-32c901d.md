@@ -1,6 +1,6 @@
 <!-- loio32c901d0c99d4411a0d1f3ab383841be -->
 
-# Deploy or Update the Adaptation Project to the ABAP Repository
+# Deploying or Updating an Adaptation Project to the ABAP Repository
 
 Deploy or update the app variant to the SAPUI5 ABAP repository in SAP S/4HANA Cloud or SAP Business Technology Platform \(SAP BTP\) system.
 

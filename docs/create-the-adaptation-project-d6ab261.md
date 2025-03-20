@@ -37,6 +37,6 @@ Create an adaptation project from existing SAP Fiori elements or freestyle SAPUI
 
 5.  A notification message appears that the project has been generated and will be saved for future use.
 
-6.  You can now preview the adaptation project. For more information, see [Preview the Adaptation Project](preview-the-adaptation-project-64cc15b.md). You can also continue developing. For more information, see [Make Adaptations](make-adaptations-6d2cfea.md).
+6.  You can now preview the adaptation project. For more information, see [Previewing an Adaptation Project](previewing-an-adaptation-project-64cc15b.md). You can also continue developing. For more information, see [Making Adaptations](making-adaptations-6d2cfea.md).
 
 

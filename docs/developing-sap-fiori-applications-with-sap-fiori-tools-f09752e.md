@@ -105,7 +105,7 @@ SAP Fiori tools provides many capabilities to increase the efficiency of develop
 -   Application page structure and ability to configure the SAPUI5 flexibility settings - SAP Fiori elements only.
 -   Guided development for implementing features - SAP Fiori elements only.
 
-For more information about how to use SAP Fiori tools, see [Getting Started with SAP Fiori Tools](Getting-Started-with-SAP-Fiori-Tools/getting-started-with-sap-fiori-tools-2d8b1cb.md).
+For more information about how to use SAP Fiori tools, see [Getting Started with SAP Fiori Tools](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2d8b1cb11f6541e5ab16f05461c64201.html).
 
 
 
