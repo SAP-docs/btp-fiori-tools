@@ -62,3 +62,18 @@ To delete a column in the application, perform the following steps:
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
+
+
+<a name="loio0039256581704bf3a8a586d406875c90__section_fyk_t15_s2c"/>
+
+## Maintaining Progress Column Properties
+
+In addition to the column properties available for all column types, you can define the following properties specific to the progress column:
+
+-   Target Type
+    -   Choose the expression type for the progress goal. It could be a constant number or a property of a numeric type if provided in the service.
+
+-   Target
+    -   Choose a number representing the progress goal.
+
+

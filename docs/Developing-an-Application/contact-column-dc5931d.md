@@ -65,18 +65,6 @@ A contact column or field has the following properties.
 
 
 
-### Label
-
-`Label` has the same behavior as a regular field or column. For more information, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
-
-
-
-### Importance
-
-`Importance` for has the same behavior as a regular field or column. For more information, see [Maintaining Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties).
-
-
-
 ### Contact
 
 The *Contact* property represents the `fn` property of `Communication.Contact`. You cannot change the property used as the *Contact Name* in the *Property Panel*. If you need to have your contact column based on a different property, delete this column and click the :heavy_plus_sign: \(*Add*\) icon to add a new contact column.
@@ -98,6 +86,12 @@ The *Photo* property represents the property photo of `Communication.Contact`.
 ### Role
 
 The *Role* property represents the property role of `Communication.Contact`.
+
+
+
+### Department
+
+The *Department* propert represents the property department of `Communication.Contact`.
 
 
 

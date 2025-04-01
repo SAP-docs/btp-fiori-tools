@@ -55,3 +55,15 @@ To move a column within a table, use one of the following options:
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
+
+
+<a name="loiob2ba7b47f2be4c1cb5fcfaf2df25c19a__section_hfr_ryt_s2c"/>
+
+## Maintaining Rating Column Properties
+
+In addition to the column properties available for all column types, you can define the following properties specific to the rating column:
+
+-   Target Value
+    -   Define the maximum number of stars. For example, 3 or 5.
+
+

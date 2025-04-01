@@ -26,8 +26,7 @@ To add a *Filter Fields*, perform the following steps:
 
     Then, the *Filter Bar* appears.
 
-3.  Navigate your pointer over *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Compact Filters*
-4.  Click the :heavy_plus_sign: \(*Add*\) icon to add a filter field.
+3.  Click the :heavy_plus_sign: \(*Add*\) icon next to *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Compact Filters* to add a filter field.
 
     > ### Note:  
     > If your service is enabled for analytics but there are no visual filters in your *List Report*, click *Add Compact Filters*.
@@ -37,12 +36,12 @@ To add a *Filter Fields*, perform the following steps:
     > ### Note:  
     > Properties annotated with `UI.Hidden`, `UI.HiddenFilter`, or set as `NonFilterableProperties` within `Capabilities.FilterRestrictions` are not available for selection, as they cannot be used for filtering.
 
-5.  Search for or select the properties to be used as filters.
-6.  Click *Add*.
+4.  Search for or select the properties to be used as filters.
+5.  Click *Add*.
 
 While adding new *Filter Fields* the following logic applies:
 
--   `UI.SelectionFields` annotation is generated or updated in the local annotation file.
+-   The `UI.SelectionFields` annotation is generated or updated in the local annotation file.
 
 
 
@@ -54,32 +53,31 @@ If your service is enabled for analytics, you can define visual filters represen
 
 1.  Navigate to *Page Map* \> *List Report* to open a list report project.
 2.  Click the :pencil2: \(*Configure Page*\) icon.
-3.  Navigate your pointer *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Visual Filters*.
-4.  Click the:heavy_plus_sign: \(*Add* icon to add a filter field.
+3.  Click the :heavy_plus_sign: \(*Add*\) icon next to *Filter Bar* \> *Filter Fields* or *Filter Bar* \> *Visual Filters* to add a filter field.
 
     > ### Note:  
-    > If your service is enabled for analytics but there are no visual filters in your *List Report*, choose *Add Visual Filters*.
+    > If your service is enabled for analytics but there are no visual filters in your *List Report*, click *Add Visual Filters*.
 
     A new *Add Visual Filter* pop-up window appears.
 
-5.  Search for or select the properties to be used as filters.
+4.  Search for or select the properties to be used as filters.
 
     > ### Note:  
     > Properties annotated with `UI.Hidden`, `UI.HiddenFilter`, or set as `NonFilterableProperties` within `Capabilities.FilterRestrictions` are not available for selection, as they cannot be used for filtering.
     > 
-    > If you select a time-based filter field, that is, a service property of type `Edm.Date`, `Edm.Time`, `Edm.DateTime`, or `Edm.DateTimeOffset`, you can choose the chart type bar or line. You can only use a bar chart to represent your visual filter for all other types.
+    > If you select a time-based filter field, such as a service property of type `Edm.Date`, `Edm.Time`, `Edm.DateTime`, or `Edm.DateTimeOffset`, you can choose the chart type bar or line. You can only use a bar chart to represent your visual filter for all other types.
 
-6.  Choose the entity that contains the appropriate filter values. Only analytically enabled entities are available for selection.
-7.  Choose the property representing the filter values. It's used as a dimension in the chart representing the visual filter. Only groupable properties are available for this selection.
-8.  Choose the measure for the chart representing the visual filter. You can use an existing measure, if available, or create a new one.
+5.  Choose the entity that contains the appropriate filter values. Only analytically enabled entities are available for selection.
+6.  Choose the property representing the filter values. It's used as a dimension in the chart representing the visual filter. Only groupable properties are available for this selection.
+7.  Choose the measure for the chart representing the visual filter. You can use an existing measure, if available, or create a new one.
 
     > ### Note:  
     > A new measure can be created based on the aggregated property of the selected value source and supported aggregation method as long as there is no existing measure based on the same combination. Creating new measures based on properties with custom aggregations are not supported.
 
     -   If you choose to use an existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
-    -   If you choose to create new measure, choose the aggregatable property and one of the supported aggregation methods.
+    -   If you choose to create new measure, choose the aggregable property and one of the supported aggregation methods.
 
-9.  Click *Add*.
+8.  Click *Add*.
 
     A new visual filter is added with the basic properties. You can maintain additional properties of your visual filters in the *Property Panel*. A new compact filter is added for the same property if not yet defined to follow the best practices.
 
@@ -94,7 +92,7 @@ The following annotations are generated in the local annotation file:
 -   `Common.ValueList` referencing the presentation variant via its qualifier.
 -   `UI.SelectionFields` referencing the filter field if not yet defined.
 
-The `manifest.json` is updated with the control configuration for the `com.sap.vocabularies.UI.v1.SelectionFields` referencing the selected filter field along with the generated `Common.ValueList` annotation.
+The `manifest.json` file is updated with the control configuration for the `com.sap.vocabularies.UI.v1.SelectionFields` referencing the selected filter field along with the generated `Common.ValueList` annotation.
 
 
 
@@ -127,7 +125,7 @@ To delete a field within the list of the *Filter Fields*, perform the following 
 > The `Common.Label` annotation isn’t deleted along with the filter field, as it can also be used elsewhere in the application.
 
 > ### Note:  
-> When deleting a visual filter, only the respective configuration in `manifest.json` is removed. To remove the respective annotations from the local file, use the cleanup button.
+> When deleting a visual filter, only the respective configuration in the `manifest.json` file is removed. To remove the respective annotations from the local file, use the cleanup button.
 
 
 

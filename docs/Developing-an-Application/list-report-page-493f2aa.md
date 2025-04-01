@@ -2,12 +2,9 @@
 
 # List Report Page
 
-The following links give you general information about the *List Report* page and what is supported by the Low Code Business Application:
+The following link provides general information about the *List Report* page: [Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/).
 
--   [Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/)
--   [Developing Low-Code Business Applications](https://help.sap.com/viewer/6a5fc562f6e2402aa84b0416614a05fc/Dev/en-US/d2604823ba154d9daea0fdefac7e7f08.html)
-
-The current supported elements of the *List Report*:
+The supported elements of the *List Report* page are:
 
 -   [Filter Fields](filter-fields-0b84286.md)
 -   [Report Table](table-aaff7b1.md)

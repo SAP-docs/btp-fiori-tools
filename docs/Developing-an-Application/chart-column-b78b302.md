@@ -86,3 +86,30 @@ To delete a column in the application, perform the following steps:
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
 
+
+
+<a name="loiob78b3023e27b4078bab94189937fb550__section_fvv_mb5_s2c"/>
+
+## Maintaining Chart Column Properties
+
+In addition to the column properties available for all column types, you can define the following properties specific to the chart column:
+
+-   Maximum Value Type
+    -   Choose the expression type for the maximum possible value in the chart. It could be a decimal number or a property of type decimal.
+
+-   Maximum Value
+    -   Choose a decimal number representing the maximum possible value in the chart.
+
+-   Minimum Value Type
+    -   Choose the expression type for the starting value of the chart. It could be a decimal number or a property of type decimal.
+
+-   Minmum Value
+    -   Choose a decimal number representing the starting value for the chart.
+
+-   Forecast Value
+    -   Choose a property representing the expected value.
+
+-   Criticality Source
+    -   Choose how the chart color should be calculated. Choose Property if criticality calculation is performed in the back end and exposed as a service entity element. Choose Calculation to define the criticality calculation parameters, such as improvement direction and deviation ranges.
+
+

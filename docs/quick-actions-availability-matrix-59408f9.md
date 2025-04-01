@@ -54,27 +54,17 @@ SAPUI5 1.120
 </th>
 <th valign="top">
 
-SAPUI5 1.124
-
-</th>
-<th valign="top">
-
-SAPUI5 1.127
-
-</th>
-<th valign="top">
-
 SAPUI5 1.130
 
 </th>
 <th valign="top">
 
-SAPUI5 1.131
+SAPUI5 1.133
 
 </th>
 <th valign="top">
 
-\>=SAPUI5 1.132
+\>=SAPUI5 1.134
 
 </th>
 </tr>
@@ -137,16 +127,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -207,16 +187,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -232,16 +202,6 @@ OData V2
 <td valign="top">
 
 Object Page
-
-</td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
 
 </td>
 <td valign="top">
@@ -341,16 +301,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -366,16 +316,6 @@ OData V2
 <td valign="top">
 
 Object Page
-
-</td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
 
 </td>
 <td valign="top">
@@ -475,16 +415,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -503,16 +433,6 @@ OData V2
 -   Object Page
 
 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -573,16 +493,6 @@ OData V4
 -   Object Page
 
 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -685,16 +595,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -755,16 +655,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -793,16 +683,6 @@ OData V2
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
 
 </td>
 <td valign="top">
@@ -895,16 +775,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -957,17 +827,7 @@ OData V2
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
+x
 
 </td>
 <td valign="top">
@@ -1027,7 +887,32 @@ OData V4
 </td>
 <td valign="top">
 
- 
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add Subpage\*
+
+</td>
+<td valign="top">
+
+OData V2
+
+</td>
+<td valign="top">
+
+-   List Report/Analytical List Page
+-   Object Page
+
+
 
 </td>
 <td valign="top">
@@ -1038,6 +923,31 @@ OData V4
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
+
+</td>
+<td valign="top">
+
+x
 
 </td>
 <td valign="top">
@@ -1105,16 +1015,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1143,16 +1043,6 @@ OData V4
 <td valign="top">
 
  
-
-</td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
 
 </td>
 <td valign="top">
@@ -1200,16 +1090,6 @@ OData V2
 <td valign="top">
 
 List Report/Analytical List Page
-
-</td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
 
 </td>
 <td valign="top">
@@ -1309,16 +1189,6 @@ x
 x
 
 </td>
-<td valign="top">
-
-x
-
-</td>
-<td valign="top">
-
-x
-
-</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1334,16 +1204,6 @@ OData V2
 <td valign="top">
 
 Object Page
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -1435,16 +1295,6 @@ Object Page
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 x
 
 </td>
@@ -1497,16 +1347,6 @@ x
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 x
 
 </td>
@@ -1535,16 +1375,6 @@ OData V4
 <td valign="top">
 
 List Report/Analytical List Page
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -1634,16 +1464,6 @@ x
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 x
 
 </td>
@@ -1675,16 +1495,6 @@ OData V4
 -   Object Page
 
 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -1771,16 +1581,6 @@ x
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 x
 
 </td>
@@ -1834,16 +1634,6 @@ x
 <td valign="top">
 
 x
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
- 
 
 </td>
 <td valign="top">
@@ -1913,16 +1703,6 @@ OData V4
 </td>
 <td valign="top">
 
- 
-
-</td>
-<td valign="top">
-
- 
-
-</td>
-<td valign="top">
-
 x
 
 </td>
@@ -1934,5 +1714,5 @@ x
 </tr>
 </table>
 
-\* Actions resulting in manifest changes are not available for adaptation projects that are built on OData V2 applications and that use an outdated array page structure in the `manifest.json` file. For more information, see the *Prerequisites* section in [Extending the Delivered Apps Manifest Using an Adaptation Project](https://ui5.sap.com/#/topic/a2b24a69baef4b91af2293ccc6b5871f).
+\* Actions resulting in manifest changes are not available for adaptation projects built on OData V2 applications that use SAPUI5 version < 1.134 and have an outdated array page structure in the `manifest.json` file. For more information, see the *Prerequisites* section in [Extending the Delivered Apps Manifest Using an Adaptation Project](https://ui5.sap.com/#/topic/a2b24a69baef4b91af2293ccc6b5871f).
 

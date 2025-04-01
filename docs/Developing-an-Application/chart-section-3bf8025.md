@@ -36,7 +36,7 @@ To add a chart section, perform the following steps:
 
     If you choose to use existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
 
-    If you choose to create new measure, choose the aggregatable property and one of the supported aggregation methods . This allows you to create a new **dynamic** measure and use it in the chart.
+    If you choose to create new measure, choose the aggregable property and one of the supported aggregation methods . This allows you to create a new **dynamic** measure and use it in the chart.
 
     > ### Note:  
     > The technical name and the label are generated automatically. You can then adjust the generated label in the *Property Panel*.
@@ -46,7 +46,7 @@ To add a chart section, perform the following steps:
     As a result, you can see the following changes applied:
 
     -   A new `UI.Chart` and a new `UI.ReferenceFacet` with an `annotationPath` pointing to the created `UI.Chart` is added to the existing `UI.Facets`.
-    -   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregatable property with your chosen aggregation method.
+    -   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregable property with your chosen aggregation method.
     -   If not yet available, a new `UI.Facets` annotation is created under the entity associated with that *Object Page*.
     -   If `UI.Facets` exists on an underlying layer, the annotation in the underlying layer is overridden.
     -   For CAP CDS, a using statement is added to the overridden file if not yet there.

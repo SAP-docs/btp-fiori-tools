@@ -4,10 +4,10 @@
 
 # Multiple Views
 
-You can configure your *List Report* to display one or more additional tables and charts next to the main *List Report* table in separate views. The user of your application can switch between views using an icon tab bar. The tables in the views can be based on any entity in your service. The charts can be based on any entity as long as it contains aggregatable and groupable properties.
+You can configure your *List Report* to display one or more additional tables and charts next to the main *List Report* table in separate views. The user of your application can switch between views using an icon tab bar. The tables in the views can be based on any entity in your service. The charts can be based on any entity as long as it contains aggregable and groupable properties.
 
 > ### Note:  
-> Groupable and aggregatable properties are defined on the service level with`@Aggregation.ApplySupported`. If it is not provided, you cannot generate chart views with *Page Editor*. If you want to use custom aggregations for chart measures, your service should also have properties aggregated with `@Aggregation.CustomAggregate`.
+> Groupable and aggregable properties are defined on the service level with`@Aggregation.ApplySupported`. If it is not provided, you cannot generate chart views with *Page Editor*. If you want to use custom aggregations for chart measures, your service should also have properties aggregated with `@Aggregation.CustomAggregate`.
 
 If you want to use the transformation aggregations, make sure your app runs with SAPUI5 version 1.106 or higher to ensure transformation aggregation with `@Analytics.AggregatedProperty` is supported. Transformation aggregation with `@Analytics.AggregatedProperties` isn't supported as this annotation is deprecated in favor of `@Analytics.AggregatedProperty`, see [OData Analytics](https://sap.github.io/odata-vocabularies/vocabularies/Analytics.html).
 
@@ -30,7 +30,7 @@ If you want to use the transformation aggregations, make sure your app runs with
 
     If you choose to use an existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
 
-    If you choose to create new measure, choose the *aggregatable* property and one of the supported aggregation methods.
+    If you choose to create new measure, choose the *aggregable* property and one of the supported aggregation methods.
 
     This allows you to create a new dynamic measure and use it in the chart.
 
@@ -38,7 +38,7 @@ If you want to use the transformation aggregations, make sure your app runs with
     > The technical name and the label are generated automatically . You can then adjust the generated label in the *Property Panel*.
 
     > ### Note:  
-    > Create new measure only works with transformation aggregations so it should be used for apps run with SAPUI5 version **1.106** or **higher**. If all the possible measures based on all the aggregatable properties and supported aggregation methods are already defined in the project, you cannot create a new measure. Use an existing measure instead.
+    > Create new measure only works with transformation aggregations so it should be used for apps run with SAPUI5 version **1.106** or **higher**. If all the possible measures based on all the aggregable properties and supported aggregation methods are already defined in the project, you cannot create a new measure. Use an existing measure instead.
 
 3.  Click *Add* in the dialog. In the Page Editor, a new subnode is appended to the Views node with generated view label.
 
@@ -49,7 +49,7 @@ If you want to use the transformation aggregations, make sure your app runs with
 The following changes take place in the annotation file:
 
 -   `UI.LineItem` or `UI.Chart` annotation with qualifier is generated targeting the `EntityType` referenced by the selected `EntitySet`.
--   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregatable property with your chosen aggregation method.
+-   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregable property with your chosen aggregation method.
 -   `Views/Paths` section in `manifest.json` is generated or appended with an entry pointing to the generated `UI.SelectionPresentationVariant`. If different from the main `EntitySet` of the, *List Report* the chosen `EntitySet` is added to the paths entry.
 
 > ### Note:  

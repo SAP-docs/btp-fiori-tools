@@ -4,7 +4,7 @@
 
 # Analytical Chart
 
-In the *Page Editor*, you can configure the *List Report* page to display aggregated data of your main entity as an analytical chart above or as an alternative to the list report table. This setup is known in `OData V2` as *Analytical List Page*. In `OData V4`, however it is not a separate template but a flavor of the *List Report* template. You can configure it for your new or existing *List Report* page if your main entity contains aggregatable and groupable properties.
+In the *Page Editor*, you can configure the *List Report* page to display aggregated data of your main entity as an analytical chart above or as an alternative to the list report table. This setup is known in `OData V2` as *Analytical List Page*. In `OData V4`, however it is not a separate template but a flavor of the *List Report* template. You can configure it for your new or existing *List Report* page if your main entity contains aggregable and groupable properties.
 
 
 
@@ -13,7 +13,7 @@ In the *Page Editor*, you can configure the *List Report* page to display aggreg
 ## Prerequisites
 
 -   Your list report does not contain [Multiple Views](multiple-views-c62b82e.md).
--   Your main entity contains aggregatable and groupable properties.
+-   Your main entity contains aggregable and groupable properties.
 
 If the *Add Chart* button is inactive, hover over the disabled *Add Chart* button to get a hint on the reason. If aggregated or groupable properties are not defined, the tooltip informs you what annotations are needed to enable it. If your *List Report* is set up with [Multiple Views](multiple-views-c62b82e.md), the tooltip reminds you of that, and you can delete all the views in your *List Report* except the single table based on main entity to enable the *Add Chart* button.
 
@@ -40,7 +40,7 @@ Perform the following steps to add an analytical chart to a *List Report*.
 
     If you choose to use an existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
 
-    If you choose to create a new measure, choose the aggregatable property and one of the supported aggregation methods.
+    If you choose to create a new measure, choose the aggregable property and one of the supported aggregation methods.
 
     This allows you to create a new dynamic measure and use it in the chart.
 
@@ -116,12 +116,12 @@ The measure label depends on the `Common.Label` or \(in CAP CDS\) `@title` annot
 > ### Note:  
 > The measure label can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
-**Add, Move Measures**
+**Add and Move Measures**
 
-You can add additional measures to your chart if more than one direct property of the main entity is annotated as aggregatable. For that, click *Add Measure* and choose the desired property.
+You can add additional measures to your chart if more than one direct property of the main entity is annotated as aggregable. For that, click *Add Measure* and choose the desired property.
 
 > ### Note:  
-> You cannot add the same measure to the chart twice. If all the aggregatable properties are already used as chart measures, Add Measure is disabled.
+> You cannot add the same measure to the chart twice. If all the aggregable properties are already used as chart measures, Add Measure is disabled.
 
 You can change the sequence in which default measures are displayed in the *Analytical Chart*. Drag and drop the measure rows within the **Measures** property or use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons in the measure row header.
 
