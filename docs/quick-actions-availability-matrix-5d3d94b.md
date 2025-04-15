@@ -959,6 +959,66 @@ x
 <tr>
 <td valign="top">
 
+Add Subpage\*
+
+</td>
+<td valign="top">
+
+OData V4
+
+</td>
+<td valign="top">
+
+-   List Report/Analytical List Page
+-   Object Page
+
+
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Change Table Columns
 
 </td>
