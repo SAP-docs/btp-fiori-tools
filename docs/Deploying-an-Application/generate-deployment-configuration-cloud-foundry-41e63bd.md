@@ -129,7 +129,7 @@ To generate a MTA project, perform the following steps:
 3.  Next, the installer runs and you can see updates in the project tree.
 
     > ### Note:  
-    > If no `mta.yaml` file is found in the application folder, you will be given the option to create one during deployment configuration.
+    > If no `mta.yaml` file is found in the application folder or the root CAP project folder, you will be given the option to create one during deployment configuration.
 
 
 
