@@ -34,11 +34,11 @@ Learn how to generate an application with the Project Accelerator using SAP Fior
 
     -   Text input:
         -   Command Palette and SAP Fiori: Under *Project Accelerator*, enter your business requirements in the *Application requirements* textbox.
-        -   Joule: Enter `/fiori-gen-spec-app #(path to your markdown or text file)` and click the *Send* icon.
+        -   Joule: Enter `/fiori-gen-spec-app #(path to your docx, markdown, or text file)` and click the *Send* icon.
 
     -   File input:
-        -   Upload the text or markdown file to your workspace folder in SAP Business Application Studio.
-        -   Command Palette and SAP Fiori: Under *Project Accelerator*, click *Choose file \(.md .txt .jpg\)* and choose your markdown or text file.
+        -   Upload the file to your workspace folder in SAP Business Application Studio.
+        -   Command Palette and SAP Fiori: Under *Project Accelerator*, click *Choose File \(docx, .md, .txt, .jpg\)* and choose your markdown, text, or docx file.
         -   Joule: Enter the `/fiori-gen-spec-app` command followed by your business requirements and click the *Send* icon.
 
 

@@ -31,7 +31,7 @@ To generate an application using an image, the image must be uploaded to your wo
     > ### Note:  
     > Once you’ve opened the Project Accelerator in SAP Fiori tools AI, your query must be related to generating an SAP Fiori elements application. You cannot make general requests to the AI assistant.
 
-4.  Under *Project Accelerator*, click *Choose file \(.md .txt .jpg\)* and choose your image.
+4.  Under *Project Accelerator*, click *Choose File \(.docx, .md, .txt, .jpg\)* and choose your image.
 
     > ### Note:  
     > The Project Accelerator cannot generate a second application for the same project, so ensure your request only refers to a single application.

@@ -6,7 +6,7 @@
 
 Learn how to generate an application with the Project Accelerator using SAP Fiori tools AI and a combination of text and images.
 
-To generate an application using a combination of text and images, or using multiple images, you must create a markdown \(`.md`\) file that references the images you want to use. The images must be uploaded to your workspace folder in SAP Business Application Studio.
+To generate an application using a combination of text and images, or using multiple images, you must either create a Microsoft Word document \(.docx\) file or create a markdown \(`.md`\) file that references the images you want to use. If you are using a markdown file, the images must be uploaded to your workspace folder in SAP Business Application Studio.
 
 > ### Tip:  
 > -   Each image must represent a single list report or object page and be accompanied by text explaining the relation between the pages.
@@ -15,6 +15,8 @@ To generate an application using a combination of text and images, or using mult
 > -   If the page contains multiple views that are not visible, such as different tabs or sections, the user input should have multiple images depicting the same page in these different states, along with an explanatory text.
 > 
 >     For example, if an object page contains multiple sections and their content is not visible in a single image, the text should list all of the sections and describe which section corresponds to which image.
+> 
+> -   If you are using a Microsoft Word document \(.docx\) file, ensure it only contains text and images. Do not add advanced formatting such as headers, footers, and tables.
 
 
 
@@ -22,8 +24,8 @@ To generate an application using a combination of text and images, or using mult
 
 ## Procedure
 
-1.  Prepare the markdown file you will use as your business requirements. For the best results, label your images using English and follow the provided example: [Example: Manage Travel App List Report Object Page](example-manage-travel-app-list-report-object-page-d17b256.md).
-2.  Upload the markdown file to your workspace folder in SAP Business Application Studio.
+1.  Prepare the file you will use as your business requirements. For the best results, label your images using English and follow the provided example: [Example: Manage Travel App List Report Object Page](example-manage-travel-app-list-report-object-page-d17b256.md).
+2.  Upload the file to your workspace folder in SAP Business Application Studio.
 
 3.  Launch the Project Accelerator using SAP Fiori tools AI through one of the following options:
 
@@ -39,7 +41,7 @@ To generate an application using a combination of text and images, or using mult
     > ### Note:  
     > Once you’ve opened the Project Accelerator in SAP Fiori tools AI, your query must be related to generating an SAP Fiori elements application. You cannot make general requests to the AI assistant.
 
-4.  Under *Project Accelerator*, click *Choose file \(.md .txt .jpg\)* and choose your markdown file.
+4.  Under *Project Accelerator*, click *Choose File \(.docx, .md, .txt, .jpg\)* and choose your file.
 
     > ### Note:  
     > The Project Accelerator cannot generate a second application for the same project, so ensure your request only refers to a single application.

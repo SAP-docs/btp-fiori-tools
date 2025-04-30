@@ -51,7 +51,7 @@ In SAP Fiori elements, perform the following steps:
         > ### Note:  
         > For an application generated with the OData V4 data source, the list of SAPUI5 versions supported is limited to the most recent versions.
 
-    -   **[Adding Deployment Configuration to an Existing MTA Deployment File](../Additional-Configuration/adding-a-fiori-application-to-an-mta-deployment-file-with-the-5a17ba6.md#loiod7525cef6f6c4aa4acf3ec09c5a8eacb)**.
+    -   **[Adding Deployment Configuration to an Existing MTA Deployment File](../Additional-Configuration/adding-an-sap-fiori-application-to-an-mta-deployment-file-with-5a17ba6.md#loiod7525cef6f6c4aa4acf3ec09c5a8eacb)**.
 
         If a project is generated inside an app router configuration project that has an MTA file, then it will use the deployment configuration by default. In this case, you can still select *No* and skip the deployment configuration step.
 

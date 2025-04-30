@@ -7,7 +7,7 @@
 Once the required guide is selected, click *Start Guide* under the description section to start the development process. By default, the guide is opened in a *side-by-side* mode. With this flexible mode, you can see both the guide window and the list of guides window side-by-side in split view.
 
 -   You can adjust window by dragging the vertical line between the windows.
--   If you want to exit split view, navigate the pointer to the upper-right corner of the guide window and click the full-screen button.
+-   If you want to exit split view, navigate the pointer to the upper-right corner of the guide window and click the <span class="SAP-icons-V5"></span> \(*Expand view*\) icon.
 
     > ### Note:  
     > If you reduce the size of the application window, the list of guides will be hidden automatically.
