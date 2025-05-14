@@ -14,7 +14,7 @@ If generation fails or the generated app is not as expected, you can open a tick
 
 ## Procedure
 
-1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Developer: Set Log Level* command.
+1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Developer: Set Log Level` command.
 
 2.  Set the *Log Level* to *Info*.
 

@@ -11,7 +11,7 @@
 
 ## Deployment to ABAP
 
-You can deploy your application using the Command Palette entry: *Fiori: Deploy Application* and choosing your SAP Fiori project, or you can launch a terminal and type the following command from the project folder:
+You can deploy your application using the Command Palette entry: `Fiori: Deploy Application` and choosing your SAP Fiori project, or you can launch a terminal and type the following command from the project folder:
 
 ```
 npm run deploy
@@ -91,7 +91,7 @@ You can also append the following parameters to apply the required deployment co
         npm run build
         ```
 
-    3.  Deploy to SCP by using the Command Palette entry: *Fiori: Deploy Application* and choosing your SAP Fiori project, or you can launch a terminal and type the following command from the project folder:
+    3.  Deploy to SCP by using the Command Palette entry: `Fiori: Deploy Application` and choosing your SAP Fiori project, or you can launch a terminal and type the following command from the project folder:
 
         ```
         npm run deploy
@@ -129,7 +129,7 @@ You can also append the following parameters to apply the required deployment co
         > `<mta-id>-destination-service` is the name of the resource defined with a type `destination`.
 
         > ### Note:  
-        > To use the above command, the latest version of html5-list v1.4.6 is installed as follows:
+        > To use the above command, the latest version of `html5-list` v1.4.6 is installed as follows:
         > 
         > ```
         > cf install-plugin -r CF-Community "html5-plugin"
@@ -148,7 +148,7 @@ You can also append the following parameters to apply the required deployment co
 > npm run deploy
 > ```
 > 
-> Ensure you build the multitarget archive with the following command.
+> Ensure you build the multi-target archive with the following command.
 > 
 > ```
 > npm run build

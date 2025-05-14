@@ -23,14 +23,26 @@ To add a chart column to a table to a section, perform the following steps:
     > ### Note:  
     > The *Add Chart Column* option is disabled if the table entity does not have any numeric properties.
 
-2.  Click *Chart Type* using the tree control.
+2.  Chose a *Chart Type* using the tree control.
+
+    > ### Note:  
+    > Depending on the selected chart type, fill in additional properties as described below.
+
 3.  Click *Add*. Depending on the desired chart type, you need to choose values for the mandatory properties.
     -   When the chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
 
 
-Column properties, can be configured in the *Property Panel*.
+Column properties can be configured in the *Property Panel*.
 
 For information on defining and editing the properties, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+
+
+
+### Chart type: Area
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+-   **Dimension**: dimension to represent the x-axis of the chart by default..
 
 
 
@@ -42,6 +54,22 @@ For information on defining and editing the properties, see [Column Properties](
     > ### Note:  
     > You can set the Maximum Value to the numeric property in the Properties pane once you add the chart column.
 
+
+
+
+### Chart type: Column
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+-   **Dimension**: dimension to represent the x-axis of the chart by default..
+
+
+
+### Chart type: Line
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+-   **Dimension**: dimension to represent the x-axis of the chart by default..
 
 
 
@@ -103,13 +131,19 @@ In addition to the column properties available for all column types, you can def
 -   Minimum Value Type
     -   Choose the expression type for the starting value of the chart. It could be a decimal number or a property of type decimal.
 
--   Minmum Value
+-   Minimum Value
     -   Choose a decimal number representing the starting value for the chart.
 
 -   Forecast Value
     -   Choose a property representing the expected value.
 
+-   Target Value
+    -   Choose a property representing the target value.
+
+-   Measures
+    -   Add properties representing values for additional lines.
+
 -   Criticality Source
-    -   Choose how the chart color should be calculated. Choose Property if criticality calculation is performed in the back end and exposed as a service entity element. Choose Calculation to define the criticality calculation parameters, such as improvement direction and deviation ranges.
+    -   Choose how the chart color should be calculated. Choose Property if criticality calculation is performed in the back end and exposed as a service entity element. Choose Calculation to define the criticality calculation parameters, such as improvement direction and deviation ranges. Note: For some chart types, only one option is possible. For example, the criticality can be set either only as a property or only as calculation.
 
 

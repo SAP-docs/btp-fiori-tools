@@ -23,7 +23,7 @@ When a new confirmation pop-up window appears, click *Apply* to confirm the acti
 A resource bundle folder is also known as i18n folder and file names are maintained in the configuration as follows:
 
 -   Non-CAP projects at `/webapp/manifest.json`.
--   CAP projects at `.cdsrc.json or package.json`. CAP has a configuration setting where the folder names can be used. A default value is \['\_i18n', 'i18n', 'assets/i18n'\].
+-   CAP projects at `.cdsrc.json or package.json`. CAP has a configuration setting where the folder names can be used. The default value is `['_i18n', 'i18n', 'assets/i18n']`.
 
 
 
@@ -53,7 +53,7 @@ Independent on the origin of the translation relevant texts, whenever it appears
 
 2.  When the label is defined as a reference to the text key but the text key is missing in the i18n files:
 
-    Click the I*nternationalization \(i18n\)* icon and the following message appears with the user actions *Apply* and *Cancel*:
+    Click the *Internationalization \(i18n\)* icon and the following message appears with the user actions *Apply* and *Cancel*:
 
     ```
     Generate a text key <uniqueKey> with value <uniquekey> in i18n file.

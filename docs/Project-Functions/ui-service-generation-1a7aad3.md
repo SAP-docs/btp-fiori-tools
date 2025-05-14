@@ -8,7 +8,7 @@ Use the UI Service Generator to create a UI service for your SAP Fiori project.
 
 ## Procedure
 
-1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Generate UI Service* command.
+1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Generate UI Service command`.
 
 2.  Select the following depending on your integrated development environment \(IDE\):
 
@@ -25,7 +25,7 @@ Use the UI Service Generator to create a UI service for your SAP Fiori project.
 
 7.  Select a *Transport Request*.
 
-8.  \(Optional\) Select the *Yes* radio button for *Draft Enabled*.
+8.  \(Optional\) Select the *Yes* radio button for *Draft Enabled*. Note: The *Draft Enabled* prompt is only available if the selected business object supports drafts.
 
 9.  \(Optional\) Select the *Yes* radio button for *Do you want to create an SAP Fiori application with the newly generated service?*
 

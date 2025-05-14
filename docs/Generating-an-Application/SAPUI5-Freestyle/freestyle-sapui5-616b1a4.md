@@ -41,25 +41,23 @@
         > ### Note:  
         > For an application generated with the `OData V4` data source, the list of SAPUI5 versions supported is limited to the most recent ones.
 
-    -   **Advanced Options**:
-        -   Select the SAPUI5 theme:
-            -   [SAP Quartz Light](https://help.sap.com/viewer/0120a9e442b44ad9925841dde3bc521f/201909.002/en-US/bf53ad16229e4e438dc0ea5c42064cff.html?q=-%09SAP%20Quartz%20Light%20)
-            -   [SAP Belize](https://help.sap.com/viewer/8ec2dae34eb44cbbb560be3f9f1592fe/1709%20002/en-US/977672c6940f48578d08d770bee236f2.html?q=SAP%20Belize)
-            -   [SAP Quartz Dark](https://help.sap.com/viewer/085edb30fb3d413da552832f3d5c01c0/2002.500/en-US/ed83b3029c724c9cb267cc4c6eff1068.html?q=SAP%20quartz%20dark)
+    -   **[Adding Deployment Configuration to an Existing MTA Deployment File](../Additional-Configuration/adding-an-sap-fiori-application-to-an-mta-deployment-file-with-5a17ba6.md#loio5a17ba6b62b2462aa0e25ffae7b8d728)**
 
-                > ### Note:  
-                > SAP Quartz Dark is only available in SAPUI5 versions 1.72 and later.
+        If a project is generated inside an app router configuration project that has an MTA file, then it will use its deployment configuration by default. You can select *No* to skip the deployment configuration step.
 
+    -   **[Add deployment configuration](../Additional-Configuration/additional-configuration-9bea64e.md#loio9bea64e63b824261932d90037ce3c5ae__section_itv_dk5_t4b)**. The default value is *No*.
 
+        Provide values to the prompts and click *Finish*.
 
-    -   **Adding to MTA project**
+    -   **[Add FLP configuration](../Additional-Configuration/additional-configuration-9bea64e.md#loio9bea64e63b824261932d90037ce3c5ae__section_hbd_gzy_t4b)**. The default value is *No*.
 
-        The generated project is added to the existing MTA config at the time of application generation. The project creates in a subfolder with MTA config.
+        Provide values to the prompts and click *Finish*.
 
-        Enter a mandatory destination name.
+    -   **Configure virtual endpoints for local preview**. The default value is *Yes*.
 
-        ![](images/MTADestination_588d725.png)
+        With this option, virtual endpoints for local preview is used and these files do not need to be created during generation.
 
+    -   [Configure advanced options](../Additional-Configuration/additional-configuration-9bea64e.md#loio9bea64e63b824261932d90037ce3c5ae__section_uhj_l2z_t4b). The default value is *No*.
 
 5.  Click *Next* to generate the application.
 

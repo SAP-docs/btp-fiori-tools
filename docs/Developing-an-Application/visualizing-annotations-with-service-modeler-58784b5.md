@@ -24,8 +24,8 @@ Service Modeler can be launched in several ways.
 
 -   Open *Command Palette*
 -   Start typing *Service Modeler*
--   Select *SAP Fiori tools: Service Modeler: Open Service Modeler* 
--   Select SAP Fiori elements project from your workspace.
+-   Click `Fiori: Service Modeler: Open Service Modeler`.
+-   Select your SAP Fiori elements project from your workspace.
 
 **Using folder context menu**
 

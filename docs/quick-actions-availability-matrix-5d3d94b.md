@@ -2,7 +2,7 @@
 
 # Quick Actions Availability Matrix
 
-Get an overview of supported SAPUI5 versions for quick actions in adaptation projects that are based on SAP Fiori Elements applications.
+Get an overview of supported SAPUI5 versions for quick actions in adaptation projects that are based on SAP Fiori elements applications.
 
 > ### Tip:  
 > Click on *Hide/Show Columns* to display more SAPUI5 versions.

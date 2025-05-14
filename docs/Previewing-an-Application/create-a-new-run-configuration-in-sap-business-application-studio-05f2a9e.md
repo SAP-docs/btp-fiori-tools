@@ -5,7 +5,7 @@
 # Create a New Run Configuration in SAP Business Application Studio
 
 > ### Note:  
-> *Run Configuration Wizard* requires @sap/ux-ui5-tooling version 1.5.3 and higher.
+> *Run Configuration Wizard* requires `@sap/ux-ui5-tooling` version 1.5.3 and higher.
 
 In SAP Business Application Studio, you can create additional run configurations that define how your project is executed. To do so, perform the following steps:
 

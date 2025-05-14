@@ -10,7 +10,7 @@
 
 -   **[MTA](https://github.com/SAP/cloud-mta) executable in the path**.
 
-    For SAP Fiori tools application deployment to Cloud Foundry, you must install MTA. It is a tool for exploring and validating the multitarget application descriptor \(`mta.yaml` file\). The tool can be used as a Go library, a command line tool, or as an npm package.
+    For SAP Fiori tools application deployment to Cloud Foundry, you must install MTA. It is a tool for exploring and validating the multitarget application descriptor \(`mta.yaml` file\). The tool can be used as a Go library, a command line tool, or as an `npm` package.
 
     You can install it globally by running the following command:
 
@@ -76,11 +76,11 @@
 
 ## Generate Deployment Configuration Cloud Foundry
 
-For the deployment to Cloud Foundry, an MTA configuration is created. The command allows to create a new configuration i.e. a new `mta.yaml` file or update an existing `mta.yaml` with the information required for deployment. After successfully creating the configuration, running `npm run build` in the MTA directory that contains the application will try to build a deployable `mta.yaml` file that can then be deployed to CF with `npm run deploy`.
+For the deployment to Cloud Foundry, an MTA configuration is created. The command allows to create a new configuration such as a new `mta.yaml` file or update an existing `mta.yaml` with the information required for deployment. After successfully creating the configuration, running `npm run build` in the MTA directory that contains the application will try to build a deployable `mta.yaml` file that can then be deployed to CF with `npm run deploy`.
 
 To generate a MTA project, perform the following steps:
 
-1.  Launch the deployment configuration wizard from the Command Palette entry: *Fiori: Add Deployment Configuration* and chose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` whilst in the required Fiori project folder.
+1.  Launch the deployment configuration wizard from the Command Palette entry: `Fiori: Add Deployment Configuration` and choose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` whilst in the required SAP Fiori project folder.
 2.  When prompted, enter or select:
 
 

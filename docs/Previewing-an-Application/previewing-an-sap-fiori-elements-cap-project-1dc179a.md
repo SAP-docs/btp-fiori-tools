@@ -19,7 +19,7 @@ To run an application preview in VS Code, perform the following steps:
     > 
     > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
     > -   Use the *View* \> *Terminal* menu command.
-    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the *View: Toggle Integrate Terminal* command.
+    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the `View: Toggle Integrate Terminal` command.
 
 2.  Ensure you are in the root directory of your project.
 3.  In the terminal, type `cds run` and press *Enter*.
@@ -38,7 +38,7 @@ To run an application preview in VS Code, perform the following steps:
     > npm i -g @sap/cds-dk --force
     > ```
 
-4.  Open the link in the terminal using the [Ctrl+Click\] combination.
+4.  Open the link in the terminal using the [CTRL\] + [Click\]  combination.
 
     A new browser window with a list of links opens.
 
@@ -80,7 +80,7 @@ To run an application preview in SAP Business Application Studio, perform the fo
     > npm i -g @sap/cds-dk --force
     > ```
 
-4.  Open the link in the terminal using the [Ctrl+Click\] combination.
+4.  Open the link in the terminal using the [CTRL\] + [Click\]  combination.
 
     A new browser window with a list of links opens.
 

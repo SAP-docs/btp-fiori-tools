@@ -85,7 +85,7 @@ Defining new texts
 
 Place your text cursor inside the path referencing the translatable string value and trigger *Go To Definition*:
 
--   Using a keyboard: press [F12\] in VS Code or [Ctrl\] + [F11\]  in SAP Business Application Studio
+-   Using a keyboard: press [F12\] in Visual Studio Code or [Ctrl\] + [F11\]  in SAP Business Application Studio
 
 -   Using the mouse: right-click and select *Go To Definition*
 

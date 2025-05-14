@@ -60,14 +60,14 @@ When the target system is selected, the *Deploy Configuration* SAP Fiori launchp
 
 ## Add FLP Configuration
 
-Select *Yes* if you want to add an SAP Fiori Launchpad configuration. A new step appears with the *FLP Configuration* prompts.
+Select *Yes* if you want to add an SAP Fiori launchpad configuration. A new step appears with the *FLP Configuration* prompts.
 
 > ### Note:  
 > If the configuration already exists, the existing values are displayed. In this case, the user still can change the inputs.
 
 -   *Semantic Object*. Represents a business entity, such as a customer, a sales order, or a product. Using semantic objects, the user can bundle applications that reflect a specific scenario and refer to objects in a standardized way, abstracting from concrete implementations of these objects. It’s used in mapping URLs of SAP Fiori applications to objects in the launchpad.
 -   *Action*. Describes which operation, such as display or approve Purchase Orders, is intended to be performed on a semantic object. For example, Purchase Order or Product.
--   *Title*. The name of the Fiori application that appears on the SAP Fiori launchpad tile in a free text format.
+-   *Title*. The name of the SAP Fiori application that appears on the SAP Fiori launchpad tile in a free text format.
 -   *Subtitle* \(optional\). A free text field where the user can further describe the application in the launchpad.
 
 
@@ -81,6 +81,10 @@ Select *Yes* if you want to configure advanced options.
 -   Select SAPUI5 theme:
     -   [Quartz Light](https://help.sap.com/viewer/0120a9e442b44ad9925841dde3bc521f/201909.002/en-US/bf53ad16229e4e438dc0ea5c42064cff.html?q=-%09SAP%20Quartz%20Light%20)
     -   [Belize](https://help.sap.com/viewer/8ec2dae34eb44cbbb560be3f9f1592fe/1709%20002/en-US/977672c6940f48578d08d770bee236f2.html?q=SAP%20Belize)
+
+        > ### Note:  
+        > Belize has been deprecated since SAPUI5 version 1.120 and has been removed from version 1.136 onwards.
+
     -   [Quartz Dark](https://help.sap.com/viewer/085edb30fb3d413da552832f3d5c01c0/2002.500/en-US/ed83b3029c724c9cb267cc4c6eff1068.html?q=SAP%20quartz%20dark)
 
         > ### Note:  
@@ -95,7 +99,7 @@ Select *Yes* if you want to configure advanced options.
 
 -   *Add Eslint configuration to the project*.
 
-    Choosing this option includes the Fiori [eslint plugin library](https://www.npmjs.com/package/eslint-plugin-fiori-custom) in the generated application that allows the developer to check and ensure that the Fiori application adheres to the best practice for Fiori code development. Executing the target `npm run lint` in the generated application checks for any linting errors.
+    Choosing this option includes the SAP Fiori [eslint plugin library](https://www.npmjs.com/package/eslint-plugin-fiori-custom) in the generated application that allows the developer to check and ensure that the SAP Fiori application adheres to the best practice for SAP Fiori code development. Executing the target `npm run lint` in the generated application checks for any linting errors.
 
 -   *Add JavaScript code assist libraries to your project*
 
@@ -107,9 +111,9 @@ Select *Yes* if you want to configure advanced options.
 
     Optionally update your CAP application to support NPM workspaces which will permit the generated SAP Fiori application to maintain and define the npm libraries it needs inside the application and not at the root of the CAP project. This is a pre-requisite to adding support for TypeScript for SAP Fiori applications in a CAP project.
 
--   *Enable TypeScript \(Experimental\)*
+-   *Enable*TypeScript*\(Experimental\)*
 
-    You can optionally choose to generate your application with TypeScript support. This is currently an experimental feature and is subject to future updates to enhance support.
+    You can optionally choose to generate your application with TypeScript support. This is an experimental feature and is subject to future updates to enhance support.
 
     > ### Note:  
     > TypeScript support in a CAP application requires npm workspaces to be enabled as detailed above.

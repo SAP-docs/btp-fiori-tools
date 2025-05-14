@@ -27,12 +27,12 @@ Make changes to the UI elements of the adaptation project.
 
 ## Overview
 
-SAPUI5 adaptation project uses the editing capabilities of the SAPUI5 Visual Editor tool. The SAPUI5 Visual Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
+SAPUI5adaptation projects use the editing capabilities of the SAPUI5 Visual Editor tool. The SAPUI5 Visual Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
 
 If you have created your project with Safe Mode, you cannot change properties, add fragments, or add controller extensions. To turn off Safe Mode, deselect the *Safe Mode* switch in the Visual Editor. Note once you switch it off, you cannot switch it on again.
 
 > ### Tip:  
-> The SAPUI5 Visual Editor will show you your project using the SAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch SAPUI5 Visual Editor. Perform the following steps:
+> The SAPUI5 Visual Editor will show you your project using theSAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch SAPUI5 Visual Editor. Perform the following steps:
 > 
 > 1.  Open the `ui5.yaml` file in the root of your project.
 > 

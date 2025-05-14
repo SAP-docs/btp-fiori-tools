@@ -15,9 +15,9 @@ Start the application using the `npm start` command. Then, the application runs 
     > ### Note:  
     > To open the terminal in VS Code, perform the following steps:
     > 
-    > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
+    > -   Use the [CTRL\] + [\`\]  keyboard shortcut with the backtick character.
     > -   Navigate to the *View* \> *Terminal* menu command.
-    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the *View: Toggle Integrate Terminal* command.
+    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the `View: Toggle Integrate Terminal` command.
 
 2.  Ensure you are in the root directory of your project.
 3.  In the terminal pane, type `npm start` and press *Enter*.

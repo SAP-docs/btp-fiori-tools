@@ -3,7 +3,7 @@
 # Previewing an Application
 
 > ### Note:  
-> In the development environment, localhost is used as an HTTP proxy server to reach the back-end OData service. A domain security policy, that is applied in some companies, includes localhost, which forces HTTPS to be used in redirected URLs. As a result, when the user attempts to access a website, an error may occur.
+> In the development environment, `localhost` is used as an HTTP proxy server to reach the back-end OData service. A domain security policy, that is applied in some companies, includes `localhost`, which forces HTTPS to be used in redirected URLs. As a result, when the user attempts to access a website, an error may occur.
 > 
 > If an SSL protocol error appears after the URL redirection, check the security configuration of your browser. For example, Chrome HSTS configuration can be accessed by entering the following URL address to the browser: `chrome://net-internals/#hsts`.
 
@@ -45,13 +45,13 @@ You can right-click the project folder or any application-related subfolder and 
 
 ![](images/preview_application_cefc505.png)
 
--   **start** - starts the application with real service data.
+-   **`start`** - starts the application with real service data.
 
--   **start-local** - starts the application with mock data and a local copy of the SAPUI5 resources for offline work.
+-   **`start-local`** - starts the application with mock data and a local copy of the SAPUI5 resources for offline work.
 
--   **start-noflp** - starts the application without the sandbox for SAP Fiori launchpad.
+-   **`start-noflp`** - starts the application without the sandbox for SAP Fiori launchpad.
 
--   **start-mock** - starts the application with mock data.
+-   **`start-mock`** - starts the application with mock data.
 
 
 Run configurations - starts the application using the existing run configuration selection in the preview command.

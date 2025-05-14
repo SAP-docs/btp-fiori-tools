@@ -68,7 +68,7 @@ For more information on images, see: [Using Images, Initials, and Icons](https:/
 -   Adds property `TypeImageUrl` with the SAP icon text as a value to the `UI.HeaderInfo`.
 
     > ### Example:  
-    > sap-icon://accept
+    > `sap-icon://accept`
 
 -   Value is a string pointing to a SAP Icon such as from the Icon Explorer.
 
@@ -146,7 +146,7 @@ To add a Header section, perform the following steps:
     -   Data Point Section - Value Source Property
     -   Progress Section - Value Source Property
     -   Rating Section - Value Source Property
-    -   Chart Header Section - Chart Type. You are prompted for more information depending on the selected chart type, same as for Chart Column.
+    -   Micro Chart Section - Chart Type. You are prompted for more information depending on the selected chart type, same as for Chart Column.
 
 
 Once the header section is generated, you can add and maintain its properties in the *Property Panel*.
@@ -196,43 +196,29 @@ Required and optional properties you can configure depend on the selected chart 
 > ### Note:  
 > You cannot change the type or main value \(measure\) of the micro chart. If you need to modify one of these properties, just add a new micro chart section and delete an existing one instead.
 
-**Radial Chart**
+**Radial Micro Chart**
 
 Radial chart displays the numeric value compared with the target. Both values you choose when generating a radial micro chart. Then you can choose a different numeric service property to be used as a target in the properties pane, as well as set a description for your chart and apply the semantic coloring based on the value criticality.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6) and [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed).
+For more information on setting the radial chart description, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
-**Bullet Chart**
+**Bullet Micro Chart**
 
 Bullet chart visualizes the numeric value on a given scale. Besides, the main value, you can display addition ones, such as target or forecast on the same scale as well as set a description for your chart and apply the semantic coloring based on the value criticality.
 
-**Target Value**
+See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6) and [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed).
 
-Apart from the main value, bullet chart can also display an additional value as a target. You can choose a numeric service property to be used as a target in the properties pane.
+**Line Micro Chart**
 
-**Forecast Value**
+A line chart displays information as a series of data points connected by a line. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
 
-Bullet chart can also display an additional value to indicate a forecast. You can choose a numeric service property to be used as a forecast value in the properties pane.
+**Area Micro Chart**
 
+An area micro chart is a trend chart. It provides information for actual and target values for a specific time range as well as criticality for the values at the specific time points. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
 
+**Column Micro Chart**
 
-### Minimum and Maximum Values
-
-Bullet Chart scale is based on the minimum value \(by default 0\) and maximum value you chose when generating this micro chart.
-
-You can modify the scale of the chart by updating these minimum and maximum values. You can either define these values based on the service properties of numeric type or as fixed number. For that, you first choose the Maximum \(Minimum\) value type and then the desired number or property.
-
-
-
-### Criticality
-
-To semantically color the bullet chart according to the value criticality, you can either choose a property with the criticality information or define the criticality information in place. So, first you need to choose the Criticality Source. When set to Property, you're prompted to choose a service property containing the criticality information. When set to Calculation, you have to choose the desired improvement direction:
-
--   Minimize: low values are considered as best
--   Maximize: hight values are considered as best
--   Target: values close to the target are considered as best Depending on the selected direction, enter the values to be used as threshold for critical and warning coloring.
-
-For more information on setting the radial chart description, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+A column chart uses vertical bars to compare multiple values over time or across categories. One axis of the chart shows the categories being compared, the other axis represents a value. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
 
 
 
@@ -272,36 +258,11 @@ To delete the section in the application, perform the following steps:
 
 
 
-<a name="loio8a127fc36f5640abaab0056e632fe630__section_mqk_l5s_s5b"/>
-
-## Maintaining Header Section Properties
-
-
-
-### Label
-
-All the *Header* sections regardless of the type contain the *Label* property. They can be based on a different annotation properties depending on the section type. For example, the *Label* for the *Form* section is based on the *Label* property of the `UI.ReferenceFacet` record within the `UI.Facets` annotation since the *Label* of the *Data Point* section is based on the *Title* property of the `UI.Chart` annotation. Nevertheless, you can maintain the *Label* for all the *Header* section types in the same way. All the other *Header* section properties depend on the *Header* section type.
-
-To change the section label, perform the following steps:
-
-1.  Select the required section and navigate to the properties pane area.
-2.  Enter a new name in the *Label* text box. This field defines the text to be displayed at a section label.
-
-    As a result, the section is renamed both in the *Page Editor* and in the application preview.
-
-
-See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301) for more information.
-
-> ### Note:  
-> See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for translation if not yet there.
-
-
-
 <a name="loio8a127fc36f5640abaab0056e632fe630__section_o2g_rlm_32c"/>
 
 ## Sorting Micro Chart Data in Header Sections
 
-Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area or line type.
+Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, or column type.
 
 
 

@@ -16,7 +16,7 @@ Deploy or update the app variant to the SAPUI5 ABAP repository in SAP S/4HANA Cl
 
 1.  Right-click the `manifest.appdescr_variant` file in the *webapp* folder of the project you want to deploy, search for *Adaptation project*, expand it and select *Open Deployment* wizard.
 
-2.  The first step will be to set up the Fiori Launchpad Configuration of your project. If the base app has a navigation intent specified in its manifest you can choose it. If not, you need to enter semantic object, action, and parameters.
+2.  The first step will be to set up the SAP Fiori Launchpad Configuration of your project. If the base app has a navigation intent specified in its manifest you can choose it. If not, you need to enter semantic object, action, and parameters.
 
 3.  Enter the title and the subtitle \(optional\) for the new tile and press *Next*.
 

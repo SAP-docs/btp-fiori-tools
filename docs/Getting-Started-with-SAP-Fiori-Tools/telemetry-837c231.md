@@ -6,5 +6,5 @@ You can enable and disable the collection of analytics for SAP Fiori tools. If e
 
 To enable or disable telemetry:
 
--   Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Change Telemetry Settings* command.
+-   Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Change Telemetry Settings` command.
 

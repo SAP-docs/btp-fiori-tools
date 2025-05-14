@@ -78,12 +78,12 @@ This section provides information on how to connect your application with a data
 
     When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for the SAP Business Application Studio instance. The generator automatically retrieves the available destinations to select from. If you do not have the correct access to use the destination endpoint, an error occurs.
 
-    The destinations are expected to have a catalog service that provides a list of V2 and V4 OData services that are available.
+    The destinations are expected to have a catalog service that provides a list of ODataV2 and V4 services that are available.
 
     If you want to use a destination to reference a service URL endpoint, see [Connect to an OData Service with a customized URL](data-source-9906181.md#loio99061814ead548808d539861fb27bafb__section_i2d_yzx_v4b).
 
     > ### Note:  
-    > In SAP Business Application Studio, to create SAP Fiori elements application in SAP BTP ABAP environment
+    > In SAP Business Application Studio, to create a SAP Fiori elements application in SAP BTP ABAP environment:
     > 
     > -   OrgManager
     > -   SpaceManager
@@ -117,7 +117,7 @@ Enter the OData endpoint URL to generate your application.
 
 -   All OData endpoints that are either **authenticated** or **unauthenticated** are supported.
 
--   The OData endpoint must be the correct version of the template that you’ve selected. For example, a V2 endpoint must be provided for a V2 template. The wizard informs you in case of any mismatch between the OData version and the template version.
+-   The OData endpoint must be the correct version of the template that you’ve selected. For example, a OData V2 endpoint must be provided for an OData V2 template. The wizard informs you in case of any mismatch between the OData version and the template version.
 
 > ### Note:  
 > If necessary, the system prompts you to provide your name and password.
@@ -178,7 +178,7 @@ You can either select a local SAP Cloud Application Programming Model \(CAP\) pr
 > A local CAP Project data source is limited to the List Report Object Page and Analytical List Page templates that are based on OData V4. This option is not available for the Worklist and Overview Page templates.
 
 > ### Note:  
-> [OData V2 Support for CAP](https://cap.cloud.sap/docs/advanced/odata#odata-v2-support) - While CAP defaults to OData V4, the latest protocol version, some projects need to fallback to OData V2, for example, to keep using existing V2-based UIs. SAP Fiori tools does not recommend and support having both OData V2 and OData V4 applications in the app folder within the CAP project. In case, you have a requirement to create both OData V2 and OData V4 applications, it is recommended that you generate the OData V2 app outside of the CAP project.
+> [OData V2 Support for CAP](https://cap.cloud.sap/docs/advanced/odata#odata-v2-support) - While CAP defaults to OData service V4, the latest protocol version, some projects need to fallback to OData service V2, for example, to keep using existing V2-based UIs. SAP Fiori tools does not recommend and support having both OData service V2 and OData service V4 applications in the app folder within the CAP project. In case, you have a requirement to create both OData service V2 and OData service V4 applications, it is recommended that you generate the OData service V2 app outside of the CAP project.
 
 For more information about CAP services, see: [https://cap.cloud.sap/docs/about/](https://cap.cloud.sap/docs/about/).
 

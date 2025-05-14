@@ -2,7 +2,7 @@
 
 # Reuse Library Support
 
-Currently, a library to be used in your project has to reside in your workspace, in either SAP Business Application Studio or Visual Studio Code \(VS Code\). With SAP Fiori tools, you can reuse a library or component in your SAP Fiori apps by adding a reference to another project.
+A library to be used in your project has to reside in your workspace, in either SAP Business Application Studio or Visual Studio Code \(VS Code\). With SAP Fiori tools, you can reuse a library or component in your SAP Fiori apps by adding a reference to another project.
 
 
 
@@ -12,10 +12,10 @@ Currently, a library to be used in your project has to reside in your workspace,
 
 To create a new reusable library that can be referenced in your SAP Fiori application, do the following steps:
 
-1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open Reusable Library Generator* command.
+1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Open Reusable Library Generator` command.
 2.  Provide your library module name and namespace, and choose a minimum version of SAPUI5.
-3.  From the Library Folder Path drop-down list, choose the directory for the new reusable library. The library folder generated consists of the namespace and module name.
-4.  You can optionally choose to generate your library with TypeScript.
+3.  From the *Library Folder Path* drop-down list, choose the directory for the new reusable library. The library folder generated consists of the namespace and module name.
+4.  You can optionally choose to generate your library with OData service.
 
 
 
@@ -36,7 +36,7 @@ To create a new reusable library that can be referenced in your SAP Fiori applic
 
 To add a reference for reusing an SAP Fiori library, perform the following steps:
 
-1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Add Reference to SAP Fiori Reusable Libraries* command.
+1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Add Reference to SAP Fiori Reusable Libraries` command.
 2.  From the *Project Folder Path* drop-down list, select the SAP Fiori project that exists in your current workspace.
 3.  Select *Reusable Library Source* as a workspace.
 4.  Select reusable libraries or components from the list.
@@ -52,7 +52,7 @@ When you click *Finish*, the following files get updated with a reference to the
 
 <a name="loio6e99fbb264eb4911a8e01ae5882bc52e__section_a4h_r1v_j5b"/>
 
-## Deploying a Reuse Library Project Using SAP Fiori tools
+## Deploying a Reuse Library Project Using SAP Fiori Tools
 
 Deploying a Reuse Library Project using SAP Fiori tools.
 

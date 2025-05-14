@@ -49,7 +49,7 @@ The process to deploy the application involves the following steps:
 
 ## Troubleshooting Tips
 
-The backend system contains the SAP\_UI component version 7.53 or newer, but the SAPUI5 repository service cannot be reached.
+The back-end system contains the `SAP_UI` component version 7.53 or newer, but the SAPUI5 repository service cannot be reached.
 
 -   Check if the service is activated. For more information, see [Using an OData Service to Load Data to the SAPUI5 ABAP Repository](https://ui5.sap.com/#/topic/a883327a82ef4cc792f3c1e7b7a48de8).
 
@@ -79,7 +79,7 @@ The SAPUI5 repository service is active and reachable but whenever I deploy an a
 
 <a name="loio1b7a3be8d99c45aead90528ef472af37__section_bzw_kmr_brb"/>
 
-## SAP Fiori tools CLI help
+## SAP Fiori Tools CLI help
 
 SAP Fiori tools CLI offers additional help options to find more information about the various commands and their options for deployment plus other commands.
 

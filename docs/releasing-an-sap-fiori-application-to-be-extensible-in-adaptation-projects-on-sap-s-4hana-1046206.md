@@ -50,7 +50,7 @@ Ensure the UI adaptations that your customers make do not cause breaking changes
     Select the *Use in Cloud Development* checkbox.
 
     > ### Note:  
-    > This step is not a prerequisite for releasing the OData service and the Fiori application. You can still create app variants even if the authorization objects and the restriction types of the OData service are not released. However, the authorizations of the application variant are then identical to the authorizations of the original application. Also, the original application and the original application's business catalogs must be assigned to the user's role.
+    > This step is not a prerequisite for releasing the OData service and the SAP Fiori application. You can still create app variants even if the authorization objects and the restriction types of the OData service are not released. However, the authorizations of the application variant are then identical to the authorizations of the original application. Also, the original application and the original application's business catalogs must be assigned to the user's role.
 
 4.  Create an API snapshot including the released APIs, directly before shipment, using the *Manage API Snapshots* application. For more information, see [Manage API Snapshots](https://help.sap.com/docs/SAP_S4HANA_CLOUD/6aa39f1ac05441e5a23f484f31e477e7/8dda6b60464540e1afe50d6d03320c99.html).
 

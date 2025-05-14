@@ -18,8 +18,8 @@ Use *Run Control* \([CTRL\] + [Shift\] + [D\] \) in VS Code for different option
     > ### Note:  
     > After the SAPUI5 version is selected, the application will start automatically.
 
--   Start **project name** Mock - Runs the application using mock data by executing the `npm run start-mock` script. Only available in OData V2 service.
--   Start **project name** Mock with SAPUI5 Version - Runs the application using mock data and enables selection of an SAPUI5 version. Only available in OData V2 service.
+-   Start **project name** Mock - Runs the application using mock data by executing the `npm run start-mock` script. Only available in ODataOData V2 service.
+-   Start **project name** Mock with SAPUI5 Version - Runs the application using mock data and enables selection of an SAPUI5 version. Only available in ODataOData V2 service.
 -   Start **project name** Local - Runs the application using mock data against a local copy of the SAPUI5 library that was selected during generation.
 
 In VS Code, you can also create additional launch configurations. For more information, see [Create a New Run Configuration in Visual Studio Code](create-a-new-run-configuration-in-visual-studio-code-3b1f37e.md).
@@ -41,7 +41,7 @@ In VS Code, you can also create additional launch configurations. For more infor
 2.  In the Run Configuration pane, see the list with different options of running your application:
 
     -   Start **project name** - Runs the application based on the SAPUI5 version selected during the generation.
-    -   Start **project name** Mock - Runs the application using mock data by executing the `npm run start-mock` script. Only available in OData V2 service.
+    -   Start **project name** Mock - Runs the application using mock data by executing the `npm run start-mock` script. Only available in ODataOData V2 service.
     -   Start **project name** Local - Runs the application using mock data against a local copy of the SAPUI5 library that was selected during generation.
 
     In SAP Business Application Studio, you can also create additional run configurations. For more information, see [Create a New Run Configuration in SAP Business Application Studio](create-a-new-run-configuration-in-sap-business-application-studio-05f2a9e.md).

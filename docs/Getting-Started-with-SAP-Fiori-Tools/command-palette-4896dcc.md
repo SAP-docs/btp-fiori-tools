@@ -21,7 +21,7 @@ Description
 <tr>
 <td valign="top">
 
-Fiori: Add Configuration for Variants Creation
+`Fiori: Add Configuration for Variants Creation`
 
 </td>
 <td valign="top">
@@ -33,7 +33,7 @@ Adds configuration for variants creation.
 <tr>
 <td valign="top">
 
-Fiori: Add Deployment Configuration
+`Fiori: Add Deployment Configuration`
 
 </td>
 <td valign="top">
@@ -45,7 +45,7 @@ Adds deployment configuration to the application.
 <tr>
 <td valign="top">
 
-Fiori: Add Reference to SAP Fiori apps Reusable Libraries
+`Fiori: Add Reference to SAP Fiori Apps Reusable Libraries`
 
 </td>
 <td valign="top">
@@ -57,7 +57,7 @@ Helps to reuse a library or component in your SAP Fiori apps by adding a referen
 <tr>
 <td valign="top">
 
-Fiori: Add SAP System
+`Fiori: Add SAP System`
 
 </td>
 <td valign="top">
@@ -69,7 +69,7 @@ Creates and saves a new SAP system \(ABAP On-Premises or ABAP Environment with a
 <tr>
 <td valign="top">
 
-Fiori: Add SAP Fiori launchpad Configuration
+`Fiori: Add SAP Fiori Launchpad Configuration`
 
 </td>
 <td valign="top">
@@ -81,19 +81,19 @@ Adds the necessary configuration to the application so it can run on SAP Fiori l
 <tr>
 <td valign="top">
 
-Fiori: Add SAP Fiori launchpad Embedded Configuration
+`Fiori: Add SAP Fiori Launchpad Embedded Configuration`
 
 </td>
 <td valign="top">
 
-Creates and saves the configuration needed to preview an app within the target environment without the redeployment. For more information, see [Preview an Application on External Fiori Launchpad](../Previewing-an-Application/preview-an-application-on-external-fiori-launchpad-c789692.md).
+Creates and saves the configuration needed to preview an app within the target environment without the redeployment. For more information, see [Preview an Application on External SAP Fiori Launchpad](../Previewing-an-Application/preview-an-application-on-external-sap-fiori-launchpad-c789692.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Fiori: Archive Project
+`Fiori: Archive Project`
 
 </td>
 <td valign="top">
@@ -105,7 +105,7 @@ Archives a project.
 <tr>
 <td valign="top">
 
-Fiori: Change Telemetry Settings
+`Fiori: Change Telemetry Settings`
 
 </td>
 <td valign="top">
@@ -117,7 +117,7 @@ Allows the user to choose whether telemetry data is sent to SAP for SAP Fiori to
 <tr>
 <td valign="top">
 
-Fiori: Change the Minimum SAPUI5Version
+`Fiori: Change the Minimum SAPUI5 Version`
 
 </td>
 <td valign="top">
@@ -129,19 +129,19 @@ Changes the minimum version of SAPUI5 that the application requires.
 <tr>
 <td valign="top">
 
-Fiori: Delete Application from CAP Project
+`Fiori: Delete Application from CAP Project`
 
 </td>
 <td valign="top">
 
-Deletes an application from a multiapplication CAP project. For more information, see [Deleting an Application in CAP Project](../Project-Functions/deleting-an-application-in-cap-project-709f838.md).
+Deletes an application from a multi-application CAP project. For more information, see [Deleting an Application in CAP Project](../Project-Functions/deleting-an-application-in-cap-project-709f838.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Fiori: Deploy Application
+`Fiori: Deploy Application`
 
 </td>
 <td valign="top">
@@ -153,7 +153,7 @@ Deploys the application according to the configuration by default stored in `ui5
 <tr>
 <td valign="top">
 
-Fiori: Enable App-to-App Navigation Preview
+`Fiori: Enable App-to-App Navigation Preview`
 
 </td>
 <td valign="top">
@@ -165,7 +165,7 @@ Creates and saves the configuration needed to preview the navigation between app
 <tr>
 <td valign="top">
 
-Fiori: Import SAP System
+`Fiori: Import SAP System`
 
 </td>
 <td valign="top">
@@ -177,7 +177,7 @@ Imports and saves a new SAP system \(ABAP On-Premise\) in VS Code. For more info
 <tr>
 <td valign="top">
 
-Fiori: Migrate Project for use in SAP Fiori tools
+`Fiori: Migrate Project for use in SAP Fiori Tools`
 
 </td>
 <td valign="top">
@@ -189,7 +189,7 @@ Moves your SAP Fiori projects from other services, such as SAP Web IDE, to VS Co
 <tr>
 <td valign="top">
 
-Fiori: Open Annotation File Manager
+`Fiori: Open Annotation File Manager`
 
 </td>
 <td valign="top">
@@ -201,7 +201,7 @@ Launches the annotation file manager.
 <tr>
 <td valign="top">
 
-Fiori: Open Application Generator
+`Fiori: Open Application Generator`
 
 </td>
 <td valign="top">
@@ -213,7 +213,7 @@ Launches SAP Fiori application generator to create an SAP Fiori application. For
 <tr>
 <td valign="top">
 
-Fiori: Open Application Info
+`Fiori: Open Application Info`
 
 </td>
 <td valign="top">
@@ -225,7 +225,7 @@ Opens the Application Information page. For more information, see [Application I
 <tr>
 <td valign="top">
 
-Fiori: Open CF Application Router Generator
+`Fiori: Open CF Application Router Generator`
 
 </td>
 <td valign="top">
@@ -237,7 +237,7 @@ Generates an app router configuration in the MTA deployment scenario. For more i
 <tr>
 <td valign="top">
 
-Fiori: Open Data Editor
+`Fiori: Open Data Editor`
 
 </td>
 <td valign="top">
@@ -249,7 +249,7 @@ Launches the Data Editor.
 <tr>
 <td valign="top">
 
-Fiori: Open Environment Check
+`Fiori: Open Environment Check`
 
 </td>
 <td valign="top">
@@ -261,7 +261,7 @@ Checks and creates reports on the development environment.
 <tr>
 <td valign="top">
 
-Fiori: Open Guided Development
+`Fiori: Open Guided Development`
 
 </td>
 <td valign="top">
@@ -273,7 +273,7 @@ Launches guided development, an extension that implements and updates features a
 <tr>
 <td valign="top">
 
-Fiori: Open Guided Development to the Side
+`Fiori: Open Guided Development to the Side`
 
 </td>
 <td valign="top">
@@ -285,7 +285,7 @@ Launches guided development \(see above\) to the side of the VS Code window.
 <tr>
 <td valign="top">
 
-Fiori: Open Reusable Library Generator
+`Fiori: Open Reusable Library Generator`
 
 </td>
 <td valign="top">
@@ -297,7 +297,7 @@ Launches the reusable library generator.
 <tr>
 <td valign="top">
 
-Fiori: Open Run Configurations
+`Fiori: Open Run Configurations`
 
 </td>
 <td valign="top">
@@ -309,7 +309,7 @@ Opens the run configuration editor to configure preview options for a project. F
 <tr>
 <td valign="top">
 
-Fiori: Open Service Manager
+`Fiori: Open Service Manager`
 
 </td>
 <td valign="top">
@@ -321,31 +321,31 @@ Launches the Service Manager.
 <tr>
 <td valign="top">
 
-Fiori: Open Service Modeler
+`Fiori: Open Service Modeler`
 
 </td>
 <td valign="top">
 
-Launches the Service Modeler, an extension to visualize the OData service model and annotations. For more information, see [Viewing Service Metadata](../Project-Functions/viewing-service-metadata-e369c2c.md).
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-Fiori: Open Service Modeler to the Side
-
-</td>
-<td valign="top">
-
-Launches the Service Modeler \(see above\) to the side of the VS Code window.
+Launches the service modeler, an extension to visualize the OData service model and annotations. For more information, see [Viewing Service Metadata](../Project-Functions/viewing-service-metadata-e369c2c.md).
 
 </td>
 </tr>
 <tr>
 <td valign="top">
 
-Fiori: Preview Application
+`Fiori: Open Service Modeler to the Side`
+
+</td>
+<td valign="top">
+
+Launches the service modeler \(see above\) to the side of the VS Code window.
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+`Fiori: Preview Application`
 
 </td>
 <td valign="top">
@@ -357,7 +357,7 @@ Allows you to choose a start script to run the application preview.
 <tr>
 <td valign="top">
 
-Fiori: Refresh Application Modeler View
+`Fiori: Refresh Application Modeler View`
 
 </td>
 <td valign="top">
@@ -369,7 +369,7 @@ Refreshes the application modeler view.
 <tr>
 <td valign="top">
 
-Fiori: Restart XML annotation language server 
+`Fiori: Restart XML Annotation Language Server`
 
 </td>
 <td valign="top">
@@ -381,7 +381,7 @@ Restarts the XML annotation language server if it failed.
 <tr>
 <td valign="top">
 
-Fiori: Run UI5 Linter
+`Fiori: Run UI5 Linter`
 
 </td>
 <td valign="top">
@@ -393,7 +393,7 @@ Run a static code analysis to validate compliance with SAPUI5 best practices. Fo
 <tr>
 <td valign="top">
 
-Fiori: Show Output Channel
+`Fiori: Show Output Channel`
 
 </td>
 <td valign="top">
@@ -405,7 +405,7 @@ Opens the Output channel for the application modeler.
 <tr>
 <td valign="top">
 
-Fiori: Show Page Editor
+`Fiori: Show Page Editor`
 
 </td>
 <td valign="top">
@@ -417,7 +417,7 @@ Opens the Page Editor that shows an outline view of the configurable elements on
 <tr>
 <td valign="top">
 
-Fiori: Show Page Map
+`Fiori: Show Page Map`
 
 </td>
 <td valign="top">
@@ -429,7 +429,7 @@ Opens the Page Map that shows application pages and navigation paths. For more i
 <tr>
 <td valign="top">
 
-Fiori: Show Release Notes
+`Fiori: Show Release Notes`
 
 </td>
 <td valign="top">
@@ -441,7 +441,7 @@ Shows the SAP Fiori tools release notes.
 <tr>
 <td valign="top">
 
-Fiori: Show SAP System Details
+`Fiori: Show SAP System Details`
 
 </td>
 <td valign="top">
@@ -453,7 +453,7 @@ Opens the detail view for a saved SAP system in VS Code.
 <tr>
 <td valign="top">
 
-Fiori tools AI: Show Fiori tools Joule
+`Fiori tools AI: Show Fiori Tools Joule`
 
 </td>
 <td valign="top">
@@ -465,7 +465,7 @@ Launches Joule, the SAP Fiori tools AI assistant in SAP Business Application Stu
 <tr>
 <td valign="top">
 
-Fiori: Validate Project
+`Fiori: Validate Project`
 
 </td>
 <td valign="top">

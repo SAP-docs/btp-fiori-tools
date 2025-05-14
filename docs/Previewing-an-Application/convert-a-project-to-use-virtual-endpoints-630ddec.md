@@ -33,7 +33,7 @@ To convert your application to use virtual endpoints, perform the following step
 ## Procedure
 
 1.  Launch the converter using one of the following options:
-    1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Convert Preview Config* command.
+    1.  Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Convert Preview Config` command.
     2.  Open *Application Info* and click *Convert Preview Config*.
 
 2.  Press [Y\] to simulate the conversion or [N\] to convert the project.

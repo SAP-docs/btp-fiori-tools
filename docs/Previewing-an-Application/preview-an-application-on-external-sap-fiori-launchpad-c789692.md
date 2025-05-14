@@ -1,6 +1,6 @@
 <!-- loioc789692fe0fb4aaca5300e3c312d1705 -->
 
-# Preview an Application on External Fiori Launchpad
+# Preview an Application on External SAP Fiori Launchpad
 
 Learn how to preview an application without redeploying it.
 
@@ -18,7 +18,7 @@ This feature provides the user with the ability to test an application run witho
 To run the application on the external SAP Fiori launchpad, perform the following steps:
 
 1.  Open the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \).
-2.  Execute the *Fiori: Add FLP Embedded Configuration* command.
+2.  Execute the `Fiori: Add FLP Embedded Configuration` command.
 3.  Enter the BSP of the deployed application.
 
     > ### Note:  

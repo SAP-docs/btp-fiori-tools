@@ -4,7 +4,7 @@
 
 You can modify an SAP Fiori project with JavaScript code assist libraries in the *Advanced configuration* step.
 
-To add JavasScript code assist libraries to the already generated application with SAPUI5 version 1.76 and newer, perform the following steps in your project:
+To add JavaScript code assist libraries to the already generated application with SAPUI5 version 1.76 and newer, perform the following steps in your project:
 
 1.  Update the `package.json` file:
 

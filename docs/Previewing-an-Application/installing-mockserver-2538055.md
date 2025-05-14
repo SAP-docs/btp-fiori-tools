@@ -13,7 +13,7 @@
 
 If you haveve created a project and want to install mock server, you can either:
 
--   Execute: *Fiori: Open Application Info*.
+-   Execute: `Fiori: Open Application Info`.
 
     -   Under *What you can do*, click *Add Mock server Config*.
 

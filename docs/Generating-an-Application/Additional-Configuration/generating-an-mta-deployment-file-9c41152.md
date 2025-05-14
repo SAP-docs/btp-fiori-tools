@@ -2,7 +2,7 @@
 
 # Generating an MTA Deployment File
 
-In the MTA deployment scenario, developers can generate an app router configuration, that contains the `mta.yaml` file, and then add multiple generated SAP Fiori apps to the app router configuration project. To do so, open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori: Open CF Application Router Generator* command.
+In the MTA deployment scenario, developers can generate an app router configuration, that contains the `mta.yaml` file, and then add multiple generated SAP Fiori apps to the app router configuration project. To do so, open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori: Open CF Application Router Generator` command.
 
 ![](images/Application_Router_Generator_c4b6125.png)
 

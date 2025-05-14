@@ -35,7 +35,7 @@ The deployment to ABAP task allows deploying SAP Fiori applications to SAP syste
 
 ## Generation of Deployment Configurations
 
-In order to create deployment configuration, launch the deployment configuration wizard from the Command Palette entry: *Fiori: Add Deployment Configuration* and chose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` while in the required SAP Fiori project folder.
+In order to create deployment configuration, launch the deployment configuration wizard from the Command Palette entry: `Fiori: Add Deployment Configuration` and chose the SAP Fiori project you would like to configure, or you can launch from the command line using the command: `npx fiori add deploy-config` while in the required SAP Fiori project folder.
 
 You are prompted for the required information and then the `ui5-deploy.yaml` file is created based on your input and the content of the existing `ui5.yaml` file used for preview. In addition to creating the configuration, the create deployment command will also update your `package.json` file so that you can execute `npm run deploy` afterwards to deploy your application. See [Deployment of Application](deployment-of-application-607014e.md).
 

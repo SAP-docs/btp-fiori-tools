@@ -96,7 +96,7 @@ If the external navigation action is defined in the table toolbar, you can use t
 
 ## Moving Actions
 
-Moving a table action from the **toolbar** to **columns** or vice versa will switch the **Inline** property accordingly. A table action can only be moved within the same table.
+Moving a table action from the **toolbar** to **columns** or the other around will switch the **Inline** property accordingly. A table action can only be moved within the same table.
 
 
 

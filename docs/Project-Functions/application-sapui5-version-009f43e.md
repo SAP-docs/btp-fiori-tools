@@ -8,7 +8,7 @@
 
 ## Minimum SAPUI5 Version
 
-The minimum SAPUI5 version declares the version which is required at runtime to support the features used in application development. It is set via the `minUI5Version` property in the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](https://ui5.sap.com/#/topic/be0cf40f61184b358b5faedaec98b2da.html%23loiobe0cf40f61184b358b5faedaec98b2da/section_sap_ui5)
+The minimum SAPUI5 version declares the version which is required at runtime to support the features used in application development. It is set using the `minUI5Version` property in the `manifest.json` file. For more information, see [Descriptor for Applications, Components, and Libraries \(manifest.json\)](https://ui5.sap.com/#/topic/be0cf40f61184b358b5faedaec98b2da.html%23loiobe0cf40f61184b358b5faedaec98b2da/section_sap_ui5)
 
 > ### Sample Code:  
 > JSON
@@ -23,9 +23,9 @@ The minimum SAPUI5 version declares the version which is required at runtime to 
 > }
 > ```
 
-If the target system does not have the required minimum SAPUI5 version, a warning message appears when deploying your application. For more information, see [Deploying an Application](../Deploying-an-Application/deploying-an-application-1b7a3be.md). The minimum SAPUI5 version is set during generation when selecting a version for the project and can also be changed using the *Fiori: Change Minimum SAPUI5 Version* command.
+If the target system does not have the required minimum SAPUI5 version, a warning message appears when deploying your application. For more information, see [Deploying an Application](../Deploying-an-Application/deploying-an-application-1b7a3be.md). The minimum SAPUI5 version is set during generation when selecting a version for the project and can also be changed using the `Fiori: Change Minimum SAPUI5 Version` command.
 
-It is also used to determine which version of the [@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification) module is installed to provide the matching feature set in Application Modeler and Guided Development. Changing the minimum SAPUI5 version with the *Fiori: Change Minimum SAPUI5 Version* command will update the `@sap/ux-specification` module if needed.
+It is also used to determine which version of the [@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification) module is installed to provide the matching feature set in Application Modeler and Guided Development. Changing the minimum SAPUI5 version with the `Fiori: Change Minimum SAPUI5 Version` command will update the `@sap/ux-specification` module if needed.
 
 
 
@@ -55,7 +55,7 @@ SAP Fiori applications deployed to an ABAP environment and embedded in SAP Fiori
 
 **Standalone** 
 
-If the application is running standalone using a deployed `index.html`, then the version depends on the configuration in the `index.html` file. Applications generated with the SAP Fiori generator contain an `index.html` file with a relative path to the host:
+If the application is running standalone using a deployed `index.html`, then the version depends on the configuration in the `index.html` file. Applications generated with the SAP Fiori Generator contain an `index.html` file with a relative path to the host:
 
 > ### Sample Code:  
 > HTML
@@ -83,7 +83,7 @@ SAP Fiori applications deployed to Cloud Foundry run in an iFrame using the SAPU
 
 **Standalone** 
 
-If the application is running standalone, the *Fiori: Add Deployment Configuration* command adds a route to a destination for SAPUI5 resources to the `xs-app.json`:
+If the application is running standalone, the `Fiori: Add Deployment Configuration` command adds a route to a destination for SAPUI5 resources to the `xs-app.json`:
 
 > ### Sample Code:  
 > JSON

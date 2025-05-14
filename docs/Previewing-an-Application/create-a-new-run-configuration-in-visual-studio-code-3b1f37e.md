@@ -5,11 +5,11 @@
 # Create a New Run Configuration in Visual Studio Code
 
 > ### Note:  
-> *Run Configuration Wizard* requires @sap/ux-ui5-tooling version 1.5.3 and higher.
+> *Run Configuration Wizard* requires `@sap/ux-ui5-tooling` version 1.5.3 and higher.
 
-A new run configuration is created with the*Fiori: Open Run Configurations* command. To add custom configuration files for your project, perform the following steps:
+A new run configuration is created with the `Fiori: Open Run Configurations` command. To add custom configuration files for your project, perform the following steps:
 
-1.  From the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \), execute the *Fiori: Open Run Configurations* command.
+1.  From the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \), execute the`Fiori: Open Run Configurations` command.
 2.  Select the project that you want to add a new configuration and press [Enter\] to confirm your input.
 3.  The existing run configurations for the selected project are displayed. Click *Create*.
 4.  Fill in the following sections:

@@ -61,7 +61,7 @@ For more information about extensibility, please see [Extending an SAP Fiori App
     A new *Migration* view opens listing all the projects from your workspace. For each project listed, the type of the project is also displayed. If the tool finds no suitable project for migration in your workspace, a message is shown.
 
     > ### Tip:  
-    > You can also open the Migration view anytime by opening the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and executing the *Fiori: Migrate Project for use in Fiori tools* command.
+    > You can also open the Migration view anytime by opening the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and executing the `Fiori: Migrate Project for use in Fiori tools` command.
 
 3.  Select the project that you want to migrate from the list of projects by selecting the corresponding checkbox. You can choose to manually add a project from the filesystem by clicking *Add Project*. If the supplied folder has an application that can be migrated, it's added to your list of projects. At any point, you can click the *Refresh* button to reload the projects from your workspace again.
 4.  For each listed project, if applicable, fill in the respective columns based on the information provided below:
@@ -238,7 +238,7 @@ A file deleted and re-created during migration to reflect updated libraries.
 <td valign="top">
 
 -   Removes SAPUI5 SAP Web IDE specific libraries.
--   Updates the npm scripts with SAP Fiori tooling targets and dependencies.
+-   Updates the `npm` scripts with SAP Fiori tooling targets and dependencies.
 -   Presence of `sapux:true` and `ui5-tooling` library identifies the project as one that supports SAP Fiori tools.
 
 
@@ -373,7 +373,7 @@ Applies the same changes as the `flpSandbox.html` file but with the mock server 
 ## Verification
 
 1.  Review the file changes in the *Source Control* view. Check for any project-specific changes that may be overwritten and consider reapplying as appropriate.
-2.  To ensure your SAP Fiori tools application works as expected, launch any of the SAP Fiori tools commands, such as *Page Map*, *Fiori: Open Application Generator*, or *Fiori: Open Guided Development*.
+2.  To ensure your SAP Fiori tools application works as expected, launch any of the SAP Fiori tools commands, such as *Page Map*, `Fiori: Open Application Generator`, or `Fiori: Open Guided Development`.
 
     > ### Note:  
     > Some SAP Fiori apps might be missing files like `metadata.xml` before migration, which can impact some of the SAP Fiori tools features. To avoid this, after migration, make sure that you sync the `OData` service using *Service Manager*. For more information, see [Managing Service and Annotations Files](../Project-Functions/managing-service-and-annotations-files-8182ff3.md).

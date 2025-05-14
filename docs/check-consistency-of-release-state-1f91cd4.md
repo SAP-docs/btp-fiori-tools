@@ -2,7 +2,7 @@
 
 # Check Consistency of Release State
 
-Learn how to use the SAPUI5 Component Consistency ATC check to verfy the consistency of your release state.
+Learn how to use the SAPUI5 Component Consistency ATC check to verify the consistency of your release state.
 
 
 

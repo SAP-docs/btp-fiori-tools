@@ -16,7 +16,7 @@ To create development variants for your Fiori project with SAP Fiori tools perfo
     If the script is not present, configure the feature:
 
     -   Open the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \).
-    -   Execute the *Fiori: Add Configuration for Variants Creation* command.
+    -   Execute the `Fiori: Add Configuration for Variants Creation` command.
 
 2.  After the script is executed, a new browser tab appears. It displays the preview of the application switched to the UI adaptation mode.
 3.  For more information on creating developer variants, see [Creating and Adapting Views](https://help.sap.com/viewer/DRAFT/6583b46f6c164aad818a3891bc91d8d8/dev_internal/en-US/91ae3492323b42a79ca66fbfaf5af3f9.html).

@@ -9,7 +9,7 @@ You can safely delete an SAP Fiori application created inside CAP projects with 
 
 Perform the following steps:
 
-1.  Open the Command Palette in Visual Studio Code \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and execute the *Fiori: Delete Application from CAP project* command.
+1.  Open the Command Palette in Visual Studio Code \([CMD\]/[CTRL\] + [Shift\] + [P\]\) and execute the `Fiori: Delete Application from CAP project` command.
 2.  Select the application you want to delete from the dropdown list of applications available. A dialog box *Do you really want to delete application <application\_name\>?* with the following options appears:
     -   *Yes*
     -   *No*

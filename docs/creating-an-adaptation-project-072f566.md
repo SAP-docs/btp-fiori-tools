@@ -12,7 +12,7 @@ Create an adaptation project in an on-premise system.
 
 1.  Open Visual Studio Code \(VS Code\).
 
-2.  If you are creating an adaptation project for the first time, open the *Command Palette* and execute the *Fiori: Open Adaptation Project Generator* command.
+2.  If you are creating an adaptation project for the first time, open the *Command Palette* and execute the `Fiori: Open Adaptation Project Generator` command.
 
 3.  Open the *Command Palette* and execute the *Fiori: Open Template Wizard* command.
 

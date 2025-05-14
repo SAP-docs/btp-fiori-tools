@@ -14,7 +14,7 @@ Assuming the following file system structure:
 
 ![](images/RunConfig_Image1_5cfcf01.png)
 
-The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. Iepending on which folder you choose, you will get different results.
+The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. Depending on which folder you choose, you will get different results.
 
 When opening Folder\_One, Config One is shown in *Run and Debug* view.
 

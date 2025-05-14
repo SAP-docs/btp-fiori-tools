@@ -10,12 +10,12 @@
 
 ## Criticality Representation
 
-When *Criticality* property is defined for the basic table column or section field, the *Criticality Representation* property appears in the properties pane right after it. If you want to use the default representation defined by Fiori elements, you can leave this field set to *None*. Otherwise, you can explicitly define whether to indicate the criticality by an icon in addition to the semantic coloring. For this, choose one of the following options:
+When *Criticality* property is defined for the basic table column or section field, the *Criticality Representation* property appears in the properties pane right after it. If you want to use the default representation defined by SAP Fiori elements, you can leave this field set to *None*. Otherwise, you can explicitly define whether to indicate the criticality by an icon in addition to the semantic coloring. For this, choose one of the following options:
 
--   **With Icon** – displays the icon in addition to the semantic coloring, independent on the default representation defined by Fiori elements.
+-   **With Icon** – displays the icon in addition to the semantic coloring, independent on the default representation defined by SAP Fiori elements.
 -   **Without Icon**
 
-As a result, *Criticality Representation* property is added to the `UI.DataField` record and the respective column or field values are shown with or without the icon, independent on the default representation defined by Fiori elements presenting the table column or section field.
+As a result, *Criticality Representation* property is added to the `UI.DataField` record and the respective column or field values are shown with or without the icon, independent on the default representation defined by SAP Fiori elements presenting the table column or section field.
 
 <a name="loio19d82b5d8bc940738afcb49b51a48bed"/>
 
@@ -32,7 +32,7 @@ As a prerequisite, your service should contain the property representing the sta
 
 ![](images/Criticallity_ac93cba.png)
 
-As a result, *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear, that depends on the default behavior of Fiori elements template. You may override this default by explicitly defining the criticality representation.
+As a result, *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear, that depends on the default behavior of the SAP Fiori elements template. You may override this default by explicitly defining the criticality representation.
 
 <a name="loio53c6d1a41ee041e7a01918f14b4925e6"/>
 
@@ -129,7 +129,7 @@ The `Form/Table/Identification/Chart` section labels are translatable and readab
 -   In case, these annotations are not present for the entity property, the `Label` property of the `DataField` is generated with the same value as the `Value` property.
 -   The application does not generate the label annotations directly on the properties.
 -   If you attempt to change the value of the Label provided by annotation, the annotation value is not updated. Rather the `Label` property of `DataField` is generated or updated.
--   During deletion of the field, annotations mentioned above are not deleted, only labels which are directly maintained in record are deleted as record is fully completely removed. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for more information.
+-   During deletion of the field, the annotations mentioned above are not deleted, only labels which are directly maintained in the record are deleted because the record is removed. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for more information.
 
 
 
@@ -137,7 +137,7 @@ The `Form/Table/Identification/Chart` section labels are translatable and readab
 
 ## Columns
 
-The `Column` labels can be maintained with annotations, such as `Common.Label` and `@title`. The `Basic Column`sublabel can be maintained with type information of the entity property such as `name: String(50)`. The navigation to the source code leads to the respective `DataField`record. The other column types such as `Rating Column`, `Progress Column` sublabel can be maintained with column type information e.g. `Type: Rating` or `Type: Progress`. In case the annotations are not maintained, the label would be empty and the user can add label through the property panel and the Label property for DataField is generated. During deletion of column, the label maintained in record gets deleted as the record is completely removed.
+The `Column` labels can be maintained with annotations, such as `Common.Label` and `@title`. The `Basic Column`sublabel can be maintained with type information of the entity property such as `name: String(50)`. The navigation to the source code leads to the respective `DataField`record. The other column types such as `Rating Column`, `Progress Column` sublabel can be maintained with column type information e.g. `Type: Rating` or `Type: Progress`. If the annotations are not maintained, the label is empty and you can add a label using the property panel and the Label property for DataField is generated. During deletion of column, the label maintained in the record is deleted because the record is completely removed.
 
 
 
@@ -147,9 +147,9 @@ The `Column` labels can be maintained with annotations, such as `Common.Label` a
 
 `Actions` has also editable labels.
 
--   During creation of action, we use the the last segment of actions to create the label. For example, `Trippin.Container/GetNearestAirport` the `Label` will have `GetNearestAirport` as the value assigned to it.
--   This Label would be eventually rendered as the Button Label in Fiori application. During deletion the the entire `DataFieldForAction` record is deleted, thus deleting the `Label` along with it.
--   Label based annotations are not removed during the cleanup procedure [Project Cleanup](project-cleanup-2640899.md).
+-   During creation of action, the last segment of actions is used to create the label. For example, with `Trippin.Container/GetNearestAirport`, the `Label` will have `GetNearestAirport` as the value assigned to it.
+-   This Label is rendered as the Button Label in SAP Fioriapplications. During deletion, the entire `DataFieldForAction` record is deleted which deletes the `Label` along with it.
+-   Label based annotations are not removed during the cleanup procedure, For more information, see [Project Cleanup](project-cleanup-2640899.md).
 
 <a name="loio5d1cc16e80ce48de8a47f2835a42cc47"/>
 
@@ -157,7 +157,7 @@ The `Column` labels can be maintained with annotations, such as `Common.Label` a
 
 ## Text
 
-Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes: `O`, `A`, and `C` aree meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, Cancelled.
+Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes: `O`, `A`, and `C` are meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, or Cancelled.
 
 To add such descriptive texts, select the property representing the descriptive text in the *Text* property. Then, the `Common.Text` annotation will be applied to the property representing field/column value.
 
@@ -167,7 +167,7 @@ To add such descriptive texts, select the property representing the descriptive 
 
 ## Text Arrangement
 
-When *Text* is defined, the `Text Arrangement` property appears in the properties pane right after it. If you want to use the default arrangement of Fiori elements, you can leave this field set to *None*. Otherwise, you can define how this text is displayed to the field or column value.
+When *Text* is defined, the `Text Arrangement` property appears in the properties pane right after it. If you want to use the default arrangement of SAP Fiori elements, you can leave this field set to *None*. Otherwise, you can define how this text is displayed to the field or column value.
 
 > ### Note:  
 > The option *None* is not available if `UI.TextArrangement` or `Common.TextArrangement` is already defined on a lower layer, such as in the service.

@@ -36,7 +36,7 @@ For more information, see [Report Issues and Security](report-issues-and-securit
 For supported data sources, see: [Data Source](../Generating-an-Application/SAP-Fiori-Elements/data-source-9906181.md)
 
 > ### Note:  
-> If there are any issues, create an incident in the **SAP Support Portal** for component **CA-UX-IDE**.
+> If there are any issues, create an incident in the SAP Support Portal for the `CA-UX-IDE` component.
 
 SAP Fiori tools is available in two integrated development environments \(IDEs\).
 
@@ -44,5 +44,5 @@ SAP Fiori tools is available in two integrated development environments \(IDEs\)
 -   [Visual Studio Code](visual-studio-code-17efa21.md#loio17efa217f7f34a9eba53d7b209ca4280)
 
 > ### Caution:  
-> Currently, SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with the minimum SAPUI5 versions of 1.65 or higher.
+> SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with a minimum SAPUI5 version of 1.65 or higher.
 

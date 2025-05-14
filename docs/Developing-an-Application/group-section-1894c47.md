@@ -15,7 +15,7 @@ A Group section groups multiple sections together. It can contain a group of sec
 
 ## Adding Group Section or Subsections
 
-To add a Group section or subsections, perform the following steps:Fiori elements may not render group sections beyond the certain level and have rendering limitations on displaying Table sections as peer to the form sections. Please check the current documentation for
+To add a Group section or subsections, perform the following steps:
 
 1.  Click the Object/Form Entry Page to open the *Page Editor*.
 2.  Navigate to the section layer and click the :heavy_plus_sign: \(*Add*\) icon.
@@ -26,7 +26,7 @@ To add a Group section or subsections, perform the following steps:Fiori element
 
     A new pop-up window *Add Group Section* appears with a field to provide a label for the section to be added.
 
-4.  Enter a title in the *Label*Fiori text box and click *Add*.
+4.  Enter a title in the *Label*text box and click *Add*.
 
     > ### Note:  
     > Internally, a new entry is added to the annotation `UI.Facets`. This entry is of the type `UI.CollectionFacet` with corresponding property Label and property Facets being set to an empty array. If `UI.Facets` does not exist yet or is not present in the changeable annotation file, managing process is the same as when adding a new Form section.

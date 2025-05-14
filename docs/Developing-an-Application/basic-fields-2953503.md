@@ -200,5 +200,5 @@ This field is displayed as read-only data with no editing allowed.
 > When the Object Page entity is not draft enabled \(read-only\), Display Type and Restrictions fields are not available in the property panel as the fields are not editable and are only used for displaying the value.
 
 > ### Note:  
-> If restriction value is defined in the lower layer \(e.g. in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* is not available. If the back-end restriction value cannot be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
+> If restriction value is defined in the lower layer \(such as in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* is not available. If the back-end restriction value cannot be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
 

@@ -6,7 +6,7 @@ Depending on deployment to Cloud Foundry or ABAP, you can add configuration to d
 
 
 
-It is possible to create configuration required to run the application in an SAP Fiori launchpad. You can use the command:*Fiori: Add Fiori Launchpad Configuration* to launch the wizard which helps update the application's `manifest.json` file with the required inbound navigation property, required for integrating with the SAP Fiori launchpad.
+You can create the configuration required to run the application in an SAP Fiori launchpad. You can use the command: `Fiori: Add Fiori Launchpad Configuration` to launch the wizard which helps update the application's `manifest.json` file with the required inbound navigation property, required for integrating with the SAP Fiori launchpad.
 
 
 <table>

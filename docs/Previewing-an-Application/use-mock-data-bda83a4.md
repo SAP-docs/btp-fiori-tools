@@ -18,9 +18,9 @@ Start the application using `npm run start-mock`. The application runs on `local
     > ### Note:  
     > To open the terminal in VS Code,you can:
     > 
-    > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
+    > -   Use the [CTRL\] + [\`\]  keyboard shortcut with the backtick character.
     > -   Select *View* \> *Terminal* in the menu.
-    > -   Execute the *View: Toggle Integrate Terminal* command from the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \) .
+    > -   Execute the `View: Toggle Integrate Terminal` command from the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \) .
 
 2.  Ensure you are in the root directory of your project.
 3.  In the terminal pane, type `npm run start-mock` and press *Enter*.

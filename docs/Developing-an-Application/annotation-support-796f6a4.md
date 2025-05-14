@@ -40,7 +40,7 @@ Special handling is applied if the annotation to be modified resides in the diff
 -   The top of annotation source hierarchy is determined by the last entry in the `manifest.json` *<datasources =\> annotations file\>*.
 
     > ### Note:  
-    > Annotation file hierarchy can be viewed in the **Annotation File manager** and can be changed. Execute the *Fiori: Open Annotation File Manager* command to open the **Annotation File Manager**.
+    > Annotation file hierarchy can be viewed in the **Annotation File manager** and can be changed. Execute the `Fiori: Open Annotation File Manager` command to open the **Annotation File Manager**.
 
     > ### Example:  
     > Last entry in *<datasources =\> annotations file\>* of `manifest.json` has the highest precedence.

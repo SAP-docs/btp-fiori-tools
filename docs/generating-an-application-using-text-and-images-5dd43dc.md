@@ -31,7 +31,7 @@ To generate an application using a combination of text and images, or using mult
 
     1.  Command Palette
 
-        Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the *Fiori tools AI: Launch the Project Accelerator* command.
+        Open the Command Palette \([CMD/CTRL\] + [Shift\] + [P\] \) and execute the `Fiori tools AI: Launch the Project Accelerator` command.
 
     2.  SAP Fiori
 

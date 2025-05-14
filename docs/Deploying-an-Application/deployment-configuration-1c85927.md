@@ -19,7 +19,7 @@ The target object contains properties identifying your target SAP system.
 **url**
 
 -   `<string> pattern <protocol>://<hostname>[:<port>]` **\(Required\)**
--   This parameter must contain a url pointing to your target SAP system.
+-   This parameter must contain a URL pointing to your target SAP system.
 
 **client**
 
@@ -29,17 +29,17 @@ The target object contains properties identifying your target SAP system.
 **params \(Optional\)**
 
 -   `<string>` \(optional\)
--   Specify addtional query paramaters to pass to the backend deployment `API`. It translates to the url parameter e.g. `sap-language=<2-digit sap language code>`. If the parameter is not provided, the backend/user default is used.
+-   Specify addtional query parameters to pass to the back end deployment `API`. It translates to the URL parameter such as `sap-language=<2-digit sap language code>`. If the parameter is not provided, the back end/user default is used.
 
 **scp**
 
 -   `<boolean>` \(default: `false`\)
--   By default, the deployment task uses basic authentication when connecting to the backend. If the target system is ABAP Environment on SAP Business Technology Platform, this parameter needs to be set to `true`.
+-   By default, the deployment task uses basic authentication when connecting to the back end. If the target system is ABAP Environment on SAP Business Technology Platform, this parameter needs to be set to `true`.
 
 **service**
 
 -   `<string>` \(default: `/sap/opu/odata/UI5/ABAP_REPOSITORY_SRV`\)
--   Path pointing to the SAPUI5 ABAP repository OData service in your target system. This parameter only needs to be used if the service is exposed at a different path in your backend system. For example, using alias.
+-   Path pointing to the SAPUI5ABAP repository OData service in your target system. This parameter only needs to be used if the service is exposed at a different path in your back-end system. For example, using alias.
 
 
 
@@ -63,27 +63,27 @@ For local usage \(not in SAP Business Application Studio\), we do not recommend 
 
 ### app
 
-The app object describes the backend object that is created/updated as result of the deployment.
+The app object describes the back-end object that is created/updated as result of the deployment.
 
 **name**
 
 -   `<string>` **\(Required\)**
--   Unique name of the application. The name is used as a part of the application url as well as the name of the ABAP development object used as container for the app.
+-   Unique name of the application. The name is used as a part of the application URL as well as the name of the ABAP development object used as container for the app.
 
 **package**
 
 -   `<string>` **\(Required for new apps\)**
--   Name of an existing ABAP package that is used as parent of the deployed application. The parameter is required for the creation of the application in the backend. Any following deployment updating the application does not require the package parameter is ignored .
+-   Name of an existing ABAP package that is used as parent of the deployed application. The parameter is required for the creation of the application in the back end. Any following deployment updating the application does not require the package parameter is ignored .
 
 **transport**
 
 -   `<string>` **\(Optional\)**
--   The transport parameter refers to a transport request number that is used to record changes to the backend application object. The property is optional as it is only needed if the package for deployments requires transport requests.
+-   The transport parameter refers to a transport request number that is used to record changes to the back end application object. The property is optional as it is only needed if the package for deployments requires transport requests.
 
 **description**
 
 -   `<string>` **\(Optional\)**
--   Optional description added to the created application object in the backend.
+-   Optional description added to the created application object in the back end.
 
 **exclude**
 
@@ -117,7 +117,7 @@ Destination configured to connect to the backend on Cloud Foundry. If there's a 
 
 ### Prefix
 
-Prefix is used for the ID of the MTA and the service names. It defaults to the namespace of the app. If a namespace is not found, it defaults to `test`. Select a prefix so that the service names are unique to your MTA. Otherwise, deployment by multiple people will overwrite the same service. At the end of the generation, it is possible to optionally generate SAP Fiori launchpad configuration \(default: no\).
+Prefix is used for the ID of the MTA and the service names. It defaults to the namespace of the app. If a namespace is not found, it defaults to `test`. Select a prefix so that the service names are unique to your MTA. Otherwise, deployment by multiple people will overwrite the same service. At the end of the generation, it is possible to optionally generate a SAP Fiori launchpad configuration \(default: no\).
 
 
 

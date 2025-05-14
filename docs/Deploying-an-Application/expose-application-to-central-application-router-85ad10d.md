@@ -17,7 +17,7 @@ Open the [SAP Business Technology Platform Cockpit](https://account.int.sap.eu2.
     ![](images/FIORI_TOOLS_SERVICE_INSTANCE_280d554.png)
 
 2.  Select *Authorization & Trust Management*.
-3.  Search for your XSUAA service e.g. type `test-<something_unique>`.
+3.  Search for your XSUAA service such as type `test-<something_unique>`.
 4.  Click `>` on the right side of the row containing your service.
 5.  If there is no service key, create a new one \(click three dots in the upper right corner\).
 6.  Copy the name of a service key.
@@ -35,7 +35,7 @@ Open the [SAP Business Technology Platform Cockpit](https://account.int.sap.eu2.
 2.  Click *New Destination*
 3.  Select *Service Instance*
 4.  *Service Instance*: Select the XSUAA service created with your **mta**. For example, `test-<something_unique>-uaa`
-5.  *Name*: Give it a meaningful name e.g. `test-<something_unique>-uaa`
+5.  *Name*: Give it a meaningful name. For example, `test-<something_unique>-uaa`
 6.  Click *Next*.
 7.  Click *New Property* and add `ServiceKeyName` and paste the name copied before. For example, `test-<something_unique>-uaa-service-key` 
 8.  Click *New Property* and add `sap.cloud.service: test-<something_unique>` 
@@ -52,10 +52,10 @@ Open the [SAP Business Technology Platform Cockpit](https://account.int.sap.eu2.
     ![](images/FIORI_TOOLS_SERVICE_INSTANCE_280d554.png)
 
 2.  Select *HTML5 Application Repository*
-3.  Search for your service e.g. `type test-<something_unique>`
+3.  Search for your service. For example, `type test-<something_unique>`
 4.  Click on the `>` on the right side in the row with the service with `Plan app-host`
 5.  If there is no service key, create one \(click on three dots in the upper right corner\)
-6.  Copy the name of a service keyCopy
+6.  Copy the name of a service. For example, `keyCopy`.
 
 
 
@@ -70,7 +70,7 @@ Open the [SAP Business Technology Platform Cockpit](https://account.int.sap.eu2.
 2.  Click *New Destination*
 3.  Select *Service Instance*
 4.  *Service Instance*: Select the HTML5 Repository service created with your mta. For example, `test-<something_unique>-html5-repo-host`
-5.  *Name*: Give it a meaningful name e.g. `test-<something_unique>-html5-repo-host`
+5.  *Name*: Give it a meaningful name. For example,`test-<something_unique>-html5-repo-host`
 6.  Click *Next*.
 7.  Click *New Property* and add `ServiceKeyName` and paste the name you copied before. For example, `test-<something_unique>-deployer-<something_unique>-html5-repo-host-credentials` 
 8.  Change the suggested property: `sap.cloud.service` to `test-<something_unique>` \(same as for xsuaa service destination\)
@@ -86,14 +86,14 @@ Open the [SAP Business Technology Platform Cockpit](https://account.int.sap.eu2.
 
     ![](images/FIORI_TOOLS_HTML5_1862c54.png)
 
-2.  Search for your app\(s\) `test-<something_unique>`
-3.  Click on your application `test<something_unique>ztravel`
+2.  Search for your app. For example, `test-<something_unique>`.
+3.  Click on your application. For example, `test<something_unique>ztravel`.
 
 
 
 <a name="loio85ad10dea43a41918f72574614bbc203__section_ynm_nvy_n4b"/>
 
-## Enable integration into cFLP
+## Enable Integration into cFLP
 
 Open the *manifest.json* file of your application and add the parameter below to the root node:
 

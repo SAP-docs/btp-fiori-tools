@@ -165,9 +165,9 @@ The proxy middleware provides you with the capabilities to connect to different 
 
 ### Configuration Examples
 
--   **Connect to a backend system**
+-   **Connect to a back-end system**
 
-    To forward any request starting with the `path` parameter to the provided backend `url`, execute `npx fiori run` in your project with the configuration below in the `ui5.yaml` file.
+    To forward any request starting with the `path` parameter to the provided back end `url`, execute `npx fiori run` in your project with the configuration below in the `ui5.yaml` file.
 
     ```
     - name: fiori-tools-proxy
@@ -178,9 +178,9 @@ The proxy middleware provides you with the capabilities to connect to different 
           url: https://my.backend.com:1234
     ```
 
--   **Connect to a backend system with destination**
+-   **Connect to a back-end system with destination**
 
-    If you use a destination to connect to your backend system, you can also provide the `destination` in the configuration.
+    If you use a destination to connect to your back-end system, you can also provide the `destination` in the configuration.
 
     ```
     - name: fiori-tools-proxy
@@ -192,9 +192,9 @@ The proxy middleware provides you with the capabilities to connect to different 
           destination: my_backend
     ```
 
--   **Connect to multiple backend systems**
+-   **Connect to multiple back-end systems**
 
-    Additionally, you can connect to multiple backend systems as follows:
+    Additionally, you can connect to multiple back-end systems as follows:
 
     ```
     - name: fiori-tools-proxy

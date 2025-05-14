@@ -35,7 +35,7 @@ Ensure that the minimum system requirements for installing VS Code are met. For 
 
 <!-- loiobdd272ac4d964fbfa59e956460e0e686 -->
 
-## Cloud Foundry CLI tools
+## Cloud Foundry CLI Tools
 
 To access Cloud Foundry services from SAP Business Technology Platform, download and install the latest version of Cloud Foundry Command Line Interface \(CF CLI\) by following the [installation instructions](https://docs.cloudfoundry.org/cf-cli/install-go-cli.html).
 
@@ -135,7 +135,7 @@ For more information, see [Add CDS Editor](https://cap.cloud.sap/docs/get-starte
 
 ## UI5 Language Assistant Support
 
-**UI5 Language Assistant Support** is an openSource extension that can be optionally installed to perform control ID checks when `flexEnabled` property is set to true in the `manifest.json` file for either SAP Fiori elements or freestyle SAPUI5 projects. It also provides additional support for relevant filters to suggestions and text for ease of use.
+**UI5 Language Assistant Support** is an open source extension that can be optionally installed to perform control ID checks when `flexEnabled` property is set to true in the `manifest.json` file for either SAP Fiori elements or freestyle SAPUI5 projects. It also provides additional support for relevant filters to suggestions and text for ease of use.
 
 To install the UI5 Language Assistant Support extension, perform the following steps:
 
@@ -171,7 +171,7 @@ SAP BTP, ABAP Environment
 </th>
 <th valign="top">
 
-SAP BTP, Cloud Foundry
+SAP BTP, Cloud Foundry 
 
 </th>
 <th valign="top">
@@ -289,7 +289,7 @@ OData V2 catalog
 </td>
 <td valign="top">
 
-/sap/opu/odata/IWFND/CATALOGSERVICE;v=2
+`/sap/opu/odata/IWFND/CATALOGSERVICE;v=2`
 
 </td>
 </tr>
@@ -301,7 +301,7 @@ OData V4 catalog \(dev\)
 </td>
 <td valign="top">
 
-/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0001
+`/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0001`
 
 </td>
 </tr>
@@ -313,7 +313,7 @@ OData V4 catalog \(prod\)
 </td>
 <td valign="top">
 
-/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002
+`/sap/opu/odata4/iwfnd/config/default/iwfnd/catalog/0002`
 
 </td>
 </tr>
@@ -325,7 +325,7 @@ ATO Catalog
 </td>
 <td valign="top">
 
-/sap/bc/adt/ato/settings
+`/sap/bc/adt/ato/settings`
 
 </td>
 </tr>
@@ -337,7 +337,7 @@ SAPUI5 repository service \(for deploy & undeploy\)
 </td>
 <td valign="top">
 
-/sap/opu/odata/UI5/ABAP\_REPOSITORY\_SRV
+`/sap/opu/odata/UI5/ABAP_REPOSITORY_SRV`
 
 </td>
 </tr>

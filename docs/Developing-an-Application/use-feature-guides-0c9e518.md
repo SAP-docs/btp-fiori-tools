@@ -20,10 +20,10 @@ You can launch guided development in the following ways:
 
 -   Open the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \).
 -   Start typing *guided development*.
--   Select *Fiori: Open Guided Development* or *Fiori: Open Guided Development to the Side*.
--   Select SAP Fiori elements project from your workspace.
+-   Click `Fiori: Open Guided Development` or `Fiori: Open Guided Development to the Side`.
+-   Select your SAP Fiori elements project from your workspace.
 
-The *Fiori: Open Guided Development* option opens guided development in a new tab and in the selected editor region in case the editor is split into multiple regions. The *Fiori: Open Guided Development to the Side* option opens guided development to the side of the current file in another column.
+The `Fiori: Open Guided Development` option opens guided development in a new tab and in the selected editor region in case the editor is split into multiple regions. The `Fiori: Open Guided Development to the Side` option opens guided development to the side of the current file in another column.
 
 
 

@@ -7,7 +7,7 @@ The basic template is intended for all developers who want to start developing t
 With this basic template you have a blank canvas to start coding right away. The basic file structure is set up according to our best practices.
 
 > ### Note:  
-> This template does not include SAP Fiori launchpad features and is intended for standalone use. If you want to convert it to a launchpad app you have to add some features manually, such as the *Save as Tile* feature.
+> This template does not include Node.js features and is intended for standalone use. If you want to convert it to a launchpad app you have to add some features manually, such as the *Save as Tile* feature.
 
   
   

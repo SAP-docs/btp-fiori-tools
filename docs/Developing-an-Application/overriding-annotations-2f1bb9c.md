@@ -10,10 +10,10 @@ The following is a list of steps of how to override back-end annotation to your 
 
 
 
-### Overriding backend Annotations
+### Overriding Back End Annotations
 
-1.  View the backend annotation details for your annotation.
-2.  Click the <span class="SAP-icons-V5"></span> \(*Copy*\) icon opposite the **backend annotation**. This gives you a starting point for extending or customizing your application. Use [Maintaining Annotations with Language Server](maintaining-annotations-with-language-server-6fc93f8.md) to maintain your local annotation file.
+1.  View the back end annotation details for your annotation.
+2.  Click the <span class="SAP-icons-V5"></span> \(*Copy*\) icon opposite the **back end annotation**. This gives you a starting point for extending or customizing your application. Use [Maintaining Annotations with Language Server](maintaining-annotations-with-language-server-6fc93f8.md) to maintain your local annotation file.
 
     If there is only one local annotation file associated to the service in the project, the annotation is copied automatically to that local annotation file. If there are multiple local annotation files associated to that service available in the project, you can choose which local annotation file you would like to copy the annotation to using the selection dropdown.
 
@@ -36,5 +36,5 @@ The following is a list of steps of how to override back-end annotation to your 
 4.  Click *Create*.
 
 > ### Note:  
-> Additional annotation files can only be created for OData service and not CAP CDS.
+> Additional annotation files can only be created for an OData service and not CAP CDS.
 

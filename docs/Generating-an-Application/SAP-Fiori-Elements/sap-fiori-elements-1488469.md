@@ -63,6 +63,10 @@ In SAP Fiori elements, perform the following steps:
 
         Provide values to the prompts and click *Finish*.
 
+    -   **[Configure virtual endpoints for local preview](../../Previewing-an-Application/convert-a-project-to-use-virtual-endpoints-630ddec.md)**. The default value is *Yes.*
+
+        With this option, virtual endpoints for local preview are used and these files do not need to be created during generation.
+
     -   **[Configure advanced options](../Additional-Configuration/additional-configuration-9bea64e.md#loio9bea64e63b824261932d90037ce3c5ae__section_uhj_l2z_t4b)**. The default value is *No*.
 
 5.  Click *Finish* to generate the application.

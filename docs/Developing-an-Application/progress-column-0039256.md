@@ -4,7 +4,7 @@
 
 # Progress Column
 
-Progress Indicator column can be added to a *List Report* table or an *Object Page* section.
+A progress indicator column can be added to a *List Report* table or an *Object Page* section.
 
 
 
@@ -14,9 +14,9 @@ Progress Indicator column can be added to a *List Report* table or an *Object Pa
 
 To add a progress column to a table to a section, perform the following steps:
 
-1.  Click `Add Progress Column` when choosing [\+\] button in Columns node in the *Page Editor* .
-2.  Select *Columns* via a tree control.
-3.  Click [Add\], a new `UI.DataPoint` annotation is created created with the following values:
+1.  Click *Add Progress Column* after clicking the :heavy_plus_sign: \(*Add*\) icon in the *Columns* node in the *Page Editor* .
+2.  Select *Columns* using the tree control.
+3.  Click *Add* and a new `UI.DataPoint` annotation is created with the following values:
 
     -   `Value` property is set to the property chosen by the user.
     -   `TargetValue`property is set to 100 by default.
@@ -27,7 +27,7 @@ To add a progress column to a table to a section, perform the following steps:
     > Add progress column option is disabled if the table entity and associated entities do not have any numeric properties or all of them are already used in the table.
 
 
-Column properties, can be configured in the *Property Panel*.
+Column properties can be configured in the *Property Panel*.
 
 Please see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on defining and editing the properties.
 

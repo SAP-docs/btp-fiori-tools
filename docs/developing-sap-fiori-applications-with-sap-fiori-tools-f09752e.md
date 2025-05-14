@@ -89,7 +89,7 @@ With each of these files, you can control certain aspects of your application. F
 
 ## What Is the Difference between SAP Fiori Elements and Freestyle SAPUI5?
 
-The following table lists the differences between freestyle SAPUI5 and SAP Fiori elements.![freestyle SAPUI5 vs. SAP Fiori elements](images/ElementsvsFreestlye_a2ba197.png)
+The following table lists the differences between freestyle SAPUI5 and SAP Fiori elements.![freestyle SAPUI5 versus SAP Fiori elements](images/ElementsvsFreestlye_a2ba197.png)
 
 
 
@@ -100,7 +100,7 @@ The following table lists the differences between freestyle SAPUI5 and SAP Fiori
 SAP Fiori tools provides many capabilities to increase the efficiency of developing SAP Fiori applications using either SAP Fiori elements or the freestyle SAPUI5 approach. SAP Fiori tools, together with SAP Fiori elements, reduce development time, maintenance costs, and leverage the advantages of a metadata-driven UI. SAP Fiori tools includes the following:
 
 -   Application Wizard for the initial creation of an application.
--   Service Modeler for viewing the data model.
+-   Service modeler for viewing the data model.
 -   XML and form-based editor for maintaining of annotations - SAP Fiori elements only.
 -   Application page structure and ability to configure the SAPUI5 flexibility settings - SAP Fiori elements only.
 -   Guided development for implementing features - SAP Fiori elements only.
