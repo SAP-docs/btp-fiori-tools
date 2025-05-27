@@ -27,12 +27,12 @@ Make changes to the UI elements of the adaptation project.
 
 ## Overview
 
-SAPUI5adaptation projects use the editing capabilities of the SAPUI5 Visual Editor tool. The SAPUI5 Visual Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
+SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor tool. The Adaptation Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
 
-If you have created your project with Safe Mode, you cannot change properties, add fragments, or add controller extensions. To turn off Safe Mode, deselect the *Safe Mode* switch in the Visual Editor. Note once you switch it off, you cannot switch it on again.
+If you have created your project with Safe Mode, you cannot change properties, add fragments, or add controller extensions. To turn off Safe Mode, deselect the *Safe Mode* switch in the Adaptation Editor. Note once you switch it off, you cannot switch it on again.
 
 > ### Tip:  
-> The SAPUI5 Visual Editor will show you your project using theSAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch SAPUI5 Visual Editor. Perform the following steps:
+> The Adaptation Editor shows you your project using the SAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch Adaptation Editor. Perform the following steps:
 > 
 > 1.  Open the `ui5.yaml` file in the root of your project.
 > 
@@ -46,7 +46,7 @@ The editor has an Outline pane, a Canvas \(application preview\), and a Properti
 
 If the application page is based on an SAP Fiori elements list report or an object page floorplan, a quick actions list is displayed above the Properties pane. This quick actions list provides an easy way for you to create the most commonly used adaptation changes. The available actions depend on the page floorplan and the SAPUI5 version. For more information, see [Quick Actions Availability Matrix](quick-actions-availability-matrix-59408f9.md)
 
-The buttons on the SAPUI5 Visual Editor toolbar allow you to:
+The buttons on the Adaptation Editor toolbar allow you to:
 
 -   Navigate through and preview the application using the *Navigation* mode.
 
@@ -66,7 +66,7 @@ The buttons on the SAPUI5 Visual Editor toolbar allow you to:
 
 ## Procedure
 
-1.  In your workspace, еxpand the `webapp` folder and right click the `manifest.appdescr_variant` file and choose *Open SAPUI5 Visual Editor*. SAPUI5 Visual Editor launches and the application loads in the editor for you to make the changes when you switch to Edit mode from *Navigation* mode.
+1.  In your workspace, еxpand the `webapp` folder and right click the `manifest.appdescr_variant` file and choose *Open* *Adaptation Editor*. Adaptation Editor launches and the application loads in the editor for you to make the changes when you switch to Edit mode from *Navigation* mode.
 2.  Navigate to the page containing the UI element you want to change.
 3.  From the editor header, click *Edit*.
 

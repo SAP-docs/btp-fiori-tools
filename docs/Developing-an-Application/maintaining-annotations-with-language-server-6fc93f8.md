@@ -8,7 +8,7 @@
 
 ## CAP CDS Files
 
-Maintaining OData annotations in .cds files is accelerated by the [SAP Fiori tools - CDS OData Language Server](https://www.npmjs.com/package/@sap/ux-cds-odata-language-server-extension) comprised in [SAP CDS Language Support](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds) plugin. It assists you with adding and editing OData annotations in CDS syntax with:
+Maintaining OData annotations in `.cds` files is accelerated by the [SAP Fiori tools - CDS OData Language Server](https://www.npmjs.com/package/@sap/ux-cds-odata-language-server-extension) comprised in [SAP CDS Language Support](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds) plugin. It assists you with adding and editing OData annotations in CDS syntax with:
 
 -   Code completion for annotations applied to entities and entity elements
 -   Validation against the OData vocabularies and project metadata
@@ -16,10 +16,10 @@ Maintaining OData annotations in .cds files is accelerated by the [SAP Fiori too
 -   Quick view of vocabulary information
 -   Internationalization \(i18n\) support for language-dependent strings
 
-See[CAP CDS](https://cap.cloud.sap/docs/about/) and [Serving Fiori UIs: Adding Fiori Annotation](https://cap.cloud.sap/docs/advanced/fiori#fiori-annotations) for more information about CDS OData Language Server.
+See[CAP CDS](https://cap.cloud.sap/docs/about/) and [Serving Fiori UIs: Adding Fiori Annotation](https://cap.cloud.sap/docs/advanced/fiori#fiori-annotations) for more information about CDSODataLanguage Server.
 
 > ### Note:  
-> The SAP Business Application Studio SAP Fiori dev space doesn’t include the CDS OData Language Server extension.
+> The SAP Business Application Studio SAP Fiori dev space doesn’t include the CDSODataLanguage Server extension.
 
 
 
@@ -27,7 +27,7 @@ See[CAP CDS](https://cap.cloud.sap/docs/about/) and [Serving Fiori UIs: Adding F
 
 ## XML Annotation Files
 
-Maintaining OData annotations in `annotation.xml` files is accelerated by the XML annotation language server extension of SAP Fiori tools. It assists you with adding and editing OData annotations in XML syntax with the code completion, validation, and other assisting features, same as CDS OData Language Server in CAP CDS files. To get this assistance, just open the local annotation file in the code editor. You can either open local annotation file from [Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md#loio58784b52f2284532afe2ab161e0312c9__section_uph_2rk_xlb) or single/double-click on the local annotation file of your project: `/webapp/annotations/<filename>.xml`.
+Maintaining OData annotations in `annotation.xml` files is accelerated by the XML annotation language server extension of SAP Fiori tools. It assists you with adding and editing OData annotations in XML syntax with the code completion, validation, and other assisting features, same as CDSODataLanguage Server in CAP CDS files. To get this assistance, just open the local annotation file in the code editor. You can either open local annotation file from [Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md#loio58784b52f2284532afe2ab161e0312c9__section_uph_2rk_xlb) or single/double-click on the local annotation file of your project: `/webapp/annotations/<filename>.xml`.
 
 
 
@@ -44,9 +44,9 @@ To maintain the annotations using XML annotation language server features, proje
     > ### Note:  
     > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It is not synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end. For more information, see [Syncing Annotations](../Project-Functions/managing-service-and-annotations-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
 
-    The metadata of the OData serviceSAP OData must include one or multiple *<edm:Schema\>* definitions within the *<edmx:DataServices\>* element.
+    The metadata of the OData service SAP OData must include one or multiple *<edm:Schema\>* definitions within the *<edmx:DataServices\>* element.
 
-    According to the OData CSDL, your metadata file must contain a single EntityContainer.
+    According to the OData CSDL, your metadata file must contain a single `EntityContainer`.
 
     > ### Note:  
     > The namespace of the OData service should not contain `/` \(slashes\). The OData specification requires namespaces to consist of one or more SimpleIdentifiers separated by dots. Slashes aren’t supported. A SimpleIdentifier must start with a letter or underscore, followed by a maximum of 127 letters, underscores, and digits.

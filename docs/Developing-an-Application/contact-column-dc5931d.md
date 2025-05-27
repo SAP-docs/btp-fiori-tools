@@ -4,7 +4,7 @@
 
 # Contact Column
 
-Contact columns can be added to a table that is part of a *List Report* or in an *Object Page* section.
+A contact column can be added to a table that is part of a list report or in an object page section.
 
 ![Contact Column](images/FIORI_TOOLS_CONTACT_COLUMN_0e0431c.png)
 
@@ -20,9 +20,12 @@ To add a contact column to a table to a section, perform the following steps:
 2.  Select *Contacts* using the tree control.
 3.  Click *Add*. A new `Communication.Contact` annotation is created with the Contact Name label by default. You can change the default label in the *Property Panel*.
 
-Column properties, can be configured in the *Property Panel*.
+A contact column has the following additional properties:
 
-For information on defining and editing the properties, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Contact](appendix-457f2e9.md#loio82d94533569741e5888536d49052198c)
 
 
 
@@ -32,15 +35,15 @@ For information on defining and editing the properties, see [Column Properties](
 
 To move a column within a table, use one of the following options:
 
--   **Drag-and-drop**
+-   **Drag and Drop**
 
     Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
+    With drag and drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
--   **Arrow buttons**
+-   **Arrow Icons**
 
-    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
@@ -49,82 +52,9 @@ To move a column within a table, use one of the following options:
 
 ## Deleting a Contact Column
 
-To delete a column in the application, perform the following steps:
+To delete a column, perform the following steps:
 
 1.  Navigate to a column.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
-
-
-
-<a name="loiodc5931d0541040ab9e6126b9108b4154__section_d3v_nx1_vvb"/>
-
-## Maintaining Contact Column Properties
-
-A contact column or field has the following properties.
-
-
-
-### Contact
-
-The *Contact* property represents the `fn` property of `Communication.Contact`. You cannot change the property used as the *Contact Name* in the *Property Panel*. If you need to have your contact column based on a different property, delete this column and click the :heavy_plus_sign: \(*Add*\) icon to add a new contact column.
-
-
-
-### Job Title
-
-The *Job Title* property represents the property title of `Communication.Contact`.
-
-
-
-### Photo
-
-The *Photo* property represents the property photo of `Communication.Contact`.
-
-
-
-### Role
-
-The *Role* property represents the property role of `Communication.Contact`.
-
-
-
-### Department
-
-The *Department* propert represents the property department of `Communication.Contact`.
-
-
-
-### Address
-
-The *Address* property represents the collection property `adr` of `Communication.Contact`, which has the record type `Communication.AddressType`. You can maintain multiple addresses, each represented by a table row.
-
-The row contains the following fields:
-
--   *Street* - representing property street of `Communication.AddressType`
--   *City* - representing property locality of `Communication.AddressType`
--   *State/Province* - representing property region of `Communication.AddressType`
--   *Postal Code* - representing property code of `Communication.AddressType`
--   *Country* - representing property country of `Communication.AddressType`
-
-
-
-### Phone
-
-The *Phone* property represents the collection property `tel` of `Communication.Contact`, which has record type `Communication.PhoneNumberType`. Users can maintain multiple phone entries, each represented by a table row.
-
-The row contains the following fields:
-
--   *Phone* - representing property `uri` of `Communication.PhoneNumberType`
--   *Type* - with options `Work` \(default\), `Mobile`, `Fax`, depending on if `type` of `Communication.PhoneNumberType` contains enum value `work`, `cell` or `fax` respectively.
-
-
-
-### Email
-
-The *Email* Property represents the collection property `email` of `Communication.Contact`, which has record type `Communication.EmailAddressType`. Users can maintain multiple email entries, each represented by a table row.
-
-The row contains the following field:
-
--   *Email* - representing property email of `Communication.EmailAddressType`
 

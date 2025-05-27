@@ -4,7 +4,7 @@
 
 # Define Application Structure
 
-Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings like the *Flexible Column Layout* that iss available when using SAP Fiori elements.
+Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings like the *Flexible Column Layout* that is available when using SAP Fiori elements.
 
 > ### Tip:  
 > Page Map also supports SAPUI5 freestyle applications. However, this is an experimental feature with a limited scope. For example, you cannot add and delete pages.
@@ -95,5 +95,5 @@ Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to op
 
 Click the :wastebasket: \(*Delete Page*\) icon to delete the page.
 
-See [Fiori Desing Guidelines: Layouts](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) for more information about the Layout Settings.
+See [Fiori Design Guidelines: Layouts](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) for more information about the Layout Settings.
 

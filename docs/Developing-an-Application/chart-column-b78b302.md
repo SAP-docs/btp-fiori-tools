@@ -32,21 +32,26 @@ To add a chart column to a table to a section, perform the following steps:
     -   When the chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
 
 
-Column properties can be configured in the *Property Panel*.
-
-For information on defining and editing the properties, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 
-
-### Chart type: Area
+### Area Chart
 
 -   **Value Source**: property to represent the chart data.
 -   **Measure**: property representing a value in the chart.
 -   **Dimension**: dimension to represent the x-axis of the chart by default..
 
+The area chart has the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
 
 
-### Chart type: Bullet
+
+### Bullet Chart
 
 -   **Value**: numeric property to represent the chart data.
 -   **Maximum Value \(Path\)**: fixed number to represent the maximum possible value in the chart.
@@ -55,33 +60,86 @@ For information on defining and editing the properties, see [Column Properties](
     > You can set the Maximum Value to the numeric property in the Properties pane once you add the chart column.
 
 
+The bullet chart column contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Maximum Value Type](appendix-457f2e9.md#loio27fdaca358bb419f95290eebc86ed7da)
+-   [Maximum Value](appendix-457f2e9.md#loiofb3939d43c884bf5b458657ef3f6f3be)
+-   [Minimum Value Type](appendix-457f2e9.md#loiob3ecb1ff7aca434882b58f83176e8cb4)
+-   [Minimum Value](appendix-457f2e9.md#loiobcca4bede254425d88e3fe13180194ed)
+-   [Forecast Value](appendix-457f2e9.md#loio0cb6999ed1004cccbeb06fee763eb8bb)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
 
 
-### Chart type: Column
+
+### Column Chart
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+-   **Dimension**: dimension to represent the x-axis of the chart by default.
+
+The column chart contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
+
+
+
+### Line Chart
 
 -   **Value Source**: property to represent the chart data.
 -   **Measure**: property representing a value in the chart.
 -   **Dimension**: dimension to represent the x-axis of the chart by default..
 
+The line chart contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Measures](appendix-457f2e9.md#loiof7225b8412704a6cb8a7b45fda3f56fe)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
 
 
-### Chart type: Line
 
--   **Value Source**: property to represent the chart data.
--   **Measure**: property representing a value in the chart.
--   **Dimension**: dimension to represent the x-axis of the chart by default..
-
-
-
-### Chart type: Radial
+### Radial Chart
 
 -   **Value**: numeric property to represent the chart data.
 -   **Target Value \(Path\)**: numeric property to represent the maximum possible value in the chart.
 
+The radial chart contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
+
+
+
+### Comparison Chart
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+-   **Dimension**: dimension to represent the x-axis of the chart by default.
+
+The comparison chart contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+
 When a chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
 
 > ### Note:  
-> The generated chart is based on the minimum required properties entered when adding the chart column. You can configure it further in the *Property Panel* by defining additional properties for the selected chart type, such as criticality, thresholds, etc.
+> The generated chart is based on the minimum required properties entered when adding the chart column. You can configure it further in the *Property Panel* by defining additional properties for the selected chart type, such as criticality and thresholds.
 
 
 
@@ -91,15 +149,15 @@ When a chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is 
 
 To move a column within a table, use one of the following options:
 
--   **Drag-and-drop**
+-   **Drag and Drop**
 
     Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
+    With drag and drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
--   **Arrow buttons**
+-   **Arrow Icons**
 
-    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
@@ -108,7 +166,7 @@ To move a column within a table, use one of the following options:
 
 ## Deleting Chart Column
 
-To delete a column in the application, perform the following steps:
+To delete a column, perform the following steps:
 
 1.  Navigate to a column.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
@@ -116,34 +174,23 @@ To delete a column in the application, perform the following steps:
 
 
 
-<a name="loiob78b3023e27b4078bab94189937fb550__section_fvv_mb5_s2c"/>
+<a name="loiob78b3023e27b4078bab94189937fb550__section_n15_vy5_jfc"/>
 
-## Maintaining Chart Column Properties
+## Sorting Micro Charts in Chart Columns
 
-In addition to the column properties available for all column types, you can define the following properties specific to the chart column:
+Sorting micro charts in chart columns is set in the *Sort Order* property of the chart column. This property is only visible if you have the *Presentation Variant* property defined for the micro chart column. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, or comparison type.
 
--   Maximum Value Type
-    -   Choose the expression type for the maximum possible value in the chart. It could be a decimal number or a property of type decimal.
 
--   Maximum Value
-    -   Choose a decimal number representing the maximum possible value in the chart.
 
--   Minimum Value Type
-    -   Choose the expression type for the starting value of the chart. It could be a decimal number or a property of type decimal.
+### Presentation Variant
 
--   Minimum Value
-    -   Choose a decimal number representing the starting value for the chart.
+The *Presentation Variant* property shows the `UI.PresentationVariant` annotation that defines the micro chart column's sorting options. To view the sorting properties, you must set the *Presentation Variant: Annotation* to *New*.
 
--   Forecast Value
-    -   Choose a property representing the expected value.
+When the *Presentation Variant: Annotation* is set, you can define one or more direct properties of the entity by which to sort the chart column. Under *Presentation Variant: Sort Order*, click *Add Sort Property*. A new table row for the sort property is added with *Property* and *Direction* fields. Choose a property and direction to sort by to update the sorting logic for your micro chart column.
 
--   Target Value
-    -   Choose a property representing the target value.
+If you have multiple sort properties, you can define in which order they apply by moving them up and down within the sort property.
 
--   Measures
-    -   Add properties representing values for additional lines.
+You can remove the reference to the `UI.PresentationVariant` annotation generated by the *Page Editor* by setting the *Presentation Variant: Annotation* to *None*.
 
--   Criticality Source
-    -   Choose how the chart color should be calculated. Choose Property if criticality calculation is performed in the back end and exposed as a service entity element. Choose Calculation to define the criticality calculation parameters, such as improvement direction and deviation ranges. Note: For some chart types, only one option is possible. For example, the criticality can be set either only as a property or only as calculation.
-
+To remove unreferenced `UI.PresentationVariant` annotations generated by the *Page Editor* from the annotation file, run the cleanup procedure. This also removes the other unreferenced `UI.PresentationVariant` annotations defined with qualifiers to keep your annotation file as clean as possible.
 

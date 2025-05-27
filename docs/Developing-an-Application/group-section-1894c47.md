@@ -99,13 +99,10 @@ To change the section label, perform the following steps:
 1.  Select the required section and navigate to the properties pane area.
 2.  Enter a new name in the *Label* text box. This field defines the text to be displayed at a section label.
 
-    As a result, the section is renamed both in the *Page Editor* and in the application preview.
+    The section is renamed both in the *Page Editor* and in the application preview.
 
 
-See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301) for more information.
-
-> ### Note:  
-> See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for translation if not yet there.
+For more information, see [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301).
 
 
 

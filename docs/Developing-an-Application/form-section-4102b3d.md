@@ -49,10 +49,10 @@ In the `annotation` file, you can see the following changes applied:
 
 ## Moving Form Section
 
-The user can change the order of the sections in the application header. By using the drag-and-drop functionality, drag the required section to a different position within the *Header Sections* node:
+You can change the order of sections in the application header. Drag and drop the required section to a different position within the *Header Sections* node:
 
 -   When dropped, the records in the `UI.Facets` collection are reordered.
--   When SAP Fiori application is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
+-   When the SAP Fioriapplication is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
 
 **Move multiple sections**
 
@@ -67,17 +67,17 @@ To move the multiple sections to another position, perform the following steps:
 
 ## Deleting Form Section
 
-To delete the section in the application, perform the following steps:
+To delete a section, perform the following steps:
 
 1.  Navigate to the section node in the outline.
-2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* pop-up window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  
-> This action deletes respective `UI.ReferenceFacet` record from `UI.Facets`.
+> This action deletes the `UI.ReferenceFacet` record from `UI.Facets`.
 
 > ### Note:  
-> To remove unreferenced `UI.FieldGroup` annotation, run the cleanup procedure that deletes the unreferenced annotation.
+> To remove the unreferenced `UI.FieldGroup` annotation, run the cleanup procedure to delete the unreferenced annotation.
 
 
 
@@ -94,13 +94,10 @@ To change the section label, perform the following steps:
 1.  Select the required section and navigate to the properties pane area.
 2.  Enter a new name in the *Label* text box. This field defines the text to be displayed at a section label.
 
-    As a result, the section is renamed both in the *Page Editor* and in the application preview.
+    The section is renamed both in the *Page Editor* and in the application preview.
 
 
-See [Label Maintenance](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301) for more information.
-
-> ### Note:  
-> See [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md) for translation if not yet there.
+For more information, see [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301).
 
 
 

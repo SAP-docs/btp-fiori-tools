@@ -25,7 +25,7 @@ You can add fragments to an aggregation or to an extension point.
 
 ### Procedure
 
-1.  In your workspace, from the project context menu, click *SAPUI5 Visual Editor*.
+1.  In your workspace, from the project context menu, click *Adaptation Editor*.
 
     The application opens in the canvas in preview mode.
 
@@ -73,7 +73,7 @@ You can add fragments to an aggregation or to an extension point.
 
 6.  Navigate to the canvas to see the changes that you made.
 
-    After adding fragments, you are prompted to reload the SAPUI5 Visual Editor to see your changes.
+    After adding fragments, you are prompted to reload the Adaptation Editor to see your changes.
 
     > ### Note:  
     > You must add the definition of the namespace of the controls you are going to use inside of the fragment. Also, you must use stable and unique IDs for the controls you define.
@@ -108,7 +108,7 @@ You can add fragments to an aggregation or to an extension point.
 
 ### Procedure
 
-1.  In your workspace, from the project context menu, click *SAPUI5 Visual Editor*.
+1.  In your workspace, from the project context menu, click *Adaptation Editor*.
 
     The application opens in the canvas in preview mode.
 
@@ -144,7 +144,7 @@ You can add fragments to an aggregation or to an extension point.
 
 6.  Navigate to the canvas to see the changes that you made.
 
-    After adding fragments, you are prompted to reload the SAPUI5 Visual Editor to see your changes.
+    After adding fragments, you are prompted to reload the Adaptation Editor to see your changes.
 
     > ### Note:  
     > You must add the definition of the namespace of the controls you are going to use inside of the fragment. You must use stable and unique IDs for the controls you define.

@@ -12,9 +12,9 @@
 
 
 
-The following annotation-based properties can be defined on the Header node of an *Object Page*:
+The following annotation-based properties can be defined on the header node of an object page:
 
--   Type Name
+-   [Type Name](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__TypeName)
 -   [Type Name Plural](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__TypeName)
 -   [Title](header-a05d7fc.md#loioe26d602fe170401abb23d963bda7dd92__Title)
 -   Description
@@ -26,30 +26,30 @@ All properties are based on the `@UI.HeaderInfo` annotation.
 
 If `@UI.HeaderInfo` does not exist, it is created as soon as one of the properties above gets a value.
 
-If `@UI.HeaderInfo` annotation is defined in the lower layer, such as service, the values of these properties are marked with the "\(base layer\)" suffix indicating the value origin. Once changed at least one property value, the complete annotation is copied to the local annotation file and \(base layer\) suffix is no longer displayed to indicate it.
+If `@UI.HeaderInfo` annotation is defined in the lower layer, such as service, the values of these properties are marked with the "\(base layer\)" suffix indicating the value origin. Once a property value has been changed, the complete annotation is copied to the local annotation file and \(base layer\) suffix is no longer displayed to indicate it.
 
 
 
 ### Type Name/Type Name Plural
 
-String properties describing the main object of the page. `Type Name` is displayed in on the very top of the *Object Page*: `Type Name Plural` represents a plural form of the object name and is displayed as a table header on the previous page. As these properties are mandatory, they are set to the empty string if not \(yet\) defined otherwise. The properties support internationalization. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
+`Type Name` and `Type Name Plural` are string properties describing the main object of the page. `Type Name` is displayed on the very top of the object page. `Type Name Plural` represents a plural form of the object name and is displayed as a table header on the previous page. These properties are mandatory so they are set to the empty string if they are not defined. These properties support internationalization. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
 
 
 ### Title
 
-Title is a property representing the main object of the page. It is displayed in the page header area. You can choose one of the direct properties of the page entity provided in the dropdown. If you set it to *None*, *Object Page* header will not display the title. The default text will be displayed instead. Always define the *Title* if the *Visible* property of the page header is set to `true`.
+Title is a property representing the main object of the page. It is displayed in the page header area. You can choose one of the direct properties of the page entity provided in the dropdown. If you set it to *None*, the title in the header of the object page is not display ed. The default text will be displayed instead. Always define the *Title* if the *Visible* property of the page header is set to `true`.
 
 > ### Note:  
-> The none option is not available if the Title is defined in a lower layer such as service.
+> The *None* option is not available if the *Title* is defined in a lower layer such as service.
 
 
 
 ### Image
 
--   Adds property `ImageUrl` with the selected property as a value to the `UI.HeaderInfo`.
--   Value is a path pointing to string properties of the entity or of a to one associated entity.
--   To remove `ImageUrl` property, you can select the option *None*.
+-   Adds the `ImageUrl` property with the selected property as a value to the `UI.HeaderInfo`.
+-   The value is a path pointing to string properties of the entity or of a 1 to 1 associated entity.
+-   To remove the `ImageUrl` property, you can select the *None* option.
 
 For more information on images, see: [Using Images, Initials, and Icons](https://sapui5.hana.ondemand.com/sdk/#/topic/5760b638ea274d7aab59e4e434899528.html).
 
@@ -57,20 +57,20 @@ For more information on images, see: [Using Images, Initials, and Icons](https:/
 
 ### Initials
 
--   Adds property `Initials` with the selected property as a value to the `UI.HeaderInfo`.
--   Value is a path pointing to string properties of the entity or of a to one associated entity.
--   To remove `Initials` property, you can select the option *None*.
+-   Adds the `Initials` property with the selected property as a value to the `UI.HeaderInfo`.
+-   The value is a path pointing to string properties of the entity or of a to one associated entity.
+-   To remove the `Initials` property, you can select the *None* option.
 
 
 
 ### Icon URL
 
--   Adds property `TypeImageUrl` with the SAP icon text as a value to the `UI.HeaderInfo`.
+-   Adds the `TypeImageUrl` property with the SAP icon text as a value to the `UI.HeaderInfo`.
 
     > ### Example:  
     > `sap-icon://accept`
 
--   Value is a string pointing to a SAP Icon such as from the Icon Explorer.
+-   The value is a string pointing to a SAP Icon such as from the Icon Explorer.
 
 <a name="loioed6ebe654f8d4aacb472c691eb11e5e3"/>
 
@@ -105,9 +105,9 @@ These actions are based on the following records of the `UI.Identification` anno
 You can add, delete and maintain the header actions in the same way as described in [Table Actions](table-actions-da1931b.md).
 
 > ### Note:  
-> The properties *Importance* and *Requires Context* are not relevant for the header actions.
+> The *Importance* and *Requires Context* properties are not relevant for the header actions.
 > 
-> The *Criticality* property impacts the sequence of the actions in the *Object Page* header. Therefore, once you change its value from *None* to *Positive* or *Negative* \(or vice versa\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
+> The *Criticality* property impacts the sequence of the actions in the *Object Page* header. After you change its value from *None* to *Positive* or *Negative* \(or the other way around\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
 
 You can move header actions to the *Form* sections based on the same entity, as long as these actions are not semantically highlighted. You can move the actions based on `UI.DataFieldForAction` to the *Footer*.
 
@@ -125,7 +125,7 @@ Custom actions are based on application extensions. For more information, see [A
 
 
 
-Header sections show that the key information on the *Object Page* entity are displayed in the header area. The visualization of this information depends on the section type.
+Header sections show the key information of the object page entity and are displayed in the header area. The visualization of this information depends on the section type.
 
 
 
@@ -133,15 +133,12 @@ Header sections show that the key information on the *Object Page* entity are di
 
 ## Adding Header Section
 
-To add a Header section, perform the following steps:
+To add a header section, perform the following steps:
 
-1.  Click the *Object Page* to open the *Page Editor*.
-2.  Navigate to the Header section and click the :heavy_plus_sign: \(*Add*\) icon.
-
-    As a result, a list of section types supported in the page header appears.
-
-3.  Choose the desired section type, respond to the prompts, and click *Add*.![Object Page Header Section](images/Fiori_tools_Object_Page_Header_Section_329d536.png)
-4.  Depending on the section type selected, additional information is needed:
+1.  Open the *Page Editor* for an object page.
+2.  Click the :heavy_plus_sign: \(*Add*\) icon next to *Header Sections*.
+3.  Choose the desired section type.![Object Page Header Section](images/Fiori_tools_Object_Page_Header_Section_329d536.png)
+4.  Provide the requested information. Depending on the section type you selected, different fields are needed:
     -   Form Section - Label
     -   Data Point Section - Value Source Property
     -   Progress Section - Value Source Property
@@ -155,70 +152,147 @@ Once the header section is generated, you can add and maintain its properties in
 
 ### Form Section
 
-The Form header section displays a group of fields under the common label. Once you add the Form section, no fields are added automatically. Add the fields you need using the :heavy_plus_sign: \(*Add*\) icon in the *Fields* node.
+The form header section displays a group of fields under the common label. Fields are not automatically added after you create a form header section. Add the fields you need using the :heavy_plus_sign: \(*Add*\) icon in the *Fields* node.
 
-For more information, see [Form Section](form-section-4102b3d.md)
+For more information, see [Form Section](form-section-4102b3d.md).
 
 
 
 ### Progress Section
 
-The *Progress* header section visualizes the numeric value you chose as an indicator of a progress towards a certain target. You can modify the generated label and a default target as well as define a description for your progress indicator, apply the semantic coloring based on the value criticality and provide a tooltip.
+The progress header section visualizes the numeric value you chose as an indicator of a progress towards a certain target. You can modify the generated label and a default target as well as define a description for your progress indicator, apply the semantic coloring based on the value criticality and provide a tooltip.
 
-*Target* initially the progress indicator is generated based on the value you entered and the default target \(goal\) of 100. You can then modify the target by setting it to a different numeric constant or choose a numeric service property that represents a target. For that, you first choose the target value type and then the desired number or property.
+The target is the progress indicator that is generated based on the value you entered and the default target \(goal\) of 100. You can then modify the target by setting it to a different numeric constant or choose a numeric service property that represents a target. First, choose the target value type and then the desired number or property.
 
-For more information, see the following: [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed), [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) [Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613)
+The progress header section contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Target Type](appendix-457f2e9.md#loio678bf9265c664134a075b59fd193c64e)
+-   [Target](appendix-457f2e9.md#loio7fba03aba4214ceab2130f16186f4ff2)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+-   [Tooltip Source](appendix-457f2e9.md#loiof0bc466aae5b42e697c89506026050af)
 
 
 
 ### Data Point Section
 
-The *Data Point* header section is used to display the single point of the key data. It's typically a number but can also be textual, for example, a status value. Initially, it is generated with a minimum property based on the value you entered. You can then enhance it in the Properties pane with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency for it if this isn't done in the base level.
+The data point header section is used to display the single point of the key data. It is typically a number but can also be textual. For example, a status value. It is generated with a minimum property based on the value you entered. You can then enhance it in the *Properties Panel* with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency if this has not been defined in the base level.
 
-For more information, see the following: [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed) [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98)[Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613)
+The data point header section contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
+-   [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98)
+-   [Tooltip Source](appendix-457f2e9.md#loiof0bc466aae5b42e697c89506026050af)
 
 
 
 ### Rating Section
 
-The *Rating* header section displays numeric value you chose with the corresponding number of stars out of the certain maximum \(target\). Initially it's generated based on the value you entered and default target value of 5. Subsequently, you can modify the generated label and set the target to any other integer number in the properties pane as well as enter a description and a tooltip.
+The rating header section displays the numeric value you chose with the corresponding number of stars out of the certain maximum \(target\). It is generated based on the value you entered and default target value of 5. You can then modify the generated label and set the target to any other integer number in the *Properties Panel* as well as enter a description and a tooltip.
 
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed), [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) and [Tooltip](appendix-457f2e9.md#loio64af370703b94edb9b4068fda3e2a613).
+The rating header section contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target](appendix-457f2e9.md#loio7fba03aba4214ceab2130f16186f4ff2)
+-   [Tooltip Source](appendix-457f2e9.md#loiof0bc466aae5b42e697c89506026050af)
 
 
 
 ### Micro Chart Section
 
-The *Micro Chart* header section allows you visualizing the numeric properties of your service as micro charts of different types. Initially micro charts are generated based on the minimum required information you entered and some assumed defaults. You can modify some of the generated chart properties as well as define optional ones in the properties pane.
+The *Micro Chart* header section allows you to visualize the numeric properties of your service as micro charts of different types. Micro charts are generated based on the minimum required information you entered and some assumed defaults. You can modify some of the generated chart properties as well as define optional ones in the *Properties Panel*.
 
 Required and optional properties you can configure depend on the selected chart type.
 
 > ### Note:  
-> You cannot change the type or main value \(measure\) of the micro chart. If you need to modify one of these properties, just add a new micro chart section and delete an existing one instead.
-
-**Radial Micro Chart**
-
-Radial chart displays the numeric value compared with the target. Both values you choose when generating a radial micro chart. Then you can choose a different numeric service property to be used as a target in the properties pane, as well as set a description for your chart and apply the semantic coloring based on the value criticality.
-
-For more information on setting the radial chart description, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
-
-**Bullet Micro Chart**
-
-Bullet chart visualizes the numeric value on a given scale. Besides, the main value, you can display addition ones, such as target or forecast on the same scale as well as set a description for your chart and apply the semantic coloring based on the value criticality.
-
-See [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for more information on [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6) and [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed).
-
-**Line Micro Chart**
-
-A line chart displays information as a series of data points connected by a line. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
+> You cannot change the type or main value \(measure\) of the micro chart. If you need to modify one of these properties, add a new micro chart section and delete an existing one instead.
 
 **Area Micro Chart**
 
 An area micro chart is a trend chart. It provides information for actual and target values for a specific time range as well as criticality for the values at the specific time points. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
 
+The area micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
+-   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
+
+**Bullet Micro Chart**
+
+The bullet micro chart visualizes the numeric value on a given scale. You can display the main value and additional values, such as target or forecast on the same scale. You can also set a description for your chart and apply the semantic coloring based on the value criticality.
+
+The bullet micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Maximum Value Type](appendix-457f2e9.md#loio27fdaca358bb419f95290eebc86ed7da)
+-   [Maximum Value](appendix-457f2e9.md#loiofb3939d43c884bf5b458657ef3f6f3be)
+-   [Minimum Value Type](appendix-457f2e9.md#loiob3ecb1ff7aca434882b58f83176e8cb4)
+-   [Minimum Value](appendix-457f2e9.md#loiobcca4bede254425d88e3fe13180194ed)
+-   [Forecast Value](appendix-457f2e9.md#loio0cb6999ed1004cccbeb06fee763eb8bb)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
+
 **Column Micro Chart**
 
-A column chart uses vertical bars to compare multiple values over time or across categories. One axis of the chart shows the categories being compared, the other axis represents a value. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
+A column micro chart uses vertical bars to compare multiple values over time or across categories. One axis of the chart shows the categories being compared, the other axis represents a value. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
+
+The column micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)
+-   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
+
+**Line Micro Chart**
+
+A line micro chart displays information as a series of data points connected by a line. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a Value Source entity and then its properties to serve as the measures and dimensions of the chart.
+
+The line micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Measures](appendix-457f2e9.md#loiof7225b8412704a6cb8a7b45fda3f56fe)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
+
+**Radial Micro Chart**
+
+The radial micro chart displays the numeric value compared with the target. You choose both of these values when generating the radial micro chart. Then, you can choose a different numeric service property to be used as a target in the *Properties Panel*, as well as set a description for your chart and apply the semantic coloring based on the value criticality.
+
+The radial micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Criticality Source](appendix-457f2e9.md#loioa94b995dd1dd4ee5b68dde0882a3ab29)<sub></sub>
+
+**Comparison Micro Chart**
+
+The comparison micro chart displays up to three values as bar charts with the common value range for comparing the values. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a *Value Source* entity and then its properties to serve as the measures and dimensions of the chart.
+
+The comparison micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+-   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
 
 
 
@@ -226,10 +300,10 @@ A column chart uses vertical bars to compare multiple values over time or across
 
 ## Moving Header Section
 
-The user can change the order of the sections in the application header. By using the drag-and-drop functionality, drag the required section to a different position within the *Header Sections* node:
+You can change the order of sections in the application header. Drag and drop the required section to a different position within the *Header Sections* node:
 
 -   When dropped, the records in the `UI.Facets` collection are reordered.
--   When SAP Fiori application is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
+-   When the SAP Fioriapplication is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
 
 **Move multiple sections**
 
@@ -244,17 +318,17 @@ To move the multiple sections to another position, perform the following steps:
 
 ## Deleting Header Section
 
-To delete the section in the application, perform the following steps:
+To delete a section, perform the following steps:
 
 1.  Navigate to the section node in the outline.
-2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
+2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* pop-up window.
 3.  Click *Delete* to confirm the action.
 
 > ### Note:  
-> This action deletes respective `UI.ReferenceFacet` record from `UI.Facets`.
+> This action deletes the `UI.ReferenceFacet` record from `UI.Facets`.
 
 > ### Note:  
-> To remove unreferenced `UI.FieldGroup` annotation, run the cleanup procedure that deletes the unreferenced annotation.
+> To remove the unreferenced `UI.FieldGroup` annotation, run the cleanup procedure to delete the unreferenced annotation.
 
 
 
@@ -262,7 +336,7 @@ To delete the section in the application, perform the following steps:
 
 ## Sorting Micro Chart Data in Header Sections
 
-Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, or column type.
+Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, or comparison type.
 
 
 

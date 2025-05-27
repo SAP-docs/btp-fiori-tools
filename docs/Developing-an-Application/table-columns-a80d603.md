@@ -24,16 +24,6 @@ Once the table columns are added, you can move them within the table, delete, or
 
 
 
-<a name="loioa80d603f85164482b192eeeb2df535a2__columnproperties"/>
-
-## Maintaining Column Properties
-
-Some column properties, such as *Label* and *Importance* can be defined for all table columns. Other properties are specific to the column type. You can find the column type in the *Property Panel* within the column header. For basic columns, the value type, such as *String* or *Decimal* is displayed. For others, its visualization, such as *Chart* or *Rating*.
-
-The following properties can be configured for all columns in the *Property Panel*. The remaining properties depend on the column type such as *Chart* or *Rating* and value type such as *String*, *Date*, *Decimal* you select. For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
-
-
-
 <a name="loioa80d603f85164482b192eeeb2df535a2__section_mwf_b1h_2sb"/>
 
 ## Label

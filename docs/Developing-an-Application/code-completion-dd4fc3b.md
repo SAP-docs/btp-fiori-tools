@@ -14,5 +14,5 @@ To trigger the code completion, in Windows, press [Ctrl\] + [Space\]  and for ma
 Navigate to the desired value using the up/down arrows or your mouse. Accept the highlighted value using [Enter\] key or a mouse click.
 
 > ### Note:  
-> If you arere adding or modifying segments of an annotation target or path value, you can use `/` to accept the selected value for the current segment and trigger the code completion list for the next segment. Filter it further by typing more characters.
+> If you are adding or modifying segments of an annotation target or path value, you can use `/` to accept the selected value for the current segment and trigger the code completion list for the next segment. Filter it further by typing more characters.
 

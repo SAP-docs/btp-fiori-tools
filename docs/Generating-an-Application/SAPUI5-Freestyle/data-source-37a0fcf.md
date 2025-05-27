@@ -2,7 +2,7 @@
 
 # Data Source
 
-This section provides information on how to connect your application with a data source during generation. In the Data Source and Service Selection wizard page, you can select from one of the following options:
+This section provides information on how to connect your application with a data source during generation. In the *Data Source and Service Selection* wizard page, you can select from one of the following options:
 
 
 
@@ -58,18 +58,18 @@ This section provides information on how to connect your application with a data
 
 -   **Connecting to an SAP System using** **SAP Business Application Studio**
 
-    When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for a Business Application Studio instance. The generator automatically retrieves the available destinations, and you can select from the list. If you do not have the correct access to use the destination end point, an error occurs.
+    When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for a SAP Business Application Studio instance. The generator automatically retrieves the available destinations, and you can select from the list. If you do not have the correct access to use the destination end point, an error occurs.
 
 
 
 
 <a name="loio37a0fcf2388c4e8e9e9e4942e6c5cff4__section_i2d_yzx_v4b"/>
 
-## Connect to an OData Service with a Customized URL
+## Connect to an OData service with a Customized URL
 
 If the OData endpoint that you want to use in your application can't be accessed directly, you can set it up as a destination and directly reference it in the generator. To do so, perform the following steps:
 
-1.  In SAP Business Application Studio, launch the SAP Fiori generator and select the required template.
+1.  In SAP Business Application Studio, launch the SAP Fiori Generator and select the required template.
 2.  Select *Connect to an OData Service* from the data source dropdown list.
 3.  For the data source URL field, use the destination name followed by `.dest`. In this case, SAP Business Application Studio should be able to route to your service with the destination name.
 
@@ -87,7 +87,7 @@ If the OData endpoint that you want to use in your application can't be accessed
 Enter the OData endpoint URL to generate your application. All OData endpoints that are either authenticated with basic authentication or unauthenticated are supported.
 
 > ### Note:  
-> The provided OData endpoint must be the correct version for the template that you select. For example, a V2 endpoint must be provided for the V2 template. The wizard informs you if there is any mismatch between the OData version and the template version.
+> The provided OData endpoint must be the correct version for the template that you select. For example, an ODataV2 endpoint must be provided for the OData V2 template. The wizard informs you if there is any mismatch between the OData version and the template version.
 
 If necessary, the system prompts you to provide your name and password.
 
@@ -97,11 +97,11 @@ If necessary, the system prompts you to provide your name and password.
 
 ## Upload a Metadata Document
 
-To generate the application without relying on a backend service being available, upload a metadata xml file that you want to use.
+To generate the application without relying on a back end service being available, upload a `metadata.xml` file that you want to use.
 
-Only [EDMX format](https://docs.microsoft.com/en-us/openspecs/windows_protocols/mc-edmx/5dff5e25-56a1-408b-9d44-bff6634c7d16) is supported for the metadata xml file.
+Only [EDMX format](https://docs.microsoft.com/en-us/openspecs/windows_protocols/mc-edmx/5dff5e25-56a1-408b-9d44-bff6634c7d16) is supported for the `metadata.xml` file.
 
-Once the metadata xml file has been validated, the system allows you to select the required entity options for the application.
+Once the `metadata.xml` file has been validated, the system allows you to select the required entity options for the application.
 
 > ### Note:  
 > When using a `metadata.xml` file, the generated application is limited to only mock data.

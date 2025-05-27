@@ -42,5 +42,5 @@ In your workspace, under the adaptation project, the folder structure looks like
 
 **Define Key-Value Pair**
 
-Define your key-value pairs in the `i18n.properties`. Refer to the keys while you edit the project using SAPUI5 Visual Editor. In the *Properties* pane, refer to the i18n key for a SAPUI5 control instead of typing in the text. Run the project as a web application and check whether the i18n value associated to the key appears on the UI control. Similarly, you can change the text of existing UI controls by overriding the associated i18n key-value pairs in the source application.
+Define your key-value pairs in the `i18n.properties`. Refer to the keys while you edit the project using Adaptation Editor. In the *Properties* pane, refer to the i18n key for a SAPUI5 control instead of typing in the text. Run the project as a web application and check whether the i18n value associated to the key appears on the UI control. Similarly, you can change the text of existing UI controls by overriding the associated i18n key-value pairs in the source application.
 

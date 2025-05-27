@@ -24,7 +24,7 @@ Controller extensions let the developer add new methods and override methods. Th
 
 ## Procedure
 
-1.  In your workspace, expand the `webapp` folder, right click the `manifest.appdescr_variant` file and click *Open SAPUI5 Visual Editor*.
+1.  In your workspace, expand the `webapp` folder, right click the `manifest.appdescr_variant` file and click *Open* *Adaptation Editor*.
 
     The application opens in the canvas in preview mode.
 
@@ -54,7 +54,7 @@ Controller extensions let the developer add new methods and override methods. Th
 
 7.  Navigate to the canvas. You are prompted to reload the project for the controller changes to be applied.
 
-    A loading indicator appears with the message: *Loading SAPUI5 Visual Editor with Controller Extension changes*.
+    A loading indicator appears with the message: *Loading* *Adaptation Editor* *with Controller Extension changes*.
 
 
 **Related Information**  

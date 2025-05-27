@@ -4,7 +4,7 @@
 
 # Progress Column
 
-A progress indicator column can be added to a *List Report* table or an *Object Page* section.
+A progress indicator column can be added to a list report table or an object page section.
 
 
 
@@ -27,9 +27,15 @@ To add a progress column to a table to a section, perform the following steps:
     > Add progress column option is disabled if the table entity and associated entities do not have any numeric properties or all of them are already used in the table.
 
 
-Column properties can be configured in the *Property Panel*.
+The progress column has the following additional properties:
 
-Please see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0) for information on defining and editing the properties.
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Type](appendix-457f2e9.md#loio678bf9265c664134a075b59fd193c64e)
+-   [Target](appendix-457f2e9.md#loio7fba03aba4214ceab2130f16186f4ff2)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+-   [Tooltip Source](appendix-457f2e9.md#loiof0bc466aae5b42e697c89506026050af)
 
 
 
@@ -39,15 +45,15 @@ Please see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192
 
 To move a column within a table, use one of the following options:
 
--   **Drag-and-drop**
+-   **Drag and Drop**
 
     Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
+    With drag and drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
--   **Arrow buttons**
+-   **Arrow Icons**
 
-    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
@@ -56,24 +62,9 @@ To move a column within a table, use one of the following options:
 
 ## Deleting Progress Column
 
-To delete a column in the application, perform the following steps:
+To delete a column, perform the following steps:
 
 1.  Navigate to a column.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
-
-
-
-<a name="loio0039256581704bf3a8a586d406875c90__section_fyk_t15_s2c"/>
-
-## Maintaining Progress Column Properties
-
-In addition to the column properties available for all column types, you can define the following properties specific to the progress column:
-
--   Target Type
-    -   Choose the expression type for the progress goal. It could be a constant number or a property of a numeric type if provided in the service.
-
--   Target
-    -   Choose a number representing the progress goal.
-
 

@@ -4,7 +4,7 @@
 
 # Basic Columns
 
-A basic column is used for the standard representation of the value type. For example, it shows string values as text and numeric values as numbers. You can add multiple basic columns at a time by selecting more than one value in the *Columns* field. To find the desired value more easily, you can filter the list of available options by typing in a few characters of the desired value name.
+A basic column is used for the standard representation of the value type. For example, it shows string values as text and numeric values as numbers. You can add multiple basic columns at a time by selecting more than one value in the *Columns* field. To find the desired value, you can filter the list of available options by typing in a few characters of the value name.
 
 ![](images/Basic_Column_8c30f41.png)
 
@@ -17,7 +17,7 @@ A basic column is used for the standard representation of the value type. For ex
 To add a basic column to a table in a section, perform the following steps in the *Page Editor*:
 
 1.  Click the :heavy_plus_sign: \(*Add*\) icon next to the *Columns* node.
-2.  Click *Add Basic Columns* .
+2.  Click *Add Basic Columns*.
 3.  Select columns in the *Columns* dropdown.
 4.  Click *Add*.
 
@@ -25,16 +25,24 @@ To add a basic column to a table in a section, perform the following steps in th
     > You cannot add the column based on the same value twice into the table.
 
 
-Column properties can be configured in the *Property Panel*. Here are some examples:
+Basic columns contain the following properties:
 
--   Label
--   Importance
--   Text and Text Arrangement \(for all value types except Boolean\)
--   Display Type \(for string values\)
--   Criticality and Criticality Representation \(for string and numeric values\)
--   Measures and Currencies \(for numeric values\)
+> ### Tip:  
+> You can see a subset of these properties for a basic column depending on the value type and draft enablement.
 
-For more information about defining a *Label* and *Importance*, see [Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties), and for more information about defining and editing the remaining properties, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47) \(for all value types except Boolean\)
+-   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6) \(for all value types except Boolean\)
+-   [Display Type](appendix-457f2e9.md#loio6544398b07024f4faff4bad25949b64d) \(for string values\)
+-   [Restrictions](appendix-457f2e9.md#loio58fec66ebb1f48fbbd3092d3a1b27fda)
+-   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed) \(for string and numeric values\)
+-   [Criticality Representation](appendix-457f2e9.md#loiof2b7486cb4644441979d818802b79940) \(for string and numeric values\)
+-   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
+-   [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) \(for numeric values\)
+-   [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955)
+-   [Semantic Object Property Mapping](appendix-457f2e9.md#loio7726cb0d97194461973e3ec176c8a888)
 
 
 
@@ -44,15 +52,15 @@ For more information about defining a *Label* and *Importance*, see [Column Prop
 
 To move a column within a table, use one of the following options:
 
--   **Drag-and-drop**
+-   **Drag and Drop**
 
     Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
+    With drag and drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
--   **Arrow buttons**
+-   **Arrow Icons**
 
-    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
@@ -61,41 +69,9 @@ To move a column within a table, use one of the following options:
 
 ## Deleting a Basic Column
 
-To delete a column in the application, perform the following steps:
+To delete a column, perform the following steps:
 
 1.  Navigate to a column.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
-
-
-
-<a name="loio5f8c75b2b4f3468aa85e9658825389de__section_yzw_nq2_5yb"/>
-
-## Maintaining Basic Column Properties
-
-In addition to the column properties available for all column types, you can define the following properties specific to the basic fields:
-
--   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
--   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
--   Display Type
-    -   Define how the field is represented in create or edit mode. Available options depend on the value type. For most value types, you can define value help if the service metadata contains entities with a list of eligible options. String values can also be represented as a text area.
-
-
-
-
-
--   [Hide by Property](appendix-457f2e9.md#loio4e8bb3df433546f8a80f16e53b29e4c1)
--   [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98)
--   Restrictions
-    -   Define whether the input field in create or edit mode is mandatory, optional, or read-only. Depending on the field configuration, some options might not be available. For example, values generated by the system are always read-only.
-
--   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47)
--   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6)
--   [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955)
--   [Semantic Object Property Mapping](appendix-457f2e9.md#loio7726cb0d97194461973e3ec176c8a888)
-
-> ### Note:  
-> You can see a subset of these properties for a basic column depending on the value type and draft enablement.
-
-For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 

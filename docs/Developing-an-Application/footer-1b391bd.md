@@ -14,7 +14,7 @@ You can add, delete and maintain the footer actions in the same way as the actio
 > ### Note:  
 > The properties *Importance* and *Requires Context* are not relevant for the header actions.
 > 
-> The *Criticality* property impacts the sequence of the actions in the *Object Page* footer. Therefore, once you change its value from *None* to *Positive* or *Negative* \(or vice versa\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
+> The *Criticality* property impacts the sequence of the actions in the *Object Page* footer. Therefore, once you change its value from *None* to *Positive* or *Negative* \(or the other way around\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
 
 You can move actions from the *Footer* to the page header and to the *Form* sections based on the main entity of the page, as long as these actions are not semantically highlighted.
 

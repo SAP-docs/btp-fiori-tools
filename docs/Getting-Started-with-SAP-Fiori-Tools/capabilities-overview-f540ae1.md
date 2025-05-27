@@ -76,6 +76,16 @@ CAP Java
 Component
 
 </th>
+<th valign="top">
+
+Adaptation Projects
+
+</th>
+<th valign="top">
+
+Extension Projects
+
+</th>
 </tr>
 <tr>
 <td valign="top">
@@ -130,7 +140,17 @@ Add deploy configuration.
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -187,12 +207,22 @@ Add configuration for mockserver middleware.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -249,12 +279,22 @@ Add Configuration for Variants Creation.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -306,22 +346,32 @@ Build the application. The results are stored in the `dist` folder.
 </td>
 <td valign="top">
 
-
-
-</td>
-<td valign="top">
-
-
-
-</td>
-<td valign="top">
-
-
+ 
 
 </td>
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 </tr>
@@ -386,6 +436,16 @@ Change the minimum version of SAPUI5 that this application requires.
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -448,6 +508,16 @@ Execute command that checks all node module dependencies for newer versions.
  
 
 </td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -472,7 +542,7 @@ Check service with annotation. You can copy annotations to local annotation file
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -497,12 +567,22 @@ Check service with annotation. You can copy annotations to local annotation file
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -540,6 +620,16 @@ Zip the project excluding the `node_modules` folder for sharing which can be use
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -626,7 +716,17 @@ Deploy according to the configuration by default stored in the `ui5-deploy.yaml`
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -683,12 +783,22 @@ Start editor for maintaining mock data.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -745,17 +855,27 @@ You can sync `metadata.xml` with the back end.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -807,17 +927,27 @@ You can choose or create local `XML` annotation files.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -844,7 +974,7 @@ Guided Development helps solve common tasks.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -875,6 +1005,16 @@ Guided Development helps solve common tasks.
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -944,6 +1084,16 @@ Open the page map that shows application pages and navigation paths.
  
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -998,7 +1148,17 @@ Choose from start scripts to run the application preview.
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -1021,6 +1181,16 @@ Run UI5 Linter
 <td valign="top">
 
 Run a static code analysis to validate compliance with SAPUI5 best practices. For more information, see [UI5 linter](https://github.com/SAP/ui5-linter).
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -1092,7 +1262,7 @@ Show documentation of available manifest and UI5 flexibility properties.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1123,6 +1293,16 @@ Show documentation of available manifest and UI5 flexibility properties.
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
@@ -1192,6 +1372,16 @@ Start deployment in test mode.
 ![](images/Checkmark_Good_8eb8536.png)
 
 </td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
 </tr>
 <tr>
 <td valign="top">
@@ -1246,7 +1436,17 @@ Remove a deployed artifact from back end or cloud.
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -1278,7 +1478,7 @@ Validate the application.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
@@ -1303,12 +1503,22 @@ Validate the application.
 </td>
 <td valign="top">
 
-
+ 
 
 </td>
 <td valign="top">
 
+ 
 
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">

@@ -4,7 +4,7 @@
 
 # Rating Column
 
-Rating column can be added to a *List Report* table or an *Object Page* section.
+A rating column can be added to a list report table or an object page section.
 
 
 
@@ -22,9 +22,13 @@ To add a rating column to a table to a section, perform the following steps:
     -   `Visualization` property is set to enum value **Rating**.
 
 
-Column properties, can be configured in the *Property Panel*.
+The rating column has the following additional properties:
 
-For more information on defining and editing the properties, see[Column Properties](table-columns-a80d603.md#loioa80d603f85164482b192eeeb2df535a2__columnproperties) and [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Target Value](appendix-457f2e9.md#loioa9654b0fd63443d9b2727d1a497f84b6)
+-   [Tooltip Source](appendix-457f2e9.md#loiof0bc466aae5b42e697c89506026050af)
 
 
 
@@ -34,15 +38,15 @@ For more information on defining and editing the properties, see[Column Properti
 
 To move a column within a table, use one of the following options:
 
--   **Drag-and-drop**
+-   **Drag and Drop**
 
     Hover over the table column outline, press and hold the mouse button while moving the mouse pointer to the different position within the table. Release the mouse button at the desired position. Eligible positions are highlighted in green.
 
-    With drag-and-drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
+    With drag and drop, you can move multiple columns at once by pressing [CTRL\] + [\+\]  .
 
--   **Arrow buttons**
+-   **Arrow Icons**
 
-    Press the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) button next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
@@ -54,16 +58,4 @@ To move a column within a table, use one of the following options:
 1.  Navigate to a column.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
 3.  Click *Delete* to confirm the action.
-
-
-
-<a name="loiob2ba7b47f2be4c1cb5fcfaf2df25c19a__section_hfr_ryt_s2c"/>
-
-## Maintaining Rating Column Properties
-
-In addition to the column properties available for all column types, you can define the following properties specific to the rating column:
-
--   Target Value
-    -   Define the maximum number of stars. For example, 3 or 5.
-
 

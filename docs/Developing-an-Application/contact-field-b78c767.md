@@ -32,7 +32,7 @@ A contact field can be moved within a section as any other field. It can be move
 
 ## Deleting Contact Field
 
-To delete the contact column/field in the application, perform the following steps:
+To delete a contact column or field, perform the following steps:
 
 1.  Navigate to a field.
 2.  Click the :wastebasket: \(*Delete*\) icon to open the *Delete Confirmation* popup window.
