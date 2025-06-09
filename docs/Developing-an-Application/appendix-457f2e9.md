@@ -100,7 +100,7 @@ As a result, the *Criticality* property is added to the `UI.DataField` record an
 
 ## Criticality for Micro Charts and Progress Indicators
 
-In comparison micro charts and progress indicators, you can define the semantic colouring by choosing the appropriate property in the *Criticality* field. To remove the semantic coloring, choose *None*.
+In comparison micro charts, harvey micro charts, and progress indicators, you can define the semantic colouring by choosing the appropriate property in the *Criticality* field. To remove the semantic coloring, choose *None*.
 
 <a name="loiof2b7486cb4644441979d818802b79940"/>
 
@@ -327,11 +327,13 @@ Choose the expression type for the maximum possible value in the chart. It can b
 
 ## Maximum Value
 
-*Maximum Value* is a required property for bullet micro charts.
+*Maximum Value* is a required property for bullet and harvey micro charts.
 
-The scale is based on the minimum value \(by default: 0\) and maximum value you chose when generating this micro chart.
+For the bullet micro chart, the scale is based on the minimum value \(by default: 0\) and maximum value you chose when generating this micro chart.
 
-You can modify the scale of the chart by updating these minimum and maximum values. You can either define these values based on the service properties of numeric type or as fixed number. For that, you first choose the Maximum \(Minimum\) value type and then the desired number or property.
+You can modify the scale of the bullet micro chart by updating these minimum and maximum values. You can either define these values based on the service properties of numeric type or as fixed number. For that, you first choose the Maximum \(Minimum\) value type and then the desired number or property.
+
+For the harvey micro chart, the maximum value is represented by a numeric property. You can change the numeric property to a different numeric property of the same entity or a 1:1 related entity.
 
 <a name="loiof7225b8412704a6cb8a7b45fda3f56fe"/>
 

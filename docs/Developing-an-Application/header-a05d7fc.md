@@ -294,6 +294,18 @@ The comparison micro chart contains the following properties:
 -   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
 -   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
 
+**Harvey Micro Chart**
+
+The harvey micro chart, also known as harvey ball, displays a single value against a total expressed using the maximum value. The values for the chart must come from the same entity or a 1:1 navigation entity.
+
+The harvey micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Maximum Value](appendix-457f2e9.md#loiofb3939d43c884bf5b458657ef3f6f3be)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+
 
 
 <a name="loio8a127fc36f5640abaab0056e632fe630__section_w12_yrj_bsb"/>
