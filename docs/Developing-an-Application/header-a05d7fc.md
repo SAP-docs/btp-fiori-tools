@@ -86,9 +86,9 @@ Header actions are displayed in the object page header as buttons. You can maint
 
 ### Standard Actions
 
-The SAP Fiori elements framework provides standard generic actions such as *Edit* and *Delete* by default for object pages in all applications if certain criteria are met. If these standard actions are provided, you can hide them in your application UI by switching on the *Hidden* property.
+The SAP Fiori elements framework provides standard generic actions, such as *Edit* and *Delete*, by default for object pages in all applications if certain criteria are met. If these standard actions are provided, you can hide them in your application UI by activating the *Hidden* property.
 
-Once you have activated the *Hidden* property using the toggle button, the *Hide by Property* field is displayed right after it. You can set the condition for dynamic hiding by selecting one of the suggested Boolean properties from the dropdown list. If the selected property evaluates to `true` in runtime, the button will be hidden, otherwise it will be displayed. You can select *None* to revert back to static hiding.
+Once you have activated the *Hidden* property using the toggle button, the *Hide by Property* field is displayed below. You can set the condition for dynamic hiding by selecting one of the suggested Boolean properties from the dropdown list. If the selected property evaluates to `true` at runtime, the button will be hidden; otherwise it will be displayed. You can select *None* to revert back to static hiding.
 
 > ### Note:  
 > When you hide the *Edit* button, the `UI.UpdateHidden` annotation is applied to the entity set of the respective object page. When you hide the *Delete* button, the `UI.DeleteHidden` annotation is applied.
@@ -102,14 +102,20 @@ These actions are based on the following records of the `UI.Identification` anno
 -   `UI.DataFieldForAction` with the `Determining` property set to `false` or not defined. These actions are performed within the application.
 -   `UI.DataFieldForIntentBasedNavigation` actions are used for external navigation from the current application to a different \(target\) application, configured in SAP Fiori launchpad.
 
-You can add, delete and maintain the header actions in the same way as described in [Table Actions](table-actions-da1931b.md).
+You can add, delete, and maintain the header actions in the same way as described in [Table Actions](table-actions-da1931b.md).
+
+You can also add action menus to the object page header. They are based on records of type `UI.DataFieldForActionGroups` contained in a `UI.Identification` annotation that does not have a qualifier and targets the root entity of the object page.
+
+The record `UI.DataFieldForActionGroups` has an `Actions` property which is a collection of standard action records of type `UI.DataFieldForAction` representing the action menu items. Note: When using the *Page Editor*, you can only configure action menus using annotations.
 
 > ### Note:  
 > The *Importance* and *Requires Context* properties are not relevant for the header actions.
 > 
 > The *Criticality* property impacts the sequence of the actions in the *Object Page* header. After you change its value from *None* to *Positive* or *Negative* \(or the other way around\), the sequence of the action nodes in the *Page Editor* outline view is automatically updated.
+> 
+> You cannot set the criticality for actions in an action menu. You also cannot move actions with criticality to action menus.
 
-You can move header actions to the *Form* sections based on the same entity, as long as these actions are not semantically highlighted. You can move the actions based on `UI.DataFieldForAction` to the *Footer*.
+You can move header actions and action menus to form sections based on the same entity, as long as these actions are not semantically highlighted. You can move the actions based on the `UI.DataFieldForAction` to the footer.
 
 
 

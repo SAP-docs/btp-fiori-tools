@@ -159,6 +159,9 @@ When prompted, either choose a transport request from the list or add a valid tr
 </tr>
 </table>
 
+> ### Note:  
+> If the SSL certificate is invalid because of an expired certificate, wrong host, or unable to verify the leaf signature, you can use the `NODE_TLS_REJECT_UNAUTHORIZED=0` environment variable to ignore the error. However, we recommend that you resolve the SSL certificate error rather than ignoring it.
+
 
 
 <a name="loioc06b9cbb3f3641aabfe3a5d199e855a0__section_a5d_mfd_l4b"/>
