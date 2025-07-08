@@ -51,21 +51,16 @@ Learn how to generate an application with the Project Accelerator using SAP Fior
     > ### Note:  
     > The Project Accelerator cannot generate a second application for the same project, so ensure your request only refers to a single application.
 
-3.  Click *Generate*.
+3.  Provide the *Project Folder Path* that you want to generate the project into.
+4.  Click *Generate*.
 
     > ### Note:  
     > If you launch SAP Fiori tools AI using Joule, you are transferred to the Project Accelerator to generate your application.
 
     Depending on your business requirements, generation may take some time.
 
-    You can stop generation if you want to cancel the process and make further changes. To stop generation, click the :white_large_square: \(*Stop*\) icon. Then, click *Yes* at the *Are you sure you want to stop generation?* prompt. The process is stopped and the staging files are discarded. You can then edit your business requirements and generate a new application.
+    You can stop generation if you want to cancel the process and make further changes. To stop generation, click the :white_large_square: \(*Stop*\) icon. Then, click *Yes* at the *Are you sure you want to stop generation?* prompt. The process is stopped. You can then edit your business requirements and generate a new application.
 
-4.  Review the generated application to see if it meets your requirements. You can edit your business requirements as needed and click *Regenerate* to re-run generation.
-    -   To start again, click the <span class="SAP-icons-TNT-V3"></span> *\(Clear\)* icon. This will clear your business requirements and the staging area to enable you to start from scratch.
-    -   Click *Preview* to launch a preview of the application in a new browser window.
-
-    -   Examine the generated files in the *Staging Area*.
-
-5.  To accept the generated application, click *Accept Project* to move the project to your filesystem. You can then make further changes using SAP Fiori tools.
+5.  The generated project is added to your filesystem at the project folder path you chose. Then, *Application Information* is launched for the associated SAP Fiori application. You can then make further changes using SAP Fiori tools.
 
 

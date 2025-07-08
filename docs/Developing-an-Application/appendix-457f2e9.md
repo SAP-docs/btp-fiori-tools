@@ -504,13 +504,13 @@ To do so, select the same property as *Text* for the field and *Value Descriptio
 
     ![](images/example_d6376cf.jpg)
 
-    This is assured by the same values selected in *Text/Value Description Property* and *Text Arrangement* for the filter field and its value help. The `typedescription` property is used as *Text/Value Description Property* and *Text Only* as *Text Arrangement*.
+    This is assured by the same values selected in the *Text/Value Description Property* and *Text Arrangement* for the filter field and its value help. The `typedescription` property is used as the *Text/Value Description Property* and *Text Only* as the *Text Arrangement*.
 
-    **Filter Field properties**:
+    **Filter Field Properties**:
 
     ![](images/Filter_Field_properties_a32bce5.jpg)
 
-    **`Value Help` properties**:
+    **`Value Help` Properties**:
 
     ![](images/Value_Help_properties_cf241c6.jpg)
 
@@ -520,9 +520,9 @@ To do so, select the same property as *Text* for the field and *Value Descriptio
 
     ![](images/example_1_0556254.jpg)
 
-    The *Text/Value Description Property* and *Text Arrangement* are configured differently on the field and value help. The `typedescription` property is used as *Value Description Property* and `Text Only` as *Text Arrangement* for the value help, while *Text* and *Text Arrangement* are not defined on the filter field itself because it is set to *None*.
+    The *Text/Value Description Property* and *Text Arrangement* are configured differently on the field and value help. The `typedescription` property is used as the *Value Description Property* and `Text Only` as the *Text Arrangement* for the value help, while *Text* and *Text Arrangement* are not defined on the filter field itself because it is set to *None*.
 
-    **Filter Field properties**:
+    **Filter Field Properties**:
 
     ![](images/Filter_Field_Properties_Example_2_5778877.jpg)
 
@@ -531,38 +531,36 @@ To do so, select the same property as *Text* for the field and *Value Descriptio
     ![](images/Value_Help_Properties_Example_2_dbcc00a.jpg)
 
 
-The ![](images/Take_Over_Button_6452fbf.jpg) button is provided by the *Page Editor* to simplify the text/text arrangement synchronization. It appears next to the *Text* field once the *Value Description Property* is defined in the `Value Help`. When you click it, the value defined in the `Value Help` is set as *Text* for the field.
+The ![](images/Take_Over_Button_6452fbf.jpg) button is provided by the *Page Editor* to simplify the text/text arrangement synchronization. It appears next to the *Text* field once the *Value Description Property* is defined in the `Value Help`. When you click it, the value defined in the `Value Help` is set as the *Text* for the field.
 
 Similarly, it appears next to the *Value Description Property* field in the `Value Help`, once *Text* is defined for the field. When you click it, the value defined for the field *Text* is set for the *Value Description Property* .
 
 > ### Note:  
 > The ![](images/Take_Over_Button_6452fbf.jpg) button doesn’t appear if both properties are set in the same way.
 
-If the values of *Value Description Property* and *Text* field are synchronized, *Text Arrangement* values are checked. If they don’t match, the ![](images/Take_Over_Button_6452fbf.jpg) button appears next to the *Text Arrangement* allowing you to synchronize one value with another.
+If the values of *Value Description Property* and *Text* field are synchronized, *Text Arrangement* values are checked. If they don’t match, the ![](images/Take_Over_Button_6452fbf.jpg) button appears next to the *Text Arrangement* which allows you to synchronize one value with another.
 
 As a result, the values in the `Common.Text` annotations applied to the field value and source value of the value help point to the same property and `UI.TextArrangement` have the same enum value.
 
--   *Text* and *Text Arrangement* on the filed value:
+-   *Text* and *Text Arrangement* on the field value:
 
     ```
-     annotate service.CapexType with {
-        type @Common.Text : {
-            $value : typedescription,
-            ![@UI.TextArrangement] : #TextOnly,
-        }
+    annotate service.Capex with {
+        type @(
+            Common.Text : type.typedescription,
+            Common.Text.@UI.TextArrangement : #TextOnly,
+        )
     };
-    
     ```
 
 -   *Text* and *Text Arrangement* on the source value of the value help:
 
     ```
-    annotate service.Capex with {
-        type @Common.Text : {
-            $value : type.typedescription,
-            ![@UI.TextArrangement] : #TextOnly,
-        }
-    };
+    annotate service.CapexType with {
+        type @(
+            Common.Text : typedescription,
+            Common.Text.@UI.TextArrangement : #TextOnly,
+    )};
     
     ```
 

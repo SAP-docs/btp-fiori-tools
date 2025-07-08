@@ -8,6 +8,9 @@ You can use the Project Accelerator or Joule to kick-start your SAP Fiori develo
 
 The following video shows an overview of the Project Accelerator: [Project Accelerator: Elevate Development with AI​ in SAP Fiori tools](https://dam.sap.com/mac/u/a/b4EL9s7?rc=10&doi=SAP1185906).[![](images/Project_Accelerator_Video_8a3b039.png)](https://dam.sap.com/mac/u/a/b4EL9s7?rc=10&doi=SAP1185906)
 
+> ### Tip:  
+> The Project Accelerator no longer has a staging area to approve the generated project. Instead, it automatically creates a project in the project folder that you choose.
+
 
 
 <a name="loio6845fedbb38c4da7a54a2c76081f3abb__section_lsy_b1t_51c"/>
