@@ -137,7 +137,7 @@ Header sections show the key information of the object page entity and are displ
 
 <a name="loio8a127fc36f5640abaab0056e632fe630__header_section"/>
 
-## Adding Header Section
+## Adding a Header Section
 
 To add a header section, perform the following steps:
 
@@ -166,7 +166,7 @@ For more information, see [Form Section](form-section-4102b3d.md).
 
 ### Progress Section
 
-The progress header section visualizes the numeric value you chose as an indicator of a progress towards a certain target. You can modify the generated label and a default target as well as define a description for your progress indicator, apply the semantic coloring based on the value criticality and provide a tooltip.
+The progress header section visualizes the numeric value you chose as an indicator of a progress towards a certain target. You can modify the generated label and a default target as well as define a description for your progress indicator, apply the semantic coloring based on the criticality value and provide a tooltip.
 
 The target is the progress indicator that is generated based on the value you entered and the default target \(goal\) of 100. You can then modify the target by setting it to a different numeric constant or choose a numeric service property that represents a target. First, choose the target value type and then the desired number or property.
 
@@ -184,7 +184,7 @@ The progress header section contains the following properties:
 
 ### Data Point Section
 
-The data point header section is used to display the single point of the key data. It is typically a number but can also be textual. For example, a status value. It is generated with a minimum property based on the value you entered. You can then enhance it in the *Properties Panel* with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency if this has not been defined in the base level.
+The data point header section is used to display a single point of the key data. It is typically a number but can also be text such as a status value. It is generated with a minimum property based on the value you entered. You can then enhance it in the *Properties Panel* with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency if this has not been defined in the base level.
 
 The data point header section contains the following properties:
 
@@ -198,7 +198,7 @@ The data point header section contains the following properties:
 
 ### Rating Section
 
-The rating header section displays the numeric value you chose with the corresponding number of stars out of the certain maximum \(target\). It is generated based on the value you entered and default target value of 5. You can then modify the generated label and set the target to any other integer number in the *Properties Panel* as well as enter a description and a tooltip.
+The rating header section displays the *Value* property as a number of stars out of the *Target Value* property. It is generated based on the value you entered and a default target value of 5. You can then modify the generated label and set the target to any other integer number in the *Properties Panel*. You can also enter a description and a tooltip.
 
 The rating header section contains the following properties:
 
@@ -234,7 +234,7 @@ The area micro chart contains the following properties:
 
 **Bullet Micro Chart**
 
-The bullet micro chart visualizes the numeric value on a given scale. You can display the main value and additional values, such as target or forecast on the same scale. You can also set a description for your chart and apply the semantic coloring based on the value criticality.
+The bullet micro chart visualizes the numeric value on a given scale. You can display the main value and additional values, such as target or forecast, on the same scale. You can also set a description for your chart and apply the semantic coloring based on the criticality value.
 
 The bullet micro chart contains the following properties:
 
@@ -312,29 +312,41 @@ The harvey micro chart contains the following properties:
 -   [Maximum Value](appendix-457f2e9.md#loiofb3939d43c884bf5b458657ef3f6f3be)
 -   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
 
+**Stacked Bar Micro Chart**
+
+The stacked bar micro chart displays the overall progress and a summary of the items. The chart dimensions and measures must come from a 1:n navigation entity. When adding this chart, you must choose a 1:n associated entity as a *Value Source* entity and then its property to serve as the chart measure.
+
+The stacked bar micro chart contains the following properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Description](appendix-457f2e9.md#loio53c6d1a41ee041e7a01918f14b4925e6)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+-   [Presentation Variant: Annotation](header-a05d7fc.md#loioa05d7fc1bbbf42a0ade9fb50f6b58b56__section_o2g_rlm_32c)
+
 
 
 <a name="loio8a127fc36f5640abaab0056e632fe630__section_w12_yrj_bsb"/>
 
-## Moving Header Section
+## Moving a Header Section
 
 You can change the order of sections in the application header. Drag and drop the required section to a different position within the *Header Sections* node:
 
 -   When dropped, the records in the `UI.Facets` collection are reordered.
--   When the SAP Fioriapplication is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
+-   When the SAP Fiori application is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
 
 **Move multiple sections**
 
-To move the multiple sections to another position, perform the following steps:
+To move multiple sections to another position, perform the following steps:
 
-1.  Use the [Ctrl\] + [Click\]  combination to select more than one section.
+1.  Press [Ctrl\] + [Click\]  to select more than one section.
 2.  Drag the selected section to the desired position with your pointer.
 
 
 
 <a name="loio8a127fc36f5640abaab0056e632fe630__section_rbl_mkv_t5b"/>
 
-## Deleting Header Section
+## Deleting a Header Section
 
 To delete a section, perform the following steps:
 
@@ -354,7 +366,7 @@ To delete a section, perform the following steps:
 
 ## Sorting Micro Chart Data in Header Sections
 
-Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, or comparison type.
+Sorting chart data in micro chart header sections is set in the `Sort Order` property of the header section. This property is only visible if you have the `Presentation Variant` property defined for the micro chart header section. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, comparison or stacked bar type.
 
 
 
@@ -368,6 +380,6 @@ When the *Presentation Variant: Annotation* is set, you can define one or more d
 
 -   You can remove the reference to the `UI.PresentationVariant` annotation generated by the *Page Editor* by setting the *Presentation Variant: Annotation* to *None*.
 
--   You can remove unreferenced `UI.PresentationVariant` annotations generated by the *Page Editor* from the annotation file, run the cleanup procedure. This also removes the other unreferenced `UI.PresentationVariant` annotations defined with qualifiers to keep your annotation file as clean as possible.
+-   You can remove unreferenced `UI.PresentationVariant` annotations generated by the *Page Editor* from the annotation file by running the cleanup procedure. This also removes the other unreferenced `UI.PresentationVariant` annotations defined with qualifiers to keep your annotation file as clean as possible.
 
 

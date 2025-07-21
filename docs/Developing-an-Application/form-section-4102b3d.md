@@ -52,13 +52,13 @@ In the `annotation` file, you can see the following changes applied:
 You can change the order of sections in the application header. Drag and drop the required section to a different position within the *Header Sections* node:
 
 -   When dropped, the records in the `UI.Facets` collection are reordered.
--   When the SAP Fioriapplication is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
+-   When the SAP Fiori application is rendered, sections are displayed based on the records sequence in the `UI.HeaderFacets` annotation.
 
 **Move multiple sections**
 
-To move the multiple sections to another position, perform the following steps:
+To move multiple sections to another position, perform the following steps:
 
-1.  Use the [Ctrl\] + [Click\]  combination to select more than one section.
+1.  Press [Ctrl\] + [Click\]  to select more than one section.
 2.  Drag the selected section to the desired position with your pointer.
 
 

@@ -16,21 +16,20 @@ Depending on the desired chart type, you need to choose values for the mandatory
 
 ## Adding a Chart Column
 
-To add a chart column to a table to a section, perform the following steps:
+To add a chart column to a table in a section, perform the following steps:
 
-1.  Click *Add Chart Column* when clicking the :heavy_plus_sign: \(*Add*\) icon in the Columns node in the *Page Editor* .
+1.  Click the :heavy_plus_sign: \(*Add*\) icon in the *Columns* node in the *Page Editor*.
+2.  Click *Add Chart Column*.
 
     > ### Note:  
     > The *Add Chart Column* option is disabled if the table entity does not have any numeric properties.
 
-2.  Chose a *Chart Type* using the tree control.
+3.  Chose a *Chart Type* using the tree control.
 
     > ### Note:  
     > Depending on the selected chart type, fill in additional properties as described below.
 
-3.  Click *Add*. Depending on the desired chart type, you need to choose values for the mandatory properties.
-    -   When the chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
-
+4.  Click *Add*. Depending on the desired chart type, you need to choose values for the mandatory properties. When the chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
 
 
 
@@ -38,7 +37,7 @@ To add a chart column to a table to a section, perform the following steps:
 
 -   **Value Source**: property to represent the chart data.
 -   **Measure**: property representing a value in the chart.
--   **Dimension**: dimension to represent the x-axis of the chart by default..
+-   **Dimension**: dimension to represent the x-axis of the chart by default.
 
 The area chart has the following additional properties:
 
@@ -91,7 +90,7 @@ The column chart contains the following additional properties:
 
 -   **Value Source**: property to represent the chart data.
 -   **Measure**: property representing a value in the chart.
--   **Dimension**: dimension to represent the x-axis of the chart by default..
+-   **Dimension**: dimension to represent the x-axis of the chart by default.
 
 The line chart contains the following additional properties:
 
@@ -132,11 +131,6 @@ The comparison chart contains the following additional properties:
 -   [Dimension](appendix-457f2e9.md#loio6514184c6c21405cab30fd41e9102897)
 -   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
 
-When a chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
-
-> ### Note:  
-> The generated chart is based on the minimum required properties entered when adding the chart column. You can configure it further in the *Property Panel* by defining additional properties for the selected chart type, such as criticality and thresholds.
-
 
 
 ### Harvey Chart
@@ -152,6 +146,20 @@ The harvey chart contains the following additional properties:
 -   [Maximum Value](appendix-457f2e9.md#loiofb3939d43c884bf5b458657ef3f6f3be)
 -   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
 
+
+
+### Stacked Bar Chart
+
+-   **Value Source**: property to represent the chart data.
+-   **Measure**: property representing a value in the chart.
+
+The stacked bar chart contains the following additional properties:
+
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
+-   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [Criticality for Micro Charts and Progress Indicators](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed__section_xdw_kkj_kfc)
+
 When a chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is created.
 
 > ### Note:  
@@ -161,7 +169,7 @@ When a chart column is added, a new `UI.Chart` and `UI.DataPoint` annotation is 
 
 <a name="loiob78b3023e27b4078bab94189937fb550__section_amv_mry_35b"/>
 
-## Moving Chart Column
+## Moving a Chart Column
 
 To move a column within a table, use one of the following options:
 
@@ -173,14 +181,14 @@ To move a column within a table, use one of the following options:
 
 -   **Arrow Icons**
 
-    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
+    Click the <span class="SAP-icons-V5"></span>\(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icon next to the column name. This option only moves one column at a time.
 
 
 
 
 <a name="loiob78b3023e27b4078bab94189937fb550__section_gg1_psy_35b"/>
 
-## Deleting Chart Column
+## Deleting a Chart Column
 
 To delete a column, perform the following steps:
 
@@ -194,7 +202,7 @@ To delete a column, perform the following steps:
 
 ## Sorting Micro Charts in Chart Columns
 
-Sorting micro charts in chart columns is set in the *Sort Order* property of the chart column. This property is only visible if you have the *Presentation Variant* property defined for the micro chart column. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, or comparison type.
+Sorting micro charts in chart columns is set in the *Sort Order* property of the chart column. This property is only visible if you have the *Presentation Variant* property defined for the micro chart column. This requires SAPUI5 version 1.130 or higher defined as the `minUI5Version` in the `manifest.json` file. You can only sort chart data in micro charts that are area, line, column, comparison, or stacked bar type.
 
 
 

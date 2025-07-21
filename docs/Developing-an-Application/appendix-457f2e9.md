@@ -83,16 +83,16 @@ The row contains the following field:
 
 ## Criticality in Basic Fields and Columns
 
-You can display the values of the section fields or basic table columns with semantic coloring and optionally with criticality icons. For example, you can choose to display the *Travel Status* value in red if the trip is cancelled and green if it is confirmed.
+You can display the values of the section fields or basic table columns with semantic coloring and optionally with criticality icons. For example, you can choose to display the *Travel Status* value in red if the trip is canceled and in green if it is confirmed.
 
 As a prerequisite, your service should contain the property representing the status criticality information. If this prerequisite is fulfilled, do the following:
 
--   In outline, choose the table column or field you want to show with the semantic information.
+-   In the outline, choose the table column or field you want to show with the semantic information.
 -   In the Properties pane, choose the property representing the status criticality information in the *Criticality* field.
 
 ![](images/Criticallity_ac93cba.png)
 
-As a result, the *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear, that depends on the default behavior of the SAP Fiori elements template. You may override this default by explicitly defining the *Criticality Representation*.
+As a result, the *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear – this depends on the default behavior of the SAP Fiori elements template. You may override this default by explicitly defining the *Criticality Representation*.
 
 
 
@@ -100,7 +100,7 @@ As a result, the *Criticality* property is added to the `UI.DataField` record an
 
 ## Criticality for Micro Charts and Progress Indicators
 
-In comparison micro charts, harvey micro charts, and progress indicators, you can define the semantic colouring by choosing the appropriate property in the *Criticality* field. To remove the semantic coloring, choose *None*.
+In comparison micro charts, harvey micro charts, stacked bar micro charts, and progress indicators, you can define the semantic coloring by choosing the appropriate property in the *Criticality* field. To remove the semantic coloring, choose *None*.
 
 <a name="loiof2b7486cb4644441979d818802b79940"/>
 
@@ -144,13 +144,13 @@ If *Criticality Source* is set to *Calculation*, the following property is avail
 
 ## Description
 
-In addition to the section label, some header section types, such as progress or micro chart, let you set the description of the content. To define the description:
+For some header section types, such as progress or micro charts, you can set the description of the content. To set the description, perform the following:
 
-1.  Open the *Page Editor*, choose a header section.
-2.  In the Properties Pane, enter the text providing additional information for your content in the *Description* property.
+1.  Open the *Page Editor* and choose a header section.
+2.  In the Properties Pane, enter the text you want to use in the *Description* property.
 
 > ### Note:  
-> Similar to section label, description text can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
+> The description can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
 <a name="loio6514184c6c21405cab30fd41e9102897"/>
 
