@@ -118,7 +118,7 @@ To delete a field within the list of the *Filter Fields*, perform the following 
 > The `Common.Label` annotation is not deleted along with the filter field, as it can also be used elsewhere in the application.
 
 > ### Note:  
-> When deleting a visual filter, only the respective configuration in the `manifest.json` file is removed. To remove the respective annotations from the local file, click the *Remove Unused Local Annotations* icon.
+> When deleting a visual filter, only the respective configuration in the `manifest.json` file is removed. To remove the respective annotations from the local file, click the <span class="SAP-icons-TNT-V3"></span> \(*Remove Unused Local Annotations*\) icon.
 
 
 

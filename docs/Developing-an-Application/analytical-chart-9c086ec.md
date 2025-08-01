@@ -4,7 +4,7 @@
 
 # Analytical Chart
 
-In the *Page Editor*, you can configure the *List Report* page to display aggregated data of your main entity as an analytical chart above or as an alternative to the list report table. This setup is known in `OData V2` as *Analytical List Page*. In `OData V4`, however it is not a separate template but a flavor of the *List Report* template. You can configure it for your new or existing *List Report* page if your main entity contains aggregable and groupable properties.
+In the *Page Editor*, you can configure the *List Report* page to display aggregated data of your main entity as an analytical chart above or as an alternative to the list report table. This setup is known in OData V2 as *Analytical List Page*. In OData V4, however it is not a separate template but a flavor of the *List Report* template. You can configure it for your new or existing *List Report* page if your main entity contains aggregable and groupable properties.
 
 
 

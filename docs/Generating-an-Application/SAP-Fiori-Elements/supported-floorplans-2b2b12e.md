@@ -22,9 +22,9 @@ This is a list of supported floorplans that give you the ability to create SAP F
     For more information about **Fiori Design Guidelines**, see [Worklist Floorplan](https://experience.sap.com/fiori-design-web/work-list/).
 
     > ### Note:  
-    > For worklist floorplans using an `OData V4` data source, only `SAPUI5` versions 1.99 and above are supported.
+    > For worklist floorplans using an OData V4 data source, only `SAPUI5` versions 1.99 and above are supported.
 
-    For information on what is supported in worklist for `OData V2`, see [Floorplan Properties](floorplan-properties-745ae0c.md).
+    For information on what is supported in worklist for OData V2, see [Floorplan Properties](floorplan-properties-745ae0c.md).
 
 
 -   *Analytical List Page*

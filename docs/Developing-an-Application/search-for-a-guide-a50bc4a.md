@@ -23,7 +23,7 @@ The *Group by* dropdown defines how the guides are grouped based on their catego
 -   *OData Version* refers to the OData service version for which the guide steps are relevant. If the selected guide is not currently available for a given OData version, a warning message appears.
 
     > ### Tip:  
-    > Some guides are available for both `OData V2` and `OData V4` versions but the instructions can differ.
+    > Some guides are available for both OData V2 and OData V4 versions but the instructions can differ.
 
 -   *Application Artifacts* refers to the type of change the guide describes. The options are Manifest Change, Flex Change, and Annotations.
 

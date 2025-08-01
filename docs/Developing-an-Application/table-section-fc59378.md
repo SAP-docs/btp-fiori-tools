@@ -100,7 +100,7 @@ For more information, see [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cd
 
 ### Hidden
 
-See, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+For more information. see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 
 **Related Information**  
 

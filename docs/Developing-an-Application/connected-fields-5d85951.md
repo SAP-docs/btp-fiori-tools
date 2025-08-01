@@ -47,7 +47,7 @@ You can move the connected fields node within a section or to a different sectio
 
 -   Use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons next to the connected fields label to move the connected fields either within its section or to the different section in the content area.
 
--   Use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down* icons next to the field within the connected fields node to swap the sequence of the connected fields within the node.
+-   Use the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons next to the field within the connected fields node to swap the sequence of the connected fields within the node.
 
 
 > ### Note:  

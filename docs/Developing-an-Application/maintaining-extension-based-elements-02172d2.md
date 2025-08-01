@@ -5,7 +5,7 @@
 # Maintaining Extension-Based Elements
 
 > ### Note:  
-> For`OData V4` based applications, the templates used by the *Page Editor* to provide this flexibility is published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the source behind the scenes.
+> For OData V4 based applications, the templates used by the *Page Editor* to provide this flexibility is published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the source behind the scenes.
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44"/>
 
@@ -78,15 +78,15 @@ The custom column fragment and optional default controller code is written to th
 
 You can create a custom section as part of your *Object Page* using the *Page Editor*.
 
-1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node. For `OData V4`, click *Add Custom Section* from the menu. For `OData V2`, the selection will be prefilled.
+1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node. For OData V4, click *Add Custom Section* from the menu. For OData V2, the selection will be prefilled.
 2.  Provide the following information:
     -   **Title** - the label of the custom section
     -   **View Type** - types are **View** or **Fragment** \(`OData V2` only\)
     -   **Select Your Fragment/View**- choose new or existing
     -   **Fragment/View Name** - the file name of the artifact
     -   **Anchor Section** - select one of the existing sections in the *Object Page*
-    -   **Placement** - before, after or replace \(`OData V2` only\)
-    -   **Generate Event Handler** - Decide whether a demo controller should be created \(`OData V4` only\)
+    -   **Placement** - before, after or replace \(OData V2 only\)
+    -   **Generate Event Handler** - Decide whether a demo controller should be created \(OData V4 only\)
 
 
 On clicking *Add*, the custom section fragment, view, and or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
@@ -97,7 +97,7 @@ On clicking *Add*, the custom section fragment, view, and or controller code is 
 
 ## Adding Custom Action
 
-You can create a custom action in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
+You can create a custom action in your *List Report* and *Object Page* using the *Page Editor* for OData V4 applications.
 
 1.  In the *Page Editor*, click the :heavy_plus_sign: \(*Add*\) icon on the *Actions* node and click *Add Custom Action* from the menu.![Custom Actions](images/FIORI_TOOLS_CUSTOM_ACTION_9d8cc49.png)
 2.  Provide the following information:
@@ -115,7 +115,7 @@ You can create a custom action in your *List Report* and *Object Page* using the
 On clicking *Add*, the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom action.
 
 > ### Note:  
-> This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
+> This feature is only available for OData V4 and with `@sap/ux-specification` version 1.96 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
 
 <a name="loiodbb5c734f310444a93a612e3db4b9b97"/>
 
@@ -123,7 +123,7 @@ On clicking *Add*, the custom action is written to the project's `ext` folder. A
 
 ## Adding Custom View
 
-You can create a custom view in your *List Report* and *Object Page* using the *Page Editor* for `OData V4` applications.
+You can create a custom view in your *List Report* and *Object Page* using the *Page Editor* for OData V4 applications.
 
 1.  In the *Page Editor*, click the :heavy_plus_sign: \(*Add*\) icon on the *View* node and click *Add Custom View* from the menu.
 
@@ -141,7 +141,7 @@ You can create a custom view in your *List Report* and *Object Page* using the *
 On clicking *Add*, the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom view.
 
 > ### Note:  
-> This feature is only available for `OData V4` and with `@sap/ux-specification` version 1.96.29, 1.102.14 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
+> This feature is only available for OData V4 and with `@sap/ux-specification` version 1.96.29, 1.102.14 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
 
 <a name="loiofe286b8483f84963877e44d4c817b0ed"/>
 
@@ -149,7 +149,7 @@ On clicking *Add*, the custom view is written to the project's `ext` folder. A c
 
 ## Adding Controller Extension
 
-You can create a controller extension as part of your *List Report* and *Object Page* using the *Page Map* for `OData V4` applications.
+You can create a controller extension as part of your *List Report* and *Object Page* using the *Page Map* for OData V4 applications.
 
 1.  Launch the *Page Map*. For more information, see the *Launching Page Map* section in [Define Application Structure](define-application-structure-bae38e6.md).
 
@@ -169,9 +169,7 @@ You can create a controller extension as part of your *List Report* and *Object 
 
 5.  You can then change the order in which the extensions are executed using the drag-and-drop functionality, or using the <span class="SAP-icons-V5"></span> \(*Move Up*\) or <span class="SAP-icons-V5"></span> \(*Move Down*\) icons.
 
-6.  You can also click the \(*Edit in source code*\) icon to navigate to the respective controller code file.
-
-    ![](images/Fiori_Tools_Add_Controller_Extension_-_Edit_In_Source_Code_ceabfdc.png)
+6.  You can also click the <span class="SAP-icons-TNT-V3"></span> \(*Edit in source code*\) icon to navigate to the respective controller code file.
 
 
 > ### Tip:  

@@ -20,7 +20,7 @@ Learn how to generate an application with the Project Accelerator using SAP Fior
 
     2.  SAP Fiori
 
-        Click the *SAP Fiori* \(wrench and pencil\) icon on the activity bar.
+        Click the <span class="SAP-icons-TNT-V3"></span> \(*SAP Fiori*\) icon on the activity bar.
 
     3.  Joule
 
@@ -59,7 +59,7 @@ Learn how to generate an application with the Project Accelerator using SAP Fior
 
     Depending on your business requirements, generation may take some time.
 
-    You can stop generation if you want to cancel the process and make further changes. To stop generation, click the :white_large_square: \(*Stop*\) icon. Then, click *Yes* at the *Are you sure you want to stop generation?* prompt. The process is stopped. You can then edit your business requirements and generate a new application.
+    You can stop the generation if you want to cancel the process and make further changes. To stop the generation, click the :white_large_square: \(*Stop*\) icon. Then, click *Yes* at the *Are you sure you want to stop generation?* prompt. The process is stopped. You can then edit your business requirements and generate a new application.
 
 5.  The generated project is added to your filesystem at the project folder path you chose. Then, *Application Information* is launched for the associated SAP Fiori application. You can then make further changes using SAP Fiori tools.
 

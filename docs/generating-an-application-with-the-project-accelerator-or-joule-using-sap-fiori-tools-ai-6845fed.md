@@ -112,7 +112,7 @@ If your request does not contain any instructions for a specific supported featu
 
 If your request contains instructions for unsupported features, they will either be implemented at SAP Fiori tools AI's own discretion, or not be considered.
 
-If your request only contains text, SAP Fiori tools AI does not generate object page header features based on your specific requirements but may use the general description of your app to generate some basic header features.
+If your request only contains text, SAP Fiori tools AI does not generate object page header features based on your specific requirements, but may use the general description of your app to generate some basic header features.
 
 SAP Fiori tools AI uses your input to create UI features such as fields and columns but chooses random values to fill these columns with test data. In addition, data from images you have used to represent the page layout is also used to generate test data. The generated test data is only intended for testing the app in preview mode and is stored in a test folder of the generated project. The only exception is the code lists or enum values that are based on the explicit values from your input. These values are treated as properties of associated entities and stored in a data folder.
 

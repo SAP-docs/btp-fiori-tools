@@ -57,7 +57,7 @@
 
 1.  Right-click the SAP Fiori elements application project `manifest.json`.
 2.  In the context menu, select *Service Manager*.
-3.  Click the:wastebasket: \(*Delete*\) icon.
+3.  Click the :wastebasket: \(*Delete*\) icon.
 
 The `metadata.xml`, related annotation XML files and mockdata is deleted from the project. Also, the `ui5*.yaml` files will remove any back-end routing and mockserver entries specific to the service being deleted.
 

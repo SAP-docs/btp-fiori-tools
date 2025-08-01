@@ -17,6 +17,9 @@ After you select a data source for your application, you can customize the appli
 -   *Table type*: Represents the type of table to be generated. The *Table type* property is only supported for floorplans that support a list in a table such as the list report page, worklist page, and analytical list page. For more information, see [Table Types](https://experience.sap.com/fiori-design-web/table-types-sap-fiori-elements/).
 
 
+> ### Tip:  
+> If the OData V4 service supports the *Analytical* table type and the selected main entity supports the analytical table, then the table type defaults to *Analytical* for the list report and worklist floorplans.
+
 
 
 <a name="loio745ae0c87e994df5acf6bb20ee66b1e1__section_bx1_4q4_vcc"/>

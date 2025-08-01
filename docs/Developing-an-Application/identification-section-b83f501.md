@@ -98,11 +98,11 @@ For more information, see [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cd
 
 ### Display on Demand
 
-See [Display on Demand](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__displayondemand).
+For more information, see [Display on Demand](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__displayondemand).
 
 
 
 ### Hidden
 
-See, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0) in the Appendix.
+For more information, see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 

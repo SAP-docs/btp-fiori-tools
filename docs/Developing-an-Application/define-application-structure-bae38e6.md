@@ -4,7 +4,7 @@
 
 # Define Application Structure
 
-Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori tools *Page Map* allows to change the pages structure of the application and application-wide settings such as the *Flexible Column Layout* that is available when using SAP Fiori elements.
+SAP Fiori tools *Page Map*, as part of the SAP Fiori Tools – Application Modeler extension, allows to change the page structure of the application and application-wide settings, such as the *Flexible Column Layout*, that is available when using SAP Fiori elements.
 
 > ### Tip:  
 > Page Map also supports SAPUI5 freestyle applications. However, this is an experimental feature with a limited scope. For example, you cannot add and delete pages.
@@ -13,7 +13,7 @@ Being part of the SAP Fiori Tools – Application Modeler extension, SAP Fiori t
 
 <a name="loiobae38e6216754a76896b926a3d6ac3a9__section_uph_2rk_xlb"/>
 
-## Launching Page Map
+## Launching the Page Map
 
 You can launch the *Page Map* in several ways:
 
@@ -28,7 +28,7 @@ You can launch the *Page Map* in several ways:
 
 3.  **Folder Context Menu**.
 
-    If you already have a SAP Fiori elements project in your current workspace, right-click the project folder and click *Show Page Map*.
+    If you already have an SAP Fiori elements project in your current workspace, right-click the project folder and click *Show Page Map*.
 
 
 
@@ -52,9 +52,9 @@ When the *Page Map* is open, you can see *Application Settings* in the default v
 
     ![The Flex Enabled feature](images/Flex_Enabled_48e56f4.png)
 
-    For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://sapui5.hana.ondemand.com/#/topic/f1430c0337534d469da3a56307ff76af)
+    For more information, see [SAPUI5 Flexibility: Enable Your App for UI Adaptation](https://sapui5.hana.ondemand.com/#/topic/f1430c0337534d469da3a56307ff76af).
 
--   After you change any setting, the update applies immediately.
+-   After you change any setting, the update is applied.
 -   To hide the panel, click *Toggle Properties Panel Visibility* in the upper-right corner.
 
 ![SAP Fiori tools Application Modeler Page Map](images/Page_Map_bd3ac9b.png)
@@ -67,10 +67,10 @@ With the SAP Fiori tools *Page Map*, you can add additional pages to your applic
 -   From the *Select Page Type* list, select *ObjectPage*, and click *Add*.
 -   In the *Navigation* field, select an entity that the page will navigate to.
 
-    The list of available entities depends on the previous entity you navigate from. See [Configure Page Elements](configure-page-elements-047507c.md) for more information.
+    The list of available entities depends on the previous entity you navigate from. For more information, see [Configure Page Elements](configure-page-elements-047507c.md).
 
 
-For `OData V4`, you can add a custom page.
+For OData V4, you can add a custom page.
 
 ![Custom Page for OData V4](images/FIORI_TOOLS_CUSTOMPAGE_ADD_84e348c.png)
 
@@ -78,22 +78,22 @@ For `OData V4`, you can add a custom page.
 -   From the *Select Page Type* list, select *CustomPage*, and click *Add*.
 -   In the *Navigation* field, select an entity that the custom page navigates to.
 -   Under *Select your view*, select one of the following option buttons:
-    -   *Create a New View*. Can create a new view.
+    -   *Create a New View*. Creates a new view.
     -   *Use Existing View*. Provides a list of the prepared sample custom views.
 
 -   In the *View Name* field, enter the name of the view or select a value from the existing list.
 -   Click *Add*. As a result, a success message appears, such as *Custom Page ProcessFlow added successfully*.
 
-> ### Note:  
-> For `OData V4` based applications, the templates used by the *Page Map* to provide this flexibility are published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the source code behind the scenes.
+> ### Tip:  
+> For OData V4-based applications, the templates used by the *Page Map* to provide this flexibility are published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the source code behind the scenes.
 
 **Configuring the Page**
 
-Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With [Configure Page Elements](configure-page-elements-047507c.md), you can edit page properties. You can also open [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` file or the SAPUI5 flexibility changes are updated accordingly.
+Click the :pencil2: \(*Configure Page*\) icon in the header of a page file to open the outline view of the [Configure Page Elements](configure-page-elements-047507c.md). With [Configure Page Elements](configure-page-elements-047507c.md), you can edit page properties. You can also open [Configure Page Elements](configure-page-elements-047507c.md) from the tree view of the application modeler. When changes are applied, this is reflected in the `webapp/manifest.json` file and the SAPUI5 flexibility changes are updated accordingly.
 
 **Deleting the Page** 
 
 Click the :wastebasket: \(*Delete Page*\) icon to delete the page.
 
-See [Fiori Design Guidelines: Layouts](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/) for more information about the Layout Settings.
+For more information on the layout settings, see [Fiori Design Guidelines: Layouts](https://experience.sap.com/fiori-design-web/list-report-floorplan-sap-fiori-element/).
 

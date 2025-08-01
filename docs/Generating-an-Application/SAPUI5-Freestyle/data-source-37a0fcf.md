@@ -8,7 +8,7 @@ This section provides information on how to connect your application with a data
 
 <a name="loio37a0fcf2388c4e8e9e9e4942e6c5cff4__section_l4w_krq_qpb"/>
 
-## Connect to an SAP system
+## Connect to an SAP System
 
 -   **Connect to an SAP system using** **VS Code**
 
@@ -87,7 +87,7 @@ If the OData endpoint that you want to use in your application can't be accessed
 Enter the OData endpoint URL to generate your application. All OData endpoints that are either authenticated with basic authentication or unauthenticated are supported.
 
 > ### Note:  
-> The provided OData endpoint must be the correct version for the template that you select. For example, an ODataV2 endpoint must be provided for the OData V2 template. The wizard informs you if there is any mismatch between the OData version and the template version.
+> The provided OData endpoint must be the correct version for the template that you select. For example, an OData V2 endpoint must be provided for the OData V2 template. The wizard informs you if there is any mismatch between the OData version and the template version.
 
 If necessary, the system prompts you to provide your name and password.
 

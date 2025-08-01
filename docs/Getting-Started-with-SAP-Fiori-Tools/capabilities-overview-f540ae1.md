@@ -162,6 +162,150 @@ Add deploy configuration.
 <tr>
 <td valign="top">
 
+Add Fiori Launchpad Config
+
+</td>
+<td valign="top">
+
+`sap.ux.appGenerator.launchFlpConfig`
+
+</td>
+<td valign="top">
+
+Add the SAP Fiori launchpad configuration to the application.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add Local Annotation File
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.addAnnotationFile`
+
+</td>
+<td valign="top">
+
+Add a local annotation file to the adaptation project.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Add Mockserver Config
 
 </td>
@@ -223,6 +367,78 @@ Add configuration for mockserver middleware.
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Add SAPUI5 Components
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.addSAPUI5ComponentUsages`
+
+</td>
+<td valign="top">
+
+Add SAPUI5 component usages to the adaptation project.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -372,6 +588,78 @@ Build the application. The results are stored in the `dist` folder.
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Change Inbound
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.changeInbound`
+
+</td>
+<td valign="top">
+
+Add an inbound change to the adaptation project.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -543,6 +831,78 @@ Check service with annotation. You can copy annotations to local annotation file
 <td valign="top">
 
  
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Convert Preview Config
+
+</td>
+<td valign="top">
+
+`sap.ux.applicationModeler.convertPreview`
+
+</td>
+<td valign="top">
+
+Convert the configuration to preview the application with virtual endpoints.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
 
 </td>
 <td valign="top">
@@ -954,6 +1314,294 @@ You can choose or create local `XML` annotation files.
 <tr>
 <td valign="top">
 
+Open Adaptation Editor
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.openAdaptationEditor`
+
+</td>
+<td valign="top">
+
+Open the Adaptation Editor to create adaptations.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Open Data Editor
+
+</td>
+<td valign="top">
+
+`sap.ux.dataEditor.open`
+
+</td>
+<td valign="top">
+
+Open the Data Editor to maintain mock data.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Open Deployment Wizard
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.openDeploymentWizard`
+
+</td>
+<td valign="top">
+
+Open the Deployment Wizard to deploy the adaptation project.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Open Documentation
+
+</td>
+<td valign="top">
+
+`sap.ux.applicationModeler.showDocu`
+
+</td>
+<td valign="top">
+
+Open the documentation of available manifest and SAPUI5 flexibility properties.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Open Guided Development
 
 </td>
@@ -1170,6 +1818,78 @@ Choose from start scripts to run the application preview.
 <tr>
 <td valign="top">
 
+Replace OData Service
+
+</td>
+<td valign="top">
+
+`sap.ux.adp.replaceODataService`
+
+</td>
+<td valign="top">
+
+Replace the OData service of the adaptation project.
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Run UI5 Linter
 
 </td>
@@ -1236,6 +1956,78 @@ Run a static code analysis to validate compliance with SAPUI5 best practices. Fo
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+Run Variants Management
+
+</td>
+<td valign="top">
+
+`npm run start-variants-management`
+
+</td>
+<td valign="top">
+
+Run the configuration for variants creation.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 </tr>
@@ -1458,7 +2250,7 @@ Remove a deployed artifact from back end or cloud.
 <tr>
 <td valign="top">
 
-Validate Application
+Validate Project
 
 </td>
 <td valign="top">
@@ -1468,7 +2260,7 @@ Validate Application
 </td>
 <td valign="top">
 
-Validate the application.
+Validate the project and generate a report.
 
 </td>
 <td valign="top">
@@ -1499,6 +2291,78 @@ Validate the application.
 <td valign="top">
 
 ![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
 
 </td>
 <td valign="top">
