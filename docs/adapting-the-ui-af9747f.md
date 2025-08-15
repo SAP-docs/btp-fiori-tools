@@ -29,18 +29,14 @@ Make changes to the UI elements of the adaptation project.
 
 SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor tool. The Adaptation Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
 
-If you have created your project with Safe Mode, you cannot change properties, add fragments, or add controller extensions. To turn off Safe Mode, deselect the *Safe Mode* switch in the Adaptation Editor. Note once you switch it off, you cannot switch it on again.
-
 > ### Tip:  
-> The Adaptation Editor shows you your project using the SAPUI5 version that you have set during generation. You can preview your project using another SAPUI5 version by setting it in the project\`s settings and relaunch Adaptation Editor. Perform the following steps:
+> The Adaptation Editor will display your project using the SAPUI5 version that was set during its generation. Alternatively, you can preview your project using a different SAPUI5 version, but you need to configure this in the project's settings before the next launch of the Adaptation Editor. To do so, follow these steps:
 > 
-> 1.  Open the `ui5.yaml` file in the root of your project.
+> 1.  Open the `ui5.yaml` file located in your project root folder.
 > 
-> 2.  Find the `framework/version` parameter and change its value to point to the desired SAPUI5 version.
-> 3.  Find the `ui5/version` property and change its value to the same desired SAPUI5 version.
-> 4.  Find the `ui5/url` property and change its value to point to the URL for the same desired SAPUI5 version.
+> 2.  Locate the `version` property under the `ui5` node and change its value to the desired SAPUI5 version you want to use in the Adaptation Editor.
 > 
-> Do not change other settings in this file because it will cause errors in your project.
+> Keep in mind that changing other settings in this file will result in undesirable changes in your project's behavior. It is strongly recommended not to make such changes.
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 

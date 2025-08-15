@@ -28,11 +28,13 @@ Learn how to adapt the UI of applications using the Adaptation Editor.
 SAPUI5 adaptation projects use the editing capabilities of the Adaptation Editor. The Adaptation Editor is a design-time editor that provides an intuitive user interface to modify SAPUI5 adaptation project applications. For example, you can add, remove, or move fields and groups. You can also view all properties of the controls in the application and change the configurable properties.
 
 > ### Tip:  
-> The Adaptation Editor will show your project using the SAPUI5 version that you have set during its generation. Alternatively, you can preview your project using another SAPUI5 version by performing the following steps:
+> The Adaptation Editor will display your project using the SAPUI5 version that was set during its generation. Alternatively, you can preview your project using a different SAPUI5 version, but you need to configure this in the project's settings before the next launch of the Adaptation Editor. To do so, follow these steps:
 > 
-> 1.  Open the `ui5.yaml` file from the the root folder of your project.
+> 1.  Open the `ui5.yaml` file located in your project root folder.
 > 
-> 2.  Find the `version` property under the `ui5` node and change its value to the desired SAPUI5 version you want to use for the preview in the Adaptation Editor.
+> 2.  Locate the `version` property under the `ui5` node and change its value to the desired SAPUI5 version you want to use in the Adaptation Editor.
+> 
+> Keep in mind that changing other settings in this file will result in undesirable changes in your project's behavior. It is strongly recommended not to make such changes.
 
 The editor has an Outline pane, a Canvas \(application preview\), and a Properties pane.
 
@@ -262,7 +264,7 @@ You can combine up to three fields so that they’re displayed in a single line.
 </tr>
 </table>
 
-\*The context menu in the outline pane of the adaptation editor is available for projects based on the maintained SAPUI5 versions ≥1.84.
+\*The context menu in the outline pane of the Adaptation Editor is available for projects based on the maintained SAPUI5 versions ≥1.84.
 
 
 
