@@ -128,12 +128,11 @@ To delete a field within the list of the *Filter Fields*, perform the following 
 
 The following filter fields and compact filter properties are editable:
 
--   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301) 
+-   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
+-   [External ID](appendix-457f2e9.md#loio13f6d7fd6c6c4f60908cefa7d4260e49)
 -   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47)
 -   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6)
--   Display Type
-
-For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
+-   [Display Type](appendix-457f2e9.md#loio6544398b07024f4faff4bad25949b64d)
 
 
 
@@ -163,7 +162,7 @@ The following visual filter properties are editable:
 For more information about editing measures and currencies, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09d56311055a4a0).
 
 > ### Note:  
-> Measure and dimension labels, scale factor, unit of measure, and currency impact the display of the visual filter title in the following order: *Measure Label* by *Dimension Label* in *Scale factor* *Measure or Currency Unit* .
+> Measure and dimension labels, scale factor, unit of measure, and currency impact the display of the visual filter title in the following order: *Measure Label*, *Dimension Label*, *Scale Factor*, *Measure Unit*, and *Currency Unit*.
 
 > ### Note:  
 > Text values for *Dimensions* must be from the same entity as the dimension.
@@ -177,10 +176,10 @@ To change the label, perform the following steps:
 1.  Click the *Filter* in the outline to display its properties in the *Property Panel*.
 2.  In the *Measures* or *Dimensions* table, change the value in the *Label* field.
 
-If you don not define a label, the property name for the respective measure and dimension is displayed in the visual filter title.
+If you do not define a label, the property name for the respective measure and dimension is displayed in the visual filter title.
 
 > ### Note:  
-> Changing the dimension label as well as a label of custom aggregated measure updates the `Common.Label` or `@title` annotation applied to the property used as measure or dimension. Changing the label for the measure built with transformation aggregation, updates the `Common.Label` annotation applied to `Analytics.AggregatedProperty`.
+> Changing the labels of the dimension and custom aggregated measure updates the `Common.Label` or `@title` annotation applied to the property used as the measure or dimension. Changing the label for the measure built with transformation aggregation updates the `Common.Label` annotation applied to the `Analytics.AggregatedProperty`.
 
 
 
@@ -207,10 +206,7 @@ You can sort the measure data in the visual filters represented by the bar chart
 2.  Choose *Descending* in the direction field to sort the measure data in descending order.
 
 > ### Note:  
-> You cannot sort the chart data in the visual filters represented by the bar chart by a different property.
-
-> ### Note:  
-> You cannot sort the chart data in visual filters based on the line chart.
+> You cannot sort the chart data in visual filters based on the line chart or in visual filters represented by a bar chart with a different property.
 
 
 
@@ -233,7 +229,7 @@ You can limit the data displayed in the visual filter by defining one or more fi
 > ### Note:  
 > By default, the *Value* is set to an empty string. If your data does not contain the empty string values, the filter shows no data until you update the *Value* field with the existing values. If you choose the operator *Between* or *Not Between* requiring two values, you must define *Low Value* and *High Value* instead of *Value* to set the lower and upper limit.
 
-The numbers in the bar chart get updated to match the filter criteria. The list of bars in the bar chart gets limited to those matching the filters based on the dimension property.
+The numbers in the bar chart are updated to match the filter criteria. The list of bars in the bar chart is limited to those matching the filters based on the dimension property.
 
 You can repeat the steps above to add additional filters. You can then also move the individual filters up and down to change the sequence in which the filters are applied by using drag and drop or by clicking the <span class="SAP-icons-V5"></span> \(*Move Up*\) and <span class="SAP-icons-V5"></span> \(*Move Down*\) icons. You can delete individual filters by using the :wastebasket: \(*Delete*\) icon.
 

@@ -185,6 +185,19 @@ If the table column or section field is built on a string property and contains 
 
 Define how the field is represented in create or edit mode. Available options depend on the value type. For most value types, you can define value help if the service metadata contains entities with a list of eligible options. String values can also be represented as a text area.
 
+<a name="loio13f6d7fd6c6c4f60908cefa7d4260e49"/>
+
+<!-- loio13f6d7fd6c6c4f60908cefa7d4260e49 -->
+
+## External ID
+
+*External ID* is a property for fields, filter fields, columns, and value help.
+
+The *External ID* property is mainly used for the entity type properties of the `Edm.Guid` type to display a human-readable identifier on the UI instead of the`Edm.Guid` value.
+
+> ### Tip:  
+> If a value help is defined, the *External ID* value must be a direct property of the entity used as the *Value Source Entity* in the value help.
+
 <a name="loio0cb6999ed1004cccbeb06fee763eb8bb"/>
 
 <!-- loio0cb6999ed1004cccbeb06fee763eb8bb -->
@@ -589,7 +602,7 @@ When [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a93
 
 You can configure the default value help for the section fields, table columns, and filter fields unless they are represented by properties of type Boolean or defined as read-only \(directly or using the parent entity\). To do so, you need to set the *Display Type* property to *Value Help*.
 
-To enable the value help, your service must contain the entity set representing the list of suitable values. For example, if you want to define the value help for the CapexType field, your service should have an entity set, such as CapexType containing at least one property representing available CAPEX categories.
+To enable the value help, your service must contain the entity set representing the list of suitable values. For example, if you want to define the value help for the `CapexType` field, your service should have an entity set, such as `CapexType` containing at least one property representing available CAPEX categories.
 
 ```
 entity CapexType : managed {
@@ -597,18 +610,17 @@ entity CapexType : managed {
         typedescription : String;
 }
 
-
 ```
 
-When the *Value Help* option is selected, the dialog window *Define Value Help Properties* appears where you provide the data source parameters for possible values:
+When the *Value Help* option is selected, the dialog window *Define Value Help Properties* appears where you provide the data source parameters for the following possible values:
 
 -   **Label**
 
     Text displayed in the value help dialog if more than one value help is defined for the property.
 
--   **Value Source Entity** - Entity set representing the list of field values.
+-   **Value Source Entity**: Entity set representing the list of field values.
 
-    If you work in the CAP project and the field value is defined as an association, the associated entity is suggested automatically. For example, if you configure the Value Help for the Type field defined as an association to the CapexType, Capex type is added automatically as a value.
+    When working in a CAP project and the field value is defined as an association, the associated entity is suggested automatically. For example, if you configure the *Value Help* for the `Type` field defined as an association to the `CapexType`, `CapexType` is added automatically as a value.
 
     ```
     entity CapexBase : managed {
@@ -617,60 +629,61 @@ When the *Value Help* option is selected, the dialog window *Define Value Help P
     
     ```
 
--   **Value Source Property** - Property to be used as an input field.
+-   **Value Source Property**: Property to be used as an input field.
 
     If you work in the CAP project and the field value is defined as an association, the first key property of the associated entity is automatically suggested.
 
--   **Value Description Property** - Property to be used for displaying the additional text along with or instead of the input value.
+-   **External ID**: Property representing a human-readable identifier to be displayed on the UI instead of the *Value Source Property* value.
+-   **Value Description Property**: Property to be used for displaying the additional text along with or instead of the input value.
 
-    This property is usually defined if an input value *Value Source Property* represents a code or ID, and serves for explaining the meaning of that code/ID. For example, if *Value Source Property* is set to the type field representing some CapexType code, we recommend that you choose in *Value Description Property* representing the human-readable description of the Capex type.
+    This property is usually defined if the *Value Source Property* represents a code or ID. For example, if the *Value Source Property* is set to the `Type` field representing `CapexType` code, we recommend that the *Value Description Property* represents the human-readable description of the `CapexType`.
 
     > ### Note:  
-    > *Value Description Property* and *Text Arrangement* are similar to *Text* and *Text Arrangement* properties of Filter fields, Form section fields, and basic table columns. They result in the same annotations and are applied to the property selected as *Value Source Property*. If you expect the *Text* and *Text Arrangement* defined for the field to be the same as in the value help, click *Take Over* to apply the respective values.
+    > *Value Description Property* and *Text Arrangement* are similar to the *Text* and *Text Arrangement* properties of filter fields, form section fields, and basic table columns. They result in the same annotations and are applied to the property selected as *Value Source Property*. If you expect the *Text* and *Text Arrangement* defined for the field to be the same as in the value help, click *Take Over* to apply the respective values.
 
--   **Text Arrangement** - Defines how the *Value Description Property* is displayed with regards to the *Value Source Property*.
+-   **Text Arrangement**: Defines how the *Value Description Property* is displayed with regard to the *Value Source Property*.
 
-    You can display them together by selecting the *Text First* or *Text Last* values or substitute the code/ID represented in *Value Source Property* with the descriptive value by selecting *Text Only*.
+    You can display them together by selecting the *Text First* or *Text Last* values, or substitute the code or ID represented in the *Value Source Property* with the descriptive value by selecting *Text Only*.
 
     > ### Note:  
     > If you select *ID only*, the *Value Description* property is not displayed in the value help.
 
--   *Display as Dropdown* checkbox - Defines if the field is displayed as a combo-box or a standard value help dialog.
+-   *Display as Dropdown* checkbox: Defines if the field is displayed as a combo box or a standard value help dialog.
 
     > ### Note:  
-    > Check SAP Fiori guidelines to decide which option to use.
+    > Check the SAP Fiori guidelines to decide which option to use.
 
 -   *Result List*
 
-    You can let your user differentiate the available options by configuring the *Result List* table. For example, it cam contain instructions on when the specific type applies and the processing rules, if any.
+    You can provide information about the available value options by configuring the *Result List* table. For example, it can contain instructions on when the specific type applies and the processing rules, if any.
 
-    To add table columns to the *Result List* table, click *Add Column* and select a property for it.
+    To add columns to the *Result List* table, click *Add Column* and select a property for it.
 
-    If needed, you can set the dependent filtering. For this, you choose the dependency direction in the *Dependency* column and the respective local property in the *Local Value* column:
+    If needed, you can set the dependent filtering. To do so, you choose the dependency direction in the *Dependency* column and the respective local property in the *Local Value* column:
 
-    -   *None:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterDisplayOnly`. At runtime, the selected value does not affect other fields or columns based on the same property. The *Local Value* column is not applicable in this case.
+    -   *None:* The selected property is represented in the `Common.ValueList` annotation as `ValueListParameterDisplayOnly`. At runtime, the selected value does not affect other fields or columns based on the same property. The *Local Value* column is not applicable in this case.
 
-    -   *In:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterIn`. At runtime, the selected value filters the available options in other fields or columns based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
+    -   *In:* The selected property is represented in the `Common.ValueList` annotation as `ValueListParameterIn`. At runtime, the selected value filters the available options in other fields or columns based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
 
-    -   *Out:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterOut`. The selected value is automatically set in other fields or columns in runtime based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
+    -   *Out:* The selected property is represented in the `Common.ValueList` annotation as `ValueListParameterOut`. The selected value is automatically set in other fields or columns at runtime based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
 
-    -   *InOut:* the selected property is represented in `Common.ValueList` annotation as `ValueListParameterInOut`. At runtime, the selected value gets both automatically set and filters the available options in other fields or columns based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
+    -   *InOut:* The selected property is represented in `Common.ValueList` annotation as `ValueListParameterInOut`. At runtime, the selected value is automatically set and filters the available options in other fields or columns based on the same property. When this dependency is selected, you must choose the corresponding property from the main entity in the *Local Value* column.
 
 
 -   *Sort Order*
 
-    You can define how the *Result List* is sorted by default. For example, you can choose by which property \(column\) is sorted and in which direction. You can set the sorting by multiple columns in the pre-defined order.
+    You can define how the *Result List* is sorted by default. For example, you can choose which property \(column\) is sorted by and in which direction. You can choose multiple columns to sort by and define the sorting order.
 
     > ### Note:  
     > Sorting by properties that are not part of the *Result List* and by properties of associated entities is not possible.
 
-    To set the default sorting:
+    To set the default sorting, proceed as follows:
 
-    -   Click *Add Sort Property*.
+    1.  Click *Add Sort Property*.
 
-    -   Choose the property to sort by first. If needed, change the default sorting direction.
+    2.  Choose the property to sort by first. If needed, change the default sorting direction.
 
-    -   Repeat to sort by additional properties \(columns\).
+    3.  Repeat to sort by additional properties \(columns\).
 
         You can change the sequence of properties to sort by with drag-and-drop or by clicking the <span class="SAP-icons-V5"></span> \(*Sort*\) icon in the *Sort Order* table row. You can delete the sort property by clicking the :wastebasket: \(*Delete*\) icon in the *Sort Order* table row.
 
@@ -689,13 +702,13 @@ When the configuration is complete, the following annotations are generated and 
     `UI.PresentationVariant` is referenced using its qualifier in the `PresentationVariantQualifier` property of the `Common.ValueList` annotation.
 
 
-These annotations map to the *Value Help* properties as follows:
+These annotations map to the *Value Help* properties as shown in the following screenshot:
 
 ![](images/Value_help_screenshot_adf0b9c.png)
 
 > ### Note:  
-> To edit previously selected properties, click *Edit properties for Value Help*.
+> To edit previously selected properties, click *Edit Properties for Value Help*.
 
 > ### Note:  
-> Several value help variants may be manually defined for your application in addition to the default one. You cannot read or update such additional value helps with the *Page Editor*, but you can recognize that they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
+> Several value help variants may be manually defined for your application in addition to the default one. You cannot read or update such additional value helps with the *Page Editor*, but you can determine that they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
 

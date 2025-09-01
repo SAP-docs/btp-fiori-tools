@@ -10,9 +10,9 @@ This is a list of supported templates that enable you to create freestyle SAPUI5
 
 -   *Custom Page*
 
-    Create an SAP Fiori elements application containing a custom page based on the flexible programming model. For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
+    Create an SAP Fiori elements application containing a custom page based on the flexible programming model. With this custom page template, you can add the Page building block as a default layout. For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
 
 
 > ### Caution:  
-> SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with minimum SAPUI5 versions 1.65 or higher.
+> SAP Fiori tools supports the development of SAP Fiori elements and freestyle SAPUI5 applications with a minimum SAPUI5 version of 1.65 or higher.
 

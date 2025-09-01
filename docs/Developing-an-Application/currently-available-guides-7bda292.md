@@ -317,6 +317,7 @@ Add a table card to an overview page
 <td valign="top" align="center">
 
 -   XML
+-   CAP CDS
 
 
 

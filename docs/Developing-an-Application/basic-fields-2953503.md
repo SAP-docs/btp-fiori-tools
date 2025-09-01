@@ -13,7 +13,7 @@
 To add a new field to an existing section, perform the following steps:
 
 1.  Expand the required section and navigate your pointer to the field layer.
-2.  Click the :heavy_plus_sign: \(*Add* to open the *Add Fields* pop-up window.
+2.  Click the :heavy_plus_sign: \(*Add*\) to open the *Add Fields* pop-up window.
 3.  In the *Add Fields* pop-up window, search for or select one or several fields from the drop-down menu.
 4.  Click *Add* to add new fields to the Form section.
 
@@ -91,10 +91,11 @@ To delete the fields, perform the following steps:
 
 ## Maintaining Basic Field Properties
 
-Field properties are associated with fields in the Field section and the application with the help of annotations. The following field properties can be edited:
+Field properties are associated with fields in the Field section and the application using annotations. The following field properties are editable:
 
 -   [Criticality](appendix-457f2e9.md#loio19d82b5d8bc940738afcb49b51a48bed)
 -   [Display as Image](appendix-457f2e9.md#loio344568c1e4014621905d78857cf66401)
+-   [External ID](appendix-457f2e9.md#loio13f6d7fd6c6c4f60908cefa7d4260e49)
 -   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
 -   [Hide by Property](appendix-457f2e9.md#loio4e8bb3df433546f8a80f16e53b29e4c1)
 -   [Label](basic-fields-2953503.md#loio2953503145dd428194c6dff252744ac1__label)
@@ -109,7 +110,7 @@ For more information, see [Appendix](appendix-457f2e9.md#loio457f2e9699b5437fb09
 
 
 
-### Label
+### Changing the Section Label
 
 To change the section label, perform the following steps:
 
@@ -123,7 +124,7 @@ For more information, see [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cd
 
 
 
-### Restrictions
+### Defining Restrictions
 
 Define whether the field input in create/edit mode is mandatory, optional, or read-only. Use the *Restrictions* field to control the state of a property.
 
@@ -163,7 +164,7 @@ No annotations are applied. Therefore, this field by default is considered optio
 </td>
 <td valign="top">
 
-This field can be left empty. No obligatory data input is required.
+This field can be left empty. No mandatory data input is required.
 
 </td>
 </tr>
@@ -194,8 +195,8 @@ This field is displayed as read-only data with no editing allowed.
 </table>
 
 > ### Note:  
-> When the Object Page entity is not draft enabled \(read-only\), Display Type and Restrictions fields are not available in the property panel as the fields are not editable and are only used for displaying the value.
+> When the object page entity is not draft enabled \(read-only\), the *Display Type* and *Restrictions* fields are not available in the property panel because the fields are not editable and are only used for displaying the value.
 
 > ### Note:  
-> If restriction value is defined in the lower layer \(such as in the service\), the respective option is displayed with the suffix \(base layer\) and option *None* is not available. If the back-end restriction value cannot be resolved because unsupported annotation complexity, then the base layer value is displayed as a *Complex* \(base layer\).
+> If the restriction value is defined in the lower layer \(such as in the service\), the respective option is displayed with the suffix \(base layer\) and the *None* option is not available. If the back-end restriction value cannot be resolved because of the complexity of unsupported annotations, then the base layer value is displayed with the *Complex* \(base layer\).
 

@@ -27,12 +27,10 @@ To add a basic column to a table in a section, perform the following steps in th
 
 Basic columns contain the following properties:
 
-> ### Tip:  
-> You can see a subset of these properties for a basic column depending on the value type and draft enablement.
-
 -   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
 -   [Importance](appendix-457f2e9.md#loio7fe32a215209419da6d6c19da0f69ccb)
 -   [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0)
+-   [External ID](appendix-457f2e9.md#loio13f6d7fd6c6c4f60908cefa7d4260e49)
 -   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47) \(for all value types except Boolean\)
 -   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6) \(for all value types except Boolean\)
 -   [Display Type](appendix-457f2e9.md#loio6544398b07024f4faff4bad25949b64d) \(for string values\)
@@ -43,6 +41,9 @@ Basic columns contain the following properties:
 -   [Measures and Currencies](appendix-457f2e9.md#loio8ad2438ea4ed4a52ab530ff104530f98) \(for numeric values\)
 -   [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955)
 -   [Semantic Object Property Mapping](appendix-457f2e9.md#loio7726cb0d97194461973e3ec176c8a888)
+
+> ### Tip:  
+> You can see a subset of these properties for a basic column depending on the value type and draft enablement.
 
 
 

@@ -33,7 +33,7 @@ Learn how to generate an application with the Project Accelerator using SAP Fior
 2.  Depending on the method you used to launch SAP Fiori tools AI, enter your business requirements as follows:
 
     -   Text input:
-        -   Command Palette and SAP Fiori: Under *Project Accelerator*, enter your business requirements in the *Application requirements* textbox.
+        -   Command Palette and SAP Fiori: Under *Project Accelerator*, enter your business requirements in the *Business Requirements* textbox.
         -   Joule: Enter `/fiori-gen-spec-app #(path to your docx, markdown, or text file)` and click the *Send* icon.
 
     -   File input:
