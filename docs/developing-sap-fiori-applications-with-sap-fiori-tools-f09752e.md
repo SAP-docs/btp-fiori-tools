@@ -81,7 +81,7 @@ The freestyle SAPUI5 templates create at least three basic files for your applic
 With each of these files, you can control certain aspects of your application. For more information, see [Basic Files for your App](https://ui5.sap.com/#/topic/28b59ca857044a7890a22aec8cf1fee9).
 
 > ### Note:  
-> The freestyle SAPUI5 templates are deprecated, and it’s recommended to use the custom page SAP Fiori template based on the flexible programming model as an alternative. For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
+> The freestyle SAPUI5 templates are deprecated, and it’s recommended to use the custom page SAP Fiori template based on the flexible programming model as an alternative. For more information and live examples, see the SAP Fiori development portal at [Custom Page](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/controllerExtensions/customPage).
 
 
 

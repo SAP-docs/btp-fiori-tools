@@ -61,6 +61,6 @@ This is a list of supported floorplans that give you the ability to create SAP F
 
     The flexible programming model makes it easy for you to extend apps based on SAP Fiori elements for OData V4. You can use any `SAPUI5` coding or controls in extension points, and take advantage of the provided building blocks.
 
-    For more information, see [Flexible Programming Model](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/overview/introduction).
+    For more information and live examples, see the SAP Fiori development portal at [Custom Page](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/controllerExtensions/customPage).
 
 
