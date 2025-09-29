@@ -1900,7 +1900,7 @@ Run UI5 Linter
 </td>
 <td valign="top">
 
-Run a static code analysis to validate compliance with SAPUI5 best practices. For more information, see [UI5 linter](https://github.com/SAP/ui5-linter).
+Run a static code analysis to validate compliance with SAPUI5 best practices. For more information, see [UI5 linter](https://github.com/UI5/linter).
 
 </td>
 <td valign="top">
