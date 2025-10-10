@@ -12,15 +12,28 @@ This chapter describes how you can install and start working with Visual Studio 
 
 Ensure that the minimum system requirements for installing VS Code are met. For more information, see [Requirements for Visual Studio Code](https://code.visualstudio.com/docs/supporting/requirements).
 
--   You must have Node.js installed. Ensure that you’re using a Long Term Supported \(LTS\) version of Node.js. Furthermore, the version of Node.js you install must also have the corresponding version of `npm` installed. See [Node.js releases](https://nodejs.org/en/download/releases/) for details on the versions of Node.js marked as LTS, and their associated `npm` versions.
+-   You must have Node.js installed. Ensure that you’re using a Long Term Supported \(LTS\) version of Node.js. You must also have the corresponding version of `npm` installed. For more information, see [Node.js releases](https://nodejs.org/en/download/releases/).
 
     > ### Tip:  
-    > To check the version of Node.js installed, type `node -v` in the terminal. Tto check the version of `npm` installed, type `npm -v` in the terminal. Ensure that the `npm` version and Node.js version are compatible.
+    > To check the version of Node.js that you have installed, type `node -v` in the terminal. To check the version of `npm` you have installed, type `npm -v` in the terminal. Ensure that the `npm` version and Node.js version are compatible.
 
-    You can download Node.js here: [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+    **Install Node.js on Windows**
 
-    > ### Note:  
-    > For macOS, several options are available to install a LTS version of Node.js, such as [Homebrew](https://brew.sh/) and Node Version Manager \(NVM\).
+    For Windows, we recommend installing Node.js using the Windows installer from [Download Node.js](https://nodejs.org/en/download/). The installer requires administrator privileges so if you cannot use the installer, use the standalone binary as follows:
+
+    1.  Download the standalone binary from [Download Node.js](https://nodejs.org/en/download/).
+
+        If you cannot download the standalone binary due to your IT policies, ask your IT department to download the binaries for you.
+
+    2.  Extract the contents of the downloaded zip file to `C:\Users<your_user>\AppData\Local\Programs`.
+    3.  Open *Edit environment variables for your user account* using Windows search.
+    4.  Create a new user variable with `NODE_PATH` as the *Variable name* and `C:\Users<your_user>\AppData\Local\Programs\<your_node_folder>` as the *Variable value*.
+    5.  Add `%NODE_PATH%` to the *Path* variable in *System variables*.
+    6.  After updating your environment variables, restart your computer to ensure the changes take effect.
+
+    **Install Node.js on macOS**
+
+    For macOS, we recommend installing Node.js using a package manager or Node version manager such as [Homebrew](https://brew.sh/) or [Node Version Manager](https://github.com/nvm-sh/nvm) \(nvm\).
 
 -   The SAP Fiori application generator requires the [MTA tool](https://www.npmjs.com/package/mta) Node.js package \(version 1.0 or higher\) to be installed globally.
 
@@ -66,23 +79,20 @@ If it is set incorrectly to `@sap`, open the `.npmrc` file in your home director
 
 To set up VS Code, you need to perform the following steps:
 
-1.  Download VS Code from the [Visual Studio Code website](https://code.visualstudio.com/download).
+1.  Download VS Code from [Download Visual Studio Code](https://code.visualstudio.com/download).
 
-    > ### Note:  
-    > To learn how to get started with VS Code, see [https://code.visualstudio.com/docs/setup/setup-overview](https://code.visualstudio.com/docs/setup/setup-overview).
+    VS Code provides user and system installation methods for Windows systems. If you do not have administrator rights for your system, choose the user installation method.
 
-2.  You must have a working knowledge of VS Code.
+2.  You must understand how to use VS Code.
 
-    Using VS Code requires a working knowledge of this integrated development environment. Use the following resources to learn more about VS Code:
+    For more information about how to use VS Code, see the following resources:
 
-    -   [Visual Studio Code Basic Layout](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout).
-    -   [Visual Studio Code Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
+    -   [Visual Studio Code - Basic Layout](https://code.visualstudio.com/docs/getstarted/userinterface#_basic-layout).
+    -   [Visual Studio Code - Introductory Videos](https://code.visualstudio.com/docs/getstarted/introvideos).
 
-3.  Check if Node.js is already installed. You can check this by executing the following in the VS Code terminal. If you don't receive a version number, see above on how to install Node.js.
+3.  Open VS Code.
 
-    ```
-    node -v
-    ```
+    VS Code and `node` may be blocked if you are in a restricted IT environment. If they are blocked, ask your IT department for an exception.
 
 
 <a name="loiof533419b114f476e98b55622eabaf0f7"/>

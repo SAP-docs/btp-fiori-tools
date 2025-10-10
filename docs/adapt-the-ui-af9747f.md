@@ -1,6 +1,6 @@
 <!-- loioaf9747fdd5e04ac38faefe535c4c6789 -->
 
-# Adapting the UI
+# Adapt the UI
 
 Make changes to the UI elements of the adaptation project.
 
@@ -10,15 +10,15 @@ Make changes to the UI elements of the adaptation project.
 
 ## Contents
 
-1.  [Overview](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Overview)
+1.  [Overview](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Overview)
 
-2.  [Procedure](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Procedure)
+2.  [Procedure](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__Procedure)
 
-3.  [UI Editing Options](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EditingOptions)
+3.  [UI Editing Options](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EditingOptions)
 
-4.  [Embedding Content](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EmbeddingContent)
+4.  [Embedding Content](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__EmbeddingContent)
 
-5.  [Preview in a Separate Browser Tab](adapting-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__PreviewSepertaeTab)
+5.  [Preview in a Separate Browser Tab](adapt-the-ui-af9747f.md#loioaf9747fdd5e04ac38faefe535c4c6789__PreviewSepertaeTab)
 
 
 
@@ -46,7 +46,7 @@ The buttons on the Adaptation Editor toolbar allow you to:
 
 -   Navigate through and preview the application using the *Navigation* mode.
 
--   Change the application using the *Edit* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the same if you click a UI element in the Canvas. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
+-   Change the application using the *Adaptation* mode. In this mode, if you click a UI element in the Canvas, the element is selected and highlighted in the Outline pane and the same if you click a UI element in the Canvas. You can deselect the UI element by clicking it again in the Canvas. The Properties pane displays the properties of the UI element.
 
 -   Change the device format of the canvas to smartphone, tablet, or desktop view.
 
@@ -101,6 +101,10 @@ The buttons on the Adaptation Editor toolbar allow you to:
 <td valign="top">
 
 1.  Hover over or select a group or a field and click *Add Field* from the context menu.
+
+    > ### Tip:  
+    > The context menu is available both in the canvas and in the outline pane of the SAPUI5.\*
+
 2.  Select the fields from the list of available fields that you want to add to the UI.
 
     You can also search for field labels and tooltips, or sort the fields in alphabetical order.
@@ -257,13 +261,15 @@ You can combine up to three fields so that they’re displayed in a single line.
 </tr>
 </table>
 
+\*The context menu in the outline pane of the adaptation editor is available for projects based on the maintained SAPUI5 versions ≥1.84.
+
 
 
 <a name="loioaf9747fdd5e04ac38faefe535c4c6789__EmbeddingContent"/>
 
 ## Embedding Content
 
-To embed content, perform the following steps in [Embedding Content](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
+Embedding content is done the same way, as in the key user scenario. You can follow the procedure described in [https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html](https://help.sap.com/viewer/0f8b49c4dfc94bc0bda25a19aa93d5b2/latest/en-US/bfdf15154f16419fb60ce598b21fe515.html).
 
 
 

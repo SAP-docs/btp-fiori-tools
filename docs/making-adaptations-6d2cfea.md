@@ -10,7 +10,7 @@ Define changes to the generated application variant in your SAPUI5 adaptation pr
 
 ## In This Section
 
--   [Adapting the UI](adapting-the-ui-af9747f.md)
+-   [Adapt the UI](adapt-the-ui-af9747f.md)
 
     -   [Create Control Variants \(Views\)](create-control-variants-views-b4026b7.md)
     -   [Add Fragments to an Aggregation or Extension Point](add-fragments-to-an-aggregation-or-extension-point-6033d56.md)

@@ -2,11 +2,11 @@
 
 # Internationalization
 
-Adaptation projects support internationalization \(i18n\) which enables you to provide easily translatable text for applications. This topic describes the ways in which you can provide text for internationalization. You can define i18n key-value pairs and change the value for existing i18n keys.
+Adaptation project supports internationalization \(i18n\) which enables you to provide easily translatable text for applications. This topic describes the ways in which you can provide text for internationalization. You can define i18n key-value pairs and change the value for existing i18n keys.
 
 **Context**
 
-Internationalization refers to the process of designing and developing a software application and its content so that it can be easily adapted to multiple languages.
+Internationalization refers to the process of designing and developing a software application and its content so that it can be easily adapted to multiple languages without making many engineering changes.
 
 When you create an adaptation project, an `i18n.properties` file is created for every page of the application. Define a key-value pair in the `i18n.properties` file that you can refer to while providing text for the UI controls.
 

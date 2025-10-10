@@ -12,7 +12,7 @@ Controller extensions allow you to add functionality to a fragment that you add 
 
 Controller extensions allow you to enhance the functionality of a controller. You can create a controller extension specific to the view, for example, one controller extension for the list report view and one controller extension for the object page view. Additionally, a controller extension can be delivered with an adaptation project and is dynamically added to an existing controller. Controller extensions that an adaptation project delivers are added to the reserved `.extension` namespace of the controller to avoid name clashes with existing functionality.
 
-Controller extensions let the developer add new methods and override methods. These override methods are optional callback methods that override the existing methods using a special override member. For more information on defining an extension, see [Using Controller Extension](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
+Controller extensions let the developer add new methods and override methods. These override methods are optional callback methods that override the existing methods using a special override member. For more information on defining an extension, see [Using Controller Extension](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61)and [SAPUI5 Documentation](https://sapui5.hana.ondemand.com/#/topic/21515f09c0324218bb705b27407f5d61).
 
 > ### Remember:  
 > You can add a controller extension only if:
@@ -51,6 +51,13 @@ Controller extensions let the developer add new methods and override methods. Th
     The lifecycle methods are defined within the override section. Make sure that you define the new methods outside the override section.
 
 6.  To assign event handlers from .xml fragment to the controller extension, manually associate the methods with the respective fragments. In the `.xml` file for the fragment, prefix the method with <code>.extension.<i class="varname">&lt;controller extension namespace&gt;</i>.</code>, and save the file.
+
+    Example:
+
+    ```
+    <Button press=".extension.my.sample.ControllerExtension.publicMethod" text="Execute"></Button>
+    
+    ```
 
 7.  Navigate to the canvas. You are prompted to reload the project for the controller changes to be applied.
 
