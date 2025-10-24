@@ -5,7 +5,7 @@
 Learn how to generate a freestyle SAPUI5 application.
 
 > ### Note:  
-> If you are using SAP Business Application Studio, ensure you use a SAP Fiori dev space.
+> If you are using SAP Business Application Studio, ensure you use an SAP Fiori dev space.
 
 1.  In the *SAP Fiori generator*, select a template that supports freestyle SAPUI5 applications and click *Next*. For more information, see [Supported Templates](supported-templates-20d1146.md).
 2.  Select a *Data source* and click *Next*. For more information, see [Data Source](data-source-37a0fcf.md).

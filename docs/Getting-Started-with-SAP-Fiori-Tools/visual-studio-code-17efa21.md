@@ -203,7 +203,12 @@ No
 </td>
 <td valign="top">
 
-Yes
+No \(Updated to use Reentrance Ticket\)
+
+> ### Note:  
+> Existing saved system connections using OAuth 2.0 are still supported for deployment but they now use reentrance tickets automatically for local development.
+
+
 
 </td>
 <td valign="top">
@@ -262,7 +267,7 @@ Yes
 </td>
 <td valign="top">
 
-No
+Yes
 
 </td>
 <td valign="top">

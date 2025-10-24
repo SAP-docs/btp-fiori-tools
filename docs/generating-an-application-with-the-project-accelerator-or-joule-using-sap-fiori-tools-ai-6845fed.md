@@ -2,7 +2,7 @@
 
 # Generating an Application with the Project Accelerator or Joule Using SAP Fiori Tools AI
 
-You can use the Project Accelerator, from SAP Fiori tools AI, or Joule to generate data models, services, sample data, and an SAP Fiori UI for your project based on your business requirements.
+You can use the Project Accelerator from SAP Fiori tools AI, or Joule, to generate data models, services, sample data, and an SAP Fiori UI for your project based on your business requirements.
 
 You can use the Project Accelerator or Joule to kick-start your SAP Fiori development by directly translating your business requirements into a CAP project with a single SAP Fiori elements application. Your business requirements can consist of text, images, or text and images. The generated application can consist of just a list report, a list report page with one or multiple object pages, or a form entry object page.
 

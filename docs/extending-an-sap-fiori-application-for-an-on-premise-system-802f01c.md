@@ -13,7 +13,7 @@ Discover how to extend an existing SAP Fiori application available in an on-prem
 
 ## General Prerequisites
 
--   Make sure you have connected your on-premise ABAP system as described in [Managing System Connection](Project-Functions/managing-system-connection-78a82b6.md).
+-   Make sure you have connected your on-premise ABAP system as described in [Managing SAP System Connections](Project-Functions/managing-sap-system-connections-78a82b6.md).
 -   Activate the `/sap/bc/adt` and the `/sap/bc/ui2/app_index/` services in your on-premise ABAP system.
 -   Give access to `/sap/bc/adt/discovery`.
 

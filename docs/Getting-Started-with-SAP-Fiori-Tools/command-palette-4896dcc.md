@@ -62,7 +62,7 @@ Helps to reuse a library or component in your SAP Fiori apps by adding a referen
 </td>
 <td valign="top">
 
-Creates and saves a new SAP system \(ABAP On-Premises or ABAP Environment with a service key\) in VS Code. For more information, see [Managing System Connection](../Project-Functions/managing-system-connection-78a82b6.md).
+Creates and saves a new SAP system \(ABAP On-Premises or ABAP Environment with a service key\) in VS Code. For more information, see [Managing SAP System Connections](../Project-Functions/managing-sap-system-connections-78a82b6.md).
 
 </td>
 </tr>
@@ -170,7 +170,7 @@ Creates and saves the configuration needed to preview the navigation between app
 </td>
 <td valign="top">
 
-Imports and saves a new SAP system \(ABAP On-Premise\) in VS Code. For more information, see [Managing System Connection](../Project-Functions/managing-system-connection-78a82b6.md).
+Imports and saves a new SAP system \(ABAP On-Premise\) in VS Code. For more information, see [Managing SAP System Connections](../Project-Functions/managing-sap-system-connections-78a82b6.md).
 
 </td>
 </tr>

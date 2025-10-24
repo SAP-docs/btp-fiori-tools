@@ -33,9 +33,9 @@ To auto-generate an entity property for a new table column, for example, perform
 
 ![](images/Add_Basic_Columns_-_Advanced_Features_f782c35.png)
 
-A new column is added to your table and the related `.csv` file is also updated with the dummy test data corresponding to the selected property type.
+A new column is added to your table and the related `.csv` file is also updated with the generic mock data corresponding to the selected property type.
 
-You can then refine the dummy test data to match your application context. For more information, see [Refine Test Data with AI](experimental-developing-an-application-using-advanced-features-418d583.md#loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai).
+You can then refine the generic mock data to match your application context. For more information, see [Generate Mock Data with AI](experimental-developing-an-application-using-advanced-features-418d583.md#loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai).
 
 
 
@@ -62,7 +62,7 @@ To auto-generate an entity property for a new table column, for example, perform
 9.  Select an *Aggregation Method*.
 10. Click *Add*.
 
-Your new chart view is added based on the newly-generated entity. The entity is added to the `db/schema.cds` file with the `UUID` property and the properties you created for the measure and dimension. It is also referenced in the `srv/service.cds` file where it is annotated with the `@Aggregation.ApplySupported` annotation. The new `.csv` file is also auto-generated in the `test/data` folder and contains dummy test data for the UUID, measure, and dimension properties.
+Your new chart view is added based on the newly-generated entity. The entity is added to the `db/schema.cds` file with the `UUID` property and the properties you created for the measure and dimension. It is also referenced in the `srv/service.cds` file where it is annotated with the `@Aggregation.ApplySupported` annotation. The new `.csv` file is also auto-generated in the `test/data` folder and contains generic mock data for the UUID, measure, and dimension properties.
 
 
 
@@ -95,20 +95,20 @@ Your application is updated as follows:
 -   The 1:1 association to the newly created entity is added to the entity of the initial field or filter.
 -   The annotations required for the value help are generated.
 -   The initial property is replaced with navigation to the key field of the new associated entity in the annotations and `manifest.json` file.
--   The test data matching the values in the main entity are auto-generated for the key property of the new entity and dummy data is generated for the remaining properties.
+-   The mock data matching the values in the main entity are auto-generated for the key property of the new entity and generic data is generated for the remaining properties.
 
-You can then refine the dummy test data to match your application context. For more information, see [Refine Test Data with AI](experimental-developing-an-application-using-advanced-features-418d583.md#loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai).
+You can then re-generate the generic mock data to match your application context. For more information, see [Generate Mock Data with AI](experimental-developing-an-application-using-advanced-features-418d583.md#loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai).
 
 
 
 <a name="loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai"/>
 
-## Refine Test Data with AI
+## Generate Mock Data with AI
 
-You can refine the test data you have auto-generated to provide meaningful values using AI. To refine test data with AI, perform the following steps:
+You can re-generate the generic mock data you have auto-generated to provide meaningful values using AI. To generate mock data with AI, perform the following steps:
 
-1.  In the *Page Editor*, click the <span class="SAP-icons-TNT-V3"></span> \(*Refine Test Data with AI*\) icon.
+1.  In the *Page Editor*, click the <span class="SAP-icons-TNT-V3"></span> \(*Generate Mock Data with AI*\) icon.
 2.  Click *Generate*.
 
-Your test data is refined to provide meaningful values for your application context.
+Your generic mock data is refined to provide meaningful values for your application context.
 

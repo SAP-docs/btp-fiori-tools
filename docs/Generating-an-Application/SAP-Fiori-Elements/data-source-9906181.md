@@ -5,7 +5,7 @@
 This section provides information on how to connect your application with a data source during generation.
 
 > ### Tip:  
-> When running SAP Fiori tools in Visual Studio Code \(VS Code\), you can save the connection information to a remote system. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
+> When running SAP Fiori tools in Visual Studio Code \(VS Code\), you can save the connection information to a remote system. For more information, see [Managing SAP System Connections](../../Project-Functions/managing-sap-system-connections-78a82b6.md).
 
 > ### Tip:  
 > You can create a UI service for your SAP ABAP system. For more information, see [UI Service Generation](../../Project-Functions/ui-service-generation-1a7aad3.md).
@@ -61,7 +61,7 @@ This section provides information on how to connect your application with a data
 
     The saved connections can be viewed and deleted in the *SAP Systems* view in VS Code.
 
-    If you want to update the connection, we recommend that you delete the system from the *SAP Systems* view and recreate it in the project generator. For more information, see [Managing System Connection](../../Project-Functions/managing-system-connection-78a82b6.md).
+    If you want to update the connection, we recommend that you delete the system from the *SAP Systems* view and recreate it in the project generator. For more information, see [Managing SAP System Connections](../../Project-Functions/managing-sap-system-connections-78a82b6.md).
 
     > ### Note:  
     > When connecting for the first time, only the *New System* option is available.
@@ -117,7 +117,7 @@ Enter the OData endpoint URL to generate your application.
 
 -   All OData endpoints that are either **authenticated** or **unauthenticated** are supported.
 
--   The OData endpoint must be the correct version of the template that you’ve selected. For example, a OData V2 endpoint must be provided for an OData V2 template. The wizard informs you in case of any mismatch between the OData version and the template version.
+-   The OData endpoint must be the correct version of the template that you’ve selected. For example, an OData V4 endpoint must be provided for an OData V4 template. The wizard informs you in case of any mismatch between the OData version and the template version.
 
 > ### Note:  
 > If necessary, the system prompts you to provide your name and password.

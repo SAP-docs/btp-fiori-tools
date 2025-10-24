@@ -24,4 +24,8 @@ This extension provides the following capabilities.
 
     The saved changes are converted into corresponding artifact changes or UI flexibility changes in the project's folder of the application. Afterwards, the refresh of the [preview](../Previewing-an-Application/previewing-an-application-b962685.md) is triggered.
 
+-   [Generating Mock Data with AI](../Previewing-an-Application/generating-mock-data-with-ai-815c310.md) - Application Modeler provides the ability to generate mock data by using the property names of entities to generate meaningful and contextually relevant data with AI.
+
+    ![Generate Mock Data with AI](images/Generate_Mock_Data_with_AI_34759c0.png)
+
 

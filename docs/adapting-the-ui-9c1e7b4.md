@@ -264,6 +264,11 @@ You can combine up to three fields so that they’re displayed in a single line.
 </tr>
 </table>
 
+> ### Tip:  
+> While SAP Fiori elements supports table type modifications through adaptation projects, we cannot guarantee compatibility across all applications and scenarios. Table type modifications may behave differently depending on factors such as the specific application, OData version, and existing configurations.
+> 
+> We recommend that you thoroughly test any table type modifications before productive usage to ensure all functionalities work as expected.
+
 \*The context menu in the outline pane of the Adaptation Editor is available for projects based on the maintained SAPUI5 versions ≥1.84.
 
 

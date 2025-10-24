@@ -2,7 +2,7 @@
 
 Last Updated: May 2023
 
--   [Developing SAP Fiori Applications with SAP Fiori Tools](developing-sap-fiori-applications-with-sap-fiori-tools-f09752e.md)
+-   [Developing SAP Fiori Elements Applications with SAP Fiori Tools](developing-sap-fiori-elements-applications-with-sap-fiori-tools-f09752e.md)
 -   [Getting Started with SAP Fiori Tools](Getting-Started-with-SAP-Fiori-Tools/getting-started-with-sap-fiori-tools-2d8b1cb.md)
     -   [Installation](Getting-Started-with-SAP-Fiori-Tools/installation-e870fcf.md)
         -   [SAP Business Application Studio](Getting-Started-with-SAP-Fiori-Tools/sap-business-application-studio-b011040.md)
@@ -27,7 +27,7 @@ Last Updated: May 2023
     -   [Deleting an Application in CAP Project](Project-Functions/deleting-an-application-in-cap-project-709f838.md)
     -   [Environment Check](Project-Functions/environment-check-75390cf.md)
     -   [Information Panel](Project-Functions/information-panel-a9a6c4b.md)
-    -   [Managing System Connection](Project-Functions/managing-system-connection-78a82b6.md)
+    -   [Managing SAP System Connections](Project-Functions/managing-sap-system-connections-78a82b6.md)
     -   [Managing Service and Annotations Files](Project-Functions/managing-service-and-annotations-files-8182ff3.md)
     -   [Project Validation](Project-Functions/project-validation-6f3c737.md)
     -   [Reuse Library Support](Project-Functions/reuse-library-support-6e99fbb.md)
@@ -66,6 +66,7 @@ Last Updated: May 2023
     -   [Use Live Data](Previewing-an-Application/use-live-data-497aee2.md)
     -   [Use Mock Data](Previewing-an-Application/use-mock-data-bda83a4.md)
         -   [Installing MockServer](Previewing-an-Application/installing-mockserver-2538055.md)
+        -   [Generating Mock Data with AI](Previewing-an-Application/generating-mock-data-with-ai-815c310.md)
     -   [Use Local Sources](Previewing-an-Application/use-local-sources-6d3a210.md)
     -   [Use Custom Middlewares](Previewing-an-Application/use-custom-middlewares-dce5315.md)
     -   [Use Run Control](Previewing-an-Application/use-run-control-09171c8.md)

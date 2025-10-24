@@ -2,7 +2,7 @@
 
 # Maintaining Building Blocks
 
-The *Page Editor* supports adding and maintaining properties of SAP Fiori elements building blocks for OData V4-based applications. For more information about building blocks, see [Building Block Overview](https://sapui5.hana.ondemand.com/test-resources/sap/fe/core/fpmExplorer/index.html#/buildingBlocks/buildingBlockOverview).
+The *Page Editor* supports adding and maintaining properties of SAP Fiori elements building blocks for OData V4-based applications. For more information about building blocks, see [Building Block Overview](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html).
 
 The *Page Editor* supports adding custom pages and custom sections to an object page.
 
@@ -11,7 +11,8 @@ You can create the following building blocks using the *Page Editor* which you c
 -   *Chart*
 -   *Filter Bar*
 -   *Table*
--   *Page* \(custom page only\)
+-   *Page* \(Custom page only\)
+-   *Rich Text Editor* \(Custom section only\)
 
 The following screenshot shows a custom page with the Page building block:
 

@@ -19,6 +19,8 @@ After you select a data source for your application, you can customize the appli
 
 > ### Tip:  
 > If the OData V4 service supports the *Analytical* table type and the selected main entity supports the analytical table, then the table type defaults to *Analytical* for the list report and worklist floorplans.
+> 
+> If the OData V4 service supports hierarchical usage and the selected main entity supports the tree table, then the table type defaults to *Tree* for the list report and worklist floorplans, and the *Hierarchy Qualifier* is populated.
 
 
 
