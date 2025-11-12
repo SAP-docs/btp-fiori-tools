@@ -30,7 +30,7 @@ If `@UI.HeaderInfo` annotation is defined in the lower layer, such as service, t
 
 
 
-### Type Name/Type Name Plural
+### Type Name and Type Name Plural
 
 `Type Name` and `Type Name Plural` are string properties describing the main object of the page. `Type Name` is displayed on the very top of the object page. `Type Name Plural` represents a plural form of the object name and is displayed as a table header on the previous page. These properties are mandatory so they are set to the empty string if they are not defined. These properties support internationalization. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
 
@@ -51,7 +51,7 @@ Title is a property representing the main object of the page. It is displayed in
 -   The value is a path pointing to string properties of the entity or of a 1 to 1 associated entity.
 -   To remove the `ImageUrl` property, you can select the *None* option.
 
-For more information on images, see: [Using Images, Initials, and Icons](https://sapui5.hana.ondemand.com/sdk/#/topic/5760b638ea274d7aab59e4e434899528.html).
+For more information on images, see: [Using Images, Initials, and Icons](https://ui5.sap.com/sdk/#/topic/5760b638ea274d7aab59e4e434899528.html).
 
 
 

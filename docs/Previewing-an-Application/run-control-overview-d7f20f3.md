@@ -2,7 +2,7 @@
 
 # Run Control Overview
 
-The *Run Configuration* dialog looks for the `<workspace_root>/.vscode/launch.json` file, but it will not traverse into any subfolders so it will not find any configurations inside `launch.json` files that reside in nested folders. You can merge configurations from multiple`launch.json` files by using workspaces. Here is a sample that shows different development environment setups.
+The *Run Configuration* dialog looks for the `<workspace_root>/.vscode/launch.json` file. It does not traverse into any subfolders so any configurations inside `launch.json` files that reside in nested folders are not found. You can merge configurations from multiple`launch.json` files by using workspaces. Here is a sample that shows different development environment setups:
 
 
 
@@ -14,7 +14,7 @@ Assuming the following file system structure:
 
 ![](images/RunConfig_Image1_5cfcf01.png)
 
-The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. Depending on which folder you choose, you will get different results.
+The `launch.json` files contain the configuration noted next to them: **Config One**, **Config Two**, and**Config Subfolder**. Depending on which folder you choose, you get different results.
 
 When opening Folder\_One, Config One is shown in *Run and Debug* view.
 
@@ -33,23 +33,23 @@ When you open Subfolder in your development environment, only Config Subfolder i
 
 In addition, you can create a workspace, by opening one of the folders and selecting *Add Folder to Workspace* in your development environment. The workspace can be configured in many ways. Here are some examples:
 
--   **workspace root:** Folder\_One
+-   **workspace root:** Folder\_One.
 
     Only **Config One** is displayed, same as shown above in Open Folder\_One.
 
--   **workspace roots**: Folder\_One, Folder\_Two
+-   **workspace roots**: Folder\_One and Folder\_Two.
 
     ![](images/Runconfig_Image5_7d410a4.png)
 
-    In this case, Config One and Config Two are displayed, because these two configurations can be found in `Folder_One/.vscode/launch.json` and `Folder_Two/.vscode/launch.json`
+    Config One and Config Two are displayed, because these two configurations can be found in `Folder_One/.vscode/launch.json` and `Folder_Two/.vscode/launch.json`.
 
     ![](images/Runconfig_Image6_7fe89a4.png)
 
--   **workspace roots**: Folder\_One, Folder\_Two, Subfolder
+-   **workspace roots**: Folder\_One, Folder\_Two, and Subfolder.
 
     ![](images/Runconfig_Image7_9d494db.png)
 
-    In this case configurations from all three `launch.json` files are displayed:
+    The configurations from all three `launch.json` files are displayed:
 
     ![](images/Runconfig_Image8_40f2fe8.png)
 
@@ -57,7 +57,7 @@ In addition, you can create a workspace, by opening one of the folders and selec
 > ### Note:  
 > As seen in the last example, you can add a subfolder of an existing workspace root folder as a standalone workspace root.
 
-For more information on run configurations, see[Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) 
+For more information on run configurations, see[Launch configurations](https://code.visualstudio.com/docs/editor/debugging#_launch-configurations) .
 
 **Related Information**  
 

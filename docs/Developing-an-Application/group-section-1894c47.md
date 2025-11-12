@@ -4,10 +4,7 @@
 
 # Group Section
 
-A Group section groups multiple sections together. It can contain a group of sections of any type except custom sections. The group section can’t contain fields/columns or actions. With several nested group sections, you can build a nested tree of sections.
-
-> ### Note:  
-> [Defining and Adapting Sections](https://sapui5.hana.ondemand.com/#/topic/facfea09018d4376acaceddb7e3f03b6).
+A group section groups multiple sections together. It can contain a group of sections of any type except custom sections. The group section can’t contain fields, columns or actions. With several nested group sections, you can build a nested tree of sections. For more information, see [Defining and Adapting Sections](https://ui5.sap.com/#/topic/facfea09018d4376acaceddb7e3f03b6).
 
 
 
@@ -15,30 +12,30 @@ A Group section groups multiple sections together. It can contain a group of sec
 
 ## Adding Group Section or Subsections
 
-To add a Group section or subsections, perform the following steps:
+To add agGroup section or subsections, perform the following steps:
 
-1.  Click the Object/Form Entry Page to open the *Page Editor*.
+1.  Click the Object or Form Entry Page to open the *Page Editor*.
 2.  Navigate to the section layer and click the :heavy_plus_sign: \(*Add*\) icon.
 
-    As a result, a dropdown menu displaying currently supported section type appears.
+    As a result, a dropdown menu appears that displayed the supported section types.
 
-3.  Select *Add Group Section* from the dropdown list.
+3.  Click *Add Group Section* from the dropdown list.
 
     A new pop-up window *Add Group Section* appears with a field to provide a label for the section to be added.
 
-4.  Enter a title in the *Label*text box and click *Add*.
+4.  Enter a title in the *Label* text box and click *Add*.
 
     > ### Note:  
-    > Internally, a new entry is added to the annotation `UI.Facets`. This entry is of the type `UI.CollectionFacet` with corresponding property Label and property Facets being set to an empty array. If `UI.Facets` does not exist yet or is not present in the changeable annotation file, managing process is the same as when adding a new Form section.
+    > Internally, a new entry is added to the annotation `UI.Facets`. This entry has the `UI.CollectionFacet` type with the corresponding `Label` property and the `Facets` is set to an empty array. If `UI.Facets` does not exist yet or is not present in the changeable annotation file, the managing process is the same as when adding a new form section.
 
-    A new Group tab appears in the application preview.
+    A new *Group* tab appears in the application preview.
 
 
 
 
 ### Add Subsections
 
-1.  Navigate to the Subsections node and click the :heavy_plus_sign: \(*Add*\) icon.
+1.  Navigate to the *Subsections* node and click the :heavy_plus_sign: \(*Add*\) icon.
 2.  Select the required section from the list, such as Form Section.
 
     A new pop-up window *Add Form Section* appears with a field to provide a label for the section to be added.
@@ -46,7 +43,7 @@ To add a Group section or subsections, perform the following steps:
 3.  Enter a title in the *Label* text box and click *Add*.
 
 > ### Note:  
-> In the new Form section, you can perform the same actions as in the classic [Form Section](form-section-4102b3d.md), such as adding, editing, moving, and deleting fields.
+> In the new form section, you can perform the same actions as in the classic [Form Section](form-section-4102b3d.md), such as adding, editing, moving, and deleting fields.
 
 Label properties can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md). In addition, see [Edit in Source Code](edit-in-source-code-7d8e942.md) feature to navigate to code fragments in the annotation file.
 
@@ -56,10 +53,10 @@ Label properties can be prepared for translation. For more information, see [Int
 
 ## Moving Sections
 
-Sections in the Group section can be moved as follows:
+Sections in the group section can be moved as follows:
 
--   Within a Group section.
--   Between different Group sections.
+-   Within a group section.
+-   Between different group sections.
 -   To the top level and back.
 
 By using the drag-and-drop functionality, drag the required section to a different position.

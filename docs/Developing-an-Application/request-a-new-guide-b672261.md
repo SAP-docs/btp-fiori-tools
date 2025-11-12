@@ -24,5 +24,5 @@ How to use the **Request Guide** form:
 2.  Click *Submit*.
 3.  When an email client opens, check your message and click *Send*.
 
-For more information about features available in SAP Fiori elements applications, see [Developing Apps with SAP Fiori elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
+For more information about features available in SAP Fiori elements applications, see [Developing Apps with SAP Fiori elements](https://ui5.sap.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
 

@@ -100,9 +100,9 @@ SAP Fiori elements for OData V2 provides the following standard floorplans:
 
 Use standard floorplans for the most efficient approach for building your SAP Fiori elements application. For specific deviations, you can leverage extension points.
 
-For more information, see [Using SAP Fiori Elements Floorplans](https://sapui5.hana.ondemand.com/#/topic/797c3239b2a9491fa137e4998fd76aa7).
+For more information, see [Using SAP Fiori Elements Floorplans](https://ui5.sap.com/#/topic/797c3239b2a9491fa137e4998fd76aa7).
 
-For more information about SAP Fiori elements, see [Developing Apps with SAP Fiori Elements](https://sapui5.hana.ondemand.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
+For more information about SAP Fiori elements, see [Developing Apps with SAP Fiori Elements](https://ui5.sap.com/#/topic/03265b0408e2432c9571d6b3feb6b1fd).
 
 
 

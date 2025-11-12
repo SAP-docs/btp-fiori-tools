@@ -18,7 +18,7 @@ This section provides information on how to connect your application with a data
 
 -   **Connect to an SAP system using** **VS Code**
 
-    In either case, you can create a new system to connect to, or select one of the saved systems you may have already used.
+    You can create a new system to connect to, or select one of the saved systems you may have already used.
 
     *Adding a new system*
 
@@ -72,7 +72,7 @@ This section provides information on how to connect your application with a data
 
         The wizard skips the authentication if your saved system credentials are still valid.
 
-    2.  If saved authentication details are invalid, you’ll be prompt to reauthenticate. For example, if your password is expired.
+    2.  If the saved authentication details are invalid, you are prompted to reauthenticate. For example, if your password is expired.
 
 -   **Connect to an SAP system using** **SAP Business Application Studio**
 
@@ -100,10 +100,10 @@ If the OData endpoint that you want to use in your application can't be accessed
 
 1.  In SAP Business Application Studio, launch the SAP Fiori application generator and select the required template.
 2.  Select *Connect to an OData Service* from the data source drop-down list.
-3.  For the data source URL field, use the destination name followed by `.dest`. In this case, SAP Business Application Studio should be able to route to your service with the destination name.
+3.  For the data source URL field, use the destination name followed by `.dest` SAP Business Application Studio routes to your service with the destination name.
 
 > ### Example:  
-> If the URL defined in the Destination is `https://someurl.com/someservice`, you must be with the destination name MyDestination, the following URL will be used in the SAP Fiori application generator:
+> If the URL defined in the Destination is `https://someurl.com/someservice` and the destination name is MyDestination, the following URL is used in the SAP Fiori application generator:
 > 
 > `https://MyDestination.dest/someservice`
 

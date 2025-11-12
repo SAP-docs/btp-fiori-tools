@@ -21,22 +21,22 @@ You have the ability to create a custom column for your table in a *List Report*
 
 ## Custom Column \(OData V2 Only\)
 
-1.  In the *Page Editor* outline view next to the Columns header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
+1.  In the *Page Editor* outline view next to the *Columns* header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
 2.  Provide the following information:
-    -   **Column Key** - Key for the column
-    -   **Header Text** - column title
-    -   **ID** - unique ID is automatically created, but can be modified
+    -   **Column Key** - A key for the column.
+    -   **Header Text** - A title for the column.
+    -   **ID** - A unique ID for the column which is automatically created, but can be modified.
     -   **Select Column Fragment**
         -   Create New Fragment
         -   Use Existing Fragment
 
     -   **Column Fragment Name**
-    -   **Select Cell Fragment** \(in case of responsive table type\)
+    -   **Select Cell Fragment** \(for responsive table type\)
         -   Create New Fragment
         -   Use Existing Fragment
 
     -   **Cell Fragment Name**
-    -   **Anchor Column** - select one of existing columns in the table. You can select where you want to insert the custom column, before or after the selected target column.
+    -   **Anchor Column** - Select one of existing columns in the table. You can select where you want to insert the custom column, before or after the selected target column.
     -   **Placement** - Before/After
     -   **Leading Property** - If the content of your custom column refers to a property such as \{Price\}, you need to include a corresponding `leadingProperty` entry in the column definition.
 
@@ -51,19 +51,19 @@ The custom column fragment and cell code are looked up and written to the projec
 
 ## Custom Column \(OData V4 Only\)
 
-1.  In the *Page Editor* outline view next to the Columns header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
+1.  In the *Page Editor* outline view next to the *Columns* header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
 2.  Provide the following information:
 
-    -   **Header Text**- column title
+    -   **Header Text**- A title for the column.
     -   **Select Column Fragment**
         -   Create New Fragment
         -   Use Existing Fragment
 
     -   **Column Fragment Name**
-    -   **Anchor Column** - select one existing column in the table.
+    -   **Anchor Column** - Select an existing column in the table.
     -   **Placement** - Before/After. You can select where you want to insert the custom column, before or after the selected anchor column.
     -   **Generate Event Handler** - True/False
-    -   **Width** - width of the new column
+    -   **Width** - The width of the new column
 
     ![](images/FIORI_TOOLS_CUSTOM_COLUMN_V4_bbd04e3.png)
 
@@ -78,18 +78,18 @@ The custom column fragment and optional default controller code is written to th
 
 You can create a custom section as part of your *Object Page* using the *Page Editor*.
 
-1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node. For OData V4, click *Add Custom Section* from the menu. For OData V2, the selection will be prefilled.
+1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node. For OData V4, click *Add Custom Section* from the menu. For OData V2, the selection is prefilled.
 2.  Provide the following information:
-    -   **Title** - the label of the custom section
-    -   **View Type** - types are **View** or **Fragment** \(`OData V2` only\)
-    -   **Select Your Fragment/View**- choose new or existing
-    -   **Fragment/View Name** - the file name of the artifact
-    -   **Anchor Section** - select one of the existing sections in the *Object Page*
-    -   **Placement** - before, after or replace \(OData V2 only\)
-    -   **Generate Event Handler** - Decide whether a demo controller should be created \(OData V4 only\)
+    -   **Title** - The label of the custom section.
+    -   **View Type** - The types are **View** or **Fragment** \(`OData V2` only\).
+    -   **Select Your Fragment/View**- Choose new or existing.
+    -   **Fragment/View Name** - The file name of the artifact.
+    -   **Anchor Section** - Select one of the existing sections in the *Object Page*.
+    -   **Placement** - before, after, or replace \(OData V2 only\)
+    -   **Generate Event Handler** - Decide whether a demo controller is to be created \(OData V4 only\).
 
 
-On clicking *Add*, the custom section fragment, view, and or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
+After clicking *Add*, the custom section fragment, view, and or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
 
 <a name="loio76374b198e514b39a96176094bb8aa1b"/>
 
@@ -112,7 +112,7 @@ You can create a custom action in your *List Report* and *Object Page* using the
     -   **Required Selection** - Toggle if this is required or not.
 
 
-On clicking *Add*, the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom action.
+After clicking *Add*, the custom action is written to the project's `ext` folder. A custom action can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom action.
 
 > ### Note:  
 > This feature is only available for OData V4 and with `@sap/ux-specification` version 1.96 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).
@@ -131,14 +131,14 @@ You can create a custom view in your *List Report* and *Object Page* using the *
     > The custom view feature is only available on List Reports that do not contain a chart.
 
 2.  Provide the following information:
-    -   **Key** - Unique tab identifier.
-    -   **Label** - View title.
-    -   **Select Your Fragment** - Enter new fragment or choose an existing one.
+    -   **Key** - A key for the view.
+    -   **Label** - A title for the view.
+    -   **Select Your Fragment** - Enter a new fragment or choose an existing one.
     -   **Fragment Name** - The file name of the artifact.
     -   **Generate Event Handler** - Decide whether a demo controller needs to be created.
 
 
-On clicking *Add*, the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom view.
+After clicking *Add*, the custom view is written to the project's `ext` folder. A custom view can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom view.
 
 > ### Note:  
 > This feature is only available for OData V4 and with `@sap/ux-specification` version 1.96.29, 1.102.14 or higher. For more information, see [https://www.npmjs.com/package/@sap/ux-specification](https://www.npmjs.com/package/@sap/ux-specification).

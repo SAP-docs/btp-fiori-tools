@@ -34,6 +34,8 @@ Create an adaptation project in an on-premise system.
 
     7.  Click *Finish* to generate the project.
 
+    8.  \(Optional\) You can choose to *Add Deployment Configuration*. By default, this choice is set to *No*. If you select *Yes*, you will be prompted to configure the deployment settings. For more information, see **Add Deployment Configuration** in [Deploying an Adaptation Project to the ABAP Repository](deploying-an-adaptation-project-to-the-abap-repository-febf0d9.md).
+
 
 
 

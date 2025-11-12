@@ -2,10 +2,7 @@
 
 # Form and Object Page
 
-The following links give you general information about the *Form and Object Page*:
-
--   [Fiori Design Guidelines](https://experience.sap.com/fiori-design-web/object-page/).
--   [Developing Low-Code Business Application](https://help.sap.com/viewer/6a5fc562f6e2402aa84b0416614a05fc/Dev/en-US/4d00865158bd4bbb8f170f59f690cdb2.html).
+The following link gives you general information about the *Form and Object Page*: [SAP Design Guidelines](https://experience.sap.com/fiori-design-web/object-page/).
 
 The supported elements of the *Form and Object Page* are:
 

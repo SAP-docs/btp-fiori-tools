@@ -2,7 +2,9 @@
 
 # Code Completion
 
-XML annotation language server provides a list of suggestions based on the project metadata, OData vocabularies, and an analysis of the project structure. The content of a code completion list depends on the context it is triggered in. For example, you can open a list of suggestions for annotation targets, terms, attributes, or different elements of annotation values. You can navigate through the suggestion list, view the vocabulary information for the list items, and accept one of the suggestions to add new entry or change the one already existing in the current context. Code completion can be used both for adding or changing individual values, word-based completion and adding code blocks. For more information, see[Micro-Snippets](micro-snippets-addf811.md).
+XML annotation language server provides a list of suggestions based on the project metadata, OData vocabularies, and an analysis of the project structure. The content of a code completion list depends on the context it is triggered in, for example, you can open a list of suggestions for annotation targets, terms, attributes, or different elements of annotation values.
+
+You can navigate through the suggestion list, view the vocabulary information for the list items, and accept one of the suggestions to add new entry or change the one already existing in the current context. Code completion can be used both for adding or changing individual values, word-based completion and adding code blocks. For more information, see [Micro-Snippets](micro-snippets-addf811.md).
 
 **Using Code Completion**
 
