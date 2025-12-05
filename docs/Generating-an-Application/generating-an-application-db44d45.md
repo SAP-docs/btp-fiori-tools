@@ -69,7 +69,7 @@ Once a project is generated, you can see its structure:
 > ### Note:  
 > The generated project structure differs if you select the *Use a Local CAP Node.js Project* option during generation. In this case, the preview and deployment functionality are provided by the local CAP project. As a result, the`package.json` file is shorter and some files aren’t generated, such as `ui5.yaml` and`.npmrc`. Additionally, instead of a local `annotation.xml`, an `annotation.cds` file is generated so that annotations are defined in CAP CDS syntax instead of OData EDMX.
 
-For more information about npm, see [@sap/generator-fiori-elements](https://www.npmjs.com/package/@sap/generator-fiori-elements) and [@sap/ux-ui5-tooling](https://www.npmjs.com/package/@sap/ux-ui5-tooling).
+For more information about npm, see [@sap/generator-fiori](https://www.npmjs.com/package/@sap/generator-fiori) and [@sap/ux-ui5-tooling](https://www.npmjs.com/package/@sap/ux-ui5-tooling).
 
 
 

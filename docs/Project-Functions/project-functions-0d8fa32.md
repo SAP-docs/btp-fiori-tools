@@ -11,7 +11,7 @@ The following project functions are available when using SAP Fiori tools:
 -   [Deleting an Application in CAP Project](deleting-an-application-in-cap-project-709f838.md)
 -   [Environment Check](environment-check-75390cf.md)
 -   [Managing SAP System Connections](managing-sap-system-connections-78a82b6.md)
--   [Managing Service and Annotations Files](managing-service-and-annotations-files-8182ff3.md)
+-   [Managing Service and Annotation Files](managing-service-and-annotation-files-8182ff3.md)
 -   [Project Validation](project-validation-6f3c737.md)
 -   [Viewing Service Metadata](viewing-service-metadata-e369c2c.md)
 -   [UI Service Generation](ui-service-generation-1a7aad3.md)

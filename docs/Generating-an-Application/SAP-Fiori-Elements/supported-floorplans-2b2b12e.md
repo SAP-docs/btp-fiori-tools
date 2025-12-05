@@ -17,7 +17,7 @@ The SAP Fiori generator provides the following SAP Fiori elements floorplans to 
 
     The focus of the worklist floorplan is on processing items. This differs from the list report floorplan, which focuses on finding and acting on relevant items from a large dataset.
 
-    You can use any*List Report*and *Object Page* to configure the*Worklist Page*.
+    You can use any*List Report* and *Object Page* to configure the *Worklist Page*.
 
     For more information, see [Worklist Floorplan](https://experience.sap.com/fiori-design-web/work-list/).
 

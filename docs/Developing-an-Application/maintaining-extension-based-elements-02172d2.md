@@ -91,6 +91,29 @@ You can create a custom section as part of your *Object Page* using the *Page Ed
 
 After clicking *Add*, the custom section fragment, view, and or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
 
+<a name="loioe00eab06bc244e0286ad438453918b49"/>
+
+<!-- loioe00eab06bc244e0286ad438453918b49 -->
+
+## Adding Custom Field
+
+You can create a custom field as part of your *Object Page* using the *Page Editor*.
+
+1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Fields* node and click *Add Custom Field* from the menu.
+
+    ![Add Fields dialog](images/Add_Custom_Field_5801d45.png)
+
+2.  Provide the following information:
+    -   **Label**: The label of the custom field.
+    -   **Select Your Fragment/View**: Choose new or existing.
+    -   **Fragment/View Name**: The file name of the artifact.
+    -   **Anchor**: Select one of the existing fields in the fields group.
+    -   **Placement**: You can select where you want to insert the custom field, before or after the selected anchor field.
+    -   **Generate Event Handler**: Decide whether a demo controller is to be created.
+
+
+After clicking *Add*, the custom field fragment and optional default controller code is written to the project's `ext` folder. A custom field can be dragged into a new position using the handle in the outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom field.
+
 <a name="loio76374b198e514b39a96176094bb8aa1b"/>
 
 <!-- loio76374b198e514b39a96176094bb8aa1b -->

@@ -42,7 +42,7 @@ To maintain the annotations using XML annotation language server features, proje
     Your project contains the local copy of service metadata. The path to this copy is provided in the SAP OData vocabularies `manifest.json` file as a local `Uri`.
 
     > ### Note:  
-    > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It is not synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end. For more information, see [Syncing Annotations](../Project-Functions/managing-service-and-annotations-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
+    > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It is not synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end. For more information, see [Syncing Annotations](../Project-Functions/managing-service-and-annotation-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
 
     The metadata of the OData service SAP OData must include one or multiple *<edm:Schema\>* definitions within the *<edmx:DataServices\>* element.
 

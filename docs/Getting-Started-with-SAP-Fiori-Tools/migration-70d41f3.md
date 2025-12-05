@@ -376,7 +376,7 @@ Applies the same changes as the `flpSandbox.html` file but with the mock server 
 2.  To ensure your SAP Fiori tools application works as expected, launch any of the SAP Fiori tools commands, such as *Page Map*, `Fiori: Open Application Generator`, or `Fiori: Open Guided Development`.
 
     > ### Note:  
-    > Some SAP Fiori apps might be missing files like `metadata.xml` before migration, which can impact some of the SAP Fiori tools features. To avoid this, after migration, make sure that you sync the `OData` service using *Service Manager*. For more information, see [Managing Service and Annotations Files](../Project-Functions/managing-service-and-annotations-files-8182ff3.md).
+    > Some SAP Fiori apps might be missing files like `metadata.xml` before migration, which can impact some of the SAP Fiori tools features. To avoid this, after migration, make sure that you sync the `OData` service using *Service Manager*. For more information, see [Managing Service and Annotation Files](../Project-Functions/managing-service-and-annotation-files-8182ff3.md).
 
 
 **Related Information**  
