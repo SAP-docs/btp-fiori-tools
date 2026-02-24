@@ -15,14 +15,14 @@ The SAP Fiori generator provides the following SAP Fiori elements floorplans to 
 
     The worklist page displays a collection of items that the user needs to process. Working through the list usually involves reviewing details of the items and taking action. In most cases, the user has to either complete a work item or delegate it.
 
-    The focus of the worklist floorplan is on processing items. This differs from the list report floorplan, which focuses on finding and acting on relevant items from a large dataset.
+    The focus of the worklist page floorplan is on processing items. This differs from the list report floorplan, which focuses on finding and acting on relevant items from a large dataset.
 
-    You can use any*List Report* and *Object Page* to configure the *Worklist Page*.
+    You can use any list report page and object page to configure the worklist page.
 
     For more information, see [Worklist Floorplan](https://experience.sap.com/fiori-design-web/work-list/).
 
     > ### Note:  
-    > For worklist floorplans using an OData V4 data source, only `SAPUI5` versions 1.99 and above are supported.
+    > For worklist floorplans using an OData V4 data source, only SAPUI5 versions 1.99 and above are supported.
 
     For information on what the worklist page supports for OData V2, see [Floorplan Properties](floorplan-properties-745ae0c.md).
 
@@ -38,7 +38,7 @@ The SAP Fiori generator provides the following SAP Fiori elements floorplans to 
     For more information, see [Analytical List Page](https://experience.sap.com/fiori-design-web/analytical-list-page/).
 
     > ### Note:  
-    > For analytical list page floorplans using an OData V4 data source, only `SAPUI5` versions 1.90 and above are supported.
+    > For analytical list page floorplans using an OData V4 data source, only SAPUI5 versions 1.90 and above are supported.
 
 
 -   *Overview Page*
@@ -59,7 +59,7 @@ The SAP Fiori generator provides the following SAP Fiori elements floorplans to 
 
 -   *Custom Page*
 
-    The custom page floorplan makes it easy for you to extend apps based on SAP Fiori elements for OData V4. You can use any `SAPUI5` coding or controls in extension points, and take advantage of the provided building blocks.
+    The custom page floorplan makes it easy for you to extend apps based on SAP Fiori elements for OData V4. You can use any SAPUI5 coding or controls in extension points, and take advantage of the provided building blocks.
 
     For more information and live examples, see the SAP Fiori development portal at [Custom Page](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/controllerExtensions/customPage).
 

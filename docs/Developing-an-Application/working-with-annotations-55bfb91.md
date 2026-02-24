@@ -12,12 +12,12 @@ Local annotation files are created directly in the project. When you generate a 
 
 The service metadata and back end annotation files \(if any\) are copied and stored in the `webapp/localService` folder during the project generation. The reference to these local copies are maintained in `manifest.json` using the `localUri`, whereas the `uri` parameter contains the relative path to these sources in the back end. For more information about back end annotations, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
 
-It is important to define new annotation terms in the local annotation file of your project, as all the changes made in local copies of back end annotation file or metadata do not have an impact on the deployed application. If you need to change the annotation defined in the back end, you need to copy this annotation along with the target and qualifier to the local annotation file and adjust it there. For more information, see [Overriding Annotations](overriding-annotations-2f1bb9c.md).
+If the project is generated based on an OData V4 service from a RAP back end, it may also contain local copies of metadata files from value list services. For more information see [Value Lists](https://ui5.sap.com/sdk/#/topic/ab267a6b958e46a28f3437154b2a1b2f). You can also retrieve or refresh the local copies of metadata files in your project. For more information, see [Managing Service and Annotation Files](../Project-Functions/managing-service-and-annotation-files-8182ff3.md).
 
 The annotation terms defined in the local annotation file always override the same annotation with the same qualifier and applied to the same target in the back end sources. The overriding sequence of multiple local annotation files is defined in the `manifest.json` file and can be viewed and changed in the annotation manager. For more information, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
 
 You can either maintain your local annotations using the XML annotation language server or you can use the support in the Page Editor for a more schematic view. For more information, see [Maintaining Annotation-Based Elements](maintaining-annotation-based-elements-a524d8a.md).
 
 > ### Note:  
-> Maintaining local annotation files with Service Modeler is only applicable to the OData service and not CAP CDS.
+> Maintaining local annotation files with Service Modeler is not applicable to CAP projects.
 

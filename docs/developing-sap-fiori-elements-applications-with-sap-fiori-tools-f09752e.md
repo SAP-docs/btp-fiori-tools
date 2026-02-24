@@ -18,7 +18,7 @@ Here are some of the most important features provided by SAP Fiori tools:
 
 -   Learn how to add new features to your application with guided development. For more information, see [Use Feature Guides](Developing-an-Application/use-feature-guides-0c9e518.md).
 
--   Use AI-powered generation and modification assistants. For more information, see [Generating an Application with the Project Accelerator or Joule Using SAP Fiori Tools AI](generating-an-application-with-the-project-accelerator-or-joule-using-sap-fiori-tools-ai-6845fed.md).
+-   Use AI-powered generation and modification assistants. For more information, see [Generating an Application with the Project Accelerator Using SAP Fiori Tools AI](generating-an-application-with-the-project-accelerator-using-sap-fiori-tools-ai-6845fed.md).
 
 
 

@@ -145,7 +145,7 @@ For more information, see [Add CDS Editor](https://cap.cloud.sap/docs/get-starte
 
 ## UI5 Language Assistant Support
 
-**UI5 Language Assistant Support** is an open source extension that can be optionally installed to perform control ID checks when `flexEnabled` property is set to true in the `manifest.json` file for either SAP Fiori elements or freestyle SAPUI5 projects. It also provides additional support for relevant filters to suggestions and text for ease of use.
+**UI5 Language Assistant** is an open source extension that can be optionally installed to perform control ID checks when `flexEnabled` property is set to true in the `manifest.json` file for either SAP Fiori elements or freestyle SAPUI5 projects. It also provides additional support for relevant filters to suggestions and text for ease of use.
 
 To install the UI5 Language Assistant Support extension, perform the following steps:
 

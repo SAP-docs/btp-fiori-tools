@@ -12,25 +12,23 @@ This section provides information on how to connect your application with a data
 
 -   **Connect to an SAP system using** **VS Code**
 
-    In either case, you can create a system to connect to or select from any saved systems you may have already used.
+    You can create a system to connect to or select from any saved systems you may have already used.
 
-    *Adding a new system*
+    *Adding a New System*
 
     1.  **Enter a system name** that you use to save the connection details for either an on-premise SAP ABAP system or SAP Business Technology Platform system.
     2.  **Select the SAP ABAP system type**
 
         For the SAP ABAP system hosted in the SAP Business Technology Platform, you can choose from the following authentication types:
 
-        -   Service Key
+        -   *Service Key*
+        -   *Reentrance Ticket*
 
-        -   Reentrance Ticket
-
-
-        If you choose Service Key authentication, you must provide a service key that contains the key information for the required SAP ABAP system. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
+        If you choose *Service Key* authentication, you must provide a service key that contains the key information for the required SAP ABAP system. Your administrator needs to provide this service key for the selected SAP ABAP system. Once this information is available, a browser tab launches and prompts you to authenticate against the system.
 
         For more information about how to create a service key, see [Create Service Keys Using the Cockpit](https://help.sap.com/products/BTP/65de2977205c403bbc107264b8eccf4b/cdf4f200db3e4c248fa67401937b2f78.html).
 
-        If you choose Reentrance Ticket authentication, provide the URL to your SAP S/4HANA Cloud system and log in when the browser window appears.
+        If you choose *Reentrance Ticket* authentication, provide the URL to your SAP S/4HANA Cloud system and log in when the browser window appears.
 
         > ### Note:  
         > Authenticating with reentrance tickets requires SAP S/4HANA Cloud 2408 or higher.
@@ -60,6 +58,9 @@ This section provides information on how to connect your application with a data
 
     When using the SAP Fiori application generator in SAP Business Application Studio, you can select from a list of destinations that are configured for a SAP Business Application Studio instance. The generator automatically retrieves the available destinations, and you can select from the list. If you do not have the correct access to use the destination end point, an error occurs.
 
+
+> ### Note:  
+> If the project is generated based on an OData V4 service from a RAP back end, it may also contain local copies of metadata files from value list services. You can choose to download this metadata when generating the application.
 
 
 

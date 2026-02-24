@@ -92,7 +92,7 @@ As a prerequisite, your service should contain the property representing the sta
 
 ![](images/Criticallity_ac93cba.png)
 
-As a result, the *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear – this depends on the default behavior of the SAP Fiori elements template. You may override this default by explicitly defining the *Criticality Representation*.
+As a result, the *Criticality* property is added to the `UI.DataField` record and the respective column or field values are shown in semantic colors. In addition, the criticality icon may appear – this depends on the default behavior of the SAP Fiori elements floorplan. You may override this default by explicitly defining the *Criticality Representation*.
 
 
 
@@ -129,7 +129,7 @@ Choose how the chart color should be calculated. Choose *Property* \(not applica
 
 If *Criticality Source* is set to *Property*, the following properties are available:
 
--   Criticality Value
+-   *Criticality Value*
     -   Choose a property representing the criticality status for chart values. The chart value is then displayed with semantic colors based on the criticality calculation logic defined for the selected property in the back end.
     -   Criticality value is only displayed if *Criticality Source* is set to *Property*.
 
@@ -247,28 +247,28 @@ Improvement direction is a required property for area, bullet, radial, and colum
 
 If *Minimize* is selected, the following properties are required:
 
--   Deviation High Value
+-   *Deviation High Value*
     -   Highest value that is considered neutral.
 
--   Tolerance High Value
+-   *Tolerance High Value*
     -   Highest value that is considered positive.
 
 
 If *Maximize* is selected, the following properties are required:
 
--   Deviation Low Value
+-   *Deviation Low Value*
     -   Lowest value that is considered neutral.
 
--   Tolerance Low Value
+-   *Tolerance Low Value*
     -   Lowest value that is considered positive.
 
 
 If *Target* is selected \(not applicable to radial micro charts\), the following properties are required:
 
--   Deviation Low Value
--   Tolerance Low Value
--   Deviation High Value
--   Tolerance High Value
+-   *Deviation Low Value*
+-   *Tolerance Low Value*
+-   *Deviation High Value*
+-   *Tolerance High Value*
 
 <a name="loiod44832d99bdf4f73ba14cdbb16dc9301"/>
 
@@ -285,7 +285,7 @@ To change the label, perform the following steps:
     The section is renamed both in the Page Editor and in the application preview.
 
 
-The `Form/Table/Identification/Chart` section labels are translatable and readable elements which are rendered in the SAP Fiori apps. When the user creates a supported section, the label inputted by the user is assigned to the `Label` property of the `ReferenceFacet` record in the `Facet` annotation. During deletion of the section, the `ReferenceFacet` record is deleted which deletes the `Label` in it.
+The `Form/Table/Identification/Chart` section labels are translatable and readable elements which are rendered in the SAP Fiori applications. When the user creates a supported section, the label inputted by the user is assigned to the `Label` property of the `ReferenceFacet` record in the `Facet` annotation. During deletion of the section, the `ReferenceFacet` record is deleted which deletes the `Label` in it.
 
 > ### Note:  
 > All the labels translatable and can maintained through i18n project files. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
@@ -321,8 +321,8 @@ The `Column` labels can be maintained with annotations, such as `Common.Label` a
 `Actions` has also editable labels.
 
 -   During creation of an action, the last segment of actions is used to create the label. For example, with `Trippin.Container/GetNearestAirport`, the `Label` has `GetNearestAirport` as the value assigned to it.
--   This `Label` is rendered as the Button Label in SAP Fioriapplications. During deletion, the entire `DataFieldForAction` record is deleted which deletes the `Label` along with it.
--   Label based annotations are not removed during the cleanup procedure. For more information, see [Project Cleanup](project-cleanup-2640899.md).
+-   This `Label` is rendered as the button label in SAP Fioriapplications. During deletion, the entire `DataFieldForAction` record is deleted which deletes the `Label` along with it.
+-   Label-based annotations are not removed during the cleanup procedure. For more information, see [Project Cleanup](project-cleanup-2640899.md).
 
 <a name="loio27fdaca358bb419f95290eebc86ed7da"/>
 
@@ -332,7 +332,7 @@ The `Column` labels can be maintained with annotations, such as `Common.Label` a
 
 *Maximum Value Type* is a property for bullet micro charts and table columns.
 
-Choose the expression type for the maximum possible value in the chart. It can be a decimal number or a property of type decimal. Maximum value type influences the maximum value property.
+Choose the expression type for the maximum possible value in the chart. It can be a decimal number or a property of type `decimal`. *Maximum Value Type* influences the maximum value property.
 
 <a name="loiofb3939d43c884bf5b458657ef3f6f3be"/>
 
@@ -368,12 +368,12 @@ You can display the numeric values of the section fields or basic table columns 
 
 -   In outline, choose the table column or field you want to show with the semantic information.
 -   In the Properties pane, choose one of the following options in the *Measures and Currencies* field:
-    -   **Currency Unit**
-    -   **Measure Unit**
+    -   *Currency Unit*
+    -   *Measure Unit*
 
 -   In the pop-up, define how the unit should be represented by choosing one of the following options and clicking *Apply*:
-    -   **Path** – if you want to define the unit as the property of associated entity, choose the property representing measure or currency units.
-    -   **String**– if you want to define the unit as plain text, such as %. the property of associated entity, enter the text for the unit to be displayed along with the value
+    -   *Path*: If you want to define the unit as the property of associated entity, choose the property representing measure or currency units.
+    -   *String*: If you want to define the unit as plain text, such as %. the property of associated entity, enter the text for the unit to be displayed along with the value
 
 
 As a result, the `Measures.ISOCurrency` annotation is applied to the field or column value referencing the property or string you chose and the respective column or field values are shown with the respective currency or measure unit.
@@ -390,7 +390,7 @@ You can change the selected measure or currency in the properties pane at any ti
 
 *Minimum Value Type* is a property of bullet micro charts and table columns.
 
-Choose the expression type for the starting value of the chart. It can be a decimal number or a property of type decimal. *Minimum Value Type* influences the *Minimum Value* property.
+Choose the expression type for the starting value of the chart. It can be a decimal number or a property of type `decimal`. *Minimum Value Type* influences the *Minimum Value* property.
 
 <a name="loiobcca4bede254425d88e3fe13180194ed"/>
 
@@ -442,7 +442,7 @@ Apart from the main value, you can also display an additional value as a target.
 
 ## Text
 
-Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes: `O`, `A`, and `C` are meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, or Cancelled.
+Fields and basic table columns representing IDs or codes often need to be displayed along with the descriptive text which conveys the meaning in a human-readable way. For example, status codes: `O`, `A`, and `C` are meaningless for the user and should be accompanied or even replaced by the descriptive text, such as Open, Accepted, or Canceled.
 
 To add such descriptive texts, select the property representing the descriptive text in the *Text* property. Then, the `Common.Text` annotation will be applied to the property representing field/column value.
 
@@ -553,7 +553,7 @@ Similarly, it appears next to the *Value Description Property* field in the `Val
 
 If the values of *Value Description Property* and *Text* field are synchronized, *Text Arrangement* values are checked. If they don’t match, the ![](images/Take_Over_Button_6452fbf.jpg) button appears next to the *Text Arrangement* which allows you to synchronize one value with another.
 
-As a result, the values in the `Common.Text` annotations applied to the field value and source value of the value help point to the same property and `UI.TextArrangement` have the same enum value.
+As a result, the `Common.Text` annotations applied to both the field value and the value help's source value point to the same property, and both have the same `UI.TextArrangement` enum value.
 
 -   *Text* and *Text Arrangement* on the field value:
 
@@ -592,7 +592,7 @@ Fields and basic table columns sometimes need to serve as links for navigation t
 
 ## Semantic Object Property Mapping
 
-When [Semantic Object Name](appendix-457f2e9.md#loio90e03983431d4bfd927b51593a937955) is defined, the Semantic Object Property Mapping property is enabled in the properties pane. If the semantic object property in the target application is different from the current one, provide the name of semantic object property in the target application for the correct mapping.
+When *Semantic Object Name* is defined, the *Semantic Object Property Mapping* property is enabled in the properties pane. If the semantic object property in the target application is different from the current one, provide the name of the semantic object property in the target application for the correct mapping.
 
 <a name="loio3f4dde1260b24ecdae6b5c516b4790d3"/>
 

@@ -8,7 +8,9 @@ SAP Fiori elements applications use OData services to expose data and functional
 
 SAP Fiori tools uses a local copy of the OData service metadata and annotations as a basis for visualizing the application structure. It is also used for adding or modifying UI features and previewing your application. This local metadata copy is saved in the project when the application is generated.
 
-If an OData service or any associated annotations have been modified in the back end after the project was generated, these changes are not automatically applied to the local copy. This can result in discrepancies between SAP Fiori tools and the application runtime. For example, if a new property was added in the back end, you cannot use it in Application Modeler until you refresh the service. If this property was already used in a back-end annotation, Application Modeler and Annotation LSP cannot find it in the local copy and errors or warnings are displayed. To avoid these errors and ensure Application Modeler can access new properties, always synchronize the local copy with the service metadata after making changes in the back end.
+OData V4 services that come from RAP back ends often do not contain metadata for value help directly. They reference additional metadata files that contain value list information using the `Common.ValueListReferences` annotation. The local copies of these metadata files can be retrieved and stored in the project along with the main service of the application.
+
+If OData services or any associated annotations have been modified in the back end after the project was generated, these changes are not automatically applied to the local copy. This can result in discrepancies between SAP Fiori tools and the application runtime. For example, if a new property was added in the back end, you cannot use it in Application Modeler until you refresh the service. If this property was already used in a back-end annotation, Application Modeler and Annotation LSP cannot find it in the local copy and errors or warnings are displayed. To avoid these errors and ensure Application Modeler can access new properties, always synchronize the local copy with the service metadata after making changes in the back end.
 
 
 
@@ -17,7 +19,7 @@ If an OData service or any associated annotations have been modified in the back
 ## Manage Service Files
 
 > ### Note:  
-> The ability to add, refresh, and delete services is only supported for the SAP Fiori elements overview page floorplan and freestyle SAPUI5 projects.
+> The ability to add, refresh, and delete services is only supported for the SAP Fiori elements list report page, analytical list report page, and overview page floorplans and freestyle SAPUI5 projects.
 
 
 
@@ -54,8 +56,11 @@ If an OData service or any associated annotations have been modified in the back
 
 5.  Click
     -   *Refresh* - Refresh the local copy of service metadata and annotation files. Use *Refresh* to just refresh the service.
-    -   *Refresh & Save* - Refresh the local copy of service metadata and annotation files and save any changes to the UI5 `YAML` files. Use *Refresh & Save* to refresh the service and save any changes to the UI5 `YAML` files.
+    -   *Refresh & Save* - Refresh the local copy of service metadata and annotation files and save any changes to the UI5 `YAML` files. For more information on UI5 `YAML` files, see [UI5 CLI - Configuration](https://ui5.github.io/cli/stable/pages/Configuration/). Use *Refresh & Save* to refresh the service and save any changes to the UI5 `YAML` files.
 
+
+> ### Note:  
+> If the project is generated based on an OData V4 service from a RAP back end, it may also contain local copies of metadata files from value list services. You can choose to download or refresh this metadata when refreshing the service.
 
 
 
