@@ -50,17 +50,18 @@ If OData services or any associated annotations have been modified in the back e
 2.  Click *Service Manager*.
 3.  Click the :pencil2: \(*Pencil*\) icon opposite the service.
 4.  Choose a *Connection Type*:
+
     1.  Destination \(SAP Business Application Studio\) - Select the server destination from the dropdown. Enter your username and password, if needed.
     2.  SAP System \(Visual Studio Code\) - Select the server SAP System from the dropdown. Enter your username and password, if needed.
     3.  Hostname - Enter the server hostname, SAP Client, and username and password, if needed.
+
+    > ### Note:  
+    > If the project is generated based on an OData V4 service from a RAP back end, it may also contain local copies of metadata files from value list services. You can choose to download or refresh this metadata when refreshing the service.
 
 5.  Click
     -   *Refresh* - Refresh the local copy of service metadata and annotation files. Use *Refresh* to just refresh the service.
     -   *Refresh & Save* - Refresh the local copy of service metadata and annotation files and save any changes to the UI5 `YAML` files. For more information on UI5 `YAML` files, see [UI5 CLI - Configuration](https://ui5.github.io/cli/stable/pages/Configuration/). Use *Refresh & Save* to refresh the service and save any changes to the UI5 `YAML` files.
 
-
-> ### Note:  
-> If the project is generated based on an OData V4 service from a RAP back end, it may also contain local copies of metadata files from value list services. You can choose to download or refresh this metadata when refreshing the service.
 
 
 

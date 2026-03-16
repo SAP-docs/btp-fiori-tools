@@ -4,7 +4,7 @@
 
 # Chart Section
 
-Chart section can be added either on the section node or inside the group on the subsection node.
+You can add a chart section on a section node or inside a group on the subsection node.
 
 
 
@@ -14,42 +14,33 @@ Chart section can be added either on the section node or inside the group on the
 
 To add a chart section, perform the following steps:
 
-1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
+1.  Open the *Page Editor*.
 2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
+3.  Click *Add Chart Section*.
+4.  Enter a *Label* and select a *Value Source*.
+5.  Select *Use Existing Chart* or *Create New Chart*.
+6.  *Use Existing Chart*: Choose a `UI.Chart` annotation, a `UI.PresentationVariant` annotation which references a `UI.Chart` annotation, or a `UI.SelectionPresentationVariant` annotation which references a `UI.Chart` annotation.
+7.  *Create New Chart*: Enter the minimum required data to generate a chart: chart type, a dimension, and a measure.
+8.  A measure can be specified by selecting one of the following options:
 
-    A drop-down menu displaying currently supported section types is displayed.
+    -   *Use Existing Measure*
+    -   *Create New Measure*
 
-3.  Select *Add Chart Section* from the drop-down list.
+    If you choose to use an existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
 
-    A pop-up window with following attributes:
+    If you choose to create a new measure, choose the aggregable property and one of the supported aggregation methods. This allows you to create a new dynamic measure and use it in the chart.
 
-    -   *Label*
-    -   *Entity*
-    -   *Type*
-    -   *Dimension*
-    -   *Measure*
+    The technical name and the label are generated automatically. You can then adjust the generated label in the Property Panel.
 
-    A measure can be specified by selecting one of the following:
+9.  Click *Add*.
 
-    -   Use existing measure
-    -   Create new measure
+    You can see the following changes applied:
 
-    If you choose to use existing measure, select one of the available measures defined with custom or transformation aggregations in the *Name* field.
-
-    If you choose to create new measure, choose the aggregable property and one of the supported aggregation methods . This allows you to create a new **dynamic** measure and use it in the chart.
-
-    > ### Note:  
-    > The technical name and the label are generated automatically. You can then adjust the generated label in the *Property Panel*.
-
-4.  Click *Add*
-
-    As a result, you can see the following changes applied:
-
-    -   A new `UI.Chart` and a new `UI.ReferenceFacet` with an `annotationPath` pointing to the created `UI.Chart` is added to the existing `UI.Facets`.
+    -   A new `UI.ReferenceFacet` with an `annotationPath` that points to the created or selected `UI.Chart` is added to the existing `UI.Facets` annotation.
     -   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregable property with your chosen aggregation method.
-    -   If not yet available, a new `UI.Facets` annotation is created under the entity associated with that *Object Page*.
+    -   If not yet available, a new `UI.Facets` annotation is created under the entity associated with that object page.
     -   If `UI.Facets` exists on an underlying layer, the annotation in the underlying layer is overridden.
-    -   For CAP CDS, a using statement is added to the overridden file if not yet there.
+    -   For CAP CDS, a `using` statement is added to the overridden file if not yet there.
 
 
 
@@ -77,13 +68,13 @@ To delete the section in the application, perform the following steps:
 
 ## Maintaining Chart Section Properties
 
-You can update the properties of the chart and define optional properties in the *Property Panel*. For the information on changing the section label, see [Change Form Section Label](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__changeformsectionlabel).
+You can update the properties of the chart and define optional properties in the Property Panel. For more information about changing the section label, see [Change Form Section Label](form-section-4102b3d.md#loio4102b3d63d9047c881108e6f0caae15e__changeformsectionlabel).
 
-For the information on maintaining other chart properties, see [Maintain Analytical Chart Properties](analytical-chart-9c086ec.md#loio9c086ecaace540be83b0e50101244e78__analyticalchartproperties).
+For more information about maintaining other chart properties, see [Maintain Analytical Chart Properties](analytical-chart-9c086ec.md#loio9c086ecaace540be83b0e50101244e78__analyticalchartproperties).
 
 
 
 ### Hidden
 
-For more information see, [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
+For more information, see [Hidden](appendix-457f2e9.md#loiof7ad71792a0044d6b6172f078827bdc0).
 

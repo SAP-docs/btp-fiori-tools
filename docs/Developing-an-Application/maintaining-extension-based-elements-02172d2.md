@@ -4,8 +4,10 @@
 
 # Maintaining Extension-Based Elements
 
+You can maintain extension-based elements using the *Page Editor*.
+
 > ### Note:  
-> For OData V4 based applications, the templates used by the *Page Editor* to provide this flexibility is published as part of our Open UX tools [`@sap-ux/fe-fpm-writer`](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md). This new transparency allows everyone to inspect the source behind the scenes.
+> You can view the source code behind this functionality, which is published as part of Open UX tools. For more information, see [@sap-ux/fe-fpm-writer](https://github.com/SAP/open-ux-tools/blob/main/packages/fe-fpm-writer/README.md).
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44"/>
 
@@ -13,57 +15,48 @@
 
 ## Adding Custom Column
 
-You have the ability to create a custom column for your table in a *List Report* or *Analytical Chart* page.
+You can create a custom column for your table in a list report page or an analytical chart.
 
 
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44__section_ur2_br3_wnb"/>
 
-## Custom Column \(OData V2 Only\)
+## Custom Column \(OData V2\)
 
-1.  In the *Page Editor* outline view next to the *Columns* header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
+1.  In the *Page Editor* next to the *Columns* header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
 2.  Provide the following information:
-    -   **Column Key** - A key for the column.
-    -   **Header Text** - A title for the column.
-    -   **ID** - A unique ID for the column which is automatically created, but can be modified.
-    -   **Select Column Fragment**
-        -   Create New Fragment
-        -   Use Existing Fragment
-
-    -   **Column Fragment Name**
-    -   **Select Cell Fragment** \(for responsive table type\)
-        -   Create New Fragment
-        -   Use Existing Fragment
-
-    -   **Cell Fragment Name**
-    -   **Anchor Column** - Select one of existing columns in the table. You can select where you want to insert the custom column, before or after the selected target column.
-    -   **Placement** - Before/After
-    -   **Leading Property** - If the content of your custom column refers to a property such as \{Price\}, you need to include a corresponding `leadingProperty` entry in the column definition.
+    -   *Column Key*: Provide a key for the column.
+    -   *Header Text*: Provide a title for the column.
+    -   *ID*: Provide a unique ID for the column which is automatically created, but can be modified.
+    -   *Select Column Fragment:* Select *Create New Fragment* or *Use Existing Fragment*.
+    -   *Column Fragment Name*: Provide a name for the column fragment.
+    -   *Select Cell Fragment*: Select *Create New Fragment* or *Use Existing Fragment*. This property is only applicable to the responsive table type.
+    -   *Cell Fragment Name*: Provide a name for the cell fragment.
+    -   *Anchor Column*: Select one of existing columns in the table.
+    -   *Placement*: Select *After* or *Before* to choose whether you want to insert the custom column, before or after the anchor column.
+    -   *Leading Property*: If the content of your custom column refers to a property such as `{Price}`, you need to include a corresponding `leadingProperty` entry in the column definition.
 
 
 ![Custom Column](images/FIORI_TOOLS_CUSTOM_COLUMN_a723f6d.png)
 
-The custom column fragment and cell code are looked up and written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom column.
+The custom column fragment and cell code are written to the project's `ext` folder. A custom column can be dragged into a new position using the handle in the outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom column.
 
 
 
 <a name="loioa95f614fdbff4c60baa6467c913b6d44__section_tnr_243_rsb"/>
 
-## Custom Column \(OData V4 Only\)
+## Custom Column \(OData V4\)
 
 1.  In the *Page Editor* outline view next to the *Columns* header, click the :heavy_plus_sign: \(*Add*\) icon to add a new column.
 2.  Provide the following information:
 
-    -   **Header Text**- A title for the column.
-    -   **Select Column Fragment**
-        -   Create New Fragment
-        -   Use Existing Fragment
-
-    -   **Column Fragment Name**
-    -   **Anchor Column** - Select an existing column in the table.
-    -   **Placement** - Before/After. You can select where you want to insert the custom column, before or after the selected anchor column.
-    -   **Generate Event Handler** - True/False
-    -   **Width** - The width of the new column
+    -   *Header Text*: Provide a title for the column.
+    -   *Select Column Fragment*: Select *Create New Fragment* or *Use Existing Fragment*.
+    -   *Column Fragment Name*: Provide a name for the column fragment.
+    -   *Anchor Column*: Select an existing column in the table.
+    -   *Placement*: Select *After* or *Before* to choose whether you want to insert the custom column, before or after the anchor column.
+    -   *Generate Event Handler* Select *True* or *False*.
+    -   *Width*: Provide the width of the column as a CSS size.
 
     ![](images/FIORI_TOOLS_CUSTOM_COLUMN_V4_bbd04e3.png)
 
@@ -76,20 +69,42 @@ The custom column fragment and optional default controller code is written to th
 
 ## Adding Custom Section
 
-You can create a custom section as part of your *Object Page* using the *Page Editor*.
+You can create a custom section as part of your object page using the *Page Editor*.
 
-1.  In the *Page Editor* outline view of your *Object Page*, click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node. For OData V4, click *Add Custom Section* from the menu. For OData V2, the selection is prefilled.
-2.  Provide the following information:
-    -   **Title** - The label of the custom section.
-    -   **View Type** - The types are **View** or **Fragment** \(`OData V2` only\).
-    -   **Select Your Fragment/View**- Choose new or existing.
-    -   **Fragment/View Name** - The file name of the artifact.
-    -   **Anchor Section** - Select one of the existing sections in the *Object Page*.
-    -   **Placement** - before, after, or replace \(OData V2 only\)
-    -   **Generate Event Handler** - Decide whether a demo controller is to be created \(OData V4 only\).
+1.  Open the *Page Editor* for your object page.
+2.  Click the :heavy_plus_sign: \(*Add*\) icon on the *Sections* node.
+3.  For OData V4 applications, perform the following:
+    1.  Click *Add Custom Section*.
+    2.  Perform the following for the properties in the dialog:
+        1.  *Title*: Provide a label for the custom section.
+        2.  *Select Your Fragment*: Select *Create New Fragment* or *Use Existing Fragment*.
+        3.  *Fragment*: Provide a file name for the artifact.
+        4.  *Anchor Section*: Select one of the existing sections in the object page.
+        5.  *Placement*: Select *After* or *Before*.
+        6.  *Generate Event Handler*: Decide whether a demo controller is to be created.
 
 
-After clicking *Add*, the custom section fragment, view, and or controller code is written to the project's `ext` folder. A custom section can be dragged into a new position using the handle in outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
+4.  For OData V2 applications, perform the following for the properties in the dialog:
+    1.  *Title*: Provide a label for the custom section.
+    2.  *View Type*: Select *View* or *Fragment*.
+    3.  If you chose *View*, perform the following:
+        1.  *Select Your View*: Select *Create New View* or *Use Existing View*.
+        2.  *View Name*: Provide a file name for the artifact.
+
+    4.  If you chose *Fragment*, perform the following:
+        1.  *Select Your Fragment*: Select *Create New Fragment* or *Use Existing Fragment*.
+        2.  *Fragment Name*: Provide a file name for the artifact.
+
+    5.  *Anchor Section*: Select one of the existing sections in the object page.
+
+        > ### Note:  
+        > You cannot anchor to a custom section in OData V2. You can only anchor to an annotation facet or section.
+
+    6.  *Placement*: Select *After*, *Before*, or *Replace*.
+
+5.  Click *Add*.
+
+The fragment, view, and controller code for the custom section is written to the project's `ext` folder. You can drag a custom section into a different position using the handle in the outline view. Click the :wastebasket: \(*Delete*\) icon to delete a custom section.
 
 <a name="loioe00eab06bc244e0286ad438453918b49"/>
 

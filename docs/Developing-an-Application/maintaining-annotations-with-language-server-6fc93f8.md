@@ -8,7 +8,15 @@
 
 ## CAP CDS Files
 
-Maintaining OData annotations in `.cds` files is accelerated by the [SAP Fiori tools - CDS OData Language Server](https://www.npmjs.com/package/@sap/ux-cds-odata-language-server-extension) comprised in [SAP CDS Language Support](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds) plugin. It assists you with adding and editing OData annotations in CDS syntax with:
+
+
+### Prerequisites
+
+-   You must enable the `"cds.contributions.features.index"` setting in your user or workspace settings to use the *Peek Definition* and *Go to Definition* features. For more information, see [Peek and Go to Definition](peek-and-go-to-definition-1ccb911.md).
+-   You must enable the `"cds.contributions.features.diagnostics"` setting in your user or workspace settings to use the diagnostics feature. For more information, see [Diagnostics](diagnostics-1fd8f54.md).
+-   You must enable the `"cds.contributions.features.quickFixes"` settings in your user or workspace settings to use quick fixes. For more information, see [Diagnostics](diagnostics-1fd8f54.md).
+
+Maintaining OData annotations in `.cds` files is accelerated by the CDS OData Language Server which is a part of the SAP CDS Language Server extension. It assists you with adding and editing OData annotations in CDS syntax with:
 
 -   Code completion for annotations applied to entities and entity elements
 -   Validation against the OData vocabularies and project metadata
@@ -16,10 +24,12 @@ Maintaining OData annotations in `.cds` files is accelerated by the [SAP Fiori t
 -   Quick view of vocabulary information
 -   Internationalization \(i18n\) support for language-dependent strings
 
-See[CAP CDS](https://cap.cloud.sap/docs/about/) and [Serving Fiori UIs: Adding Fiori Annotation](https://cap.cloud.sap/docs/advanced/fiori#fiori-annotations) for more information about CDSODataLanguage Server.
+For more information, see [SAP Fiori tools - CDS OData Language Server](https://www.npmjs.com/package/@sap/ux-cds-odata-language-server-extension) and [SAP CDS Language Support](https://marketplace.visualstudio.com/items?itemName=SAPSE.vscode-cds).
+
+For more information about CAP CDS, see [CAP CDS](https://cap.cloud.sap/docs/cds/) and [Serving SAP Fiori UIs](https://cap.cloud.sap/docs/guides/uis/fiori).
 
 > ### Note:  
-> The SAP Business Application Studio SAP Fiori dev space doesn’t include the CDSODataLanguage Server extension.
+> The SAP Business Application Studio's SAP Fiori dev space doesn’t include the CDS OData Language Server extension.
 
 
 
@@ -27,7 +37,7 @@ See[CAP CDS](https://cap.cloud.sap/docs/about/) and [Serving Fiori UIs: Adding F
 
 ## XML Annotation Files
 
-Maintaining OData annotations in `annotation.xml` files is accelerated by the XML annotation language server extension of SAP Fiori tools. It assists you with adding and editing OData annotations in XML syntax with the code completion, validation, and other assisting features, same as CDSODataLanguage Server in CAP CDS files. To get this assistance, just open the local annotation file in the code editor. You can either open local annotation file from [Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md#loio58784b52f2284532afe2ab161e0312c9__section_uph_2rk_xlb) or single/double-click on the local annotation file of your project: `/webapp/annotations/<filename>.xml`.
+Maintaining OData annotations in `annotation.xml` files is accelerated by the XML annotation language server extension of SAP Fiori tools. It assists you with adding and editing OData annotations in XML syntax with the code completion, validation, and other assisting features, same as CDSODataLanguage Server in CAP CDS files. To get this assistance, just open the local annotation file in the code editor. You can either open local annotation files from [Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md#loio58784b52f2284532afe2ab161e0312c9__section_uph_2rk_xlb) or single or double-click on the local annotation file of your project.
 
 
 
@@ -35,11 +45,11 @@ Maintaining OData annotations in `annotation.xml` files is accelerated by the XM
 
 **Prerequisites**
 
-To maintain the annotations using XML annotation language server features, project needs to meet the following criteria:
+To maintain the annotations using XML annotation language server features, your project must have the following:
 
--   OData service
+-   Have anOData service
 
-    Your project contains the local copy of service metadata. The path to this copy is provided in the SAP OData vocabularies `manifest.json` file as a local `Uri`.
+    Contain a local copy of the service metadata. The path to this copy is provided in the SAP OData vocabularies' `manifest.json` file as a local `Uri`.
 
     > ### Note:  
     > The local copies of the metadata and back-end annotations are used for code completion and diagnostics in local annotation file, it’s important that it stays in sync with the service metadata state in back end. It is not synced automatically with the metadata on the back-end system. You can sync the local copy of the service metadata with the back end. For more information, see [Syncing Annotations](../Project-Functions/managing-service-and-annotation-files-8182ff3.md#loio8182ff3b19574f038bd636b9991aa24e__sync).
@@ -49,7 +59,7 @@ To maintain the annotations using XML annotation language server features, proje
     According to the OData CSDL, your metadata file must contain a single `EntityContainer`.
 
     > ### Note:  
-    > The namespace of the OData service should not contain `/` \(slashes\). The OData specification requires namespaces to consist of one or more SimpleIdentifiers separated by dots. Slashes aren’t supported. A SimpleIdentifier must start with a letter or underscore, followed by a maximum of 127 letters, underscores, and digits.
+    > The namespace of the OData service should not contain `/` \(slashes\). The OData specification requires namespaces to consist of one or more `SimpleIdentifiers` separated by dots. Slashes aren’t supported. A `SimpleIdentifier` must start with a letter or underscore, followed by a maximum of 127 letters, underscores, and digits.
 
 -   Local Annotation File
 
@@ -68,8 +78,7 @@ To maintain the annotations using XML annotation language server features, proje
 
     > ### Note:  
     > All paths used in annotation file are relative to the location of the `manifest.json` file.
-
-    > ### Note:  
+    > 
     > For more information on how to maintain the configuration in the `manifest.json` file, see [Visualizing Annotations with Service Modeler](visualizing-annotations-with-service-modeler-58784b5.md).
 
 
@@ -79,7 +88,7 @@ To maintain the annotations using XML annotation language server features, proje
 
 The XML annotation language server is based on the [official OASIS vocabularies](https://github.com/oasis-tcs/odata-vocabularies/tree/master/vocabularies/) and [https://github.com/SAP/odata-vocabularies](https://github.com/SAP/odata-vocabularies) \(OData version 4.0\) The following vocabularies are supported:
 
-**OData org**
+**OData**
 
 -   [Aggregation](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Aggregation.V1.html)
 -   [Authorization](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Authorization.V1.html)
@@ -90,6 +99,8 @@ The XML annotation language server is based on the [official OASIS vocabularies]
 -   [Repeatability](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Repeatability.V1.html)
 -   [Temporal](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Temporal.V1.html)
 -   [Validation](https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Validation.V1.html)
+
+For more information about OData, see [OData specifications](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)
 
 SAP
 
@@ -107,15 +118,6 @@ SAP
 -   [Personal Data](https://sap.github.io/odata-vocabularies/vocabularies/PersonalData.html)
 -   [Session](https://sap.github.io/odata-vocabularies/vocabularies/Session.html)
 -   [UI](https://sap.github.io/odata-vocabularies/vocabularies/UI.html)
-
-
-
-### OData
-
-**For more information about OData:**
-
--   [OData specifications](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part3-csdl.html)
-
 
 
 

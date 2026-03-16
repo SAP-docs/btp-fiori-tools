@@ -32,9 +32,13 @@ Create an adaptation project in an on-premise system.
 
     6.  Choose the application that you want to work with.
 
-    7.  Click *Finish* to generate the project.
+    7.  \(Optional\) You can choose to *Enable TypeScript*. By default, your project controller extension supports JavaScript. If you want your project to support TypeScript, select *Yes*. This will change the language used in the template for controller extensions to TypeScript.
 
-    8.  \(Optional\) You can choose to *Add Deployment Configuration*. By default, this choice is set to *No*. If you select *Yes*, you will be prompted to configure the deployment settings. For more information, see **Add Deployment Configuration** in [Deploying an Adaptation Project to the ABAP Repository](deploying-an-adaptation-project-to-the-abap-repository-febf0d9.md).
+    8.  \(Optional\) You can choose to *Import Key User Changes*. If you select *Yes*, you will be prompted to choose specific import settings – such as which system and context-based adaptation to import key user changes.
+
+    9.  \(Optional\) You can choose to *Add Deployment Configuration*. By default, this choice is set to *No*. If you select *Yes*, you will be prompted to configure the deployment settings. For more information, see **Add Deployment Configuration** in [Deploying an Adaptation Project to the ABAP Repository](deploying-an-adaptation-project-to-the-abap-repository-febf0d9.md).
+
+    10. Click *Finish* to generate the project.
 
 
 

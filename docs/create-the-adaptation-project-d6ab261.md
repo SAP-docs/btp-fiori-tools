@@ -32,7 +32,11 @@ Create an adaptation project from existing SAP Fiori elements or freestyle SAPUI
 
     7.  Choose the application that you want to work with. Only applications extensible in adaptation projects will be shown in the list.
 
-    8.  Choose *Finish* and wait until your project gets generated. You will be notified when the project is generated.
+    8.  \(Optional\) You can choose to *Enable TypeScript*. By default, your project controller extension supports JavaScript. If you want your project to support TypeScript, select *Yes*. This will change the language used in the template for controller extensions to TypeScript.
+
+    9.  \(Optional\) You can choose to *Import Key User Changes*. If you select *Yes*, you will be prompted to choose specific import settings – such as which system and context-based adaptation to import key user changes.
+
+    10. Choose *Finish* and wait until your project gets generated. You will be notified when the project is generated.
 
 
 5.  A notification message appears that the project has been generated and will be saved for future use.
