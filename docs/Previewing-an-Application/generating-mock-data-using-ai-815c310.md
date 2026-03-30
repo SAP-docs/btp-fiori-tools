@@ -2,9 +2,7 @@
 
 <link rel="stylesheet" type="text/css" href="../css/sap-icons.css"/>
 
-# Generating Mock Data with AI
-
-Learn how to generate mock data with AI to produce meaningful and contextually relevant data.
+# Generating Mock Data Using AI
 
 You can generate mock data by using the property names of entities to generate meaningful and contextually relevant data with AI.
 
@@ -26,8 +24,11 @@ Ensure the following prerequisites are met:
 
 To generate mock data with AI, perform the following steps:
 
-1.  In the *Page Editor*, click the <span class="SAP-icons-TNT-V3"></span> \(*Generate Mock Data with AI*\) icon.
-2.  Click *Generate*.
+1.  In the *Page Editor*, click the <span class="SAP-icons-TNT-V3"></span> \(*Open Data Editor*\) icon.
+2.  If you have no mock data, click *Generate Data Using AI*.
+3.  If you have existing mock data, click *Add Mock Data* in the header bar of the *Data Editor* and then click *Generate Data Using AI*.
+4.  If your entity set is large, select the entities you want to generate mock data for.
+5.  Click *Generate*.
 
-Three records of mock data are generated. Depending on the size, generation may take some time.
+Up to 10 rows of mock data per entity are generated. Depending on the size of your entity set, generation may take some time.
 

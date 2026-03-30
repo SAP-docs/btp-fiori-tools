@@ -6,17 +6,6 @@ Learn how to deploy an adaptation project to the ABAP repository.
 
 
 
-<a name="loiofebf0d9e3266451b8fc751ed25736ce1__prereq_zmv_gz1_fdc"/>
-
-## Prerequisites
-
-> ### Note:  
-> This prerequisite is only valid for on-premise developers who deploy their adaptation projects to SAP NW AS ABAP.
-
-If the `SAP_UI` version is 7.55 or above, your user must have the `SAP_UI_FLEX_DEVELOPER` role assigned. If the `SAP_UI` version is below 7.55, your user must have the `S_DEVELOP` role assigned. If you use a cloud connector, `POST` and `PUT` requests must be allowed for the path: `/sap/bc/lrep/dta_folder/`.
-
-
-
 <a name="loiofebf0d9e3266451b8fc751ed25736ce1__context_anv_gz1_fdc"/>
 
 ## Context

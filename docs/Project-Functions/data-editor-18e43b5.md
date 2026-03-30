@@ -5,31 +5,53 @@
 Previewing the application using `npm run start-mock` generates mock data on the fly. If you want to generate mock data and store it in the `.json` file format, you can right-click on your project and launch *Open Data Editor*. Once generated, mock data is stored in the `.json` format under the `/webapp/localService/mockdata` file.
 
 > ### Note:  
-> You need to configure mock server prior to using `npm run start-mock`. See [Installing MockServer](../Previewing-an-Application/installing-mockserver-2538055.md).
+> You need to configure mock server prior to using `npm run start-mock`. For more information, see [Installing MockServer](../Previewing-an-Application/installing-mockserver-2538055.md).
 
-For templates like the *Overview Page* where there are multiple services, you will see a drop-down list to select the metadata file you want to use. If your application is running, you can stop the mock server by pressing [Ctrl\] + [C\] .
+Where there are multiple services, you see a dropdown to select the metadata file you want to use. If your application is running, you can stop the mock server by pressing [Ctrl\] + [C\] .
 
 ![](images/Fiori_Tools_Show_Properties_in_Data_Editor_15deef9.png)
 
-Data Editor reads the `metadata.xml` file that is defined in the `manifest.json` under the `dataSource` and generates mock data based on the property type.
+The *Data Editor* reads the `metadata.xml` file that is defined in the `manifest.json` file under the `dataSource` property and generates mock data based on the property type.
 
-Data can be edited by either double-clicking in the cell of the Data Editor or by editing the `Entity.json` file.
+Data can be edited by either double-clicking in the cell of the *Data Editor* or by editing the `Entity.json` file.
 
 ![manifest.json](images/DataEditor_Manifest_file_0c29c6d.png)
 
 If the mock server isn’t running, you can:
 
--   Make changes in the Data Editor, automatically reflected in the `.json` file.
+-   Make changes in the *Data Editor*, which are automatically reflected in the `.json` file.
 
--   If changes are made in the `.json` file, click the *Refresh* button to update the canvas.
+-   If changes are made in the `.json` file, click *Refresh* to update with the latest changes.
 
 
-If the mock server is running:
+If the mock server is running, you can:
 
--   Add the `watch: true` parameter to the `ui5-mock.yaml` to update the canvas.
+-   Add the `watch: true` parameter to the `ui5-mock.yaml` file to auto-reload the mock server whenever changes are made.
 
     ![ui5-mock.yaml](images/Data_Editor_ui5mockyaml_3e50d51.png)
 
+
+
+
+## Generating Mock Data
+
+You can generate mock data in one of the following ways:
+
+-   *Generate Data*
+
+    *Generate Data* generates 20 rows of mock data for every entity set.
+
+-   *Generate Data Using AI*
+
+    *Generate Data Using AI* generates up to 10 rows of mock data for every entity set using AI to produce meaningful and contextually relevant mock data. For more information, see [Generating Mock Data Using AI](../Previewing-an-Application/generating-mock-data-using-ai-815c310.md).
+
+
+To generate mock data, perform the following:
+
+1.  If you have no mock data, click *Generate Data* or *Generate Data Using AI*.
+2.  If you have existing mock data, click *Add Mock Data* in the header bar of the *Data Editor* and then click *Generate Data* or *Generate Data Using AI*.
+3.  *Generate Data*: 20 rows of mock data are generated for every entity set.
+4.  *Generate Data Using AI*: For more information, see [Generating Mock Data Using AI](../Previewing-an-Application/generating-mock-data-using-ai-815c310.md).
 
 
 
@@ -37,11 +59,12 @@ If the mock server is running:
 
 ## Editing Mock Data
 
-**Editing Data**- edit data by double-clicking in the editable cell. Primary keys and foreign keys aren’t editable.
+-   **Edit Data**: Edit data by double-clicking in the editable cell. Primary keys and foreign keys aren’t editable.
 
-**Add Row** - add a row by clicking the *Add Row* button. Additional rows will be added automatically to all the entities that are associated with a foreign key.
+-   **Add Row**: Add a row by clicking *Add Row*. Additional rows are added automatically to all the entities that are associated with a foreign key.
 
-**Delete Row** - delete a row by selecting a row and clicking the *Delete Row* button. Rows will be automatically deleted on all the entities that are associated with a foreign key.
+-   **Delete Row**: Delete a row by selecting a row and clicking *Delete Row*. Rows are automatically deleted on all the entities that are associated with a foreign key.
+
 
 
 
@@ -51,9 +74,9 @@ If the mock server is running:
 
 To search for mock data, perform the following steps:
 
-1.  Click on the *Search* input field in the header bar of the Data Editor.
-2.  Enter search criteria in the search input field.
-3.  Select the mock data that matches the search criteria in the drop-down table. The data you selected is highlighted in the Data Editor table.
+1.  Click on the *Search* field in the header bar of the *Data Editor*.
+2.  Enter your search criteria in the *Search* field.
+3.  Select the mock data that matches the search criteria in the dropdown. The data you selected is highlighted in the table.
 
 
 
@@ -61,24 +84,24 @@ To search for mock data, perform the following steps:
 
 ## Show and Hide Properties
 
-To show properties in the Data Editor table, perform the following steps:
+To show properties in the table, perform the following steps:
 
-1.  Click on *Show Properties* in the header bar of the Data Editor to open the popup.
+1.  Click *Show Properties* in the header bar of the *Data Editor* to open the popup.
 
-2.  Check the properties you want to display in the Data Editor table.
+2.  Select the properties you want to display.
 
 3.  Click *Save*.
 
 
-To hide properties in the Data Editor table, perform the following steps:
+To hide properties in the table, perform the following steps:
 
-1.  Click on *Show Properties* in the header bar of the Data Editor to open the popup.
+1.  Click *Show Properties* in the header bar of the *Data Editor* to open the popup.
 
-2.  Deselect the property that you don't want to display in the Data Editor table.
+2.  Deselect the properties that you don't want to display.
 
 3.  Click *Save*.
 
 
 > ### Note:  
-> Certain property groups are hidden by default and can be shown using *Show Properties*. You can also search for a particular property using the search input field in the popup.
+> Certain property groups are hidden by default and can be shown using *Show Properties*. You can also search for a particular property using the *Search* field in the popup.
 

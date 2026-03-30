@@ -214,7 +214,7 @@ To learn more about how SAP Fiori tools AI generates your application, observe t
 -   Value help and criticality highlighting is not supported in the generated application.
 -   The annotations required for the application UI are stored in the local `annotation.xml` file of the project.
 -   Semantic keys are not supported.
--   You cannot automatically remove the artifacts generated in the back end. The application project and artifacts must be removed manually, if no longer needed. For more information, see [Deleting RAP Artifacts Manually](deleting-rap-artifacts-manually-2386ce8.md).
+-   You cannot automatically remove the artifacts generated in the back end. The application project and artifacts must be removed manually, if no longer needed. For more information, see [Deleting RAP Artifacts Manually](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/2386ce830706482ba134b7d92315db5a.html).
 -   Charts and icons are not supported.
 -   Custom actions are not supported.
 

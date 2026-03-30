@@ -28,6 +28,7 @@ You can extend SAPUI5 applications in SAP S/4HANA Cloud Public Edition and SAP B
     -   Development - UI Deployment \(SAP\_A4C\_BC\_DEV\_UID\_PC\)
     -   Business catalog to retrieve the list of extensible apps \(for example SAP\_A4C\_BC\_DEV\_OBJ\_DIS\_PC\)
 
+-   Customer developers using SAP S/4HANA Cloud Public Edition who deploy their adaptation projects will need their user to be assigned to the role `SAP_BC_ABAP_DEVELOPER_5`.
 
 
 

@@ -68,7 +68,7 @@ Last Updated: May 2023
     -   [Use Live Data](Previewing-an-Application/use-live-data-497aee2.md)
     -   [Use Mock Data](Previewing-an-Application/use-mock-data-bda83a4.md)
         -   [Installing MockServer](Previewing-an-Application/installing-mockserver-2538055.md)
-        -   [Generating Mock Data with AI](Previewing-an-Application/generating-mock-data-with-ai-815c310.md)
+        -   [Generating Mock Data Using AI](Previewing-an-Application/generating-mock-data-using-ai-815c310.md)
     -   [Use Local Sources](Previewing-an-Application/use-local-sources-6d3a210.md)
     -   [Use Custom Middlewares](Previewing-an-Application/use-custom-middlewares-dce5315.md)
     -   [Use Run Control](Previewing-an-Application/use-run-control-09171c8.md)

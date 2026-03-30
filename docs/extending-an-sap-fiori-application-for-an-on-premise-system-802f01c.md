@@ -33,6 +33,7 @@ You can create an adaptation project for applications that meet the following re
 -   The application has a `manifest.json` file.
 -   The application's system SAPUI5 version is 1.72 or higher.
 -   The application is not a scaffolding application \(an application that uses `sap.ca.scfld.md` in its `manifest.json` file\).
+-   Customer developers using SAP S/4HANA or SAP S/4HANA Cloud Private Edition who deploy their adaptation projects to SAP NW AS ABAP will need their user to be assigned to the role `SAP_UI_FLEX_DEVELOPER`, if SAP\_UI version is 7.55 and above, or to the role `S_DEVELOP`, if SAP\_UI version is below 7.55. Also, if a cloud connector is in use, `POST` and `PUT` requests should be allowed for this path: `/sap/bc/lrep/dta_folder/`.
 
 > ### Note:  
 > Adaptation projects can also be used as a basis but only when it is SAP or partner provided and with the following conditions:

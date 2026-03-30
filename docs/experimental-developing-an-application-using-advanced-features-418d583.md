@@ -1,7 +1,5 @@
 <!-- loio418d583162794b3ab0e18ff72df75b92 -->
 
-<link rel="stylesheet" type="text/css" href="css/sap-icons.css"/>
-
 # Experimental: Developing an Application Using Advanced Features
 
 Learn how to develop an application in a CAP project generated with the Project Accelerator using advanced features of application modeler.
@@ -103,12 +101,7 @@ You can then re-generate the generic mock data to match your application context
 
 <a name="loio418d583162794b3ab0e18ff72df75b92__refine_test_data_with_ai"/>
 
-## Generate Mock Data with AI
+## Generate Mock Data Using AI
 
-You can re-generate the generic mock data you have auto-generated to provide meaningful values using AI. To generate mock data with AI, perform the following steps:
-
-1.  In the *Page Editor*, click the <span class="SAP-icons-TNT-V3"></span> \(*Generate Mock Data with AI*\) icon.
-2.  Click *Generate*.
-
-Your generic mock data is refined to provide meaningful values for your application context.
+You can re-generate the generic mock data you have auto-generated to provide meaningful values using AI. For more information, see [Generating Mock Data Using AI](Previewing-an-Application/generating-mock-data-using-ai-815c310.md).
 
