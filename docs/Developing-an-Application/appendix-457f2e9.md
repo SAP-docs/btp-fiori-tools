@@ -612,12 +612,12 @@ entity CapexType : managed {
 
 ```
 
-When the *Value Help* option is selected, the dialog window *Define Value Help Properties* appears where you provide the data source parameters for the following possible values:
+> ### Note:  
+> You cannot edit value help properties locally, other than *Display as Dropdown*, if they are defined in the dedicated service metadata. This dedicated service metadata is referenced in the main metadata file using the `@Common.ValueListReferences` annotation.
 
--   **Label**
+When the *Value Help* option is selected, the *Define Value Help Properties* dialog window appears where you provide the data source parameters for the following possible values:
 
-    Text displayed in the value help dialog if more than one value help is defined for the property.
-
+-   **Label**: Text displayed in the value help dialog if more than one value help is defined for the property.
 -   **Value Source Entity**: Entity set representing the list of field values.
 
     When working in a CAP project and the field value is defined as an association, the associated entity is suggested automatically. For example, if you configure the *Value Help* for the `Type` field defined as an association to the `CapexType`, `CapexType` is added automatically as a value.
@@ -633,7 +633,7 @@ When the *Value Help* option is selected, the dialog window *Define Value Help P
 
     If you work in the CAP project and the field value is defined as an association, the first key property of the associated entity is automatically suggested.
 
--   **External ID**: Property representing a human-readable identifier to be displayed on the UI instead of the *Value Source Property* value.
+-   **External ID**: Property representing a human-readable identifier to be displayed on the UI instead of the *Value Source Property* value. *External ID* is not displayed in the dialog if value help is defined in the service metadata of the value list, because the annotation is not supported in ABAP back ends.
 -   **Value Description Property**: Property to be used for displaying the additional text along with or instead of the input value.
 
     This property is usually defined if the *Value Source Property* represents a code or ID. For example, if the *Value Source Property* is set to the `Type` field representing `CapexType` code, we recommend that the *Value Description Property* represents the human-readable description of the `CapexType`.
@@ -648,11 +648,7 @@ When the *Value Help* option is selected, the dialog window *Define Value Help P
     > ### Note:  
     > If you select *ID only*, the *Value Description* property is not displayed in the value help.
 
--   *Display as Dropdown* checkbox: Defines if the field is displayed as a combo box or a standard value help dialog.
-
-    > ### Note:  
-    > Check the SAP Fiori guidelines to decide which option to use.
-
+-   *Display as Dropdown* checkbox: Defines if the field is displayed as a combo box or a standard value help dialog. To decide which option to use, check the SAP Fiori guidelines.
 -   *Result List*
 
     You can provide information about the available value options by configuring the *Result List* table. For example, it can contain instructions on when the specific type applies and the processing rules, if any.
@@ -672,10 +668,7 @@ When the *Value Help* option is selected, the dialog window *Define Value Help P
 
 -   *Sort Order*
 
-    You can define how the *Result List* is sorted by default. For example, you can choose which property \(column\) is sorted by and in which direction. You can choose multiple columns to sort by and define the sorting order.
-
-    > ### Note:  
-    > Sorting by properties that are not part of the *Result List* and by properties of associated entities is not possible.
+    You can define how the *Result List* is sorted by default. For example, you can choose which property \(column\) is sorted by and in which direction. You can choose multiple columns to sort by and define the sorting order. Sorting by properties that are not part of the *Result List* and by properties of associated entities is not possible.
 
     To set the default sorting, proceed as follows:
 
@@ -706,9 +699,7 @@ These annotations map to the *Value Help* properties as shown in the following s
 
 ![](images/Value_help_screenshot_adf0b9c.png)
 
-> ### Note:  
-> To edit previously selected properties, click *Edit Properties for Value Help*.
+To edit previously selected properties, click *Edit Properties for Value Help*.
 
-> ### Note:  
-> Several value help variants may be manually defined for your application in addition to the default one. You cannot read or update such additional value helps with the *Page Editor*, but you can determine that they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
+Several value help variants may be manually defined for your application in addition to the default one. You cannot read or update such additional value helps with the *Page Editor*, but you can determine that they are already defined by an information message in the value help dialog. Value help variants listed in `@Common.ValueListRelevantQualifiers` are not supported.
 

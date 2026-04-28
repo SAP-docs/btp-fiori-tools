@@ -39,7 +39,7 @@
 > 
 > Acceptance Criteria
 > 
-> Scenario 1: List All Contracts
+> Scenario 1: List All Contracts and Customers
 > Given I am logged into the contract management system, when I launch the SAP Fiori application to maintain contracts, 
 > then I should be able to view the list of all the contracts in a list without pressing the GO button.
 > The list of all the contracts should have : Contract ID, Customer, Contract Type and Start Date
