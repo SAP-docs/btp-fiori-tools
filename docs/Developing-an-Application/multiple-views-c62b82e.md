@@ -8,7 +8,10 @@ You can configure your list report page to display one or more additional tables
 
 Users can switch between views using an icon tab bar. Tables in the views can be based on any entity in your service. Charts can be based on any entity with custom or transformation aggregations.
 
-If you want to use custom aggregations for chart measures, you must have aggregatable properties defined in the `@Aggregation.ApplySupported` annotation for the entity type or entity set or an `@Aggregation.CustomAggregate` annotation for the entity type or entity set where the qualifier matches the aggregated property name.
+If you want to use custom aggregations for chart measures, you must have either of the following:
+
+-   Aggregatable properties defined in the `@Aggregation.ApplySupported` annotation for the entity type or entity set
+-   An `@Aggregation.CustomAggregate` annotation for the entity type or entity set where the qualifier matches the aggregated property name
 
 If you want to use the transformation aggregations, make sure your app runs with SAPUI5 version 1.106 or higher to ensure transformation aggregation with `@Analytics.AggregatedProperty` is supported. Transformation aggregation with `@Analytics.AggregatedProperties` isn't supported as this annotation was deprecated in favor of `@Analytics.AggregatedProperty`, see [OData Analytics](https://sap.github.io/odata-vocabularies/vocabularies/Analytics.html).
 
@@ -43,13 +46,16 @@ If you want to use the transformation aggregations, make sure your app runs with
         > *Create New Measure* only works with transformation aggregations so ensure your app runs with SAPUI5 version 1.106 or higher to ensure transformation aggregation with ***@Analytics.AggregatedProperty*** is supported. If all the possible measures based on all the aggregable properties and supported aggregation methods are already defined in the project, you cannot create a new measure. Use an existing measure instead.
 
 
-5.  Click *Add* in the dialog. A new subnode is appended to the *Views* node with generated view label. The table is added with no columns. You can add columns using the :heavy_plus_sign: \(*Add*\) icon for the *Columns* subnode.
+5.  *Add Table View*: Select an *Entity* and then select *Use Existing Table* or *Create New Table*.
+    1.  *Use Existing Table*: Choose a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation, or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
 
-The following changes take place in the annotation file:
+6.  Click *Add* in the dialog. A new subnode is appended to the *Views* node with generated view label. The table is added with no columns. You can add columns using the :heavy_plus_sign: \(*Add*\) icon for the *Columns* subnode.
 
--   If you chose to add a table view or a chart view based on a new chart, a `UI.LineItem` or `UI.Chart` annotation with qualifier is generated which targets the `EntityType` referenced by the selected `EntitySet`.
+The following changes are applied to the annotation file:
+
+-   If you chose to add a view based on a new annotation, a `UI.LineItem` or `UI.Chart` annotation with qualifier is generated which targets the `EntityType` referenced by the selected `EntitySet`.
 -   If you chose to create a new measure, `@Analytics.AggregatedProperty` is applied to the selected aggregable property with your chosen aggregation method.
--   If you chose an existing chart, no annotations are created or updated.
+-   If you chose an existing chart or table, no annotations are created or updated.
 -   A `Views` or `Paths` section in the `manifest.json` file is generated or appended with an entry pointing to the generated `UI.SelectionPresentationVariant`. If different from the main `EntitySet` of the list report page, the chosen `EntitySet` is added to the `paths` entry.
 
 > ### Note:  

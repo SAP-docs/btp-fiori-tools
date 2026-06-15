@@ -129,10 +129,10 @@ To delete a field within the list of the *Filter Fields*, perform the following 
 The following filter fields and compact filter properties are editable:
 
 -   [Label](appendix-457f2e9.md#loiod44832d99bdf4f73ba14cdbb16dc9301)
--   [External ID](appendix-457f2e9.md#loio13f6d7fd6c6c4f60908cefa7d4260e49)
+-   [External ID](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/457f2e9699b5437fb09d56311055a4a0.html?locale=en-US&state=PRODUCTION&version=Latest&q=Filter%20fields#external-id)
 -   [Text](appendix-457f2e9.md#loio5d1cc16e80ce48de8a47f2835a42cc47)
 -   [Text Arrangement](appendix-457f2e9.md#loioecd5568919bf43c5a04dd6b5e8e173f6)
--   [Display Type](appendix-457f2e9.md#loio6544398b07024f4faff4bad25949b64d)
+-   [Display Type](https://help.sap.com/docs/SAP_FIORI_tools/17d50220bcd848aa854c9c182d65b699/457f2e9699b5437fb09d56311055a4a0.html?locale=en-US&state=PRODUCTION&version=Latest&q=Filter%20fields#display-type)
 
 
 

@@ -184,7 +184,7 @@ The progress header section contains the following properties:
 
 ### Data Point Section
 
-The data point header section is used to display a single point of the key data. It is typically a number but can also be text such as a status value. It is generated with a minimum property based on the value you entered. You can then enhance it in the *Properties Panel* with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency if this has not been defined in the base level.
+The data point header section is used to display a single point of the key data. It is typically a number but can also be text such as a status value. It is generated with a minimum property based on the value you entered. You can then enhance it in the *Properties Panel* with additional features, such as semantic coloring based on criticality. You can also add a tooltip describing the value. If your data point represents a numeric value, you can additionally define the measure or currency if this has not been defined at the base level.
 
 The data point header section contains the following properties:
 

@@ -6,43 +6,46 @@
 
 A table section can be added either on the section node or inside the group on the subsection node.
 
--   [Add Table Section](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_g5r_hpb_zrb)
--   [Move Table Section](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_udp_pxx_xrb)
--   [Change Table Section Label](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_yn2_2qb_zrb)
--   [Delete Table Section](table-section-fc59378.md#loiofc593789991c46348b31c1bc3b9d9182__section_cwh_qxx_xrb)
-
 
 
 <a name="loiofc593789991c46348b31c1bc3b9d9182__section_g5r_hpb_zrb"/>
 
-## Adding Table Section
+## Adding a Table Section
 
 To add a table section, perform the following steps:
 
-1.  Click the *Object/Form Entry Page* to open the *Page Editor*.
+1.  Open the *Page Editor*.
 2.  Navigate to the section node in the outline and click the :heavy_plus_sign: \(*Add*\) icon.
 
     As a result, a dropdown menu displaying the supported section types appears.
 
 3.  Select *Add Table Section* from the dropdown list.
 
-    A pop-up window *Add Table Section* appears.
+    The *Add Table Section* pop-up window appears.
 
 4.  Enter a title in the *Label* text box.
-5.  Then, enter *Value Source Entity* to define the table data source and click *Add*.
+5.  Select *Use Existing Table* or *Create New Table*.
+6.  *Use Existing Table*: Select a *Value Source* and then choose a `UI.LineItem` annotation, a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
 
-As a result, you can see the following changes applied:
+    > ### Note:  
+    > The `UI.SelectionPresentationVariant` annotation is available in applications with a minimum SAPUI5 version of 1.121 and higher.
 
--   A new `UI.LineItem` with empty collection and a new reference facet with an `annotationPath` pointing to the created `UI.LineItem` is added to the existing `UI.Facets`.
+7.  *Create New Table*: Select a *Value Source*.
+8.  Click *Add*.
+
+The following changes are applied:
+
+-   *Create New Table*: A new `UI.LineItem` annotation with an empty collection is created.
+-   *Use Existing Table*: A new reference facet with an `annotationPath`, which points to the chosen `UI.LineItem` annotation, is added to the existing `UI.Facets` annotation.
 -   If not yet available, a new `UI.Facets` annotation is created under the entity associated with that *Object Page*.
 -   If `UI.Facets` exists on an underlying layer, the annotation in the underlying layer will be overridden.
--   For CAP CDS, a using statement is added to the overridden file if not yet there.
+-   For CAP CDS, a `using` statement is added to the overridden file if not yet there.
 
 
 
 <a name="loiofc593789991c46348b31c1bc3b9d9182__section_udp_pxx_xrb"/>
 
-## Moving Table Section
+## Moving a Table Section
 
 The user can change the order of the sections created in the application. By using the drag-and-drop functionality, drag the required section to a different position within its application:
 
@@ -62,7 +65,7 @@ Annotation Library supports mass moving of the sections. To move the multiple se
 
 <a name="loiofc593789991c46348b31c1bc3b9d9182__section_cwh_qxx_xrb"/>
 
-## Deleting Table Section
+## Deleting a Table Section
 
 To delete the section in the application, perform the following steps:
 

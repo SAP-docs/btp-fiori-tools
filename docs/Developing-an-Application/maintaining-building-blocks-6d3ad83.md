@@ -11,6 +11,7 @@ You can create the following building blocks using the *Page Editor* which you c
 -   *Chart*
 -   *Filter Bar*
 -   *Table*
+-   *Form*
 -   *Page* \(Custom page only\)
 -   *Rich Text Editor* \(Custom section only\)
 
