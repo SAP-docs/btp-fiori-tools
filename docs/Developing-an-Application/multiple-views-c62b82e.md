@@ -46,10 +46,17 @@ If you want to use the transformation aggregations, make sure your app runs with
         > *Create New Measure* only works with transformation aggregations so ensure your app runs with SAPUI5 version 1.106 or higher to ensure transformation aggregation with ***@Analytics.AggregatedProperty*** is supported. If all the possible measures based on all the aggregable properties and supported aggregation methods are already defined in the project, you cannot create a new measure. Use an existing measure instead.
 
 
-5.  *Add Table View*: Select an *Entity* and then select *Use Existing Table* or *Create New Table*.
-    1.  *Use Existing Table*: Choose a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation, or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
+5.  *Add Table View*: Select *Use Existing Table* or *Create New Table*.
+    1.  *Use Existing Table*: Select an *Entity* your annotation applies to and then a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation, or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
+    2.  *Create New Table*: Select an *Entity* for the table.
 
-6.  Click *Add* in the dialog. A new subnode is appended to the *Views* node with generated view label. The table is added with no columns. You can add columns using the :heavy_plus_sign: \(*Add*\) icon for the *Columns* subnode.
+
+6.  *Table Type*: Select the appropriate table type from the available options.
+
+    > ### Note:  
+    > The list of available option depends on the service. `AnalyticalTable` and `TreeTable` are only available if the service metadata contains the respective annotations.
+
+7.  Click *Add* in the dialog. A new subnode is appended to the *Views* node with generated view label. The table is added with no columns. You can add columns using the :heavy_plus_sign: \(*Add*\) icon for the *Columns* subnode.
 
 The following changes are applied to the annotation file:
 

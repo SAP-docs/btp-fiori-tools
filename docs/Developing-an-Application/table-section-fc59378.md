@@ -25,13 +25,20 @@ To add a table section, perform the following steps:
 
 4.  Enter a title in the *Label* text box.
 5.  Select *Use Existing Table* or *Create New Table*.
-6.  *Use Existing Table*: Select a *Value Source* and then choose a `UI.LineItem` annotation, a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
+    1.  *Use Existing Table*: Select a *Value Source* and then choose a `UI.LineItem` annotation, a `UI.PresentationVariant` annotation which references a `UI.LineItem` annotation or a `UI.SelectionPresentationVariant` annotation which references a `UI.LineItem` annotation.
+
+        > ### Note:  
+        > The `UI.SelectionPresentationVariant` annotation is available in applications with a minimum SAPUI5 version of 1.121 and higher.
+
+    2.  *Create New Table*: Select a *Value Source*.
+
+
+6.  *Table Type*: Select the appropriate table type from the available options.
 
     > ### Note:  
-    > The `UI.SelectionPresentationVariant` annotation is available in applications with a minimum SAPUI5 version of 1.121 and higher.
+    > The list of available option depends on the service. `AnalyticalTable` and `TreeTable` are only available if the service metadata contains the respective annotations.
 
-7.  *Create New Table*: Select a *Value Source*.
-8.  Click *Add*.
+7.  Click *Add*.
 
 The following changes are applied:
 

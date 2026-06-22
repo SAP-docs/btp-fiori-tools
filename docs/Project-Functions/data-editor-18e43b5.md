@@ -39,7 +39,7 @@ You can generate mock data in one of the following ways:
 
 -   *Generate Data*
 
-    *Generate Data* generates 20 rows of mock data for every entity set.
+    *Generate Data* generates 10 rows of data for the main entity with multiple records generated for the navigation entities.
 
 -   *Generate Data Using AI*
 
@@ -50,7 +50,7 @@ To generate mock data, perform the following:
 
 1.  If you have no mock data, click *Generate Data* or *Generate Data Using AI*.
 2.  If you have existing mock data, click *Add Mock Data* in the header bar of the *Data Editor* and then click *Generate Data* or *Generate Data Using AI*.
-3.  *Generate Data*: 20 rows of mock data are generated for every entity set.
+3.  *Generate Data*: Generates 10 rows of data for the main entity with multiple records generated for the navigation entities.
 4.  *Generate Data Using AI*: For more information, see [Generating Mock Data Using AI](../Previewing-an-Application/generating-mock-data-using-ai-815c310.md).
 
 
