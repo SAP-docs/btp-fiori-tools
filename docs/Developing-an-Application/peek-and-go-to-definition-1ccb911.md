@@ -38,3 +38,6 @@ Place your text cursor inside the path referencing the annotation term segment o
 
 If an annotation is defined in multiple sources, the peek definition lists these sources instead. Annotation layering isn’t considered.
 
+> ### Note:  
+> In a local metadata file, you can use *Go to Definition* and *Peek Definition* on the `@Common.ValueListReferences` annotation to navigate to the referenced metadata files for annotations that define value help.
+
