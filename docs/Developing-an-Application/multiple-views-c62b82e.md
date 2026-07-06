@@ -80,6 +80,31 @@ All table or chart views are represented as subnodes of the *Views* node. Drag a
 
 
 
+## Maintaining Table or Chart View Properties
+
+
+
+### View Label
+
+The view label is a text used to indicate a view on an icon tab bar above the table or chart. It is auto-generated when you add a view. You can change the generated label by entering the text that is meaningful in your application context. The view label can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
+
+
+
+### Presentation Variant
+
+The *Presentation Variant* property lets you define the representation of the table or chart data.
+
+The *Presentation Variant* property lets you sort the table data. It is maintained the same way as in the standard table in a list report page. For more information, see [Table](table-aaff7b1.md).
+
+The *Presentation Variant* for the chart view is maintained the same way as in the [Analytical Chart](analytical-chart-9c086ec.md).
+
+> ### Note:  
+> Since views in a list report page can be based on different entities, you cannot reuse the same *Presentation Variant* across views. That's why the *From Chart* and *From Table* options, which copy settings from an existing chart or table, are not available. To achieve a consistent representation across views, define the same options individually for each view.
+
+All other chart properties and chart actions are the same as those in the analytical chart. For more information, see [Analytical Chart](analytical-chart-9c086ec.md). All other table properties and table actions are the same as the main table in a list report page. For more information, see [Table](table-aaff7b1.md).
+
+
+
 <a name="loioc62b82e124a74c1684f0d51f0db41c81__section_pxg_3wh_15b"/>
 
 ## Deleting Table or Chart View
@@ -94,29 +119,4 @@ If all views except the last table view are deleted, the list report page is imp
 -   The `Views` or `Paths` section in the `manifest.json` file is removed.
 -   If needed: `defaultTemplateAnnotationPath` in the `manifest.json` file is created to point to an `UI.SelectionPresentationVariant`.
 -   Views do not display any subnodes: details of the list reports, such as columns and actions, can be maintained in the *Table* node.
-
-
-
-<a name="loioc62b82e124a74c1684f0d51f0db41c81__section_ecv_4mx_d5b"/>
-
-## Table or Chart View Properties
-
-
-
-### View Label
-
-The view label is a text used to indicate a view on an icon tab bar above the table or chart. It is auto-generated when you add a view. You can change the generated label by entering the text that is meaningful in your application context. The view label can be prepared for translation. For more information, see [Internationalization \(i18n\)](internationalization-i18n-eb427f2.md).
-
-
-
-### Presentation Variant
-
-The *Presentation Variant* property lets you define the representation of the table or chart data.
-
-The *Presentation Variant* property lets you sort the table data and is maintained the same way as in the standard table in a list report page. For more information, see [Table](table-aaff7b1.md).
-
-The *Presentation Variant* for the chart view is maintained the same way as in the [Analytical Chart](analytical-chart-9c086ec.md).
-
-> ### Note:  
-> As different views in the list report page are not necessary based on the same entity, you cannot reuse the same *Presentation Variant* for different views. For this reason, the *From Chart* and *From Table* options are not provided. To have the same representation of different views, just define the same options for each related view.
 

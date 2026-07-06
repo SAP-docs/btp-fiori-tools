@@ -214,7 +214,7 @@ You can also display an additional value to indicate a forecast. You can choose 
 
 ## Hidden
 
-The *Hidden* property defines if a column should be hidden in the application UI. Once you have activated the *Hidden* feature with the toggle button, you can choose the boolean property as a hiding condition in the *Hide by Property* field.
+The *Hidden* property defines if a feature should be hidden in the application UI. Once you have activated the *Hidden* feature with the toggle button, you can choose the boolean property as a hiding condition in the *Hide by Property* field.
 
 <a name="loio4e8bb3df433546f8a80f16e53b29e4c1"/>
 
