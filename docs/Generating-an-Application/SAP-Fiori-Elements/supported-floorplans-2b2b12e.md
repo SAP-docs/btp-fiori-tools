@@ -61,6 +61,6 @@ The SAP Fiori generator provides the following SAP Fiori elements floorplans to 
 
     The custom page floorplan makes it easy for you to extend apps based on SAP Fiori elements for OData V4. You can use any SAPUI5 coding or controls in extension points, and take advantage of the provided building blocks.
 
-    For more information and live examples, see the SAP Fiori development portal at [Custom Page](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/controllerExtensions/customPage).
+    For more information and live examples, see the SAP Fiori development portal at [Custom Page](https://ui5.sap.com/test-resources/sap/fe/core/fpmExplorer/index.html#/topic/customPage).
 
 
