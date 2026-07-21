@@ -234,6 +234,78 @@ Add the SAP Fiori launchpad configuration to the application.
 <tr>
 <td valign="top">
 
+Add Card Editor Configuration
+
+</td>
+<td valign="top">
+
+`npx --yes @sap-ux/create@latest add cards-editor`
+
+</td>
+<td valign="top">
+
+Add the Card Editor configuration to the project.
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+![](images/Checkmark_Good_8eb8536.png)
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+<td valign="top">
+
+ 
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
 Add Local Annotation File
 
 </td>
