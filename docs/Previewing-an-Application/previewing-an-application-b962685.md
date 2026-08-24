@@ -2,10 +2,10 @@
 
 # Previewing an Application
 
+You can preview an application using SAP Fiori tools.
+
 > ### Note:  
-> In the development environment, `localhost` is used as an HTTP proxy server to reach the back-end OData service. A domain security policy, that is applied in some companies, includes `localhost`, which forces HTTPS to be used in redirected URLs. As a result, when the user attempts to access a website, an error may occur.
-> 
-> If an SSL protocol error appears after the URL redirection, check the security configuration of your browser. For example, Chrome HSTS configuration can be accessed by entering the following URL address to the browser: `chrome://net-internals/#hsts`.
+> The following preview options differ for CAP projects. For more information, see [Previewing an SAP Fiori Elements CAP Project](previewing-an-sap-fiori-elements-cap-project-1dc179a.md).
 
 
 
@@ -65,6 +65,10 @@ Run configurations - starts the application using the existing run configuration
 
 ## Enabling App-to-App Navigation Preview
 
--   [App-to-App Navigation Preview](app-to-app-navigation-preview-543675f.md)
+You can preview app-to-app navigation using SAP Fiori tools. For more information, see [App-to-App Navigation Preview](app-to-app-navigation-preview-543675f.md).
 
+> ### Note:  
+> In the development environment, `localhost` is used as an HTTP proxy server to reach the back-end OData service. A domain security policy, that is applied in some companies, includes `localhost`, which forces HTTPS to be used in redirected URLs. As a result, when the user attempts to access a website, an error may occur.
+> 
+> If an SSL protocol error appears after the URL redirection, check the security configuration of your browser. For example, Chrome HSTS configuration can be accessed by entering the following URL address to the browser: `chrome://net-internals/#hsts`.
 
