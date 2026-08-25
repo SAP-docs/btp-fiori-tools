@@ -4,89 +4,81 @@
 
 Once your CAP project is generated, you can preview it in Visual Studio Code or SAP Business Application Studio.
 
+The available preview options depend on where you are using CAP Node.js or CAP Java.
 
-
-<a name="loio1dc179a7f74d48c7816e90b867058887__section_abn_fyb_s4b"/>
-
-## Visual Studio Code
-
-To run an application preview in VS Code, perform the following steps:
-
-1.  In VS Code, open the terminal.
-
-    > ### Note:  
-    > To open the terminal in VS Code:
-    > 
-    > -   Use the [Ctrl+\`\] keyboard shortcut with the backtick character.
-    > -   Use the *View* \> *Terminal* menu command.
-    > -   From the *Command Palette* \([CMD/CTRL\] + [Shift\] + [P\] \), execute the `View: Toggle Integrate Terminal` command.
-
-2.  Ensure you are in the root directory of your project.
-3.  In the terminal, type `cds run` and press *Enter*.
-
-    A new line appears, such as:
-
-    ```
-    server listening on { url: 'http://localhost:4004' }
-    ```
-
-    > ### Note:  
-    > If an error occurs when executing `cds run`, enter the following commands:
-    > 
-    > ```
-    > npm i -g @sap/cds
-    > npm i -g @sap/cds-dk --force
-    > ```
-
-4.  Open the link in the terminal using the [CTRL\] + [Click\]  combination.
-
-    A new browser window with a list of links opens.
-
-5.  Click the HTML link in the list, such as `/incidents/webapp/index.html`.
-
-    Your application is displayed on the launchpad.
-
-6.  Navigate back to VS Code and stop the server by executing `Ctrl-C` in the terminal window.
+> ### Note:  
+> The following preview functionality is supported for applications generated using Application Generator. For more information, see [Generating an Application](../Generating-an-Application/generating-an-application-db44d45.md). This may differ for other applications.
 
 
 
-<a name="loio1dc179a7f74d48c7816e90b867058887__section_rpn_2bc_s4b"/>
+## Previewing a CAP Node.js Project
 
-## SAP Business Application Studio
+CAP Node.js projects use the `cds-plugin-ui5` node module to serve UI5 applications using the CDS server process. For more information, see [cds-plugin-ui5](https://www.npmjs.com/package/cds-plugin-ui5).
 
-To run an application preview in SAP Business Application Studio, perform the following steps:
 
-1.  In SAP Business Application Studio, open the terminal.
 
-    > ### Note:  
-    > To open the terminal in SAP Business Application Studio:
-    > 
-    > -   Select *Terminal* \> *New Terminal* from the menu bar.
+### Prerequisites
 
-2.  Ensure you are in the root directory of your project.
-3.  In the terminal, type `cds run` and press *Enter*.
+The following prerequisites are required in the root `package.json` file:
 
-    A new line appears, such as:
+-   <code><code>@sap/cds</code></code> with a version equal to or greater than 6.8.2 under `dependencies`.
+-   <code><code>cds-plugin-ui5</code></code> with a version equal to or greater than 0.17.9 under `devDependencies`.
+-   <code><code>workspaces: ["app/*"]</code></code>
 
-    ```
-    server listening on { url: 'http://localhost:4004' }
-    ```
+These are automatically added when you generate a CAP application with SAP Fiori tools. If they are missing, execute the following command: `npx --yes @sap-ux/create@latest add cds-plugin-ui5`.
 
-    > ### Note:  
-    > If an error occurs when executing `cds run`, enter the following commands:
-    > 
-    > ```
-    > npm i -g @sap/cds
-    > npm i -g @sap/cds-dk --force
-    > ```
 
-4.  Open the link in the terminal using the [CTRL\] + [Click\]  combination.
 
-    A new browser window with a list of links opens.
+### Starting the Preview Using the Terminal
 
-5.  Click the upper link in the list in HTML format, such as `/incidents/webapp/index.html`.
+To preview a CAP Node.js project using the terminal, proceed as follows:
 
-    Your application is displayed on the launchpad.
+1.  Open a terminal in the root directory of your CAP project and execute `cds watch`.
 
-6.  Navigate back to SAP Business Application Studio and stop the server by executing `Ctrl-C` in the terminal window.
+    The CDS server on `http://localhost:4004` is started and serves all UI5 apps registered in the workspace.
+
+2.  Execute `npm run watch-<appName>` in the terminal to open a specific application directly.
+
+
+
+### Starting the Preview Using the Context Menu
+
+To preview a CAP Node.js application using the context menu, right-click the application folder and select *Preview Application*. The following options are displayed:
+
+![Preview Options dialog that displays NPM Scripts with various cds commands.](images/CAP_Node_js_Preview_Options_2e2c476.png)
+
+-   *start*: `cds serve` - Starts the preview for the project.
+-   *<Application Name\>*: `cds watch --open <Application Folder>/<index.html>?sap-ui-xx-viewCache=false` - Starts the preview for a specific application.
+-   *start-card-generator-<Application Name\>*: `cds watch --open <Application Folder>/test/flpCardGenerator`: Starts the card generator for a specific application. For more information, see [Using the Card Editor When Previewing Your Application](using-the-card-editor-when-previewing-your-application-ece91bc.md).
+
+
+
+### Preview Functionality
+
+The `cds-plugin-ui5` node module and `fiori-tools-preview` middleware provide the following features:
+
+-   A local sandbox for SAP Fiori launchpad at `/test/flp.html`. Custom paths are also supported.
+-   Flex support using `WorkspaceConnector` and `LocalStorageConnector`.
+-   Integration with the Page Map and Guided Development. For more information, see [Define Application Structure](../Developing-an-Application/define-application-structure-bae38e6.md) and [Use Feature Guides](../Developing-an-Application/use-feature-guides-0c9e518.md).
+-   Card Generator support to create cards. For more information, see [Using the Card Editor When Previewing Your Application](using-the-card-editor-when-previewing-your-application-ece91bc.md).
+
+Without the `cds-plugin-ui5` node module, you can still navigate directly to the application, for example, `http://localhost:4004/<appId>/webapp/index.html`.
+
+
+
+## Previewing a CAP Java Project
+
+CAP Java does not support UI5 server middleware so only previewing a specific application is supported.
+
+To preview a CAP Java application, proceed as follows:
+
+1.  Open a terminal in the root directory of your Java project and execute `mvn spring-boot:run`.
+
+    The preview server is started at `http://localhost:8080`.
+
+2.  Open a second terminal in the application folder and execute `ui5 serve`.
+
+    You can also use the context menu to preview an application. For more information, see [Previewing an Application](previewing-an-application-b962685.md).
+
+3.  Open the application using the URL displayed in the terminal, for example, `http://localhost:8080/<appName>/webapp/index.html`.
 
