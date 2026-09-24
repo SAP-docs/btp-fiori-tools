@@ -30,4 +30,8 @@ This extension provides the following capabilities.
 
     Click the <span class="SAP-icons-TNT-V3"></span> \(*Open Data Editor*\) icon to open the *Data Editor* from the *Page Map* to generate mock data using AI.
 
+-   [Developing an App with the MCP Server for SAP Fiori Using AI](developing-an-app-with-the-mcp-server-for-sap-fiori-using-ai-ee7c92b.md): SAP Fiori tools provides an automatic integration with the MCP Server for SAP Fiori. The MCP server provides AI coding assistants with the ability to generate and modify SAP Fiori elements applications based on your prompts.
+
+    ![Chat interface with AI assistant prompt and configuration options.](images/MCP_Server_for_SAP_Fiori_de260b9.png)
+
 

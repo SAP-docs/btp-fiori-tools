@@ -181,6 +181,7 @@ Last Updated: May 2023
             -   [Documentation \(Quick Info\)](Developing-an-Application/documentation-quick-info-8728bd7.md)
         -   [Visualizing Annotations with Service Modeler](Developing-an-Application/visualizing-annotations-with-service-modeler-58784b5.md)
             -   [Overriding Annotations](Developing-an-Application/overriding-annotations-2f1bb9c.md)
+    -   [Developing an App with the MCP Server for SAP Fiori Using AI](Developing-an-Application/developing-an-app-with-the-mcp-server-for-sap-fiori-using-ai-ee7c92b.md)
 -   [Deploying an Application](Deploying-an-Application/deploying-an-application-1b7a3be.md)
     -   [Deployment Configuration](Deploying-an-Application/deployment-configuration-1c85927.md)
     -   [Generate Deployment Configuration ABAP](Deploying-an-Application/generate-deployment-configuration-abap-c06b9cb.md)
